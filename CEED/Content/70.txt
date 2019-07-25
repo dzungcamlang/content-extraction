@@ -1,0 +1,149 @@
+09-04-2014, 09:47 PM Thread Starter
+LewisD
+Member
+ 
+Join Date: Jan 2014
+Posts: 6
+Auto lift gate won't latch/lock!
+I bought my Cherokee back in March and everything has been great until today. I noticed that my lift gate won't latch and lock. I scheduled service with the dealer, but they won't be able to service it until Monday.
+
+I'm concerned about security since the lift gate can be lifted up easily, and it seems the alarm system isn't activated when the lift gate isn't latched. Another bonus is that the dashboard remains lit and won't turn off.
+
+Does anyone have an easy fix?
+
+Thanks!
+LewisD is offline  
+Quote Quick Reply
+ 09-04-2014, 10:16 PM
+O|||||||O
+Hardcore Member
+ 
+O|||||||O's Avatar
+ 
+Join Date: Aug 2014
+Posts: 503
+Auto lift gate won't latch/lock!
+Fuse? Or a switch that tells the system that the Door is open.
+Aka "Krug"
+2014 Mango Tango TH
+Born on 4/14 
+Yes, it's been perfect so far
+O|||||||O is offline  
+Quote Quick Reply
+post #3 of 84 (permalink) Old 09-04-2014, 10:18 PM
+GCWIMMER
+Hardcore Member
+ 
+Join Date: Jul 2014
+Location: Reno, NV
+Posts: 1,220
+Check fuses.
+2014 Bright White Limited 4X4 3.2 V6 - Active Drive II - Black/Iceland Gray Premium Leather Interior - Build date 05/20/14 - Luxury Group - Technology Group - Trailer Tow Group - Panoramic Sunroof - Uconnect 8.4AN - Shark Fin antenna - Splash Guards - LED interior lighting - Door & Dash silver piping - Hyper Yellow fogs - Bully Utility Hitch Step
+GCWIMMER is offline  
+Quote Quick Reply
+
+post #4 of 84 (permalink) Old 09-04-2014, 10:20 PM
+Audog
+Enthusiast Member
+ 
+Audog's Avatar
+ 
+Join Date: Jul 2014
+Location: Central Illinois USA
+Posts: 373
+Garage
+Will it latch if you push on the door? I had a problem with mine when I first put in the cargo liner, but after it conformed to the space, that went away.
+2014 Trailhawk
+3.2-Liter V6
+Bright White
+Leather Interior Group
+Comfort / Convenience Group
+Dual-Pane Panoramic Sunroof
+Mini 0805 dash cam 
+Black Hood Decal
+Audog is offline  
+Quote Quick Reply
+post #5 of 84 (permalink) Old 09-04-2014, 10:49 PM Thread Starter
+LewisD
+Member
+ 
+Join Date: Jan 2014
+Posts: 6
+The door won't physically latch. When I press the close button it faintly chimes twice but doesn't close.
+LewisD is offline  
+Quote Quick Reply
+post #6 of 84 (permalink) Old 09-04-2014, 10:56 PM
+GCWIMMER
+Hardcore Member
+ 
+Join Date: Jul 2014
+Location: Reno, NV
+Posts: 1,220
+Try like Audog suggested, manually push it closed and see if it locks.
+2014 Bright White Limited 4X4 3.2 V6 - Active Drive II - Black/Iceland Gray Premium Leather Interior - Build date 05/20/14 - Luxury Group - Technology Group - Trailer Tow Group - Panoramic Sunroof - Uconnect 8.4AN - Shark Fin antenna - Splash Guards - LED interior lighting - Door & Dash silver piping - Hyper Yellow fogs - Bully Utility Hitch Step
+GCWIMMER is offline  
+Quote Quick Reply
+post #7 of 84 (permalink) Old 09-04-2014, 11:02 PM Thread Starter
+LewisD
+Member
+ 
+Join Date: Jan 2014
+Posts: 6
+I put extra pressure on the door, but it still won't latch.
+LewisD is offline  
+Quote Quick Reply
+post #8 of 84 (permalink) Old 09-05-2014, 01:07 AM
+zzjdzz
+Super Moderator
+
+ 
+zzjdzz's Avatar
+ 
+Join Date: Feb 2014
+Location: FSTX
+Posts: 4,774
+Garage
+Did you try pushing the button to see if the latch is engaged? It may have closed the electronic latch before the door was closed, mine has done this before
+
+
+Sent from my iPhone using Tapatalk
+Big Bend 2/15/14
+New Mexico & Texas 3/8/14
+Bridgeport 8/9/14
+Jeep Fest 8/16/14
+Ozark Mountains 9/6/14
+Twin Buttes Reservoir 1/17/14
+Bridgeport 1/24/15
+Ranch Crawlin w/Rock Hard Jeeps 3/8/15
+Bridgeport 3/14/15
+Twin Buttes Reservoir 6/20/15
+zzjdzz is offline  
+Quote Quick Reply
+post #9 of 84 (permalink) Old 09-05-2014, 06:43 AM
+GCWIMMER
+Hardcore Member
+ 
+Join Date: Jul 2014
+Location: Reno, NV
+Posts: 1,220
+I read elsewhere: Disconnect negative(-) battery terminal (maybe 10mm wrench) for about 1/2 hour to reset computer.
+2014 Bright White Limited 4X4 3.2 V6 - Active Drive II - Black/Iceland Gray Premium Leather Interior - Build date 05/20/14 - Luxury Group - Technology Group - Trailer Tow Group - Panoramic Sunroof - Uconnect 8.4AN - Shark Fin antenna - Splash Guards - LED interior lighting - Door & Dash silver piping - Hyper Yellow fogs - Bully Utility Hitch Step
+GCWIMMER is offline  
+Quote Quick Reply
+post #10 of 84 (permalink) Old 09-05-2014, 10:56 AM
+Adi
+Enthusiast Member
+ 
+Join Date: Jan 2014
+Posts: 218
+Garage
+Quote:
+Originally Posted by LewisD View Post
+I put extra pressure on the door, but it still won't latch.
+I had the same problem once earlier, the latch would not lock for 2 days, and finally it did on its own. I scheduled an appointment but had to cancel as it started working again on its own.
+-Adi
+2015 Jeep Cherokee Limited Red V6 4X4
+Tech Pkg, Lux Pkg, SafetyTec, Tow Pkg, Panoramic Moon Roof
+Replaced 2014 Model (For Wobble Issues)
+Adi is offline  
+Quote Quick Reply

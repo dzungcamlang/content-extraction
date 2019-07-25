@@ -1,0 +1,192 @@
+10-02-2011, 10:13 PM Thread Starter
+BenBrabec
+Junior Member
+ 
+Join Date: Oct 2011
+Location: Wahoo, NE
+Chapter: Midwest
+Posts: 7
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Driver side headlight is dim
+I recently tried to install a bi-xenon HID kit in my Taurus. I ran into an issue while plugging in the high low and ground wires from the kit into the stock headlight socket. While I was inserting the wires into the socket, a few small sparks popped out because I was an idiot and forgot to turn off my headlight switch before trying to insert the wires. After this happened, I decided to replace my new headlamps and headlights with the originals that came with my car because it was getting late and I had been working on my car for a solid 4 hours doing various things. Once I put the originals back in, and turned on my headlights to see if the sparks caused any problems, the driver side headlight was dimmer than the passenger side headlight. I switched bulbs, and the problem still remained. I even switched to the new headlamps (so the sockets were different) and used the original halogen bulbs in those, and it was still dim and sometimes wouldn't even turn on. It's as if the bulb is now not receiving enough power to run at its full potential, and no matter what socket or bulb I use it doesn't make a difference.
+
+What I found out:
+1.) It didn't matter what bulb or socket I tried with the driver side, every time I turned on the headlights it was dim or didn't turn on.
+
+2.) The original headlights worked fine before I made the socket spark, so I figured it couldn't be a grounding issue.
+
+3.) I pulled out and looked at every fuse pertaining to the headlights according to the owners manual, and none were blown.
+
+THE POINT of all of this was to ask anyone who may know what the issue could possibly still be, or if anybody else has had this problem. And also if anyone has any ideas of what to try and look for next to offer some hints and tips.
+
+This is my first post to any forum ever, and the reason it was so long (if you even got this far) is because without detail, my issue wouldn't have made any sense, even if it still does at all. I tried my best... I FINALLY signed up to the site because I've used it before in the past, and many of my searches for help that I make on the internet lead here. The people involved on this website seem very educated and helpful.
+
+Also, if I made any mistakes in my process of posting this, or where I posted this, I want to apologise ahead of time - sorry!
+BenBrabec is offline  
+Quote Quick Reply
+
+post #2 of 9 (permalink) Old 10-03-2011, 09:07 AM
+snoopy2003taurus
+Devoted Member
+ 
+snoopy2003taurus's Avatar
+ 
+Join Date: Aug 2006
+Location: York, PA
+Chapter: Northeast
+Posts: 2,381
+Rep Power: 26
+ 
+Trader Score: 0 reviews
+Send a message via MSN to snoopy2003taurus
+I had this problem a few years ago. New bulb didn't fix it. A simple fuse is the likely culprit. I would assume that the 02 is the same as my 03 which has a fuse for each headlight. If one is bad, the corresponding headlight will light up, but very dim, while the other headlight is working fine. If you still have the owners manual that came with the car, it will have a layout of the fuses. Give that a shot. Mine wasn't blown, but just loose. My guess is that if you saw sparks, yours is blown. Good luck.
+
+To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.
+snoopy2003taurus is offline  
+Quote Quick Reply
+post #3 of 9 (permalink) Old 10-03-2011, 11:40 AM
+chartmaker
+Crazy Devoted Member
+ 
+Join Date: May 2011
+Location: NY State
+Chapter: Northeast
+Year: 2003
+Model: Mercury Sable
+Engine: 3.0L 24v Duratec V6
+Posts: 7,459
+Rep Power: 84
+      
+Garage
+Trader Score: 0 reviews
+Quote:
+Originally Posted by snoopy2003taurus View Post
+I had this problem a few years ago. New bulb didn't fix it. A simple fuse is the likely culprit. I would assume that the 02 is the same as my 03 which has a fuse for each headlight. If one is bad, the corresponding headlight will light up, but very dim, while the other headlight is working fine. If you still have the owners manual that came with the car, it will have a layout of the fuses. Give that a shot. Mine wasn't blown, but just loose. My guess is that if you saw sparks, yours is blown. Good luck.
+Agree and I might add
+'01 and '03 of mine both use separate fuses for headlamps.
+
+In the owners manual there is listed fuse # in the box next the battery for each fuse. The lamp socket is always hot. The headlight sw and the bright dim swich ground the bulbs in a common wire. 
+
+You are most limited to the power from the fuse box to the head lamp. 
+
+And in the future, remember to disconnect the bat or pull both fuses if working on headlamp wires. Reminder "always hot".
+
+I do not know the years for twin fuses for headlamps, but the manual will tell if you have L ad R lamp fuses.
+
+-chart-
+chartmaker is offline  
+Quote Quick Reply
+
+post #4 of 9 (permalink) Old 10-03-2011, 11:18 PM Thread Starter
+BenBrabec
+Junior Member
+ 
+Join Date: Oct 2011
+Location: Wahoo, NE
+Chapter: Midwest
+Posts: 7
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+THANK YOU FOR REPLYING to my post!
+
+Just like you both mentioned it was a fuse problem. I stated in my first post that I had checked the right fuses: WRONG. I was looking at the wrong ones. I have two 15 amp fuses powering my R and L headlight units. Luckily this was a simple fix, and a stupid mistake.
+
+- Is it possible to ask another question in the same post using a quick reply, or do I need to start another new post?
+BenBrabec is offline  
+Quote Quick Reply
+post #5 of 9 (permalink) Old 10-03-2011, 11:26 PM
+Bigdogg2830
+Devoted Member
+ 
+Bigdogg2830's Avatar
+ 
+Join Date: Mar 2011
+Location: Motor city
+Chapter: Midwest
+Posts: 3,377
+Rep Power: 20
+ 
+Trader Score: 2 reviews
+if its related then i would do it here. if its not, starting a new post may bring others opinions who know about the subject
+Bigdogg2830 is offline  
+Quote Quick Reply
+post #6 of 9 (permalink) Old 10-04-2011, 12:01 AM Thread Starter
+BenBrabec
+Junior Member
+ 
+Join Date: Oct 2011
+Location: Wahoo, NE
+Chapter: Midwest
+Posts: 7
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Mostly related to the topic...
+
+I was wondering what wires are the "brights" the "lows" and the "ground" for connecting the HID kit wires to the original headlight socket. If I know this, the install would be very easy, because I wouldn't have to guess which wires are which. So all I need to know are what wires are the "high", "low", and "ground" that are going to the stock headlight socket.
+
+My cars wires don't match the wires that came with the kit, which makes sense because the kit isn't made specifically for the Ford Taurus, just the 9007 double-filament bulb cars. I don't know how to find out which wires are which because the socket doesn't say anything. Installing load resistors to my turn signals for my l.e.d. bulbs was easy because it says directly on the turn signal socket which wires are which.
+BenBrabec is offline  
+Quote Quick Reply
+post #7 of 9 (permalink) Old 10-04-2011, 10:06 AM
+chartmaker
+Crazy Devoted Member
+ 
+Join Date: May 2011
+Location: NY State
+Chapter: Northeast
+Year: 2003
+Model: Mercury Sable
+Engine: 3.0L 24v Duratec V6
+Posts: 7,459
+Rep Power: 84
+      
+Garage
+Trader Score: 0 reviews
+Quote:
+Originally Posted by BenBrabec View Post
+Mostly related to the topic...
+
+I was wondering what wires are the "brights" the "lows" and the "ground" for connecting the HID kit wires to the original headlight socket. If I know this, the install would be very easy, because I wouldn't have to guess which wires are which. So all I need to know are what wires are the "high", "low", and "ground" that are going to the stock headlight socket.
+
+My cars wires don't match the wires that came with the kit, which makes sense because the kit isn't made specifically for the Ford Taurus, just the 9007 double-filament bulb cars. I don't know how to find out which wires are which because the socket doesn't say anything. Installing load resistors to my turn signals for my l.e.d. bulbs was easy because it says directly on the turn signal socket which wires are which.
+
+For the '03 
+Hot at all times, DG/OG 
+Low beam grounded RD/BK 
+Hi Beam grounded LG/BK
+
+-chart-
+chartmaker is offline  
+Quote Quick Reply
+post #8 of 9 (permalink) Old 10-04-2011, 03:57 PM Thread Starter
+BenBrabec
+Junior Member
+ 
+Join Date: Oct 2011
+Location: Wahoo, NE
+Chapter: Midwest
+Posts: 7
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Thank you for your input again, i will try the install tonight when i get home from work and let you know how everything goes...
+BenBrabec is offline  
+Quote Quick Reply
+post #9 of 9 (permalink) Old 10-05-2011, 11:07 PM Thread Starter
+BenBrabec
+Junior Member
+ 
+Join Date: Oct 2011
+Location: Wahoo, NE
+Chapter: Midwest
+Posts: 7
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Sorry for replying so late, the install took longer than expected last night. Everything works and looks great! I want to thank everyone for their useful input and helpful tips. This problem has been solved thanks to you guys.
+BenBrabec is offline  
+Quote Quick Reply

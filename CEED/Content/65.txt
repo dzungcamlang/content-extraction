@@ -1,0 +1,85 @@
+ 02-04-2014, 11:18	  #1 (permalink)
+unlock phones
+No Life Poster
+
+ 
+unlock phones's Avatar
+ 
+Join Date: Apr 2011
+Location: new york, Pakistan
+Posts: 2,781 
+Member: 1552610 
+Status: Offline
+Sonork: 100.1604734
+Thanks Meter: 1,168
+Cool QMobile A600 write full flash done without losing wifi blutooth
+
+ 
+
+ QMobile A600 write full flash done without losing wifi blutooth
+
+
+
+MT65xx ANDROID EMMC File:
+The File Information:
+N/A
+Waiting for USB Port...
+Set USB Modem Driver (COM46)
+Please Hold "ON" to connect with the phone...
+Connected to Phone.
+CPU: MT6589(6583) SW:0001 Ver: CA01
+Downloading Boot8 ...
+EMMC Size: 0xE7000000
+INT/EXT RAM Size: 0x0+0x0
+Waiting for USB Port...
+Set MediaTek DA USB VCOM Port (COM73)
+Writing(Nand/eMMC)...
+Writing MBR
+Writing EBR1
+Writing __NODL_NVRAM
+Writing UBOOT
+Writing BOOTIMG
+Writing RECOVERY
+Writing SEC_RO
+Writing LOGO
+Writing EBR2
+Writing ANDROID
+Writing CACHE
+Writing USRDATA
+Write Done.
+>>Total time: 9 mins 13 s
+
+
+
+
+
+Very nice power full box with no bugs 
+ 	Reply With Quote
+The Following 5 Users Say Thank You to unlock phones For This Useful Post:
+Show/Hide list of the thanked
+Old 02-22-2014, 09:31	  #2 (permalink)
+BK-MOBILE
+Freak Poster
+
+ 
+Join Date: Dec 2013
+Posts: 499 
+Member: 2085670 
+Status: Online
+Thanks Meter: 25
+Dear brother plz upload this file ,i need this tomuch
+ 	Reply With Quote
+Old 02-22-2014, 10:07	  #3 (permalink)
+asadnow2k
+No Life Poster
+
+ 
+Join Date: Nov 2005
+Location: Sindhu Desh
+Age: 29
+Posts: 7,249 
+Member: 199814 
+Status: Offline
+Thanks Meter: 1,766
+Can u share this file pls?
+ 	Reply With Quote

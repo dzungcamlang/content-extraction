@@ -1,0 +1,407 @@
+<!DOCTYPE html><html lang="en" class="is-desktop"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# ibles-production: http://ogp.me/ns/fb/ibles-production#"><meta charset="utf-8"><title>
+	Origami Post-it box - 9 
+</title><meta property="fb:app_id" content="140028286058792"/><meta property="og:site_name" content="Instructables.com"/><link rel="shortcut icon" type="image/x-icon" href="/intl_static/img/siteassets/favicon.ico"/><script type="text/javascript">window.Ibles=window.Ibles||{};Ibles.readCookie=function(a,b){return(b=RegExp('(^|; )'+encodeURIComponent(a)+'=([^;]*)').exec(document.cookie))?decodeURIComponent(b[2]):null;};window.adDependenciesQueue=window.adDependenciesQueue||[];function renderAdSlotAsync(a){var b=function(){googletag.cmd.push(function(){if(typeof window.index_headertag_lightspeed==="undefined"){if(window.console)console.log("HEADERTAG UNDEFINED. Falling back to googletag.display for unit: "+a);googletag.display(a);}else if(window.console)console.log("HEADERTAG DEFINED. IE will render unit: "+a);});};if(!window.adDependenciesQueue.length)b();else{if(!window.adDependenciesPromise)window.adDependenciesPromise=Deferred.when.apply(Deferred,adDependenciesQueue);window.adDependenciesPromise.always(b);}}(function(a){function b(a){return Object.prototype.toString.call(a)==='[object Array]';}function c(a,c){if(b(a))for(var d=0;d<a.length;d++)c(a[d]);else c(a);}function d(a){var c='pending',d=[],e=[],f=null,g={done:function(){for(var a=0;a<arguments.length;a++){if(!arguments[a])continue;if(b(arguments[a])){var e=arguments[a];for(var g=0;g<e.length;g++){if(c==='resolved')e[g].apply(this,f);d.push(e[g]);}}else{if(c==='resolved')arguments[a].apply(this,f);d.push(arguments[a]);}}return this;},fail:function(){for(var a=0;a<arguments.length;a++){if(!arguments[a])continue;if(b(arguments[a])){var d=arguments[a];for(var g=0;g<d.length;g++){if(c==='rejected')d[g].apply(this,f);e.push(d[g]);}}else{if(c==='rejected')arguments[a].apply(this,f);e.push(arguments[a]);}}return this;},always:function(){return this.done.apply(this,arguments).fail.apply(this,arguments);},then:function(){if(arguments.length>1&&arguments[1])this.fail(arguments[1]);if(arguments.length>0&&arguments[0])this.done(arguments[0]);},promise:function(a){if(a==null)return g;else{for(var b in g)a[b]=g[b];return a;}},state:function(){return c;},debug:function(){console.log('[debug]',d,e,c);},isRejected:function(){return c==='rejected';},isResolved:function(){return c==='resolved';}},h={resolveWith:function(a){if(c==='pending'){c='resolved';var b=f=(arguments.length>1)?arguments[1]:[];for(var e=0;e<d.length;e++)d[e].apply(a,b);}return this;},rejectWith:function(a){if(c==='pending'){c='rejected';var b=f=(arguments.length>1)?arguments[1]:[];for(var d=0;d<e.length;d++)e[d].apply(a,b);}return this;},resolve:function(){return this.resolveWith(this,arguments);},reject:function(){return this.rejectWith(this,arguments);}};var i=g.promise(h);if(a)a.apply(i,[i]);return i;}d.when=function(){if(arguments.length<2){var a=arguments.length?arguments[0]:undefined;if(a&&(typeof a.isResolved==='function'&&typeof a.isRejected==='function'))return a.promise();else return d().resolve(a).promise();}else return(function(a){var b=d(),c=a.length,e=0,f=new Array(c);for(var g=0;g<a.length;g++)(function(d){var g=null;if(a[d].done){a[d].done(function(){f[d]=(arguments.length<2)?arguments[0]:arguments;if(++e==c)b.resolve.apply(b,f);}).fail(function(){b.reject(arguments);});}else{g=a[d];a[d]=new Deferred();a[d].done(function(){f[d]=(arguments.length<2)?arguments[0]:arguments;if(++e==c)b.resolve.apply(b,f);}).fail(function(){b.reject(arguments);}).resolve(g);}})(g);return b.promise();})(arguments);};a.Deferred=d;})(window);function fetchScript(a,b){var c=document.createElement('script'),d="https:"==document.location.protocol,e=false;c.async=true;c.src=(a.indexOf('//')==0)?((d?"https:":"http:")+a):a;c.onload=c.onreadystatechange=function(){if(!e&&(!this.readyState||this.readyState=='loaded'||this.readyState=='complete')){e=true;if(typeof b==='function')b.call(this);c.onload=c.onreadystatechange=null;};};var f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(c,f);};(function(a,b){"use strict";function c(){}function d(a,b){if(a){typeof a=="object"&&(a=[].slice.call(a));for(var c=0,d=a.length;c<d;c++)b.call(a,a[c],c);}}function e(a,c){var d=Object.prototype.toString.call(c).slice(8,-1);return c!==b&&c!==null&&d===a;}function f(a){return e("Function",a);}function g(a){return e("Array",a);}function h(a){var b=a.split("/"),c=b[b.length-1],d=c.indexOf("?");return d!==-1?c.substring(0,d):c;}function i(a){(a=a||c,a._done)||(a(),a._done=1);}function j(a,b,d,e){var f=typeof a=="object"?a:{test:a,success:!b?!1:g(b)?b:[b],failure:!d?!1:g(d)?d:[d],callback:e||c},h=!!f.test;return h&&!!f.success?(f.success.push(f.callback),E.load.apply(null,f.success)):h||!f.failure?e():(f.failure.push(f.callback),E.load.apply(null,f.failure)),E;}function k(a){var b={},c,d;if(typeof a=="object")for(c in a)!a[c]||(b={name:c,url:a[c]});else b={name:h(a),url:a};return(d=A[b.name],d&&d.url===b.url)?d:(A[b.name]=b,b);}function l(a){a=a||A;for(var b in a)if(a.hasOwnProperty(b)&&a[b].state!==I)return !1;return !0;}function m(a){a.state=G;d(a.onpreload,function(a){a.call();});}function n(a){a.state===b&&(a.state=F,a.onpreload=[],s({url:a.url,type:"cache"},function(){m(a);}));}function o(){var a=arguments,b=a[a.length-1],c=[].slice.call(a,1),e=c[0];return(f(b)||(b=null),g(a[0]))?(a[0].push(b),E.load.apply(null,a[0]),E):(e?(d(c,function(a){f(a)||!a||n(k(a));}),q(k(a[0]),f(e)?e:function(){E.load.apply(null,c);})):q(k(a[0])),E);}function p(){var a=arguments,b=a[a.length-1],c={};return(f(b)||(b=null),g(a[0]))?(a[0].push(b),E.load.apply(null,a[0]),E):(d(a,function(a){a!==b&&(a=k(a),c[a.name]=a);}),d(a,function(a){a!==b&&(a=k(a),q(a,function(){l(c)&&i(b);}));}),E);}function q(a,b){if(b=b||c,a.state===I){b();return;}if(a.state===H){E.ready(a.name,b);return;}if(a.state===F){a.onpreload.push(function(){q(a,b);});return;}a.state=H;s(a,function(){a.state=I;b();d(z[a.name],function(a){i(a);});C&&l()&&d(z.ALL,function(a){i(a);});});}function r(a){a=a||"";var b=a.split("?")[0].split(".");return b[b.length-1].toLowerCase();}function s(b,d){function e(b){b=b||a.event;h.onload=h.onreadystatechange=h.onerror=null;d();}function f(c){c=c||a.event;(c.type==="load"||/loaded|complete/.test(h.readyState)&&(!x.documentMode||x.documentMode<9))&&(a.clearTimeout(b.errorTimeout),a.clearTimeout(b.cssTimeout),h.onload=h.onreadystatechange=h.onerror=null,d());}function g(){if(b.state!==I&&b.cssRetries<=20){for(var c=0,d=x.styleSheets.length;c<d;c++)if(x.styleSheets[c].href===h.href){f({type:"load"});return;}b.cssRetries++;b.cssTimeout=a.setTimeout(g,250);}}var h,i,j;d=d||c;i=r(b.url);i==="css"?(h=x.createElement("link"),h.type="text/"+(b.type||"css"),h.rel="stylesheet",h.href=b.url,b.cssRetries=0,b.cssTimeout=a.setTimeout(g,500)):(h=x.createElement("script"),h.type="text/"+(b.type||"javascript"),h.src=b.url);h.onload=h.onreadystatechange=f;h.onerror=e;h.async=!1;h.defer=!1;b.errorTimeout=a.setTimeout(function(){e({type:"timeout"});},7e3);j=x.head||x.getElementsByTagName("head")[0];j.insertBefore(h,j.lastChild);}function t(){for(var a,b=x.getElementsByTagName("script"),c=0,d=b.length;c<d;c++)if(a=b[c].getAttribute("data-headjs-load"),!!a){E.load(a);return;}}function u(a,b){var c,e,h;return a===x?(C?i(b):y.push(b),E):(f(a)&&(b=a,a="ALL"),g(a))?(c={},d(a,function(a){c[a]=A[a];E.ready(a,function(){l(c)&&i(b);});}),E):typeof a!="string"||!f(b)?E:(e=A[a],e&&e.state===I||a==="ALL"&&l()&&C)?(i(b),E):(h=z[a],h?h.push(b):h=z[a]=[b],E);}function v(){if(!x.body){a.clearTimeout(E.readyTimeout);E.readyTimeout=a.setTimeout(v,50);return;}C||(C=!0,t(),d(y,function(a){i(a);}));}function w(){x.addEventListener?(x.removeEventListener("DOMContentLoaded",w,!1),v()):x.readyState==="complete"&&(x.detachEvent("onreadystatechange",w),v());}var x=a.document,y=[],z={},A={},B="async" in x.createElement("script")||"MozAppearance" in x.documentElement.style||a.opera,C,D=a.head_conf&&a.head_conf.head||"head",E=a[D]=a[D]||function(){E.ready.apply(null,arguments);},F=1,G=2,H=3,I=4,J;if(x.readyState==="complete")v();else if(x.addEventListener)x.addEventListener("DOMContentLoaded",w,!1),a.addEventListener("load",v,!1);else{x.attachEvent("onreadystatechange",w);a.attachEvent("onload",v);J=!1;try{J=!a.frameElement&&x.documentElement;}catch(K){}J&&J.doScroll&&function L(){if(!C){try{J.doScroll("left");}catch(b){a.clearTimeout(E.readyTimeout);E.readyTimeout=a.setTimeout(L,50);return;}v();}}();}E.load=E.js=B?p:o;E.test=j;E.ready=u;E.ready(x,function(){l()&&d(z.ALL,function(a){i(a);});E.feature&&E.feature("domloaded",!0);});})(window);window.Ibles=window.Ibles||{};Ibles.pageContext=window.Ibles.pageContext||{};Ibles.JST=window.Ibles.JST||{};Ibles.sessionReady=new Deferred();Ibles.assetsLoaded=new Deferred();window.PAGE_SCRIPTS=window.PAGE_SCRIPTS||[];window.loadJS=function(){var a=arguments,b=a[a.length-1],c=[].slice.call(a);if(typeof b=="function")c.pop();else b=null;if(a[0].constructor===Array){a[0].push(b);loadJS.apply(null,a[0]);return;}if(!b&&!c.length)return;if(c.length)PAGE_SCRIPTS=PAGE_SCRIPTS.concat(c);if(b)head.ready(b);};window.sessionReady=function(){var a=arguments,b=a[a.length-1],c=[].slice.call(a);if(typeof b=="function")c.pop();else b=null;if(a[0].constructor===Array){a[0].push(b);sessionReady.apply(null,a[0]);return;}var d=[].slice.call(c);Deferred.when.apply(Deferred,[Ibles.sessionReady,Ibles.assetsLoaded]).done(function(a){if(!b)head.load.apply(null,c);else{var d=function(){setTimeout(function(){b(a);},0);};if(!c.length)d();else head.load(c,d);}});PAGE_SCRIPTS=PAGE_SCRIPTS.concat(d);};(function(a,b){if(!b.__SV){var c=window;try{var d,e,f,g=c.location,h=g.hash;d=function(a,b){return(e=a.match(RegExp(b+"=([^&]*)")))?e[1]:null;};h&&d(h,"state")&&(f=JSON.parse(decodeURIComponent(d(h,"state"))),"mpeditor"===f.action&&(c.sessionStorage.setItem("_mpcehash",h),history.replaceState(f.desiredHash||"",a.title,g.pathname+g.search)));}catch(i){}var j,k;window.mixpanel=b;b._i=[];b.init=function(a,c,d){function e(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)));};}var f=b;"undefined"!==typeof d?f=b[d]=[]:d="mixpanel";f.people=f.people||[];f.toString=function(a){var b="mixpanel";"mixpanel"!==d&&(b+="."+d);a||(b+=" (stub)");return b;};f.people.toString=function(){return f.toString(1)+".people (stub)";};j="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(k=0;k<j.length;k++)e(f,j[k]);b._i.push([a,c,d]);};b.__SV=1.2;c=a.createElement("script");c.type="text/javascript";c.async=!0;c.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===a.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=a.getElementsByTagName("script")[0];d.parentNode.insertBefore(c,d);}})(document,window.mixpanel||[]);mixpanel.init("7181660458b19710240cbfb48c28f305");Ibles.Q=Ibles.getUrlParam=function(a){a=a.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");var b=new RegExp("[\\?&]"+a+"=([^&#]*)"),c=b.exec(window.location.search);return c==null?"":decodeURIComponent(c[1].replace(/\+/g," "));};(function(){var a=!!Ibles.readCookie("hideAds"),b=!!Ibles.readCookie("adminUser");classStr='';if(a)classStr+=' hide-ads';if(b)classStr+=' admin-user';if(classStr)document.documentElement.className+=classStr;})();</script><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/intl_static/base-desktop-2a70c8bb.css" type="text/css" /><link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' /><!-- headertag --><script type="text/javascript">
+if (document.cookie.indexOf('hideAds') === -1) {
+    var headertagMobile = false;
+    var headertagDeferred = new Deferred();
+    adDependenciesQueue.push(headertagDeferred);
+    fetchScript("//js-sec.indexww.com/ht/ls-instructables.js", function(){
+        headertagDeferred.resolve();
+    });
+}
+</script><script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+fetchScript('//www.googletagservices.com/tag/js/gpt.js');   
+</script><script type="text/javascript">
+if (document.cookie.indexOf('hideAds') === -1) {
+    var sharethroughDeferred = new Deferred();
+    adDependenciesQueue.push(sharethroughDeferred);
+    fetchScript("//native.sharethrough.com/assets/sfp.js", function(){
+        sharethroughDeferred.resolve();
+    });
+}
+</script><script type="text/javascript">
+    if (document.cookie.indexOf('hideAds') === -1) {    
+        googletag.cmd.push(function() {
+            var slots = [];
+            
+            	
+                    slots.push(googletag.defineSlot("/1022072/craft_leaderboard", [[728, 90], [970, 200], [970, 300], [970, 250]], "gpt-ad-leaderboard").addService(googletag.pubads()));
+            	
+            
+
+            
+if (document.cookie.indexOf('hideAds') === -1) {
+    slots.push(googletag.defineSlot("/1022072/craft_med_rectangle", [[300, 250],[300, 600],[160, 600],[300, 500]], "gpt-ad-med-rectangle")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot("/1022072/brand_craft_med_rectangle", [[300, 250], [300, 600], [160, 600], [300, 601]], "gpt-ad-sidebar-brand")
+            .addService(googletag.pubads()));
+
+    
+        
+    
+    
+    slots.push(googletag.defineSlot("/1022072/craft_inline_med_rectangle", [300, 250], "gpt-ad-inline-med-1")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot("/1022072/rightside_inline_med_rectangle", [300, 250], "gpt-ad-inline-med-2")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot('/1022072/Native_project_page_bottom_645_250', [[1,1],[645,250]], 'gpt-ad-native-bottom')
+            .addService(googletag.pubads()));
+
+    if (typeof index_headertag_lightspeed !== 'undefined') {
+        var slotMap = {};
+        for (var i = 0; i < slots.length; i++) {
+            slotMap[slots[i].getSlotElementId()] = slots[i];
+        }
+        index_headertag_lightspeed.set_slot_targeting(slotMap);
+    }
+
+    googletag.pubads().setTargeting("kvrefd", "instructables.com");
+    googletag.pubads().setTargeting("content", "Step by St");
+    googletag.pubads().setTargeting("id", "UZ5HCEP287");
+    googletag.pubads().setTargeting("category", "craft");
+    googletag.pubads().setTargeting("channel", "paper");
+    googletag.pubads().setTargeting("author", "MMSLDK4MYS");
+    googletag.pubads().setTargeting("featured", "true");
+    googletag.pubads().setTargeting("status", "PUBLISHED");
+    
+        
+            googletag.pubads().setTargeting("step", "step");
+        
+    
+    
+    
+        googletag.pubads().setTargeting("group", ["EJ3H585NWD"]);
+    
+    
+        googletag.pubads().setTargeting("keyword", ["sweet","recycle","damn"]);
+    
+}
+
+
+            googletag.pubads().setTargeting("adtest", "");     
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    }
+    </script><link rel="stylesheet" href="/intl_static/ible-76ec76f5.css" type="text/css"><link rel="amphtml" href="http://www.instructables.com/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER/?amp_page=true" /><link rel="canonical" href="http://www.instructables.com/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER/"/><link rel="prev" href="/id/Origami-Post-it-box/step8/Fold-the-point-to-the-first-crease-and-do-this-on-/"/><link rel="next" href="/id/Origami-Post-it-box/step10/Remember-the-four-squres-in-the-middle-You-will-cu/"/><!-- for andriod app deep links: https://developers.google.com/app-indexing/reference/deeplinks?hl=en --><link rel="alternate" href="android-app://com.adsk.instructables/http/www.instructables.com/id/Origami-Post-it-box/" /><meta name="description" content=""/><meta property="og:type" content="article"/><meta property="og:url"    content="http://www.instructables.com/id/Origami-Post-it-box/"/><meta property="og:image"  content="https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.RECT2100.jpg"/><meta property="og:image:width" content="1280"/><meta property="og:image:height" content="960"/><meta property="og:title"  content="This is what you will have when you FLIP IT OVER."/><meta property="og:description"  content="This is a tidy little box that is cool yet useful. It&#39;s also a great way to recycle all of your used sticky notes at work. Just make sure the boss isn&#39;t watching. You will need: Square sticky notes Scissors a pen your hands"/><meta name="twitter:card" content="gallery"/><meta name="twitter:site" content="@instructables"/><meta name="twitter:url" content="http://www.instructables.com/id/Origami-Post-it-box/"/><meta name="twitter:title" content="This is what you will have when you FLIP IT OVER."/><meta name="twitter:image0" content="https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.MEDIUM.jpg"/><meta name="twitter:image1" content="https://cdn.instructables.com/FHI/3P96/1CBEP27ZVPI/FHI3P961CBEP27ZVPI.MEDIUM.jpg"/><meta name="twitter:image2" content="https://cdn.instructables.com/FIM/BRPO/1AWEP27ZV7L/FIMBRPO1AWEP27ZV7L.MEDIUM.jpg"/><meta name="twitter:image3" content="https://cdn.instructables.com/F9K/XMXT/JEPEP27ZV8S/F9KXMXTJEPEP27ZV8S.MEDIUM.jpg"/><link rel="stylesheet" type="text/css" href="https://cdn.instructables.com/static/promo/promo_styles_20161210.css"><style>
+.course-status{
+display: block;
+position:absolute;
+}
+</style></head><body class="instructable"><div id="gbl-header" class="nopin"><div class="top-bar"><div class="container content-match"><a id="header-robot" title="Instructables Home" href="/"><img alt="Instructables" src="/static/img/header/header-logo.png"/></a><div id="header-search"><form id="header-search-form" class="form-horizontal" action="/howto/" method="get"><div class="control-group"><label class="control-label" for="q">let's make</label><div class="controls"><div class="input-append"><input class="input-medium" type="text" name="q" id="q" /><button class="btn" type="button" id="header-search-btn"><i class="bg-icon search"></i></button></div></div></div></form></div><div id="header-nav-container"><div id="explore" class="btn btn-clear header-nav"><a title="Explore" href="/tag/type-id/">Explore </a></div><div id="publish" class="btn btn-clear header-nav"><a title="Make an Instructable" href="/about/create.jsp">Publish</a></div><a id="classes" class="btn btn-clear classes-global-nav" title="View Classes" href="/classes/">Classes</a></div><div id="you-menu-container" class='pull-right'></div></div></div><div class="bottom-bar" id="header-promo-container"><div class="container main content-match"><a class="share-motto" href="#">share what you make</a><ul id="promo-tabs" class="clearfix"><li class="promo-tabs-label">Featured:</li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="https://www.instructables.com/class/3D-Printing-Class/" title="3D Printing Class">3D Printing Class</a></div></li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="/tag/type-id/category-technology/channel-arduino/" title="Arduino">Arduino</a></div></li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="https://www.instructables.com/tag/type-id/category-craft/channel-sewing/" title="Sewing">Sewing</a></div></li></ul></div></div><div id="header-menus"><div class="header-menu" id="explore-menu"><img class="menu-loading" src="/static/img/lb_loading.gif" alt="loading"/></div><div class="header-menu" id="publish-menu"><div class="menu-content"><div class="publish-video"><iframe id="ytplayer-small" width="470" height="255" src="https://www.youtube.com/embed/iStxkeZlZjc?rel=0&amp;showinfo=0&amp;autohide=1" allowfullscreen=""></iframe></div><div class="publish-description"><img class="methodImage" src="/static/img/header/ible-menu-icon.png" alt="Create an Instructable" /><p class="description">With Instructables you can share what you make with the world, and tap into an ever-growing community of creative experts.</p><a class="btn btn-large" href="/about/create.jsp">How it Works  &raquo;</a><a class="btn btn-large btn-orange login-required verification-required" data-sourcea="header:new-instructable" data-return-url="/editInstructable/new/" href="/editInstructable/new/">New Instructable  &raquo;</a></div></div></div></div></div><!-- Do not change classes and ids. Used by sponsored ad javascript in dfp --><div class="aspace-wrap"><div class="aspace container"><div id="aplace"><div id="gpt-ad-leaderboard" class="gpt-ad"><script type="text/javascript">
+                    if (document.cookie.indexOf('hideAds') === -1) {
+                        renderAdSlotAsync('gpt-ad-leaderboard');
+                    }
+                </script></div></div></div></div><div id="instructable-wrapper" class="wrapper" itemscope itemtype="https://schema.org/Article"><div class="header-bar"><div id="ible-header" class="sticky-header"><div class="container sticky-header-inner"><div id="ible-header-title-row"><div class="title-bar"><h1 class="title" itemprop="name">Origami Post-it box</h1><span class="author">
+                        by <a rel="author" href="/member/luckymonkeygarage/" itemprop="author">luckymonkeygarage</a><span class="ible-breadbrumb">
+                            
+                            in <a href="/tag/type-id/category-craft/channel-paper/">paper</a></span></span></div><div class="awards-bar"><img class="award-image" alt="Featured" src='/static/img/instructable/award-featured.png'></div></div><div id="ible-header-actions-bar" class="clearfix"><div class="pull-left"><a id="download-pdf-btn-top" data-role-group="pdf" class="btn download-pdf-btn download-pdf disable-preview"
+                       data-sourcea="project:downloadPdf:step9"
+                       data-return-url="/id/Origami-Post-it-box/" title="Instructables offers this How To as Downloadable PDF to make it easy to print"><i class="bg-icon pdf"></i> Download
+                    </a><div class="btn-group steps-nav"><a class="btn view-all-steps-btn" title="View All Steps" href="/id/Origami-Post-it-box/?ALLSTEPS"><i class="icon-grid icomoon"></i></a><a class="btn" id="steps-nav-toggle" title="Go To Step">
+                        15 Steps
+                        </a><a class="btn next" id="next-step-btn" rel="next" title="Remember the four squres in the middle? You will cut on the crease to the corner of the four squares. You will do FOUR cuts on TWO opposing ends.: Page 10" href="/id/Origami-Post-it-box/step10/Remember-the-four-squres-in-the-middle-You-will-cu/"><i class="icon-caret-right icomoon"></i></a></div></div><div class="pull-right"><div id="flag-menu" class="btn-group pull-right flag-dropdown disable-preview"><a data-toggle="dropdown" class="btn flag-btn dropdown-toggle"><i class="icon-flag"></i></a><ul class="dropdown-menu pull-right"></ul></div><div class="btn-group pull-right share-btn disable-preview"><a data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-share"></i> Share <span class="caret"></span></a><ul class="dropdown-menu share-menu"></ul></div><a class="btn pull-right favorite-btn login-required" data-sourcea="project:favorite:step9"><i class="icon-favorite"></i><span class="fave-btn-txt">Favorite</span></a><a id="imadeit-btn" class="btn pull-right disable-preview"><i class="bg-icon imadeit"></i>&nbsp; <span>I Made it!</span></a><a class="btn pull-right add-to-collection-btn disable-preview has-spinner"><span class="btn-spinner"><i class="icon-refresh spin-it"></i></span><i class="icon-plus"></i> Collection
+                    </a></div></div></div><div id="ible-steps-nav" class="collapsed"><div class="container"><div class="dropdown-bubble"><a
+                
+                    title="Intro: Origami Post-it box"
+                
+                
+                    href="#intro"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="0">
+                    Intro
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step0/Origami-Post-it-box/"><img src="https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.SQUARE2.jpg" alt="Origami Post-it box"/></a></div><div class="description"><h4>Intro: Origami Post-it box</h4><p>This is a tidy little box that is cool yet useful. It's also a great way to recycle all of your used sticky notes at work. Just make ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Peel off a sticky note with the sticky part up."
+                
+                
+                    href="#step1"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="1">
+                    1
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step1/Peel-off-a-sticky-note-with-the-sticky-part-up/"><img src="https://cdn.instructables.com/FIM/BRPO/1AWEP27ZV7L/FIMBRPO1AWEP27ZV7L.SQUARE2.jpg" alt="Peel off a sticky note with the sticky part up."/></a></div><div class="description"><h4>Step 1: Peel off a sticky note with the sticky part up.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Fold from point to point in half"
+                
+                
+                    href="/id/Origami-Post-it-box/step2/Fold-from-point-to-point-in-half/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="2">
+                    2
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step2/Fold-from-point-to-point-in-half/"><img src="https://cdn.instructables.com/F9K/XMXT/JEPEP27ZV8S/F9KXMXTJEPEP27ZV8S.SQUARE2.jpg" alt="Fold from point to point in half"/></a></div><div class="description"><h4>Step 2: Fold from point to point in half</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Then fold in half again from point to point."
+                
+                
+                    href="/id/Origami-Post-it-box/step3/Then-fold-in-half-again-from-point-to-point/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="3">
+                    3
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step3/Then-fold-in-half-again-from-point-to-point/"><img src="https://cdn.instructables.com/FU1/SB77/X6DEP27ZV9Z/FU1SB77X6DEP27ZV9Z.SQUARE2.jpg" alt="Then fold in half again from point to point."/></a></div><div class="description"><h4>Step 3: Then fold in half again from point to point.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Take all 4  points and fold to center."
+                
+                
+                    href="/id/Origami-Post-it-box/step4/Take-all-4-points-and-fold-to-center/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="4">
+                    4
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step4/Take-all-4-points-and-fold-to-center/"><img src="https://cdn.instructables.com/F7V/4ZBI/NJJEP27ZVB6/F7V4ZBINJJEP27ZVB6.SQUARE2.jpg" alt="Take all 4  points and fold to center."/></a></div><div class="description"><h4>Step 4: Take all 4  points and fold to center.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="It should look like this."
+                
+                
+                    href="/id/Origami-Post-it-box/step5/It-should-look-like-this/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="5">
+                    5
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step5/It-should-look-like-this/"><img src="https://cdn.instructables.com/FF9/28P3/SLCEP27ZVCD/FF928P3SLCEP27ZVCD.SQUARE2.jpg" alt="It should look like this."/></a></div><div class="description"><h4>Step 5: It should look like this.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Now fold to first crease from point and do this on all four points."
+                
+                
+                    href="/id/Origami-Post-it-box/step6/Now-fold-to-first-crease-from-point-and-do-this-on/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="6">
+                    6
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step6/Now-fold-to-first-crease-from-point-and-do-this-on/"><img src="https://cdn.instructables.com/FYI/DNES/IWSEP27ZVDK/FYIDNESIWSEP27ZVDK.SQUARE2.jpg" alt="Now fold to first crease from point and do this on all four points."/></a></div><div class="description"><h4>Step 6: Now fold to first crease from point and do this on all four points.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="It should look like this now. You will notice that there are four squares near the center that make a square, this is the bottom of your box."
+                
+                
+                    href="/id/Origami-Post-it-box/step7/It-should-look-like-this-now-You-will-notice-that-/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="7">
+                    7
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step7/It-should-look-like-this-now-You-will-notice-that-/"><img src="https://cdn.instructables.com/FPV/M2MX/FLHEP27ZVER/FPVM2MXFLHEP27ZVER.SQUARE2.jpg" alt="It should look like this now. You will notice that there are four squares near the center that make a square, this is the bottom of your box."/></a></div><div class="description"><h4>Step 7: It should look like this now. You will notice that there are four squares near the center that make a square, this is the bottom of your box.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Fold the point to the first crease and do this on all four points."
+                
+                
+                    href="/id/Origami-Post-it-box/step8/Fold-the-point-to-the-first-crease-and-do-this-on-/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="8">
+                    8
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step8/Fold-the-point-to-the-first-crease-and-do-this-on-/"><img src="https://cdn.instructables.com/FER/Z0I2/KL6EP27ZVFY/FERZ0I2KL6EP27ZVFY.SQUARE2.jpg" alt="Fold the point to the first crease and do this on all four points."/></a></div><div class="description"><h4>Step 8: Fold the point to the first crease and do this on all four points.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="This is what you will have when you FLIP IT OVER."
+                
+                
+                    href="/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="9">
+                    9
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER/"><img src="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.SQUARE2.jpg" alt="This is what you will have when you FLIP IT OVER."/></a></div><div class="description"><h4>Step 9: This is what you will have when you FLIP IT OVER.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Remember the four squres in the middle? You will cut on the crease to the corner of the four squares. You will do FOUR cuts on TWO opposing ends."
+                
+                
+                    href="/id/Origami-Post-it-box/step10/Remember-the-four-squres-in-the-middle-You-will-cu/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="10">
+                    10
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step10/Remember-the-four-squres-in-the-middle-You-will-cu/"><img src="https://cdn.instructables.com/F7U/PMXH/29PEP27ZVIC/F7UPMXH29PEP27ZVIC.SQUARE2.jpg" alt="Remember the four squres in the middle? You will cut on the crease to the corner of the four squares. You will do FOUR cuts on TWO opposing ends."/></a></div><div class="description"><h4>Step 10: Remember the four squres in the middle? You will cut on the crease to the corner of the four squares. You will do FOUR cuts on TWO opposing ends.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Look closely at the cuts. There are only FOUR."
+                
+                
+                    href="/id/Origami-Post-it-box/step11/Look-closely-at-the-cuts-There-are-only-FOUR/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="11">
+                    11
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step11/Look-closely-at-the-cuts-There-are-only-FOUR/"><img src="https://cdn.instructables.com/FN6/2NQT/15OEP27ZVJJ/FN62NQT15OEP27ZVJJ.SQUARE2.jpg" alt="Look closely at the cuts. There are only FOUR."/></a></div><div class="description"><h4>Step 11: Look closely at the cuts. There are only FOUR.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Fold in to make the side."
+                
+                
+                    href="/id/Origami-Post-it-box/step12/Fold-in-to-make-the-side/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="12">
+                    12
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step12/Fold-in-to-make-the-side/"><img src="https://cdn.instructables.com/F5M/DRWN/LWXEP27ZVKQ/F5MDRWNLWXEP27ZVKQ.SQUARE2.jpg" alt="Fold in to make the side."/></a></div><div class="description"><h4>Step 12: Fold in to make the side.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Now fold the opposite side as shown. You should have two points touching inside and the general shape of the box with two tabs sticking out."
+                
+                
+                    href="/id/Origami-Post-it-box/step13/Now-fold-the-opposite-side-as-shown-You-should-hav/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="13">
+                    13
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step13/Now-fold-the-opposite-side-as-shown-You-should-hav/"><img src="https://cdn.instructables.com/FB3/TH1K/1ZBEP27ZVLX/FB3TH1K1ZBEP27ZVLX.SQUARE2.jpg" alt="Now fold the opposite side as shown. You should have two points touching inside and the general shape of the box with two tabs sticking out."/></a></div><div class="description"><h4>Step 13: Now fold the opposite side as shown. You should have two points touching inside and the general shape of the box with two tabs sticking out.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="The two tabs will then be folded in to create the remaining sides. All points should be at the bottom of the box touching with no overlap."
+                
+                
+                    href="/id/Origami-Post-it-box/step14/The-two-tabs-will-then-be-folded-in-to-create-the-/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="14">
+                    14
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step14/The-two-tabs-will-then-be-folded-in-to-create-the-/"><img src="https://cdn.instructables.com/F5Z/38FK/7SZEP27ZVN4/F5Z38FK7SZEP27ZVN4.SQUARE2.jpg" alt="The two tabs will then be folded in to create the remaining sides. All points should be at the bottom of the box touching with no overlap."/></a></div><div class="description"><h4>Step 14: The two tabs will then be folded in to create the remaining sides. All points should be at the bottom of the box touching with no overlap.</h4><p></p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Now take your trusty Uhaul pen and flatten the edges of the box. Done!"
+                
+                
+                    href="/id/Origami-Post-it-box/step15/Now-take-your-trusty-Uhaul-pen-and-flatten-the-edg/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="15">
+                    15
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Origami-Post-it-box/step15/Now-take-your-trusty-Uhaul-pen-and-flatten-the-edg/"><img src="https://cdn.instructables.com/FU0/F66P/89FEP27ZVOB/FU0F66P89FEP27ZVOB.SQUARE2.jpg" alt="Now take your trusty Uhaul pen and flatten the edges of the box. Done!"/></a></div><div class="description"><h4>Step 15: Now take your trusty Uhaul pen and flatten the edges of the box. Done!</h4><p>You can make two and have a lidded box.If you're smarter than the average bear you'll figure out how to do it without the cuts.</p></div></div></div></div></div><div class="sticky-header-toggle" style="display:none"></div></div></div><meta itemprop="headline" content="Origami Post-it box"/><meta itemprop="image" content="https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.MEDIUM.jpg"/><meta itemprop="keywords" content="craft paper"/><meta itemprop="datePublished" content="May 28, 2006, 12:53 p.m."/><meta itemprop="interactionCount" content="favorites:346"/><meta itemprop="interactionCount" content="views:346"/><meta itemprop="award" content="featured"/><div id="instructable-container" class="container content-padding"><div id="instructable-content"><div id="instructable-body"><div class="step-container"><h2 id="step9" class="step-title">Step 9: This is what you will have when you FLIP IT OVER.</h2><div id="photoset-E55H1Y2GN8EP287KGG" data-item-id="E55H1Y2GN8EP287KGG" data-item-url="https://www.instructables.com/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER/" class="photoset"><div class="photoset-item photoset-image"><a class="photoset-link" data-fancybox-group="photoset-gallery-E55H1Y2GN8EP287KGG" href="/file/FT8MN0ZCBREP27ZVH5/" data-fancybox-href="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.LARGE.jpg"><img alt="This is what you will have when you FLIP IT OVER." data-image-id="FT8MN0ZCBREP27ZVH5" data-notes='[]' src="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.MEDIUM.jpg?width=614" data-orig="https://cdn.instructables.com/ORIG/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.jpg" data-large="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.LARGE.jpg" data-medium="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.MEDIUM.jpg" data-small="https://cdn.instructables.com/FT8/MN0Z/CBREP27ZVH5/FT8MN0ZCBREP27ZVH5.SMALL.jpg" data-orig-height="960" data-orig-width="1280" data-pin-no-hover="true"/></a></div><a class="photoset-showmore">Show All  Items<br/><i class="icon"></i></a></div><div class="step-body" itemprop="articleBody"><br/></div></div><div id="double-inline-ads" class="clearfix"><div id="gpt-ad-inline-med-1" class="gpt-ad pull-left"><script type='text/javascript'>
+            if (document.cookie.indexOf('hideAds') === -1) {
+                renderAdSlotAsync("gpt-ad-inline-med-1");
+            }
+        </script></div><div id="gpt-ad-inline-med-2" class="gpt-ad pull-right"><script type='text/javascript'>
+            if (document.cookie.indexOf('hideAds') === -1) {
+                renderAdSlotAsync("gpt-ad-inline-med-2");
+            }
+        </script></div></div></div><div id="steps-pager"><div class="clearfix"><a class="btn btn-large pull-left" rel="prev" title="Fold the point to the first crease and do this on all four points.: Page 8" href="/id/Origami-Post-it-box/step8/Fold-the-point-to-the-first-crease-and-do-this-on-/">&laquo; Previous</a><a class="btn btn-large btn-orange pull-right" rel="next" title="Remember the four squres in the middle? You will cut on the crease to the corner of the four squares. You will do FOUR cuts on TWO opposing ends.: Page 10" href="/id/Origami-Post-it-box/step10/Remember-the-four-squres-in-the-middle-You-will-cu/">Next &raquo;</a><a class="btn btn-large pull-right view-all-steps-btn" id="allsteps-btn" title="View All Steps" href="/id/Origami-Post-it-box/?ALLSTEPS">View All Steps</a><a class="btn btn-large pull-right download-pdf-btn download-pdf" data-role-group="pdf" data-sourcea="project:downloadPdfFromStepPager:step9" id="download-pdf-btn-bottom" data-return-url="/id/Origami-Post-it-box/" title="Instructables offers this How To as Downloadable PDF to make it easy to print"><i class="bg-icon pdf"></i> Download</a></div></div><div id='gpt-ad-native-bottom' class="gpt-ad"><script type='text/javascript'>
+                            if (document.cookie.indexOf('hideAds') === -1) {
+                                renderAdSlotAsync('gpt-ad-native-bottom');
+                            }
+                        </script></div><div id="commentsWrapper"><div id="topLevelCommentField" class="post-comment-container"></div><div id="loaded-comments" class="hide"><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Such a cute lil box, I made many! One of the pics is here!&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">OMG!! I LOVE IT!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">I&#39;m not smarter than the average bear</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;I didn&#39;t have anything else that was just the right size to hold the screws so this was just perfect!&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;I made it without cutting it&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;i think i made it not sure&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;yes i did it&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;how is it&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Real cute and fun!! &lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Hooray, I think I figured out how to do it without cutting the corners! It doesn&#39;t stay very nicely, though. Any tips on that?&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Origami Post-it box... I made it! &lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;This is really cool, i made a lidded one.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Turn the paper and be patient&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;I don&#39;t get step 12&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Thank you! Great instructable for lazy office days! :)&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Finally! My first successful instructable! Thank you!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Nice. it help me a lot. Try to visit here also http://www.captainnotepad.com/</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">THANK YOU!!!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">can you do this with any other paper to make it bigger?</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Sure, I think thats a good idea! &lt;br&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">thank you it came out a little lager and great I love it!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">For the slightly crafty people who like fabric, you can do this by using fabric stiffener, maybe even ModPodge.  Once you have a firmer piece of fabric, you can make your folds, and cuts, and there are no limits to size.  (Did anyone ever find a slightly larger than?  I mean, square post-its are one size fits all, right?  3&amp;quot;, I think.  So you&#39;d have to have something about 3-1/4&amp;quot; or even 3-1/2&amp;quot; to be larger.  But regular paper comes in colors, and even cardstock does too.  I still want to try this with fabric.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">I saw an origami box book where you use fatquarters precut quilting fabric - perfect for making wedding favors (daughter&#39;s wedding is in a barn).  You&#39;ve inspired me.  &lt;br&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">I LOVE this!! I&#39;ve become addicted to making these little boxes! They&#39;re very useful!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Thank you!  They are fun to make in all sizes!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">I mean, it&#39;s cute and everything... but what exactly do you have *that* tiny that needs a box?</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Earrings!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Well, you could make it bigger with bigger paper</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Post it notes are only a suggestion in this case. Use a larger piece of paper if that suits you better.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Awesome instructable with clear pictures! thanks for posting this! BTW the boxes also scale up quite nicely to different sizes as long as it is a square :)</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">SMD electronic components ;)</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">One thing that comes to mind is that this tiny box can hold your limited imagination.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Funny, NYRob! But, not very nice. Remember our rules?  Corky</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">It&#39;s a joke!  Don&#39;t lose your sense of humor. </div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Maybe if they just had a very small box to put it in, it wouldn&#39;t have gotten lost. </div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">a pretty good joke, too  -not to be mean, just pointing it out</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">The comment is a general comment not directed to anyone in this politically correct world.  Think of the remark in this sense, &amp;quot;One thing that comes to mind is that this tiny box can hold ones limited imagination.&amp;quot;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">*The comment is a general comment not directed to anyone in this politically correct world. *  You can&#39;t backpedal out of snarkiness that easily, NewYorkRob.   It wasn&#39;t generally directed, it was specific. And it doesn&#39;t have anything to do with political correctness (which I abhor). It has everything to do with courtesy.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">I have never been so insulted in my life!  What an accusation!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">What if it was a tiny  sketchbook full of schematics, for instance, why not? Write?  Even Though it&#39;s compartmental  imagination eludes its confinement.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Ooookay... asking a genuine question... but if with snark is how you feel you need to respond, more power to you.  Hope whoever peed in your cheerios gets what&#39;s coming to them.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">To be real origami it has to be pure square paper. no cuts. no tears. but besides that I do declare that THIS INSTUCTABLE IS EPIC!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">you could put pennys in the box :D</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Cool, kinda tiny but so cool!</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">You probably weren&#39;t expecting anyone to click on that link, but I happen to be quite smarter than a bear, actually almost to the level of a fish, and I clicked on the link but it was a dead link... you filthy liar</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Whoa, why so mean? Just go to his profile and enjoy. o_O</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Make me smarter than the average bear by posting how to make without the cuts</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">This box can be made with a $50.00 bill also.  Practically any paper currency will work as well.  </div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">i did it and it was not easy at first but it&#39;s very nice thank you for posting how to make it  </div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Whoops, I didn&#39;t expect it to go to the top. I was speaking of the comment at the bottom of the page.</div></div></div></div><div id="comment-list"></div><div id="comments-controls"><button class="btn" id="see-more-comments"><i class="icon-arrow2-down"></i><span class="comments-controls-text">More Comments</span></button></div></div></div><div id="instructable-sidebar"><div id="admin-container"></div><div class="adBlockWrapper"><div class="adBlock"><div id="gpt-ad-med-rectangle" class="gpt-ad"><script type='text/javascript'>
+                if (document.cookie.indexOf('hideAds') === -1) {
+                    renderAdSlotAsync("gpt-ad-med-rectangle");
+                }
+            </script></div></div></div><div id="ible-about-box" class="hatbox"><h3>About This Instructable <a id="more-stats-btn" class="btn"><i class="bg-icon stats"></i></a></h3><div class="hatbox-content"><div id="ible-hits-and-publish-info" class="ible-about-section"><div class="clearfix"><div id="ible-hits" class="pull-left"><span class="featured-by"></span><p class="views subtle-txt"><i class="icon icon-views1 active"></i><span class="count view-count">640,527</span><span class="view-text">views</span></p><p class="favorites subtle-txt"><i class="icon icon-favorite active"></i><span class="count favorite-count">346</span><span class="favorite-text">favorites</span></p></div><div class="v-divider"></div><div id="ible-publish-info" class="pull-left"><span class="publish-date"></span><p id="ible-license"><strong>License:</strong><br><a href="#" onclick="window.open('http://creativecommons.org/licenses/by-nc-sa/2.5/', 'LICENSE', 'status=yes,scrollbars=yes,resizable=yes,width=800,height=400'); return false;"><img alt="" src="/intl_static/img/license/by-nc-sa_small.png"/></a></p></div></div></div><div id="ible-author" class="ible-about-section"><div class="clearfix"><div id="ible-author-image" class="pull-left"><a href="/member/luckymonkeygarage/" title="luckymonkeygarage" rel="author"><img src="https://cdn.instructables.com/FZL/42LM/R93EV2ZAVM1/FZL42LMR93EV2ZAVM1.SQUARE.jpg" alt="luckymonkeygarage profile picture"></a></div><div id="ible-author-details"><a id="ible-author-screenname" href="/member/luckymonkeygarage/" title="luckymonkeygarage" rel="author">luckymonkeygarage</a><a id="ible-author-website" target="_blank" href="http://ghostwagens.blogspot.com/" title="Kahlil">Kahlil</a><a class="btn btn-yellow follow-btn login-required" data-sourcea="project:follow:step9">Follow</a><span class="callout follower-count">21</span></div></div><div id="ible-author-bio"><strong>Bio:</strong>
+                    I live in Clarkdale Arizona and love  to tinker with everything!
+                                        
+                </div></div><div id="ible-author-more-ibles" class="ible-about-section"><div class="clearfix"><strong>More by luckymonkeygarage:</strong><a href="/id/Personal-Hand-Monster/" title="Hand Monster 101"><img src="https://cdn.instructables.com/FD0/ZF7Y/GBF5KON2/FD0ZF7YGBF5KON2.SQUARE2.jpg" alt="Hand Monster 101">&nbsp;</a><a href="/id/Lucky-Charms-iPod-Nano-Gift-Box/" title="Lucky Charms iPod Nano Gift Box"><img src="https://cdn.instructables.com/FRB/5EZ8/PNSEV2ZAQ4S/FRB5EZ8PNSEV2ZAQ4S.SQUARE2.jpg" alt="Lucky Charms iPod Nano Gift Box">&nbsp;</a><a href="/id/Origami-Post-it-box/" title="Origami Post-it box"><img src="https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.SQUARE2.jpg" alt="Origami Post-it box">&nbsp;</a></div></div><div id="add-ible-section" class="ible-about-section hide disable-preview"><div class="clearfix"><strong>Add instructable to:</strong><div class="actions"><a id="add-to-contest-btn" class="btn btn-small author-action hide"><i class="icon-contest"></i> Contest</a><a id="add-to-group-btn" class="btn btn-small"><i class="icon-groups"></i> Group</a></div></div></div></div></div><div id="ible-stickyad-wrapper" class="adBlockWrapper"><div id="ible-stickyad"><div id="gpt-ad-sidebar-brand" class="gpt-ad"><script type='text/javascript'>
+                if (document.cookie.indexOf('hideAds') === -1) {
+                    renderAdSlotAsync("gpt-ad-sidebar-brand");
+                }
+            </script></div></div></div></div></div></div><div id="jsp-footer"><div id="gbl-footer"><div class="top"><div class="container"><div id="footer-featured-channels"><div class="featured-channels-title">FEATURED CHANNELS</div><div class="title-divider"></div><ul><li class="featured-item adspot-link"><a href="/tag/type-id/category-workshop/channel-woodworking/" title="Woodworking"><div class="ad-image"><div class="promo" id="woodworking-channel-promo"></div></div><div>Woodworking</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-craft/channel-paper/" title="paper"><div class="ad-image"><div class="promo" id="paper-promo"></div></div><div>Paper</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/keyword-kitchen%20hacks/?sort=FAVORITES" title="Kitchen Hacks"><div class="ad-image"><div class="promo" id="kitchen-promo"></div></div><div>Kitchen Hacks</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-play/channel-puzzles/" title="Puzzles"><div class="ad-image"><div class="promo" id="puzzles-promo"></div></div><div>Puzzles</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-workshop/channel-laser-cutting/" title="Laser Cutting"><div class="ad-image"><div class="promo" id="lasercutting-promo"></div></div><div>Laser Cutting</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/keyword-astronomy/?sort=FAVORITES" title="Space"><div class="ad-image"><div class="promo" id="space-promo"></div></div><div>Space</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-home/channel-homesteading/" title="Homesteading"><div class="ad-image"><div class="promo" id="hydroponics-channel-promo"></div></div><div>Homesteading</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-technology/channel-3D-Printing/" title="3d Printing"><div class="ad-image"><div class="promo" id="threed-printing-promo"></div></div><div>3D Printing</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-craft/channel-sewing/" title="Sewing"><div class="ad-image"><div class="promo" id="sewing-promo"></div></div><div>Sewing</div></a></li></ul></div></div></div><div class="bottom"><div class="container"><div class="row-fluid"><img alt="robot" id="footer-robot" src="/static/img/footer/footer-robot.png"/><div class="col" id="footer-newsletter"><h3>Newsletter</h3><p>Join 2 million + to receive instant DIY inspiration in  your inbox.</p><form class="form-horizontal" onsubmit="javascript:$('#newsletter-signup-btn').click(); return false;"><div class="input-append"><input class="span8" id="email-input-field" placeholder="enter email" type="text"/><button class="btn btn-dark-grey" id="newsletter-signup-btn" type="button">I'm in!</button></div></form></div><div class="col" id="footer-aboutus"><h3>About Us</h3><ul><li><a href="/about/" title="About Us">Who We Are</a></li><li><a href="/advertise/" title="Advertise">Advertise</a></li><li><a href="/about/contact.jsp" title="Contact">Contact</a></li><li><a href="/community/Positions-available-at-Instructables/" title="Jobs">Jobs</a></li><li><a href="/id/how-to-write-a-great-instructable/" title="Help">Help</a></li></ul></div><div class="col" id="footer-findus"><h3>Find Us</h3><ul><li><a class="facebook" href="http://www.facebook.com/instructables" title="Facebook">Facebook</a></li><li><a class="youtube" href="http://www.youtube.com/user/instructablestv" title="Youtube">Youtube</a></li><li><a class="twitter" href="http://www.twitter.com/instructables" title="Twitter">Twitter</a></li><li><a class="pinterest" href="http://www.pinterest.com/instructables" title="Pinterest">Pinterest</a></li><li><a class="googleplus" href="https://plus.google.com/+instructables" rel="publisher" title="Google+">Google+</a></li></ul></div><div class="col" id="footer-resources"><h3>Resources</h3><ul><li><a href="/teachers/" title="Teachers">For Teachers</a></li><li><a href="/air" title="Artists In Residence">Artists in Residence</a></li><li><a href="/account/give?sourcea=footer" title="Give A Premium Membership">Gift Premium Account</a></li><li><a href="/community/" title="Forums">Forums</a></li><li><a href="/tag/type-question/?sort=RECENT" title="Answers">Answers</a></li><li><a href="/sitemap/" title="Sitemap">Sitemap</a></li></ul></div></div></div><div class="container content-match"><div class="row-fluid"><hr/><div class="pull-right" id="footer-links"><ul><li><a href="http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=21959721" target="_blank" title="Terms of Service">Terms of Service</a><span class="divider">|</span></li><li><a href="http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=21292079" target="_blank" title="Privacy Statement">Privacy Statement</a><span class="divider">|</span></li><li><a href="http://usa.autodesk.com/legal-notices-trademarks/" target="_blank">Legal Notices &amp; Trademarks</a><span class="divider">|</span></li><li><a href="https://www.instructables.com" id="mobile-site-link" title="Mobile Site">Mobile Site</a></li><li><a href="http://usa.autodesk.com/adsk/servlet/pc/index?id=20781545&amp;siteID=123112" id="adsk-logo" target="blank" title="Autodesk"><img alt="autodesk" src="/static/img/footer/autodesk-logo.png"/></a></li></ul></div><div id="copyright-notice"><p>© 2016 Autodesk, Inc.</p></div></div></div></div></div></div><script type="text/javascript">
+    // Used on both java and django pages so we have to use raw javascript here
+    Ibles = window.Ibles || {};
+    Ibles.extend = function(a, b){for(var key in b)if(b.hasOwnProperty(key)) a[key] = b[key];return a;}
+    Ibles.readCookie = function(k,r){return (r = RegExp('(^|; )' + encodeURIComponent(k) + '=([^;]*)').exec(document.cookie)) ? decodeURIComponent(r[2]) : null;};
+    Ibles.pageContext = Ibles.pageContext || {};
+    
+    var userCookie = Ibles.readCookie('ibleuser'),
+        userJson = userCookie && JSON.parse(userCookie);
+    
+    Ibles.extend(Ibles.pageContext, {
+        mobile: false,
+        loggedIn: !!Ibles.readCookie("authy"),
+        loggedInCookie: "authy",
+        userId: userJson && userJson.id,
+        pro: userJson && userJson.pro,
+        category: "craft",
+        channel: "paper",
+        currentLocale: "en_US",
+        remoteHost: "http://www.instructables.com",
+        remoteRoot : "http://www.instructables.com/",
+        staticRoot: "/intl_static/",
+        facebookAppId: "140028286058792",
+        gtmContainerID: "GTM-PLDK3K",
+        recaptchaSiteKey: "6Le9TAwTAAAAADEB44pkYQS2fm7hroFthrNqnoAb",
+        oauthCallbackUrl: "http://www.instructables.com/oauth/callback/",
+        oauthGetAuthUrl: "http://www.instructables.com/oauth/getAuthUrl/",
+        redirectURI: "/id/Origami-Post-it-box/step9/This-is-what-you-will-have-when-you-FLIP-IT-OVER",
+        nativeApp: "",
+        disableEmailVerifyWidget: false,
+        paymentPlans: {
+            course: "CLASS_SUBSCRIPTION",
+            annual: "ANNUAL_SUBSCRIPTION",
+            quarterly: "QUARTERLY_SUBSCRIPTION",
+            twoYearSinglePayment: "TWO_YEAR_SINGLE_PAYMENT"
+        },
+        photosetInstructableMaxWidth: 614,
+        photosetLessonMaxWidth: 1400
+    });
+    
+    
+        Ibles.pageContext.ibleData = JSON.parse("{\u0022featureFlag\u0022:true,\u0022commentingEnabled\u0022:true,\u0022locale\u0022:\u0022en_US\u0022,\u0022fullAccessFlag\u0022:false,\u0022stepCount\u0022:16,\u0022homePageFeatureFlag\u0022:false,\u0022machineTranslatedFlag\u0022:false,\u0022mediumUrl\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.MEDIUM.jpg\u0022,\u0022keywords\u0022:[\u0022Sweet\u0022,\u0022recycle\u0022,\u0022Damn\u0022],\u0022referrers\u0022:[{\u0022https://m.instructables.com/\u0022:111865},{\u0022https://www.google.com/\u0022:46559},{\u0022http://www.google.com/\u0022:38762},{\u0022http://www.stumbleupon.com/\u0022:10095},{\u0022http://babyh23.blogspot.com/\u0022:6395},{\u0022https://www.google.co.uk/\u0022:5240},{\u0022http://pinterest.com/\u0022:4729},{\u0022http://www.google.co.uk/\u0022:4705},{\u0022http://www.manmadediy.com/\u0022:4456},{\u0022http://www.thecraftycrow.net/\u0022:4448},{\u0022http://www.bing.com/\u0022:2775},{\u0022https://www.google.ca/\u0022:2375},{\u0022http://www.google.ca/\u0022:2214},{\u0022http://www.creatingreallyawesomefreethings.com/\u0022:2150},{\u0022http://www.google.com.au/\u0022:1890},{\u0022http://www.tatlidilimler.com/\u0022:1655},{\u0022https://www.google.com.au/\u0022:1611},{\u0022http://10marifet.org/\u0022:1496},{\u0022http://www.nobiggie.net/\u0022:1470},{\u0022http://www.pinterest.com/\u0022:1397},{\u0022http://www.10marifet.org/\u0022:1362},{\u0022http://www.brit.co/\u0022:1340},{\u0022http://www.google.com\u0022:1313},{\u0022https://www.google.fr/\u0022:1248},{\u0022http://manmadediy.com/\u0022:1233},{\u0022https://www.google.com\u0022:1214},{\u0022http://www.google.fr/\u0022:995},{\u0022https://cdn.ampproject.org/\u0022:818},{\u0022http://www.google.co.in/\u0022:794},{\u0022http://corp.stumbleupon.com/\u0022:746},{\u0022http://www.babble.com/\u0022:696},{\u0022http://sabunatolye.com/\u0022:690},{\u0022http://www.google.de/\u0022:665},{\u0022http://search.yahoo.com/\u0022:646},{\u0022https://www.google.com.mx/\u0022:616},{\u0022https://www.google.co.in/\u0022:584},{\u0022https://www.facebook.com/\u0022:578},{\u0022http://www.helloadorable.com/\u0022:510},{\u0022http://www.toysblog.it/\u0022:506},{\u0022http://www.minivizyon.com/\u0022:452},{\u0022https://www.google.com.tr/\u0022:447},{\u0022https://www.google.se/\u0022:438},{\u0022https://www.pinterest.com/\u0022:433},{\u0022http://www.google.com.mx/\u0022:398},{\u0022https://www.google.com.ph/\u0022:384},{\u0022https://www.google.com.br/\u0022:383},{\u0022http://r.search.yahoo.com/\u0022:376},{\u0022http://www.google.co.nz/\u0022:357},{\u0022http://www.ilbloggatore.com/\u0022:338},{\u0022http://rat86.netsons.org/\u0022:333}],\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.SQUARE2.jpg\u0022,\u0022id\u0022:\u0022EN6P6UZ5HCEP287KE3\u0022,\u0022sponsoredFlag\u0022:false,\u0022votableContests\u0022:[],\u0022category\u0022:\u0022craft\u0022,\u0022title\u0022:\u0022Origami Post\u002Dit box\u0022,\u0022pgFlag\u0022:false,\u0022comments\u0022:136,\u0022displayChannel\u0022:\u0022Paper\u0022,\u0022numStepsByWordCount\u0022:2,\u0022editVersion\u0022:0,\u0022popularFlag\u0022:true,\u0022typeChar\u0022:\u0022E\u0022,\u0022type\u0022:\u0022Step by Step\u0022,\u0022urlString\u0022:\u0022Origami\u002DPost\u002Dit\u002Dbox\u0022,\u0022channel\u0022:\u0022paper\u0022,\u0022status\u0022:\u0022PUBLISHED\u0022,\u0022views\u0022:640527,\u0022homePageFeatureGiftSent\u0022:false,\u0022publishDate\u0022:\u00222006\u002D05\u002D28 12:53:09.0\u0022,\u0022modifiedDate\u0022:\u00222016\u002D05\u002D12 16:40:03.0\u0022,\u0022favorites\u0022:346,\u0022featuredBy\u0022:\u0022scoochmaroo\u0022,\u0022rectangle1Url\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.RECTANGLE1.jpg\u0022,\u0022license\u0022:{\u0022url\u0022:\u0022http://creativecommons.org/licenses/by\u002Dnc\u002Dsa/2.5/\u0022,\u0022shortName\u0022:\u0022by\u002Dnc\u002Dsa\u0022,\u0022fullName\u0022:\u0022Attribution\u002DNonCommercial\u002DShareAlike\u0022,\u0022short_name\u0022:\u0022by\u002Dnc\u002Dsa\u0022},\u0022coverImage\u0022:{\u0022rectangle1Url\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.RECTANGLE1.jpg\u0022,\u0022rect840Url\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.RECT840.jpg\u0022},\u0022author\u0022:{\u0022about\u0022:\u0022I live in Clarkdale Arizona and love  to tinker with everything!\u0022,\u0022followersCount\u0022:21,\u0022url\u0022:\u0022http://ghostwagens.blogspot.com/\u0022,\u0022squareUrl\u0022:\u0022https://cdn.instructables.com/FZL/42LM/R93EV2ZAVM1/FZL42LMR93EV2ZAVM1.SQUARE.jpg\u0022,\u0022tinyUrl\u0022:\u0022https://cdn.instructables.com/FZL/42LM/R93EV2ZAVM1/FZL42LMR93EV2ZAVM1.TINY.jpg\u0022,\u0022websiteName\u0022:\u0022Kahlil\u0022,\u0022recent\u0022:[{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FD0/ZF7Y/GBF5KON2/FD0ZF7YGBF5KON2.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Personal\u002DHand\u002DMonster\u0022,\u0022title\u0022:\u0022Hand Monster 101\u0022},{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FRB/5EZ8/PNSEV2ZAQ4S/FRB5EZ8PNSEV2ZAQ4S.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Lucky\u002DCharms\u002DiPod\u002DNano\u002DGift\u002DBox\u0022,\u0022title\u0022:\u0022Lucky Charms iPod Nano Gift Box\u0022},{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Origami\u002DPost\u002Dit\u002Dbox\u0022,\u0022title\u0022:\u0022Origami Post\u002Dit box\u0022}],\u0022id\u0022:\u0022MMSLDK4MYSEP27Q5ZJ\u0022,\u0022screenName\u0022:\u0022luckymonkeygarage\u0022},\u0022displayCategory\u0022:\u0022Craft\u0022,\u0022featuredDate\u0022:\u00222010\u002D06\u002D18 16:46:30.0\u0022,\u0022groupsBelongedTo\u0022:[{\u0022groupTitle\u0022:\u0022Origami Masters\u0022,\u0022groupCategories\u0022:[],\u0022tinyUrl\u0022:\u0022https://cdn.instructables.com/FUT/0NQ2/6XGEV2ZBWK3/FUT0NQ26XGEV2ZBWK3.TINY.jpg\u0022,\u0022smallUrl\u0022:\u0022https://cdn.instructables.com/FUT/0NQ2/6XGEV2ZBWK3/FUT0NQ26XGEV2ZBWK3.SMALL.jpg\u0022,\u0022path\u0022:\u0022origamimasters\u0022,\u0022addedDate\u0022:\u00222006\u002D05\u002D28 12:53:09.0\u0022,\u0022groupId\u0022:\u0022EJ3H585NWDEV2ZBWKR\u0022}],\u0022smallUrl\u0022:\u0022https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.SMALL.jpg\u0022}");
+    
+</script><script type="text/javascript">
+        
+            window.BASE_SCRIPTS = [ "/intl_static/base-desktop-bs2-d69e8293.js",];
+        
+        
+            window.PAGE_SCRIPTS = [];
+        
+
+        head.ready(function(){
+            (function(options){
+                Ibles.session = new Ibles.models.SessionModel();
+                Ibles.appserverHeader = new Ibles.views.AppserverHeader();
+                new Ibles.views.GlobalHeader();
+                new Ibles.views.EmailVerificationTrigger(options);
+                new Ibles.views.RoleRequiredAction(options);
+                new Ibles.views.UtmzTrackingMiddleware();
+                Ibles.mixpanel = new Ibles.views.MixPanelMiddleware()
+            })(window.Ibles.pageContext);
+        });
+
+        
+        
+    
+head.ready(function(){
+    LogHit('EN6P6UZ5HCEP287KE3','E','MMSLDK4MYSEP27Q5ZJ');
+
+    dataLayer.push({
+        'event': 'GAVirtualPageView',
+        'GAVirtualPageViewPage': '/event/craft/paper/Step by Step/Origami-Post-it-box/featured:homepage/'
+    });
+});
+
+    
+        sessionReady([
+                 "/intl_static/ible-c7a4b465.js",
+    			"//platform.tumblr.com/v1/share.js",
+    		    "//platform.twitter.com/widgets.js"
+    		],
+    		function(session) {
+                var model = new Ibles.models.InstructableModel(_.extend({
+                    disableComments: !JSON.parse("true"),
+                    allSteps: JSON.parse("false"),
+                    currentStepIndex: JSON.parse("9"),
+                    fetchUserData: true,
+                    fetchStats: true,
+                    cover_image: 'https://cdn.instructables.com/FR2/BUSY/5PNEP27ZV6E/FR2BUSY5PNEP27ZV6E.RECT2100.jpg'
+                }, Ibles.pageContext.ibleData));
+
+                var view = new Ibles.views.InstructableView({
+                    el: "#instructable-wrapper",
+                    model: model
+                });
+            }
+        );
+    
+    
+head.ready(function(){
+    (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.setAttribute('data-pin-hover', true);
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+
+        // adds "nopin='nopin'" attributes to images that we don't want pinned by pinterest bookmarklet
+        $(function() {$('.nopin img').attr('nopin', 'nopin');});
+    }(document));
+});
+
+
+        
+                        
+        head.load(BASE_SCRIPTS.concat(PAGE_SCRIPTS));
+    </script></body></html>

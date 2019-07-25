@@ -1,0 +1,194 @@
+09-25-2005, 09:06 PM Thread Starter
+24V-SES'01
+Junior Member
+ 
+Join Date: May 2005
+Posts: 21
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+So after I buy the kids a nice 01 SES, my son puts a sub woofer in the trunk. Nicely done by a very reputable stereo store.
+Somehow (probably cornering too fast, the sub woofer gets turned over and slides across the trunk pulled two wires free, the power and ground wires came loose. Of course my 16 year old and another of his friends try to re- hook it up without telling me so they don&#39;t get busted for driving like jerks and blow a fuse somewhere.
+Now the two fuses on the power amp are fine, but the AM/FM CD player (OEM) no longer works or lights up, and the power windows don&#39;t work. I&#39;ve looked in the 2001 Taurus manual and no fuses described or shown in the diagrams show power windows or radio and radio lights.
+Any and all help would be greatly appreciated.
+Thanks,
+RJ
+24V-SES'01 is offline  
+Quote Quick Reply
+ 09-25-2005, 09:20 PM
+sfblacksel
+Devoted Member
+
+ 
+Join Date: Sep 2003
+Location: Ft. Lauderdale, Florida
+Posts: 1,005
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Send a message via AIM to sfblacksel
+In our cars, many of the fuses go to many different things. Just because fuse isn&#39;t labeled directly to the power windows, doesn&#39;t mean it doesn&#39;t control it. Anything that is labeled PCM, GEM, or any other strange name may be interlinked to the power windows and the radio. My advice, get a flashlights and shine it from above the fuses and look through the fuses(they are semi-transparent) and you can see which ones are blown. Or you can buy a fuse tester. If you don&#39;t see anything under the dash blown, keep in mind of the maxi-fuses under the hood next to the battery. In all likely hood it is a small fuse under the dash. 
+
+I blew one when I was installing my alarm/remote start the other week. My brake lights wouldn&#39;t work and my a/c and radio was off from a simple 15A fuse. I switched it with another 15A fuse so I could drive my car to buy fuses, but then my turn signals didn&#39;t work. I felt pretty bad not using my turn signals at all to drive a mile down the road, but I made it and all is well now. 
+
+Good luck, and make sure they get that subwoofer restrained proberly, maybe just wedge it in with something or bolt it down somehow.
+2010 Mercedes C300, Steel Gray on Black, stock for now...
+2003 Taurus SEL Centennial
+Removed Intake Silencer, Hard-wired Radar Detector, Custom tint, Custom Stereo..........
+
+To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.
+
+
+To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.
+sfblacksel is offline  
+Quote Quick Reply
+post #3 of 10 (permalink) Old 09-25-2005, 10:06 PM
+shoz123
+Crazy Devoted Member
+
+ 
+shoz123's Avatar
+ 
+Join Date: Nov 2002
+Location: Ashkum, Illinois
+Posts: 14,123
+Rep Power: 58
+ 
+Trader Score: 4 reviews
+There is a fuse in the under hood box for the rear control unit and cd player. page 151
+Paul Nimz
+'10 Red Genesis Coupe
+'08 Hyundai Accent
+shoz123 is offline  
+Quote Quick Reply
+
+post #4 of 10 (permalink) Old 09-26-2005, 12:31 PM Thread Starter
+24V-SES'01
+Junior Member
+ 
+Join Date: May 2005
+Posts: 21
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Thanks for the replys. It is not the fuse for the rear cd controller, this car doesn&#39;t have that option. It&#39;s the radio/CD player in the dashboard that&#39;s not working along with the power windows.
+24V-SES'01 is offline  
+Quote Quick Reply
+post #5 of 10 (permalink) Old 09-26-2005, 12:36 PM
+zeptoplix
+Crazy Devoted Member
+
+ 
+Join Date: Nov 2002
+Location: Chatham, Ontario
+Chapter: Eastern Canada
+Posts: 5,169
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Send a message via ICQ to zeptoplix
+He said it was for the changer and the cd player. Have you just started pulling fuses, one by one to find the source? I have had to resort to this method of trouble shooting from time to time
+
+zeptoplix is offline  
+Quote Quick Reply
+post #6 of 10 (permalink) Old 09-26-2005, 06:04 PM
+giant
+Devoted Member
+ 
+Join Date: Aug 2005
+Location: Ft. Lauderdale
+Posts: 1,811
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+i blew that same fuse i think. it killed my radio, power windows, and electronic climte controls. it left the climate control set on high and as hot as it could get. i live in FLA and had to drive around with the windows up and the heat on high looking for fuses. haha
+anyway, it was a simple 15 amp fuse found under the drivers side dash. in my manual it labeled it as "flasher and GEM power, integrated control panel (ICP) power, RCC memory, cluster". it was number 16 in the fuse panel. maybe this will help ya.
+giant is offline  
+Quote Quick Reply
+post #7 of 10 (permalink) Old 09-27-2005, 01:15 AM
+shoz123
+Crazy Devoted Member
+
+ 
+shoz123's Avatar
+ 
+Join Date: Nov 2002
+Location: Ashkum, Illinois
+Posts: 14,123
+Rep Power: 58
+ 
+Trader Score: 4 reviews
+  
+
+Well you would think the first thing some one would do when confronted with an electrically operated device failure is check the fuse. There are a lot of them and the circuits are really intertwined. Still a needle nose and a flash light will get the job done.
+
+  
+Paul Nimz
+'10 Red Genesis Coupe
+'08 Hyundai Accent
+shoz123 is offline  
+Quote Quick Reply
+post #8 of 10 (permalink) Old 09-29-2005, 10:58 AM
+Ungo
+Member
+ 
+Join Date: Aug 2005
+Location: North Olmsted, OH
+Posts: 193
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+Send a message via AIM to Ungo
+When I installed my CD player I blew a fuse in my 96&#39;, all the manual said that it belonged to the airbags. So I thought no big deal, I will go to the store tommorrow and pick up a new fuse, right?. No. I was driving around, and pulled into my buddys driveway later that day, and turned off the car. It never started again..lol. Apparently the airbag fuse has something to do with the alternator/and or battery...So I saved money on the CD player and install, but then made it all up with an alternator...
+Ungo is offline  
+Quote Quick Reply
+post #9 of 10 (permalink) Old 12-27-2013, 07:51 AM
+bk taurus
+Junior Member
+ 
+Join Date: Jul 2011
+Chapter: Northeast
+Posts: 9
+Rep Power: 0
+ 
+Trader Score: 0 reviews
+ICP / radio / power window failure on 2002 SEL
+I had a similar failure yesterday, ICP / radio failure, no power windows or locks, heat went to full blast hot. My high beam indicator came on even though I did not have the high beams on, it also stayed on even when the car was off. No dome light either but my airbag light was on. Simple replacement of fuse #16 (15A) and the car is off to the races again.
+bk taurus is offline  
+Quote Quick Reply
+post #10 of 10 (permalink) Old 12-27-2013, 09:28 AM
+NyteFire
+Senior Member
+ 
+NyteFire's Avatar
+ 
+Join Date: Apr 2013
+Location: Houston
+Chapter: Southern
+Posts: 920
+Rep Power: 10
+ 
+Trader Score: 3 reviews
+Quote:
+Originally Posted by 24V-SES'01 View Post
+So after I buy the kids a nice 01 SES, my son puts a sub woofer in the trunk. Nicely done by a very reputable stereo store.
+Somehow (probably cornering too fast, the sub woofer gets turned over and slides across the trunk pulled two wires free, the power and ground wires came loose. Of course my 16 year old and another of his friends try to re- hook it up without telling me so they don't get busted for driving like jerks and blow a fuse somewhere.
+Now the two fuses on the power amp are fine, but the AM/FM CD player (OEM) no longer works or lights up, and the power windows don't work. I've looked in the 2001 Taurus manual and no fuses described or shown in the diagrams show power windows or radio and radio lights.
+Any and all help would be greatly appreciated.
+Thanks,
+RJ
+Lost power to my vanity lights, dome lights, power windows etc
+
+That's when I was dinking around and installing an autodim mirror while splicing wires without disconnecting the battery. I lost power to my vanity lights, dome lights, and my power windows/mirrors.
+
+This was for my 2004 so I don't know if it's the same for your 2001. Yours is a G4 and mine is a G4.5 but it might help
+
+Quote:
+Originally Posted by thesavo View Post
+Your vehicle is a 2004 model year? 
+Start with fuse 30 on the smart junction box 
+
+Sent from AutoGuide.com App
+rabblerabblerabble
+NyteFire is offline  
+Quote Quick Reply

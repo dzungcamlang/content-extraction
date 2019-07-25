@@ -1,0 +1,170 @@
+Depart: Sat Apr 29 2017 Return: Fri May 5 2017 Trip spans 7 days
+$281
+Select
+ Frontier
+Frontier
+CLT3:00a→PHX9:53p18h 53m 1 stop
+PHX3:05p→CLT10:44p7h 39m 1 stop
+Show reviews
+5.5 Okay (26,354 reviews)
+Depart: Sat Apr 22 2017 Return: Tue Apr 25 2017 Trip spans 4 days
+$346
+Select
+ Major Airline
+Major Airline
+CLT4:04a→PHX3:27p11h 23m 1 stop
+PHX2:44p→CLT12:23a9h 39m 1 stop
+Depart: Tue Mar 21 2017 Return: Wed Mar 22 2017 Trip spans 2 days
+$385
+Select
+ American Airlines
+American Airlines
+CLT6:05a→PHX2:43p8h 38m 1 stop
+PHX5:50p→CLT3:23a9h 33m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Sat Mar 25 2017 Return: Wed Mar 29 2017 Trip spans 5 days
+$385
+Select
+ United
+United
+CLT2:10a→PHX8:07a29h 57m 1 stop
+PHX2:07a→CLT4:53p14h 46m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Fri Mar 24 2017 Return: Tue Mar 28 2017 Trip spans 5 days
+$406
+Select
+ JetBlue
+JetBlue
+CLT3:50p→PHX8:52p29h 02m 1 stop
+PHX6:44p→CLT4:23a9h 39m 1 stop
+Show reviews
+8.0 Good (1,745 reviews)
+Depart: Thu Mar 16 2017 Return: Wed Mar 22 2017 Trip spans 7 days
+$438
+Select
+ Delta
+Delta
+CLT5:30a→PHX2:39p9h 09m 1 stop
+PHX3:30a→CLT9:33a6h 03m 1 stop
+Show reviews
+7.7 Good (6,322 reviews)
+Depart: Tue Apr 25 2017 Return: Sat Apr 29 2017 Trip spans 5 days
+$342
+Select
+ Frontier
+Frontier
+CLT3:00a→PHX9:53p18h 53m 1 stop
+PHX3:25p→CLT10:45p7h 20m 1 stop
+Show reviews
+5.5 Okay (26,354 reviews)
+Depart: Fri May 5 2017 Return: Wed May 10 2017 Trip spans 6 days
+$348
+Select
+ Major Airline
+Major Airline
+CLT10:10a→PHX5:46p31h 36m 1 stop
+PHX2:30p→CLT12:02a9h 32m 1 stop
+Depart: Wed Apr 26 2017 Return: Sat Apr 29 2017 Trip spans 4 days
+$342
+Select
+ Frontier
+Frontier
+CLT3:00a→PHX9:53p18h 53m 1 stop
+PHX3:25p→CLT10:45p7h 20m 1 stop
+Show reviews
+5.5 Okay (26,354 reviews)
+Depart: Mon Mar 27 2017 Return: Tue Mar 28 2017 Trip spans 2 days
+$385
+Select
+ United
+United
+CLT11:40a→PHX9:39p9h 59m 1 stop
+PHX6:38p→CLT6:45a12h 07m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Tue Mar 28 2017 Return: Wed Mar 29 2017 Trip spans 2 days
+$385
+Select
+ American Airlines
+American Airlines
+CLT3:35a→PHX2:43p11h 08m 1 stop
+PHX5:50p→CLT1:40a7h 50m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Tue Jun 6 2017 Return: Tue Jun 13 2017 Trip spans 8 days
+$385
+Select
+ United
+United
+CLT3:05a→PHX8:30a29h 25m 1 stop
+PHX12:10p→CLT1:34a13h 24m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Tue Mar 14 2017 Return: Fri Mar 17 2017 Trip spans 4 days
+$395
+Select
+ American Airlines
+American Airlines
+CLT9:00a→PHX1:35p4h 35m nonstop
+PHX9:15p→CLT12:55a3h 40m nonstop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Thu May 25 2017 Return: Tue May 30 2017 Trip spans 6 days
+$438
+Select
+ Delta
+Delta
+CLT2:15a→PHX8:14a5h 59m 1 stop
+PHX7:29a→CLT4:13p8h 44m 1 stop
+Show reviews
+7.7 Good (6,322 reviews)
+Depart: Mon Jun 5 2017 Return: Tue Jun 13 2017 Trip spans 9 days
+$399
+Select
+ Major Airline
+Major Airline
+CLT11:00p→PHX5:47p18h 47m 1 stop
+PHX2:30p→CLT6:34a16h 04m 1 stop
+Depart: Wed Mar 22 2017 Return: Wed Mar 29 2017 Trip spans 8 days
+$393
+Select
+ United
+United
+CLT2:00a→PHX2:12p12h 12m 2 stops
+PHX4:51a→CLT4:53p12h 02m 2 stops
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Wed Mar 15 2017 Return: Fri Mar 17 2017 Trip spans 3 days
+$395
+Select
+ American Airlines
+American Airlines
+CLT4:25p→PHX8:59p4h 34m nonstop
+PHX9:15p→CLT12:55a3h 40m nonstop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Wed Jun 14 2017 Return: Wed Jun 28 2017 Trip spans 15 days
+$438
+Select
+ Delta
+Delta
+CLT11:45a→PHX7:27p7h 42m 1 stop
+PHX7:30p→CLT1:50a6h 20m 1 stop
+Show reviews
+7.7 Good (6,322 reviews)
+Depart: Fri May 12 2017 Return: Fri May 19 2017 Trip spans 8 days
+$409
+Select
+ Major Airline
+Major Airline
+CLT12:32p→PHX4:39p28h 07m 1 stop
+PHX11:05a→CLT6:44p7h 39m 1 stop
+Depart: Sat Apr 1 2017 Return: Wed Apr 5 2017 Trip spans 5 days
+$395
+Select
+ American Airlines
+American Airlines
+CLT6:19p→PHX10:53p4h 34m nonstop
+PHX9:30a→CLT1:30p4h 00m nonstop

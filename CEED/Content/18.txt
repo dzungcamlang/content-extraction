@@ -1,0 +1,10 @@
+A light where it's most needed, in the dark corners of your room. It seems like no matter how many lights I turn on the corners always seem so dark.
+
+After a little homework the only corner lighting solution I found was this $900 lamp by Peter Bristol that was made for Established & Sons, a designer furniture company. While his light is stunning, the price tag was not. A little more digging revealed a DIY attempt, but it's incomplete and doesn't have instructions. Taking matters into my own hands, I decided to make my own using off the shelf components.
+This lamp is made up of 3 basic components: a plywood triangular frame, an inexpensive lamp socket and cord, and a piece of clear acrylic. This lamp wasn't hard to make, but did take a little figuring out. Though it's entirely possible to make with handheld power tools, this project is much easier with a table saw.
+
+Ready? Let's make!
+Step 1: Sketch out triangle
+To start an equilateral triangle was drawn on a ½" piece of plywood. To get the angle right I used a digital angle finder, but any protractor would also work. The triangle size needs to be large enough to create a cavity when installed that will fit a light socket and bulb, I found that with each triangle side measuring 24" gave me a good fit.
+
+Once the equilateral triangle was drawn I created a concentric triangle with parallel sides inside the first triangle, offset ¾".

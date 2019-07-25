@@ -1,0 +1,12 @@
+node_modules/*
+bin/*
+lib/*
+typings/*
+.vscode/*
+.idea/*
+internal/**/*.pyc
+tmp/request_file/*
+tmp/error.log
+tmp/record/*
+.idea/*
+data/*

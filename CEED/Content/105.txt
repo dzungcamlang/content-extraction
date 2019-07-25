@@ -1,0 +1,17 @@
+{{::gcmVm.getDuration(gcmVm.dsxCorsicans[key])}}
+{{::gcmVm.getTrimmedProviderName(gcmVm.dsxCorsicans[key])}}
+{{::gcmVm.getTitle(gcmVm.dsxCorsicans[key])}}
+{{::gcmVm.getTrimmedLabel(gcmVm.dsxCorsicans[key], 24)}}
+{{::gcmVm.getTrimmedAttribution(gcmVm.dsxCorsicans[key], 20)}}
+{{::(gcmVm.settings.template_config.show_more_text ? gcmVm.settings.template_config.show_more_text : 'Show More')}}
+{{gcmVm.getDuration(gcmVm.firstCorsican)}}
+{{gcmVm.getTitle(gcmVm.firstCorsican)}}
+{{gcmVm.firstCorsican.description}}
+{{gcmVm.getTrimmedLabel(gcmVm.firstCorsican, 40)}}
+{{gcmVm.getTrimmedAttribution(gcmVm.firstCorsican, 40)}}
+{{::gcmVm.getDuration(gcmVm.dsxCorsicans[key])}}
+{{::gcmVm.getTitle(gcmVm.dsxCorsicans[key])}}
+{{::gcmVm.getTrimmedDescription(gcmVm.dsxCorsicans[key], 50)}}
+{{::gcmVm.getTrimmedLabel(gcmVm.dsxCorsicans[key], 24)}}
+{{::gcmVm.getTrimmedAttribution(gcmVm.dsxCorsicans[key], 24)}}
+{{::(gcmVm.settings.template_config.see_more_text ? gcmVm.settings.template_config.see_more_text : 'Show More')}}

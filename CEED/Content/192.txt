@@ -1,0 +1,63 @@
+NETWORK
+Technology	GSM / HSPA / LTE
+LAUNCH
+Announced	2016, September
+Status	Available. Released 2016, December
+BODY
+Dimensions	151 x 76 x 8.4 mm (5.94 x 2.99 x 0.33 in)
+Weight	169 g (5.96 oz)
+SIM	Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)
+DISPLAY
+Type	IPS LCD capacitive touchscreen, 16M colors
+Size	5.5 inches (~72.7% screen-to-body ratio)
+Resolution	1080 x 1920 pixels (~401 ppi pixel density)
+Multitouch	Yes
+PLATFORM
+OS	Android OS, v6.0 (Marshmallow)
+Chipset	Qualcomm MSM8937 Snapdragon 430
+CPU	Octa-core 1.4 GHz Cortex-A53
+GPU	Adreno 505
+MEMORY
+Card slot	microSD, up to 256 GB (uses SIM 2 slot)
+Internal	32 GB, 3/4 GB RAM
+CAMERA
+Primary	16 MP, phase detection autofocus, dual-LED (dual tone) flash, check quality
+Features	Geo-tagging, touch focus, face detection, HDR, panorama
+Video	1080p@30fps, check quality
+Secondary	8 MP
+SOUND
+Alert types	Vibration; MP3, WAV ringtones
+Loudspeaker	Yes
+3.5mm jack	Yes
+ 	- Dolby Atmos audio enhancement
+- Active noise cancellation with dedicated mic
+COMMS
+WLAN	Wi-Fi 802.11 b/g/n, hotspot
+Bluetooth	v4.2, A2DP, LE
+GPS	Yes, with A-GPS
+Radio	FM radio
+USB	microUSB v2.0
+FEATURES
+Sensors	Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass
+Messaging	SMS(threaded view), MMS, Email, Push Mail, IM
+Browser	HTML5
+Java	No
+ 	- MP4/H.264 player
+- MP3/WAV/eAAC+/FLAC player
+- Photo/video editor
+- Document viewer
+BATTERY
+ 	Non-removable Li-Po 4000 mAh battery
+Stand-by	Up to 600 h (2G) / Up to 600 h (3G)
+Talk time	Up to 46 h (2G) / Up to 31 h (3G)
+MISC
+Colors	Silver, Gold, Dark Grey
+Price group	5/10
+TESTS
+Performance	Basemark OS II: 967 / Basemark OS II 2.0: 288
+Basemark X: 7480
+Display	Contrast ratio: 65125 (nominal), 2.544 (sunlight)
+Camera	Photo / Video
+Loudspeaker	Voice 63dB / Noise 69dB / Ring 71dB
+Audio quality	Noise-92.7dB / Crosstalk -86.8dB
+Battery life	Endurance rating 91h

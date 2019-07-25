@@ -1,0 +1,4585 @@
+<!DOCTYPE html><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<base href="http://www.taurusclub.com/forum/" /><!--[if IE]></base><![endif]-->
+	
+<!-- Amazon Tag Top -->
+<script type='text/javascript' src='//c.amazon-adsystem.com/aax2/amzn_ads.js'></script>
+<script type='text/javascript'>
+    try {
+            amznads.getAds('3274');
+        } catch (e) { /*ignore*/ }
+</script>
+<!-- /Amazon Tag Top -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta name="keywords" content="Fuses,Seteros,Power,Windows, Fuses, Seteros And Power Windows., ford taurus, ford taurus sho, 2010 Taurus SHO ecoboost maintenance forum club events rotb tcca ford mercury sable forums owners duratec duratech yamaha essex vulcan turbo sedan wagon slicers" />
+<meta name="description" content="So after I buy the kids a nice 01 SES, my son puts a sub woofer in the trunk. Nicely done by a very reputable stereo store. Somehow (probably" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.8 CSS
+* Style: 'TaurusClub.com (Full)'; Style ID: 49
+*/
+@import url("http://www.taurusclub.com/forum/clientscript/vbulletin_css/style-4f3c43e0-00049.css");
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.taurusclub.com/forum/clientscript/vbulletin_important.css?v=388" />
+
+<!-- / CSS Stylesheet -->
+
+<!--[if lt IE 9]>
+<style>
+#update-browser{display:block}
+</style>
+<script>
+// HTML 5 Shiv. for older IE - should be an if statement?  /
+(function(){if(!/*@cc_on!@*/0)return;var e="abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(',');for(var i=0;i<e.length;i++){document.createElement(e[i])}})()
+</script>
+<![endif]-->
+
+<script>
+if (typeof(jQuery) == 'undefined'){
+        document.write('<scr' + 'ipt type="text/javascript" src=" http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></scr' + 'ipt>');
+}
+</script>
+<script src="http://www.taurusclub.com/forum/clientscript/scripts.js"></script>
+
+
+
+<style>
+/* 
+Sticky Sidebar Styles
+*/
+#main-content_wrapper{
+margin: 0;
+width: calc(100% - 343px);
+}
+#main-content{
+margin-right: 0;
+padding: 8px 10px 20px 0px !important;
+border: none;
+}
+#sidebar, #sidebar .sidebar{
+width: 328px;
+
+}
+#main-content, .sidebar{
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    padding: 8px 0 15px !important;
+}
+#main-content img, #sidebar img{
+max-width: 100%;
+}
+
+#main-content td img {max-width: none;}
+
+@media screen and (max-width: 1024px){
+#main-content_wrapper{
+margin-right: 0 !important;
+width: 100% !important;
+}
+#main-content{
+margin-right: 0;
+}
+#sidebar{
+width: 326px;
+position: fixed !important;
+}
+#sidebar .sidebar{
+width: auto;
+}
+}
+
+
+</style>
+<!--[if lt IE 9]>
+<style>
+#main-content_wrapper{
+margin-right: -343px !important;
+width: 100% !important;
+}
+#main-content{
+margin-right: 328px;
+}
+#sidebar, #sidebar .sidebar{
+width: 328px;
+}
+#sidebar{
+position: static !important;
+}
+</style>
+<![endif]-->
+<script src="http://static.verticalscope.com/images/other/sticky.js"></script>
+
+
+<script>
+var $ = jQuery.noConflict();
+jQuery(document).ready(function($) {
+$("#main-content, .sidebar").addClass('theiaStickySidebar');
+$("#main-content_wrapper, #sidebar").theiaStickySidebar({
+      // Settings
+      additionalMarginTop: 30
+    });
+});
+
+</script>
+
+
+
+<style>
+/* #5 heart icon */
+.vbseo_buttons .vbseo_liked {background-image: url(http://img.verticalscope.com/images/like_update.png) !important;}
+
+/* #7 upgrade Reply Box */
+.controlbar .smilies-table td {display: table-cell;}
+.controlbar iframe, .controlbar textarea {width: calc(100% - 20px) !important;}
+
+/* #11 oversized smilies in preview */
+/* could exist already */
+.vs_preview .postquote img.inlineimg, .vs_preview .postquote img {max-width: 100%; width: auto;}
+
+/* fix indent issue*/
+.user-post .alt1 ul, .user-post .alt1 ol, blockquote {margin-left: 20px; margin-bottom: 10px;}
+
+#main-content .newreply_reviewbit img {max-width: 400px;}
+</style>
+
+<script async type="text/javascript">
+<!--
+var SESSIONURL = "s=254ff7bea584b59de799e3eb0b415e56&";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "/forum/images/TaurusClub_2015/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+
+
+
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setCustomVar',3,'styleid','49',3]);
+</script>
+
+
+
+
+<script src='http://www.taurusclub.com/forum/clientscript/dnd.js'>Your browser does not support scripts.</script><script src='http://www.taurusclub.com/forum/clientscript/vbulletin_attachment.js?v=388'></script>
+
+
+<!-- 
+  nCode Image Resizer
+  (c) nCode
+  http://www.ncode.nl/vbulletinplugins/
+-->
+<script type="text/javascript" src="http://static.verticalscope.com/clientscript/ncode_imageresizer.js?v=1.0.1"></script>
+<style type="text/css">
+<!--
+table.ncode_imageresizer_warning {
+	background: #FFFFE1;
+	color: #000000;
+	border: 1px solid #CCC;
+	cursor: pointer;
+}
+
+table.ncode_imageresizer_warning td {
+	font-size: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+table.ncode_imageresizer_warning td.td1 {
+	padding: 5px;
+}
+
+table.ncode_imageresizer_warning td.td1 {
+	padding: 2px;
+}
+table.ncode_imageresizer_warning2 {
+	color: #ffffff;
+	cursor: pointer;
+	border-collapse: collapse;
+}
+
+table.ncode_imageresizer_warning2 .td1 {
+	background: #000000;
+	white-space:nowrap;
+	padding: 5px;
+}
+
+table.ncode_imageresizer_warning2 a:link {
+	color: #ffffff;
+}
+
+table.ncode_imageresizer_warning2 td {
+	font-size: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+table.ncode_imageresizer_warning2 td.td2 {
+	padding: 0px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+NcodeImageResizer.MODE = 'enlarge';
+<!-- NcodeImageResizer.MAXWIDTH = 640; -->
+if (screen && screen.width && parseInt(screen.width) < parseInt(640)) {
+    NcodeImageResizer.MAXWIDTH = screen.width;
+} else {
+    NcodeImageResizer.MAXWIDTH = 640;
+}
+NcodeImageResizer.MAXHEIGHT = 0;
+
+NcodeImageResizer.BBURL = 'http://www.taurusclub.com/forum';
+
+vbphrase['ncode_imageresizer_warning_small'] = 'Click this bar to view the full image.';
+vbphrase['ncode_imageresizer_warning_filesize'] = 'This image has been resized. Click this bar to view the full image.';
+vbphrase['ncode_imageresizer_warning_no_filesize'] = 'This image has been resized. Click this bar to view the full image.';
+vbphrase['ncode_imageresizer_warning_fullsize'] = 'Click this bar to view the small image.';
+
+var currentPagePath='http%3A%2F%2Fwww.taurusclub.com%2Fforum%2Fforum%2Fshowthread.php%3Ft%3D101475';
+vbphrase['vbp_ncode_click_for_moderation'] = 'Report this image';
+
+var reportImageUrl='http://abuse.verticalscope.com/report/index.php?referrer={1}&imageurl={2}';
+//-->
+</script>
+
+
+
+<!-- REGISTRATION CODE STARTS -->
+
+<!-- REGISTRATION CODE ENDS -->
+
+<style>
+.ams_gtsearch{min-height:20px;}
+#navbar_search_menu input.gsc-input{min-width:120px; min-height:20px;}
+</style>
+<script type="text/javascript" src="http://www.taurusclub.com/forum/clientscript/ame.js" ></script><script type="text/javascript">
+<!--
+function vba_attach_win(threadid)
+{
+	openWindow('http://www.taurusclub.com/forum/misc.php?s=254ff7bea584b59de799e3eb0b415e56&amp;do=showattachments&t=' + threadid, 480, 300);
+}
+-->
+</script><style>
+div.ams_gtsearch .gsc-clear-button { display: none !important }
+</style>
+<script>
+vsamsgtsearches=[];
+</script> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4765671-49']);
+  _gaq.push(['_setDomainName', '.taurusclub.com']);
+  _gaq.push(['_setCustomVar',1,'grp','guest', 2]);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript">
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6036030", c4: "taurusclub.com" });
+(function() {
+var s = document.createElement("script"), el =
+document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" :
+"http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})(); </script>
+<noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036030&c4=taurusclub.com&cv=2.0&cj=1" alt="" /> </noscript>
+
+
+
+
+
+
+<script type="text/javascript">
+netseer_tag_id="27077"; 
+netseer_publisher_label="taurusclub.com";
+</script>
+<script async src="//ps.ns-cdn.com/dsatserving2/scripts/ns_vmtag.js" type="text/javascript"></script>
+
+<!-- Video Player -->
+<script type="text/javascript" src="/videoplayer/jwplayer.js?v=1407419940"></script>
+<script type="text/javascript" src="/videoplayer/playerscripts.min.js.php?v=1407430319"></script>
+<!-- /Video Player -->
+
+<!-- DFP TAG -->
+
+<script type="text/javascript" src="//native.sharethrough.com/assets/sfp.js"></script>
+
+<script type="text/javascript" src="//ad.crwdcntrl.net/5/c=8059/pe=y/var=ccauds"></script>
+<script type='text/javascript'>
+var PREBID_TIMEOUT = 1000;
+
+// prebid only works with ga so the gaconnector has been created to convert the analytics.js calls to ga.js compatible calls
+var _gaq = _gaq || [];
+var gaconnector = function(send, event, eventCategory, eventAction, eventLabel, eventValue, fieldsObject) {
+	var isNonInteraction = (typeof(fieldsObject) == 'object' && fieldsObject.nonInteraction) ? true : false;
+	_gaq.push(['_trackEvent', eventCategory, eventAction, eventLabel, eventValue, isNonInteraction]);
+}
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+function initAdserver() {
+    if (pbjs.initAdserverSet) return;
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+    pbjs.initAdserverSet = true;
+};
+setTimeout(initAdserver, PREBID_TIMEOUT);
+
+var pbjs = pbjs || {};
+pbjs.que = pbjs.que || [];
+(function() {
+    var pbjsEl = document.createElement("script");
+    pbjsEl.type = "text/javascript";
+    pbjsEl.async = true;
+    pbjsEl.src = "//dz2fz0bgyq9tn.cloudfront.net/prebid-0.13.1-v7.js";
+    var pbjsTargetEl = document.getElementsByTagName("head")[0];
+    pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+})();
+pbjs.que.push(function() {
+    pbjs.enableAnalytics({
+        provider: 'ga',
+        options: {
+            global: 'gaconnector',
+            enableDistribution: true,
+        }
+    });
+});
+pbjs.que.push(function() {
+    var adUnits = [{"code":"TaurusClub_com_728x90_Top_AUTO_Forum","sizes":[[728,90]],"bids":[{"bidder":"aol","params":{"placement":"4256760","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357828"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"indexExchange","params":{"id":1,"siteID":"175250"}},{"bidder":"pulsepoint","params":{"cf":"728x90","cp":"560903","ct":"551317"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[2],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindoapn","params":{"placementId":"9899442"}},{"bidder":"sovrn","params":{"tagid":"336866"}}]},{"code":"TaurusClub_com_300x250_TopLeft_AUTO_Forum","sizes":[[300,250]],"bids":[{"bidder":"aol","params":{"placement":"4256759","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357822"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"indexExchange","params":{"id":2,"siteID":"175251"}},{"bidder":"pulsepoint","params":{"cf":"300x250","cp":"560903","ct":"551316"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[15],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindo","params":{"spaceId":"70535"}},{"bidder":"sekindoapn","params":{"placementId":"9900274"}},{"bidder":"sovrn","params":{"tagid":"336871"}}]},{"code":"TaurusClub_com_300x250_TopRight_AUTO_Forum","sizes":[[300,250]],"bids":[{"bidder":"aol","params":{"placement":"4256759","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357822"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"indexExchange","params":{"id":3,"siteID":"175252"}},{"bidder":"pulsepoint","params":{"cf":"300x250","cp":"560903","ct":"551316"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[15],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindo","params":{"spaceId":"70535"}},{"bidder":"sekindoapn","params":{"placementId":"9900274"}},{"bidder":"sovrn","params":{"tagid":"336872"}}]},{"code":"TaurusClub_com_728x90_Bottom_AUTO_Forum","sizes":[[728,90]],"bids":[{"bidder":"aol","params":{"placement":"4256760","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357828"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"indexExchange","params":{"id":5,"siteID":"175254"}},{"bidder":"pulsepoint","params":{"cf":"728x90","cp":"560903","ct":"551317"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[2],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindoapn","params":{"placementId":"9899442"}},{"bidder":"sovrn","params":{"tagid":"336867"}}]},{"code":"TaurusClub_com_300x250_Postbit_AUTO_Forum","sizes":[[300,250]],"bids":[{"bidder":"aol","params":{"placement":"4256759","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357822"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"indexExchange","params":{"id":4,"siteID":"175253"}},{"bidder":"pulsepoint","params":{"cf":"300x250","cp":"560903","ct":"551316"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[15],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindo","params":{"spaceId":"70535"}},{"bidder":"sekindoapn","params":{"placementId":"9900274"}},{"bidder":"sovrn","params":{"tagid":"336873"}}]},{"code":"TaurusClub_com_300x250_PostbitLower_AUTO_Forum","sizes":[[300,250]],"bids":[{"bidder":"aol","params":{"placement":"4256759","network":"9430.1"}},{"bidder":"appnexus","params":{"placementId":"7643355"}},{"bidder":"brealtime","params":{"placementId":"9357822"}},{"bidder":"districtm","params":{"placementId":"9843928"}},{"bidder":"pulsepoint","params":{"cf":"300x250","cp":"560903","ct":"551316"}},{"bidder":"rubicon","params":{"accountId":"1019","siteId":"17459","zoneId":"48575","sizes":[15],"keywords":["TaurusClub.com"],"inventory":{"vsdomain":"TaurusClub.com"}}},{"bidder":"sekindo","params":{"spaceId":"70535"}},{"bidder":"sekindoapn","params":{"placementId":"9900274"}},{"bidder":"sovrn","params":{"tagid":"336874"}}]}];
+    pbjs.addAdUnits(adUnits);
+        
+    pbjs.bidderSettings = {
+        standard: {
+            alwaysUseBid: false,
+            adserverTargeting: [{
+                key: "hb_bidder",
+                val: function(bidResponse) {                    
+                    return bidResponse.bidder;
+                }
+            }, {
+                key: "hb_adid",
+                val: function(bidResponse) {
+                    return bidResponse.adId;
+                }
+            }, {
+                key: "hb_pb",
+                val: function(bidResponse) {
+                    var cpm = bidResponse.cpm;
+                    if (cpm < 0.1) cpm = 0.10;
+                    if (cpm > 20) cpm = 20.00;
+                    var newCpm = (Math.floor(cpm * 10) / 10).toFixed(2);
+                    return "pb" + newCpm.replace(".", "");
+                }
+            }, {
+                key: "hb_size",
+                val: function(bidResponse) {
+                    return bidResponse.size;
+                }
+            }]
+        }
+    }
+    
+    pbjs.requestBids({
+        bidsBackHandler: function(bidResponses) {
+            initAdserver();
+        }
+    });
+});
+</script>
+<script id='dfpsetup' type='text/javascript'>
+googletag.cmd.push(function() {
+
+var dfpMapping728x90 = googletag.sizeMapping()
+	.addSize([320, 400], [320, 50])
+	.addSize([320, 700], [320, 50])
+	.addSize([480, 200], [320, 50])
+	.addSize([768, 200], [728, 90])
+	.addSize([1024, 200], [728, 90])
+	.build();
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_728x90_Top_AUTO_Forum', [[320, 50], [728, 90]], 'TaurusClub_com_728x90_Top_AUTO_Forum')
+	.defineSizeMapping(dfpMapping728x90)
+	.set("adsense_background_color", "eaeaea")
+	.set("adsense_border_color", "eaeaea")
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x250_TopLeft_AUTO_Forum', [300, 250], 'TaurusClub_com_300x250_TopLeft_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x250_TopRight_AUTO_Forum', [300, 250], 'TaurusClub_com_300x250_TopRight_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_728x90_Bottom_AUTO_Forum', [[320, 50], [728, 90]], 'TaurusClub_com_728x90_Bottom_AUTO_Forum')
+	.defineSizeMapping(dfpMapping728x90)
+	.set("adsense_background_color", "eaeaea")
+	.set("adsense_border_color", "eaeaea")
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x250_Postbit_AUTO_Forum', [[300, 250], [500, 250], [600, 250]], 'TaurusClub_com_300x250_Postbit_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x250_Pre-Roll', [300, 250], 'TaurusClub_com_300x250_Pre-Roll')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_600x24_BottomTextLink_AUTO_Forum', [600, 24], 'TaurusClub_com_600x24_BottomTextLink_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_600x24_TopTextLink_AUTO_Forum', [600, 24], 'TaurusClub_com_600x24_TopTextLink_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x120_PremiumVendor_AUTO_Forum', [300, 120], 'TaurusClub_com_300x120_PremiumVendor_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_328x170_FeaturedVehicle_AUTO_Forum', [328, 170], 'TaurusClub_com_328x170_FeaturedVehicle_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_328x170_AutoInsurance_AUTO_Forum', [328, 170], 'TaurusClub_com_328x170_AutoInsurance_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_328x170_WheelsTire_AUTO_Forum', [328, 170], 'TaurusClub_com_328x170_WheelsTire_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_1x1_SlimCut_AUTO_Forum', [1, 1], 'TaurusClub_com_1x1_SlimCut_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_1x1_SharethroughPostbit_AUTO_Forum', [[1, 1], 'fluid'], 'TaurusClub_com_1x1_SharethroughPostbit_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag
+	.defineSlot('/1030735/TaurusClub_com_300x250_PostbitLower_AUTO_Forum', [[300, 250], [500, 250], [600, 250]], 'TaurusClub_com_300x250_PostbitLower_AUTO_Forum')
+	.addService(googletag.pubads());
+
+googletag.pubads().setTargeting("sitename", "TaurusClub.com");
+googletag.pubads().setTargeting("make", "Ford");
+googletag.pubads().setTargeting("model", "Taurus");
+googletag.pubads().setTargeting("group_id", "1");
+googletag.pubads().setTargeting("group_name", "Unregistered / Not Logged In");
+googletag.pubads().setTargeting("forum_id", "117");
+googletag.pubads().setTargeting("forum_name", "Electronics, Security, Audio and Visual");
+googletag.pubads().setTargeting("PageID", "101475");
+googletag.pubads().setTargeting("VS1", "0");
+googletag.pubads().setTargeting("VS2", "0");
+googletag.pubads().setTargeting("registered", "false");
+googletag.pubads().setTargeting("strNativeKey", "URMBsimDVDFEJ3HgirLTPgUW");
+
+
+if (typeof(ccauds) != "undefined" && typeof(ccauds.Profile.tpid) != "undefined" && ccauds.Profile.tpid != "") {  
+	googletag.pubads().setTargeting("tpid", ccauds.Profile.tpid); 
+} else { 
+	googletag.pubads().setTargeting("tpid", "0"); 
+}
+
+if (typeof(ccauds) != "undefined") {
+    (function(googletag, ccauds) {
+        var aud_abbr = [], audience = ccauds.Profile.Audiences.Audience;
+        for (var cci = 0; cci < audience.length; cci++) {
+            aud_abbr.push(audience[cci].abbr);
+        }
+        googletag.pubads().setTargeting("aud_abbr", aud_abbr);
+    })(googletag, ccauds);
+}
+
+pbjs.que.push(function() {
+    pbjs.setTargetingForGPTAsync();
+});
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+googletag.cmd.push(function() {            
+googletag.pubads().set("adsense_background_color", "ffffff");
+googletag.pubads().set("adsense_border_color", "ffffff");
+googletag.pubads().set("adsense_link_color", "c42838");
+googletag.pubads().set("adsense_text_color", "000000");
+googletag.pubads().set("adsense_url_color", "c42838");
+googletag.pubads().set("google_ad_bg", "ffffff");
+googletag.pubads().set("google_ad_border", "ffffff");
+googletag.pubads().set("google_ad_link", "c42838");
+googletag.pubads().set("google_ad_text", "000000");
+googletag.pubads().set("google_ad_url", "c42838");
+googletag.pubads().set("page_url", "http://www.taurusclub.com/forum/showthread.php?t=101475");});
+</script>
+<!-- /DFP TAG -->
+
+<!-- Amazon Tag Bottom -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  try { amznads.setTargetingForGPTAsync('passback'); } catch(e) { /*ignore*/}
+</script>
+<!-- /Amazon Tag Bottom -->
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://307880732/tapatalk/www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=google-indexing" rel="alternate" />
+        
+        <meta property="al:android:package" content="com.quoord.tapatalkpro.activity" />
+        <meta property="al:android:url" content="tapatalk://www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=facebook-indexing" />
+        <meta property="al:android:app_name" content="Tapatalk" />
+        <meta property="al:ios:url" content="tapatalk://www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=facebook-indexing" />
+        <meta property="al:ios:app_store_id" content="307880732" />
+        <meta property="al:ios:app_name" content="Tapatalk" />
+        
+        <!-- twitter app card start-->
+        <!-- https://dev.twitter.com/docs/cards/types/app-card -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@tapatalk" />
+        <meta name="twitter:title" content="Fuses, Seteros And Power Windows." />
+        <meta name="twitter:description" content="Taurus Car Club of America : Ford Taurus Forum" />
+        
+        <meta name="twitter:app:id:iphone" content="307880732" />
+        <meta name="twitter:app:url:iphone" content="tapatalk://www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=twitter-indexing" />
+        <meta name="twitter:app:id:ipad" content="307880732" />
+        <meta name="twitter:app:url:ipad" content="tapatalk://www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=twitter-indexing" />
+        <meta name="twitter:app:id:googleplay" content="com.quoord.tapatalkpro.activity" />
+        <meta name="twitter:app:url:googleplay" content="tapatalk://www.taurusclub.com/forum?location=topic&amp;fid=117&amp;tid=101475&amp;channel=twitter-indexing" />
+        <!-- twitter app card -->
+        <!-- Editor CSS automatically added by functions_editor.php at line 685 -->
+<script type="text/javascript" src="//d1r55yzuc1b1bw.cloudfront.net/vsapi.all.min.js"></script>
+	<title> Fuses, Seteros And Power Windows. - Taurus Car Club of America : Ford Taurus Forum</title>
+
+
+<!-- Taboola Header -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:"auto"});
+  !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+  }(document.createElement("script"),
+  document.getElementsByTagName("script")[0],
+  '//cdn.taboola.com/libtrc/verticalscope-network/loader.js');
+</script>
+<!-- /Taboola Header -->
+<link rel="stylesheet" type="text/css" href="vbseo/resources/css/vbseo_buttons.css?v=a4" />
+<script type="text/javascript" src="vbseo/resources/scripts/vbseo_ui.js?v=a4"></script>
+
+<script type="text/javascript">
+ YAHOO.util.Event.onDOMReady(function (){
+ 	vbseoui = new vBSEO_UI();
+ 	vbseoui.page_init(Array('postbody','blogbit','content','postcontainer','vbseo_like_postbit'), Array("php",1));
+ });
+</script>
+
+</head>
+<body onload="">
+
+
+<script type="text/javascript"> 
+    var xl8_script = document.createElement("script"); 
+    xl8_script.src = "https://loadus.exelator.com/load/?p=239&g=012&c=285379&ctg=Automotive&cmake=Ford&cmodel=Taurus&j=d"; 
+    xl8_script.type = "text/javascript"; 
+    xl8_script.async = true; 
+    document.body.appendChild(xl8_script); 
+</script>
+
+
+<!-- FLOODLIGHT -->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write("<iframe src=\"https://5362399.fls.doubleclick.net/activityi;src=5362399;type=invmedia;cat=mvrwwnja;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=" + a + "?\" width=\"1\" height=\"1\" frameborder=\"0\" style=\"display:none\"></iframe>");
+</script>
+<noscript>
+<iframe src="https://5362399.fls.doubleclick.net/activityi;src=5362399;type=invmedia;cat=mvrwwnja;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- /FLOODLIGHT -->
+
+
+
+
+
+
+<!-- Tapatalk Detect body start -->
+<script type="text/javascript">if (typeof(tapatalkDetect) == "function") tapatalkDetect()</script>
+<!-- Tapatalk Detect banner body end -->
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Chrysler 2016 Q2 DAA Pixel
+URL of the webpage where the tag is expected to be placed: http://www.chryslercanada.ca
+This tag must be placed between the body and /body tags, as close as possible to the opening tag.
+Creation Date: 03/28/2016
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://4514783.fls.doubleclick.net/activityi;src=4514783;type=invmedia;cat=xvsmbcya;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://4514783.fls.doubleclick.net/activityi;src=4514783;type=invmedia;cat=xvsmbcya;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<div class="container">
+
+<!-- logo -->
+<a name="top"></a>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" id="header" class="header" style="background: url(/forum/images/TaurusClub_2015/misc/head-middle.jpg) repeat-x;"><tr><td align="left"><a href="http://www.taurusclub.com/forum/"><img src="/forum/images/TaurusClub_2015/misc/head-left.png" border="0" height="146" width="877" alt="Taurus Car Club of America : Ford Taurus Forum" /></a></td><td align="right" id="header_right_cell"><img src="/forum/images/TaurusClub_2015/misc/head-right.png" border="0" height="146" width="477" alt="" /></td>
+</tr></table>
+
+
+
+<!-- /logo -->
+
+<!-- content table -->
+<!-- open content container -->
+
+<div align="center" itemscope itemtype="http://schema.org/WebPage">
+	<div id="page" class="page page-background" style="width:100%; text-align:left">
+		<div style="padding:0px 0px 0px 0px" align="left">
+
+
+
+
+
+<!-- nav buttons bar -->
+<nav>
+<div class="search-in-one">
+    <div class="change_btn "><div class="image sprite-google-search"></div>
+        <ul class="search_menu">
+            
+<li data-search-type="google-search"><div class="icon sprite-google-search"></div> Google search</li>
+
+            <li data-search-type="vb-search"><div class="icon sprite-vb-search"></div> VB search</li>
+        </ul>
+    </div>
+
+    
+    <div class="search-item google-search">
+    <div class='ams_gtsearch' style='max-width: 250px; margin:auto;' id='cse_gtsearch_form_3'></div>
+<script>
+vsamsgtsearches.push('cse_gtsearch_form_3');
+</script>
+    </div> 
+    
+
+    
+</div>
+
+
+
+<ul class="vbmenu_control navbar_search">
+<li><a id="navbar_search" href="http://www.taurusclub.com/forum/search.php" accesskey="4" rel="nofollow">Search</a> <script type="text/javascript"> vbmenu_register("navbar_search"); </script>
+</li></ul>
+
+
+<ul class="nav" id="nav">
+    
+    <li class="vbmenu_control"><a href="http://www.taurusclub.com/">Home</a></li>
+    
+    			
+
+	<li class="vbmenu_control hovertouch">
+		<a href="/forum/" id="navforums">Forums <img src="/forum/images/misc/menu_open.gif" border="0" width="8" height="4" title="" alt=""></a>
+		<div class="vbmenu_popup tools_wrapper forum-menu_wrapper" id="forum-menu">
+			<ul class="subnav" >
+				<style>
+.subnav li.mobile_forumlink {display: none;}
+@media screen and (max-width: 1024px){
+.subnav li.mobile_forumlink {display: list-item;}
+}
+</style>
+<li class="vbmenu_control mobile_forumlink"><a href="http://www.taurusclub.com/forum/">Forums</a></li>
+			
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/65-official-business/">Official Business</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/108-club-news-announcements/">Club News &amp; Announcements</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/75-site-feedback-forum-issues/">Site Feedback and Forum Issues</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="/forum/vbgarage.php">TCCA Garage</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/77-merchandise/">Merchandise</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/104-introduction-forum/">Introduction Forum</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/72-taurus-sable-general-discussion/">Taurus and Sable General Discussion</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/124-taurus-sable-general-discussion/">Taurus and Sable General Discussion</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/98-solutions-common-problems-how-articles/">Solutions to Common Problems and 'How To' Articles</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/134-taurus-sable-project-log/">Taurus and Sable Project Log</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/67-generation-1-4-taurus-sable-platform-1986-2007/">Generation 1-4 Taurus &amp; Sable Platform (1986-2007)</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/82-maintenance-repair/">Maintenance and Repair</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/87-engine-drivetrain/">Engine and Drivetrain</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/118-suspension-handling-brakes/">Suspension, Handling and Brakes</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/116-aesthetics-interior-wheels-tires/">Aesthetics, Interior, Wheels and Tires</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/">Electronics, Security, Audio and Visual</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/70-generation-5-6-taurus-sable-platform-2008-current/">Generation 5-6 Taurus and Sable Platform (2008-Current)</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/114-5th-6th-gen-maintenance-repair/">5th and 6th Gen Maintenance and Repair</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/115-5th-6th-gen-engine-drivetrain/">5th and 6th Gen Engine and Drivetrain</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/121-5th-6th-gen-suspension-handling-brakes/">5th and 6th Gen Suspension, Handling and Brakes</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/119-5th-6th-gen-aesthetics-interior-wheels-tires/">5th and 6th Gen Aesthetics, Interior, Wheels and Tires</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/120-5th-6th-gen-electronics-security-audio-visual/">5th and 6th Gen Electronics, Security, Audio and Visual</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/71-meets-rallies-cotm/">Meets, Rallies, COTM</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/80-car-month-submissions-voting/">Car Of The Month Submissions And Voting</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/81-hall-fame/">Hall Of Fame</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/76-events-rallies/">Events and Rallies</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/111-rotb-running-bulls/">ROTB (Running of the Bulls)</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/68-classifieds/">Classifieds</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/110-vendors-group-buys/">Vendors and Group Buys</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/85-wanted-buy/">Wanted to Buy</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/66-other-topics/">Other Topics</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/83-odds-ends/">Odds and Ends</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/217-community/">Community</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/101-other-rides/">Other Rides</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/102-detailing-cleaning/">Detailing and Cleaning</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/201-product-reviews/">Product Reviews</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/69-tcca-regional-chapters/">TCCA Regional Chapters</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/89-midwest-chapter-forum/">Midwest Chapter Forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/90-west-coast-chapter-forum/">West Coast Chapter forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/122-pacific-northwest-chapter/">Pacific Northwest Chapter</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/91-northeast-chapter-forum/">Northeast Chapter Forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/94-southeast-chapter-forum/">Southeast Chapter Forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/99-southern-chapter-forum/">Southern Chapter Forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/105-northern-chapter-forum/">Northern Chapter Forum</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/106-eastern-canada-chapter/">Eastern Canada Chapter</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/125-taurusclub-com-supporting-vendors/">TaurusClub.com Supporting Vendors</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/126-discount-tire/">Discount Tire</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/138-adam-s-premium-car-care-products/">Adam's Premium Car Care Products</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/130-carid-com/">CARiD.com</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/193-diode-dynamics/">Diode Dynamics</a>
+</li>		
+		
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/129-rockauto/">RockAuto</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+					
+<li class="vbmenu_control hovertouch">
+	<a href="http://www.taurusclub.com/forum/64-misc-category/">The Misc. Category</a>
+	
+		<div class="vbmenu_popup" style="display:none;" align="left">
+			<ul class="subnav">
+				
+			
+<li class="vbmenu_control">
+	<a href="http://www.taurusclub.com/forum/74-test-forum/">A Test Forum</a>
+</li>		
+		
+			</ul>
+		</div>
+	
+</li>
+			
+		
+			</ul>
+		</div>
+	</li>
+
+			
+		
+    <if>
+    
+    <li class="vbmenu_control"><a rel="nofollow" href="http://www.taurusclub.com/index.php?page=active_topics">Active Topics</a></li>
+    
+    
+    <li class="vbmenu_control"><a href="http://www.taurusclub.com/forum/search.php?do=getdaily" accesskey="2">Today's Posts</a></li>
+    
+    
+    <li class="vbmenu_control"><a href="http://www.taurusclub.com/forum/all_albums.php">Gallery</a></li>
+    
+    
+<li class="vbmenu_control" id="tmp_garage"><a id="navbar_garage" href="http://www.taurusclub.com/forum/garage.php" rel="nofollow">Garage</a>
+		
+		
+</li>
+		
+
+    
+</li>
+
+
+
+		
+		
+        <li class="mobile-hide"><a href="http://www.taurusclub.com/ford-taurus-insurance.html" target="_top">Insurance</a><li>
+        
+        
+    <li class="vbmenu_control vs_register"><a href="http://www.taurusclub.com/forum/register.php" rel="nofollow">Register</a></li>
+    
+
+</ul>
+</nav>
+<!-- / nav buttons bar -->
+
+<!-- breadcrumb, login, pm info -->
+<div class="text_wrapper info-bar">
+<span class="login-or-links">
+
+
+
+		<!-- login form -->
+		<form action="http://www.taurusclub.com/forum/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 1)">
+
+
+
+
+
+
+		
+<input type="text" class="bginput"  name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" />
+
+<input type="password" class="bginput"  name="vb_login_password" id="navbar_password" size="10" tabindex="102" /  value="Password" onfocus="if (this.value == 'Password') this.value = '';">
+
+
+<input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" />
+
+<label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" /><span class="mobile-hide">Remember Me?</span></label>
+
+
+		<input type="hidden" name="s" value="254ff7bea584b59de799e3eb0b415e56" />
+		<input type="hidden" name="securitytoken" value="guest" />
+		<input type="hidden" name="do" value="login" />
+		<input type="hidden" name="vb_login_md5password" />
+		<input type="hidden" name="vb_login_md5password_utf" />
+		</form>
+		<!-- / login form -->
+     
+
+       
+</span> 
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Leaderboard LeaderboardHeight">
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_728x90_Top_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_728x90_Top_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+</div>
+
+
+
+
+
+
+<div class="text_wrapper navbar_wrapper">
+<div class="breadcrumb" itemprop="breadcrumb">		
+
+			
+			<span class="navbar"><a href="http://www.taurusclub.com/forum/" accesskey="1">Taurus Car Club of America : Ford Taurus Forum</a></span> 
+	<span class="navbar">&gt; <a href="http://www.taurusclub.com/forum/67-generation-1-4-taurus-sable-platform-1986-2007/">Generation 1-4 Taurus &amp; Sable Platform (1986-2007)</a></span>
+
+
+	<span class="navbar">&gt; <a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/">Electronics, Security, Audio and Visual</a></span>
+
+
+                ><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html"></a> <strong>
+	 Fuses, Seteros And Power Windows.
+
+</strong>
+		
+</div>
+</div>
+<!-- / breadcrumb, login, pm info -->
+
+
+
+
+
+<div id="wrapper" class="wrapper">
+<div id="main-content_wrapper" class="center">    
+<div id="main-content">
+
+
+
+<div class="showthreadPage">
+
+
+
+
+
+<a name="poststop" id="poststop"></a> 
+
+
+<!-- controls above postbits -->
+<div class="controls" id="fixed-controls">
+<div class="fixed-controls-container">
+
+		<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;noquote=1&amp;p=2115177" rel="nofollow"><span class="sprite button reply">Reply</span></a>
+	
+<span class="item pagenav">
+	
+</span>
+
+<span class="item item-social">
+			
+<div class="socialIcons threadPage">
+	<div class="gplus"><g:plusone size="medium"></g:plusone></div>
+	<a
+		href="http://twitter.com/share"
+		class="twitter-share-button"
+		data-count="horizontal"
+		
+	>Tweet</a>
+	<fb:like href="" send="false" layout="button_count" width="70" show_faces="false" action="like" font=""></fb:like>
+</div>
+<div style="clear:both;"></div>
+			
+		</span>
+
+</div>
+</div>
+<!-- / controls above postbits -->
+<div id="placeholder"></div>
+
+ 
+
+<!-- toolbar -->
+<table class="tborder toolbar " cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" >
+		<div class="smallfont">
+		
+		&nbsp;
+		</div>
+	</td>
+	<td class="vbmenu_control tcat" id="linkbacktools" nowrap="nowrap">
+	<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#links">LinkBack</a>
+	
+</td>
+<td class="tcat" id="threadtools" >
+		<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#goto_threadtools">Thread Tools</a>
+		
+	</td>
+	
+	
+	
+ 
+
+	
+
+</tr>
+</table>
+<!-- / toolbar -->
+
+
+
+<!-- end content table -->
+
+<!-- / end content table -->
+
+
+
+
+
+<div id="posts" itemscope itemtype="http://schema.org/Blog">
+<table class="tborder" cellspacing="1" cellpadding="3" border="0" align="center" width="100%">
+	<tr>
+		<td class='tcat toptextunit' align='center'><div style='width:100%; text-align:;'><div id='TaurusClub_com_600x24_TopTextLink_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_600x24_TopTextLink_AUTO_Forum'); });
+						</script>
+					</div></div></td>
+	</tr>
+</table><!-- post #1047957 -->
+
+	
+	<div id="edit1047957" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1047957" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1047957-post1.html" target="new"  id="postcount1047957" name="1"><strong>post #1</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1047957" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1047957"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-25-2005, 09:06 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+ <span class="thread-starter">Thread Starter</span>   
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1047957" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/5395-24v-ses-01.html"><font color='black'>24V-SES&#39;01</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Junior Member</div>
+			
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: May 2005</div>
+				
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 21
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1047957_5395">0</span> <div><span id="repdisplay_1047957_5395"><span class="sprite inlineimg reputation_balance" title="24V-SES&#39;01 has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1047957" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1047957" itemprop="text">
+			
+			 So after I buy the kids a nice 01 SES, my son puts a sub woofer in the trunk.  Nicely done by a very reputable stereo store.<br />
+Somehow (probably cornering too fast, the sub woofer gets turned over and slides across the trunk pulled two wires free, the power and ground wires came loose.  Of course my 16 year old and another of his friends try to re- hook it up without telling me so they don&amp;#39;t get busted for driving like jerks and blow a fuse somewhere.<br />
+Now the two fuses on the power amp are fine, but the AM/FM CD player (<acronym title="Original Equipment Manufacturer"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">OEM</span></acronym>) no longer works or lights up, and the power windows don&amp;#39;t work.  I&amp;#39;ve looked in the 2001 Taurus manual and no fuses described or shown in the diagrams show power windows or radio and radio lights.<br />
+Any and all help would be greatly appreciated.<br />
+Thanks,<br />
+RJ 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1047957">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="24V-SES&#39;01 is offline">24V-SES&#39;01 is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047957" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047957" rel="nofollow" id="qr_1047957" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1047957 popup menu -->
+
+<!-- / post 1047957 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1047957 -->
+<div id="edit_vp1" class="vs_dfp_standard_postbit_container" style="padding:0px 0px 0px 0px; ">
+<table class="tborder vs_dfp_standard_postbit_ad" cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td class="thead" style="line-height:1.4em;" colspan="2">
+            <div>
+                <span style="float:right;font-weight:normal">
+                    <a href="http://www.taurusclub.com/forum/register.php">Remove Advertisements</a>
+                </span>
+            </div>Sponsored Links
+		</td>
+    </tr>
+	<tr valign="top">
+        <td class="alt2" width="175px">
+            <div>
+                <a class="bigusername" href="http://www.taurusclub.com/forum">Ford Taurus Forum</a>
+            </div>
+            <div class="smallfont">Advertisement</div>
+            <div>&nbsp;<br /></div>
+        </td>
+        <td class="alt1" >
+            <table cellpadding="2" cellspacing="2" border="0" width="100%" align="left">
+                <tr>
+                    <td align="left"><div style='width:100%; text-align:left;'><div id='TaurusClub_com_300x250_Postbit_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_300x250_Postbit_AUTO_Forum'); });
+						</script>
+					</div></div></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table></div><!-- post #1047964 -->
+
+	
+	<div id="edit1047964" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1047964" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1047964-post2.html" target="new"  id="postcount1047964" name="2"><strong>post #2</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1047964" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1047964"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-25-2005, 09:20 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1047964" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/1489-sfblacksel.html"><span style='color:MAROON'>sfblacksel</span></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Devoted Member</div>
+			<div class="smallfont"><a href="/forum/payments.php"><img src="/forum/images/ranks/special.gif" border="0"></a></div>
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Sep 2003</div>
+				<div>Location: Ft. Lauderdale, Florida</div>
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 1,005
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1047964_1489">0</span> <div><span id="repdisplay_1047964_1489"><span class="sprite inlineimg reputation_balance" title="sfblacksel has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div> <a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="imwindow('aim', '1489', 400, 200); return false;"><img src="/forum/images/TaurusClub_2015/misc/im_aim.gif" alt="Send a message via AIM to sfblacksel" border="0" /></a>   </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1047964" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1047964" itemprop="text">
+			
+			 In our cars, many of the fuses go to many different things.  Just because  fuse isn&amp;#39;t labeled directly to the power windows, doesn&amp;#39;t mean it doesn&amp;#39;t control it.  Anything that is labeled <acronym title="Powertrain Control Module"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">PCM</span></acronym>, <acronym title="Generic Electronic Module"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">GEM</span></acronym>, or any other strange name may be interlinked to the power windows and the radio.  My advice, get a flashlights and shine it from above the fuses and look through the fuses(they are semi-transparent) and you can see which ones are blown.  Or you can buy a fuse tester.  If you don&amp;#39;t see anything under the dash blown, keep in mind of the maxi-fuses under the hood next to the battery.  In all likely hood it is a small fuse under the dash.  <br />
+<br />
+I blew one when I was installing my alarm/remote start the other week.  My brake lights wouldn&amp;#39;t work and my <acronym title="Air Conditioning"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">a/c</span></acronym> and radio was off from a simple 15A fuse.  I switched it with another 15A fuse so I could drive my car to buy fuses, but then my turn signals didn&amp;#39;t work.  I felt pretty bad not using my turn signals at all to drive a mile down the road, but I made it and all is well now.  <br />
+<br />
+Good luck, and make sure they get that subwoofer restrained proberly, maybe just wedge it in with something or bolt it down somehow. 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1047964">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div class="vs_sig">
+				<hr class="sig">
+				
+				2010 Mercedes C300, Steel Gray on Black, stock for now...<br />
+2003 Taurus SEL Centennial<br />
+Removed Intake Silencer, Hard-wired Radar Detector, Custom tint, Custom Stereo..........<br />
+<br /><span class="smallfont"><i>To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.</i></span><br /><br />
+<br /><span class="smallfont"><i>To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.</i></span><br />
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="sfblacksel is offline">sfblacksel is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047964" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047964" rel="nofollow" id="qr_1047964" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1047964 popup menu -->
+
+<!-- / post 1047964 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1047964 --><!-- post #1047995 -->
+
+	
+	<div id="edit1047995" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1047995" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1047995-post3.html" target="new"  id="postcount1047995" name="3"><strong>post #3</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1047995" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1047995"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-25-2005, 10:06 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1047995" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/125-shoz123.html"><font color='black'>shoz123</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Crazy Devoted Member</div>
+			<div class="smallfont"><a href="/forum/payments.php"><img src="/forum/images/ranks/platinum.gif" border="0"></a></div>
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.taurusclub.com/forum/125-shoz123.html"><img class="photo avatar" src="/forum/images/TaurusClub_2015/misc/spacer.gif" data-original="customavatars/avatar125_2.gif" width="150" height="91" alt="shoz123's Avatar" border="0" /></a>
+				</div>
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Nov 2002</div>
+				<div>Location: Ashkum, Illinois</div>
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 14,123
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1047995_125">58</span> <div><span id="repdisplay_1047995_125"><span class="sprite inlineimg reputation_pos" title="shoz123 will become famous soon enough"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 4 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1047995" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1047995" itemprop="text">
+			
+			 There is a fuse in the under hood box for the rear control unit and cd player.  page 151 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1047995">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div class="vs_sig">
+				<hr class="sig">
+				
+				Paul Nimz<br />
+<font color="#FF0000">'10 Red Genesis Coupe</font><br />
+<font color="#00CCCC">'08 Hyundai Accent</font>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="shoz123 is offline">shoz123 is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047995" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1047995" rel="nofollow" id="qr_1047995" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1047995 popup menu -->
+
+<!-- / post 1047995 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1047995 -->
+<div id="edit_vp1" class="vs_dfp_standard_postbit_container" style="padding:0px 0px; margin-top: -8px;">
+<table class="tborder vs_dfp_standard_postbit_ad" cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr valign="top">
+        <td class="alt2" width="175px">
+            <div>&nbsp;<br /></div>
+        </td>
+        <td class="alt1">
+            <table cellpadding="2" cellspacing="2" border="0" width="100%" align="left">
+                <tr>
+                    <td align="left"><div style='width:100%; text-align:center;'><div id='TaurusClub_com_1x1_SharethroughPostbit_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_1x1_SharethroughPostbit_AUTO_Forum'); });
+						</script>
+					</div></div> </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table></div><!-- post #1048233 -->
+
+	
+	<div id="edit1048233" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1048233" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1048233-post4.html" target="new"  id="postcount1048233" name="4"><strong>post #4</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1048233" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1048233"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-26-2005, 12:31 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+ <span class="thread-starter">Thread Starter</span>   
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1048233" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/5395-24v-ses-01.html"><font color='black'>24V-SES&#39;01</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Junior Member</div>
+			
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: May 2005</div>
+				
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 21
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1048233_5395">0</span> <div><span id="repdisplay_1048233_5395"><span class="sprite inlineimg reputation_balance" title="24V-SES&#39;01 has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1048233" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1048233" itemprop="text">
+			
+			 Thanks for the replys.  It is not the fuse for the rear cd controller, this car doesn&amp;#39;t have that option.  It&amp;#39;s the radio/CD player in the dashboard that&amp;#39;s not working along with the power windows. 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1048233">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="24V-SES&#39;01 is offline">24V-SES&#39;01 is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048233" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048233" rel="nofollow" id="qr_1048233" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1048233 popup menu -->
+
+<!-- / post 1048233 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1048233 --><!-- post #1048239 -->
+
+	
+	<div id="edit1048239" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1048239" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1048239-post5.html" target="new"  id="postcount1048239" name="5"><strong>post #5</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1048239" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1048239"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-26-2005, 12:36 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1048239" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/92-zeptoplix.html"><span style='color:OLIVE'>zeptoplix</span></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Crazy Devoted Member</div>
+			<div class="smallfont"><a href="/forum/payments.php"><img src="/forum/images/ranks/select.gif" border="0"></a></div>
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Nov 2002</div>
+				<div>Location: Chatham, Ontario</div>
+
+<!-- Added in Make and chapter -->
+<div>Chapter: Eastern Canada</div>
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 5,169
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1048239_92">0</span> <div><span id="repdisplay_1048239_92"><span class="sprite inlineimg reputation_neg" title="zeptoplix has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="imwindow('icq', '92', 500, 450); return false;"><span class="sprite inlineimg im_icq">Send a message via ICQ to zeptoplix</span></a>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1048239" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1048239" itemprop="text">
+			
+			 He said it was for the changer and the cd player.   Have you just started pulling fuses, one by one to find the source?  I have had to resort to this method of trouble shooting from time to time 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1048239">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div class="vs_sig">
+				<hr class="sig">
+				
+				<div align="center"><br />
+</div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="zeptoplix is offline">zeptoplix is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048239" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048239" rel="nofollow" id="qr_1048239" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1048239 popup menu -->
+
+<!-- / post 1048239 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1048239 --><!-- post #1048329 -->
+
+	
+	<div id="edit1048329" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1048329" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1048329-post6.html" target="new"  id="postcount1048329" name="6"><strong>post #6</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1048329" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1048329"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-26-2005, 06:04 PM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1048329" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/5784-giant.html"><font color='black'>giant</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Devoted Member</div>
+			
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Aug 2005</div>
+				<div>Location: Ft. Lauderdale</div>
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 1,811
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1048329_5784">0</span> <div><span id="repdisplay_1048329_5784"><span class="sprite inlineimg reputation_balance" title="giant has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1048329" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1048329" itemprop="text">
+			
+			 i blew that same fuse i think. it killed my radio, power windows, and electronic climte controls. it left the climate control set on high and as hot as it could get. i live in FLA and had to drive around with the windows up and the heat on high looking for fuses. haha<br />
+anyway, it was a simple 15 amp fuse found under the drivers side dash. in my manual it labeled it as &quot;flasher and <acronym title="Generic Electronic Module"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">GEM</span></acronym> power, integrated control panel (<acronym title="Integrated Control Panel"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">ICP</span></acronym>) power, <acronym title="Remote Climate Control"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">RCC</span></acronym> memory, cluster&quot;. it was number 16 in the fuse panel. maybe this will help ya. 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1048329">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="giant is offline">giant is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048329" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048329" rel="nofollow" id="qr_1048329" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1048329 popup menu -->
+
+<!-- / post 1048329 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1048329 --><!-- post #1048500 -->
+
+	
+	<div id="edit1048500" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1048500" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1048500-post7.html" target="new"  id="postcount1048500" name="7"><strong>post #7</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1048500" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1048500"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-27-2005, 01:15 AM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1048500" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/125-shoz123.html"><font color='black'>shoz123</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Crazy Devoted Member</div>
+			<div class="smallfont"><a href="/forum/payments.php"><img src="/forum/images/ranks/platinum.gif" border="0"></a></div>
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.taurusclub.com/forum/125-shoz123.html"><img class="photo avatar" src="/forum/images/TaurusClub_2015/misc/spacer.gif" data-original="customavatars/avatar125_2.gif" width="150" height="91" alt="shoz123's Avatar" border="0" /></a>
+				</div>
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Nov 2002</div>
+				<div>Location: Ashkum, Illinois</div>
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 14,123
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1048500_125">58</span> <div><span id="repdisplay_1048500_125"><span class="sprite inlineimg reputation_pos" title="shoz123 will become famous soon enough"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 4 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1048500" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1048500" itemprop="text">
+			
+			 <img src="http://www.taurusclub.com/forum/images/smilies/icon_idea.gif" border="0" alt="" title=":icon_idea:" class="inlineimg" />  <img src="http://www.taurusclub.com/forum/images/smilies/icon_idea.gif" border="0" alt="" title=":icon_idea:" class="inlineimg" /><br />
+<br />
+Well you would think the first thing some one would do when confronted with an electrically operated device failure is check the fuse.  There are a lot of them and the circuits are really intertwined.  Still a needle nose and a flash light will get the job done.<br />
+<br />
+ <img src="http://www.taurusclub.com/forum/images/smilies/icon_exclaim.gif" border="0" alt="" title=":exclaim:" class="inlineimg" />  <img src="http://www.taurusclub.com/forum/images/smilies/icon_exclaim.gif" border="0" alt="" title=":exclaim:" class="inlineimg" /> 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1048500">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div class="vs_sig">
+				<hr class="sig">
+				
+				Paul Nimz<br />
+<font color="#FF0000">'10 Red Genesis Coupe</font><br />
+<font color="#00CCCC">'08 Hyundai Accent</font>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="shoz123 is offline">shoz123 is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048500" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1048500" rel="nofollow" id="qr_1048500" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1048500 popup menu -->
+
+<!-- / post 1048500 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1048500 --><!-- post #1049550 -->
+
+	
+	<div id="edit1049550" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post1049550" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/1049550-post8.html" target="new"  id="postcount1049550" name="8"><strong>post #8</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1049550" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post1049550"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">09-29-2005, 10:58 AM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_1049550" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/5710-ungo.html"><font color='black'>Ungo</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Member</div>
+			
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Aug 2005</div>
+				<div>Location: North Olmsted, OH</div>
+
+<!-- Added in Make and chapter -->
+
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 193
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_1049550_5710">0</span> <div><span id="repdisplay_1049550_5710"><span class="sprite inlineimg reputation_balance" title="Ungo has a little shameless behaviour in the past"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div> <a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="imwindow('aim', '5710', 400, 200); return false;"><img src="/forum/images/TaurusClub_2015/misc/im_aim.gif" alt="Send a message via AIM to Ungo" border="0" /></a>   </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_1049550" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_1049550" itemprop="text">
+			
+			 When I installed my CD player I blew a fuse in my 96&amp;#39;, all the manual said that it belonged to the airbags. So I thought no big deal, I will go to the store tommorrow and pick up a new fuse, right?. No. I was driving around, and pulled into my buddys driveway later that day, and turned off the car. It never started again..lol. Apparently the airbag fuse has something to do with the alternator/and or battery...So I saved money on the CD player and install, but then made it all up with an alternator... 
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.1049550">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="Ungo is offline">Ungo is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1049550" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=1049550" rel="nofollow" id="qr_1049550" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 1049550 popup menu -->
+
+<!-- / post 1049550 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #1049550 --><!-- post #2115081 -->
+
+	
+	<div id="edit2115081" style="padding:0px 0px 0px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<section id="post2115081" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/2115081-post9.html" target="new"  id="postcount2115081" name="9"><strong>post #9</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post2115081" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post2115081"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">12-27-2013, 07:51 AM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_2115081" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/39770-bk-taurus.html"><font color='black'>bk taurus</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Junior Member</div>
+			
+			
+
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jul 2011</div>
+				
+
+<!-- Added in Make and chapter -->
+<div>Chapter: Northeast</div>
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 9
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_2115081_39770">0</span> <div><span id="repdisplay_2115081_39770"><span class="sprite inlineimg reputation_pos" title="bk taurus is an unknown quantity at this point"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 0 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_2115081" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				
+				 <strong itemprop="alternativeHeadline">ICP / radio / power window failure on 2002 SEL</strong>
+			</div>
+			<hr class="dividing-line" />
+
+
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_2115081" itemprop="text">
+			
+			I had a similar failure yesterday, <acronym title="Integrated Control Panel"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">ICP</span></acronym> / radio failure, no power windows or locks, heat went to full blast hot.  My high beam indicator came on even though I did not have the high beams on, it also stayed on even when the car was off.  No dome light either but my airbag light was on.  Simple replacement of fuse #16 (15A) and the car is off to the races again.<img src="http://www.taurusclub.com/forum/images/smilies/biggrin.gif" border="0" alt="" title=":D" class="inlineimg" />
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.2115081">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="bk taurus is offline">bk taurus is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=2115081" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=2115081" rel="nofollow" id="qr_2115081" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 2115081 popup menu -->
+
+<!-- / post 2115081 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #2115081 --><!-- post #2115177 -->
+
+	
+	<div id="edit2115177" style="padding:0px 0px 0px 0px">
+	
+
+
+
+<section id="post2115177" class="tborder vbseo_like_postbit user-post" itemscope itemtype="http://schema.org/Comment">
+
+
+<div class="text_wrapper postbit_legacy_wrapper_thead thead" >
+	
+    
+    <span class="post-count"><a href="http://www.taurusclub.com/forum/2115177-post10.html" target="new"  id="postcount2115177" name="10"><strong>post #10</strong> of 10</a> (<b><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post2115177" title="Link to this Post">permalink</a></b>)
+			
+ </span>
+			<!-- status icon and date -->
+			<a name="post2115177"><span class="sprite inlineimg post_old">Old</span></a>
+			<span itemprop="dateCreated">12-27-2013, 09:28 AM</span>
+			
+			<!-- / status icon and date -->
+
+			
+			
+
+	
+    
+</div>
+
+<div class="text_wrapper postbit_legacy_wrapper">
+<div class="alt2 picture main-column-picture">
+
+			<div id="postmenu_2115177" itemprop="contributor">
+				
+				<a rel="nofollow" class="bigusername" href="http://www.taurusclub.com/forum/53829-nytefire.html"><font color='black'>NyteFire</font></a>
+				
+				
+			</div>
+
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="http://www.taurusclub.com/forum/53829-nytefire.html"><img class="photo avatar" src="/forum/images/TaurusClub_2015/misc/spacer.gif" data-original="customavatars/avatar53829_1.gif" width="120" height="120" alt="NyteFire's Avatar" border="0" /></a>
+				</div>
+			
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Apr 2013</div>
+				<div>Location: Houston</div>
+
+<!-- Added in Make and chapter -->
+<div>Chapter: Southern</div>
+
+
+
+<!-- end of added -->
+
+				
+				<div>
+					Posts: 920
+				</div>
+				
+
+				
+				Rep Power: <span id="reppower_2115177_53829">10</span> <div><span id="repdisplay_2115177_53829"><span class="sprite inlineimg reputation_pos" title="NyteFire has a spectacular aura about"><!-- -->&nbsp;</span></span></div>
+				<div class="smallfont"><a href="/forum/itrader.php">Trader Score</a>: 3 reviews</div>
+				<div>    </div>
+			</div>
+
+</div>
+
+	
+    <div id="td_post_2115177" class="main-column-text-wrapper alt1">
+	<div class="main-column-text">
+	
+		
+		
+
+		<!-- message -->
+		<div id="post_message_2115177" itemprop="text">
+			
+			<div style="margin:20px; margin-top:5px; ">
+
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+
+	
+
+			
+
+				<div>
+
+					Originally Posted by <strong>24V-SES'01</strong>
+
+					
+<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#post1047957" rel="nofollow"><span class="sprite inlineimg sviewpost">View Post</span></a>
+
+				</div>
+
+				<div style="font-style:italic; border:1px inset; padding: 5px;" class="postquote">So after I buy the kids a nice 01 SES, my son puts a sub woofer in the trunk.  Nicely done by a very reputable stereo store.<br />
+Somehow (probably cornering too fast, the sub woofer gets turned over and slides across the trunk pulled two wires free, the power and ground wires came loose.  Of course my 16 year old and another of his friends try to re- hook it up without telling me so they don't get busted for driving like jerks and blow a fuse somewhere.<br />
+Now the two fuses on the power amp are fine, but the AM/FM CD player (<acronym title="Original Equipment Manufacturer"><span style=" font-weight:bold; color:#000000; border-bottom: 1px dotted #000000; cursor: help;">OEM</span></acronym>) no longer works or lights up, and the power windows don't work.  I've looked in the 2001 Taurus manual and no fuses described or shown in the diagrams show power windows or radio and radio lights.<br />
+Any and all help would be greatly appreciated.<br />
+Thanks,<br />
+RJ</div>
+
+			
+
+		
+
+</div><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/187905-lost-power-my-vanity-lights-dome-lights-power-windows-etc.html" target="_blank">Lost power to my vanity lights, dome lights, power windows etc</a><br />
+<br />
+That's when I was dinking around and installing an autodim mirror while splicing wires without disconnecting the battery.  I lost power to my vanity lights, dome lights, and my power windows/mirrors.<br />
+<br />
+This was for my <b>2004</b> so I don't know if it's the same for your 2001. Yours is a G4 and mine is a G4.5 but it might help<br />
+<br />
+<div style="margin:20px; margin-top:5px; ">
+
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+
+	
+
+			
+
+				<div>
+
+					Originally Posted by <strong>thesavo</strong>
+
+					
+<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/187905-lost-power-my-vanity-lights-dome-lights-power-windows-etc-post1889113.html#post1889113" rel="nofollow"><span class="sprite inlineimg sviewpost">View Post</span></a>
+
+				</div>
+
+				<div style="font-style:italic; border:1px inset; padding: 5px;" class="postquote">Your vehicle is a 2004 model year? <br />
+Start with fuse 30 on the smart junction box <br />
+<br />
+<font color="gray">Sent from <a href="http://www.autoguide.com/mobile" target="_blank">AutoGuide.com App</a></font></div>
+
+			
+
+		
+
+</div>
+		</div>
+		<!-- / message -->
+
+		
+
+		<div class="text_wrapper vbseo_buttons" id="lkbtn_1.101475.2115177">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div class="vs_sig">
+				<hr class="sig">
+				
+				<u><b>rabblerabblerabble</b></u>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+
+    
+<div class="text_wrapper postbit_legacy_wrapper postbit_legacy_wrapper_bottom">
+<div class="alt2 picture main-column-picture status-icons" >  
+		<span class="sprite inlineimg user_offline" title="NyteFire is offline">NyteFire is offline</span>
+
+
+		
+		
+		
+		
+		&nbsp;
+        
+</div>
+	
+<div id="td_post_1162" class="main-column-text-wrapper buttons buttons-postings">
+<div class="main-column-text">  
+	
+		<div class="right"><!-- controls -->
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=2115177" rel="nofollow"><span class="sprite button quote">Quote</span></a>
+		
+		
+		
+			<a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;p=2115177" rel="nofollow" id="qr_2115177" onclick="return false"><span class="sprite button quickreply">Quick Reply</span></a>
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+        </div>
+</div>
+</div>
+
+</div>
+<!-- end text_wrapper -->
+</section>
+
+
+ 
+<!-- post 2115177 popup menu -->
+
+<!-- / post 2115177 popup menu -->
+
+
+
+
+
+
+
+	</div>
+	
+
+<!-- / post #2115177 -->
+<div id="edit_vp2" class="vs_dfp_standard_postbit_container" style="padding:0px 0px 0px 0px; ">
+<table class="tborder vs_dfp_standard_postbit_ad" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="margin-bottom:6px;">
+        <tr>
+        <td class="thead" style="line-height:1.4em;" colspan="2">
+            <div>
+                <span style="float:right;font-weight:normal">
+                    <a href="http://www.taurusclub.com/forum/register.php">Remove Advertisements</a>
+                </span>
+            </div>Sponsored Links
+        </td>
+    </tr>
+	<tr valign="top">
+        <td class="alt2" width="175px">
+            <div>
+                <a class="bigusername" href="http://www.taurusclub.com/forum">Ford Taurus Forum</a>
+            </div>
+            <div class="smallfont">Advertisement</div>
+            <div>&nbsp;<br /></div>
+        </td>        <td class="alt1">
+            <div style='width:100%; text-align:left;'><div id='TaurusClub_com_300x250_PostbitLower_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_300x250_PostbitLower_AUTO_Forum'); });
+						</script>
+					</div></div>
+        </td>
+    </tr>
+</table></div>
+<table class="tborder" cellspacing="1" cellpadding="3" border="0" align="center" width="100%">
+	<tr>
+		<td class='tcat bottomtextunit' align='center'><div style='width:100%; text-align:;'><div id='TaurusClub_com_600x24_BottomTextLink_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_600x24_BottomTextLink_AUTO_Forum'); });
+						</script>
+					</div></div></td>
+	</tr>
+</table><div style="padding-bottom: 5px"></div><div id="lastpost"></div></div>
+
+
+
+<!-- start content table -->
+
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:3px" class="text_wrapper">
+<tr valign="top">
+	
+		<td class="smallfont"><a href="http://www.taurusclub.com/forum/newreply.php?do=newreply&amp;noquote=1&amp;p=2115177" rel="nofollow"><span class="sprite button reply">Reply</span></a></td>
+	
+	
+</tr>
+</table>
+<!-- / controls below postbits -->
+
+
+
+
+
+
+
+<!-- Taboola Content -->
+<div id="taboola-below-article-thumbnails-white"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: "thumbnails-c",
+  container: "taboola-below-article-thumbnails-white",
+    placement: "Below Article Thumbnails White - AUTO",
+    target_type: "mix"
+  });
+</script>
+<!-- /Taboola Content -->
+
+
+
+
+
+
+
+<!-- ajax errors table -->
+	<table class="tborder" cellpadding="0" cellspacing="0" border="0" style="display:none; position:absolute" id="ajax_post_errors">
+	<tr>
+		<td class="thead">
+			<span style="float:right"><input type="button" class="button" value=" X " onclick="vB_QuickEditor.hide_errors()" id="ajax_post_errors_closebtn" /></span>
+			vBulletin Message
+		</td>
+	</tr>
+	<tr>
+		<td class="alt2" colspan="2" id="ajax_post_errors_message">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="tfoot" colspan="2" align="center"><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="vB_QuickEditor.abort(); return false;">Cancel Changes</a></td>
+	</tr>
+	</table>
+<!-- / ajax errors table -->
+
+<!-- scripts for quick reply and quick edit -->
+	<!-- Editor Scripts -->
+
+<script type="text/javascript">
+<!--
+var fontoptions = new Array();
+var sizeoptions = new Array();
+var smilieoptions = {  };
+
+var istyles = {  };
+var ltr = 'left';
+
+var smiliewindow_x = 240;
+var smiliewindow_y = 280;
+
+var ignorequotechars = 1;
+var allowbasicbbcode = true;
+
+// vB Phrases
+vbphrase["wysiwyg_please_wait"]          = "Please wait for the WYSIWYG editor to finish loading...";
+vbphrase["wysiwyg_initialized"]          = "WYSIWYG Editor initialized for %1$s in %2$s seconds.";
+vbphrase["wysiwyg_command_invalid"]      = "This command is invalid or not implemented.";
+vbphrase["moz_must_select_text"]         = "Mozilla requires that you must select some text for this function to work";
+vbphrase["moz_edit_config_file"]         = "You need to edit your Mozilla config file to allow this action.";
+vbphrase["enter_tag_option"]             = "Please enter the option for your %1$s tag:";
+vbphrase["must_select_text_to_use"]      = "You must select some text to use this function.";
+vbphrase["browser_is_safari_no_wysiwyg"] = "The Safari browser does not support WYSIWYG mode.";
+vbphrase["enter_option_x_tag"]           = "Enter the option for the [%1$s] tag:";
+vbphrase["enter_text_to_be_formatted"]   = "Enter the text to be formatted";
+vbphrase["enter_link_text"]              = "Enter the text to be displayed for the link (optional):";
+vbphrase["enter_list_type"]              = "What type of list do you want? Enter '1' for a numbered list, enter 'a' for an alphabetical list, or leave blank for a list with bullet points:";
+vbphrase["enter_list_item"]              = "Enter a list item.\r\nLeave the box empty or press 'Cancel' to complete the list:";
+vbphrase["must_enter_subject"]           = "You must enter a title / subject!";
+vbphrase["message_too_short"]            = "The message you have entered is too short. Please lengthen your message to at least %1$s characters.";
+vbphrase["enter_link_url"]               = "Please enter the URL of your link:";
+vbphrase["enter_image_url"]              = "Please enter the URL of your image:";
+vbphrase["enter_email_link"]             = "Please enter the email address for the link:";
+vbphrase["complete_image_verification"]  = "You did not complete the Image Verification";
+vbphrase["iespell_not_installed"]        = "ieSpell is a spell-checking tool for Internet Explorer.\r\n\r\nIf you would like to download ieSpell, click OK; otherwise click Cancel.\r\n\r\nieSpell can be downloaded from http://www.iespell.com";
+vbphrase["click_quick_reply_icon"]       = "Please click one of the Quick Reply icons in the posts above to activate Quick Reply.";
+vbphrase["insert_all"]                   = "Insert All";
+
+//-->
+</script>
+<!-- / Editor Scripts -->
+	
+
+		<script type="text/javascript">
+		<!--
+		vB_AJAX_QuickEdit_Init('posts');
+		//-->
+		</script>
+	
+<!-- / scripts for quick reply and quick edit -->
+
+
+
+
+<!-- quick reply -->
+	<br />
+	<form action="http://www.taurusclub.com/forum/newreply.php?do=postreply&amp;t=101475" method="post" onsubmit="return vbpegp_qr_prepare_submit(this, 3);" name="vbform" id="qrform">
+	<table class="tborder" cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<thead>
+		<tr>
+			<td class="tcat" colspan="2">
+				<a style="float:right" href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#top" onclick="return toggle_collapse('quickreply');"><span class="sprite inlineimg collapseimg" id="collapseimg_quickreply"></span></a>
+				Quick Reply
+			</td>
+		</tr>
+	</thead>
+	<tbody id="qr_error_tbody" style="display:none">
+	<tr>
+		<td class="thead">The following errors occurred with your submission</td>
+	</tr>
+	<tr>
+		<td class="alt1" id="qr_error_td"></td>
+	</tr>
+	<tr>
+		<td class="tfoot" align="center"><span class="smallfont"><a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="return qr_hide_errors()">Okay</a></span></td>
+	</tr>
+	</tbody>
+	<tbody id="collapseobj_quickreply">
+	<tr>
+		<td class="panelsurround" align="center">
+			<div class="panel">
+				<div align="left" style="max-width:; width:auto !important; width:">
+					<div class="smallfont vs_msglabel">Message:</div>
+					<div id="vB_Editor_QR" class="vBulletin_editor">
+		<script type="text/javascript">
+		<!--
+			var threaded_mode = 0;
+			var require_click = 0;
+			var is_last_page = 1; // leave for people with cached JS files
+			var allow_ajax_qr = 1;
+			var ajax_last_post = 1388154517;
+		// -->
+		</script>
+		
+<div class="controlbar" style="padding-right:8px">
+	<fieldset style="border:0px; padding:0px; margin:0px">
+	
+	<textarea name="message" id="vB_Editor_QR_textarea" rows="10" cols="60" style="width:100%; height:200px" tabindex="1" dir="ltr"></textarea>
+	
+	</fieldset>
+	<!--width:480px-->
+</div>
+
+<input type="hidden" name="wysiwyg" id="vB_Editor_QR_mode" value="0" />
+<input type="hidden" name="styleid" value="0" />
+
+<script type="text/javascript">
+<!--
+vB_Editor['vB_Editor_QR'] = new vB_Text_Editor('vB_Editor_QR', 0, '117', '1');
+var QR_EditorID = 'vB_Editor_QR';
+//-->
+</script>
+	</div>
+					
+					
+
+					<fieldset class="fieldset">
+						<legend>Options</legend>
+						<div style="padding:3px">
+							
+							<label for="qr_quickreply"><input type="checkbox" name="quickreply" value="1" id="qr_quickreply" accesskey="w" tabindex="4" />Quote message in reply?</label>
+						</div>
+					</fieldset> <style type="text/css">
+/* ***** red and green boxes for username verification used during registration ***** */
+.greenbox { border: 1px solid #337733; background: #bbffbb; color: #337733; padding: 3px; }
+.redbox { border:1px solid #773333; background: #ffbbbb; color: #773333; padding: 3px; }
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.taurusclub.com/forum/vbpegp/resources/css/register.css" />
+<div class="detailsContainer ">
+
+<style>
+table.registration .column_or .block_or {display: none;}
+.container table.registration .column_or .block_or {display: block;}
+</style>
+
+    <table width="100%" cellspacing="0" cellpadding="0"  class="registration">
+<tbody>
+<tr>
+<td width="55%" valign="top" class="" style="vertical-align:top">
+
+<div class="blockrow">
+<h2>
+Register Now
+</h2>
+            <br>
+<br>
+
+</div>
+<div class="smallfont" style="margin-bottom:3px">
+In order to be able to post messages on the Taurus Car Club of America : Ford Taurus Forum forums, you must first register.<br />
+				Please enter your desired user name, your email address and other required details in the form below.<br><br>
+</div>
+<div class="smallfont" style="margin-bottom:3px">
+<strong>User Name</strong>:<br />
+<input class="bginput" id="regusername" type="text" name="username" maxlength="20" value="" /><img src="http://www.taurusclub.com/forum/clear.gif" id="reg_verif_image" onclick="return toggle_collapse('dialog_box')" style="display:none;" alt="" />
+<div id="collapseobj_dialog_box"><div id="reg_verif_div" style="display:none;"></div></div>
+<script type="text/javascript" src="http://www.taurusclub.com/forum/clientscript/vbulletin_ajax_nameverif.js?v=388"></script>
+<script type="text/javascript">
+<!--
+regname_verif = new vB_AJAX_NameVerify('regname_verif', 'regusername');
+//-->
+</script>
+</div>
+<fieldset class="fieldset">
+<legend>Password</legend>
+<table cellpadding="0" cellspacing="3" border="0" width="400">
+<tr>
+<td >Please enter a password for your user account. Note that passwords are case-sensitive.<Br><br></td>
+</tr>
+<tr>
+<td >
+Password:<br />
+<input type="password" class="bginput" name="password"  maxlength="50" value="" /><br><br>
+</td>
+
+</tr>
+            <tr>
+            <td>
+Confirm Password:<br />
+<input type="password" class="bginput" name="passwordconfirm"  maxlength="50" value="" />
+</td>
+            </tr>
+            
+</table>
+</fieldset>
+
+<fieldset class="fieldset">
+<legend>Email Address</legend>
+<table cellpadding="0" cellspacing="3" border="0" width="400">
+<tr>
+<td colspan="2">Please enter a valid email address for yourself.<br><br></td>
+</tr>
+<tr>
+<td>
+Email Address:<br />
+<input type="text" class="bginput" name="email" size="25" maxlength="50" value="" dir="ltr" />
+</td>
+<td>
+<!--
+Confirm Email Address:<br />
+<input type="text" class="bginput" name="emailconfirm" size="25" maxlength="50" value="" dir="ltr" />
+-->
+</td>
+</tr>
+
+</table>
+</fieldset>
+
+
+</td>
+<td class="column_or"><div class="block_or">OR</div></td>
+<td width="30%" valign="top" class="" style="vertical-align:top">
+
+
+<div class="blockrow">
+<h2>
+Log-in
+</h2><br>
+<br>
+
+</div>
+<table cellpadding="0" cellspacing="3" border="0" width="90%">
+<tr>
+<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username2">User Name</label></td>
+<td align="right"><input type="text" style="font-size: 11px" name="vb_login_username" id="navbar_username2" size="10" accesskey="u" tabindex="1" value="" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+
+</tr>
+<tr>
+<td class="smallfont"><br>
+<label for="navbar_password2">Password</label><br><br>
+
+</td>
+<td align="right"><br>
+<input type="password" style="font-size: 11px" name="vb_login_password" id="navbar_password2" size="10" tabindex="1" /><br>
+<br>
+</td>
+
+</tr>
+        
+        <tr>
+        <td nowrap class="smallfont"><label for="cb_cookieuser_navbar2">Remember Me? <input type="checkbox" name="cookieuser" value="1" tabindex="1" id="cb_cookieuser_navbar2" accesskey="c" /></label></td>
+        <td align="right"><input type="submit" class="button" value="Log in" tabindex="1" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+        </tr>
+</table>
+
+
+        </td>
+      </tr>
+</tbody></table>
+</div>
+		
+		<fieldset><legend>Human Verification</legend>
+		<input type="hidden" name="humanverify[hash]" value="" />
+		<script type='text/javascript'>
+			var ACPuzzleOptions = { theme:    'red',
+									tabindex: 0,
+									lang:     'en'
+			};
+		</script>
+		<p>In order to verify that you are a human and not a spam bot, please enter the answer into the following box below based on the instructions contained in the graphic.</p><br/>
+		<script type="text/javascript" src="http://api.solvemedia.com/papi/challenge.script?k=8V6Hhur-0mqMLlrNBbnDd3-fjAisQuL6"></script>
+
+	<noscript>
+  		<iframe src="http://api.solvemedia.com/papi/challenge.noscript?k=8V6Hhur-0mqMLlrNBbnDd3-fjAisQuL6" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="adcopy_challenge" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="adcopy_response" value="manual_challenge"/>
+	</noscript>
+		</fieldset>
+		
+				</div>
+			</div>
+
+			<div class="vs_submit">
+				<input type="hidden" name="poststarttime" value="" />
+				<input type="hidden" name="posthash" value="" />
+				<input type="hidden" name="fromquickreply" value="1" />
+				<input type="hidden" name="s" value="254ff7bea584b59de799e3eb0b415e56" />
+				<input type="hidden" name="securitytoken" value="guest" />
+				<input type="hidden" name="do" value="postreply" />
+				<input type="hidden" name="t" value="101475" id="qr_threadid" />
+				<input type="hidden" name="p" value="who cares" id="qr_postid" />
+				<input type="hidden" name="specifiedpost" value="0" id="qr_specifiedpost" />
+				<input type="hidden" name="parseurl" value="1" />
+				<input type="hidden" name="loggedinuser" value="0" />
+				<input type="button" class="button" value="Post Quick Reply" accesskey="s" title="(Alt + S)" name="sbutton" tabindex="2" id="qr_submit" onclick="clickedelm = this.value; " /> 
+				<input type="submit" class="button" value="Go Advanced" accesskey="x" title="(Alt + X)" name="preview" tabindex="3" id="qr_preview" onclick="clickedelm = this.value" />
+
+			<div align="center" id="qr_posting_msg" style="display:none; margin-top:6px">
+				<span class="sprite inlineimg progress">Posting Quick Reply - Please Wait</span>&nbsp;<strong>Posting Quick Reply - Please Wait</strong>
+			</div>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+	</form>
+<script>
+(function ($, window) {
+$("#qr_submit").click(function(e){
+e.stopPropagation();
+$("#qrform").trigger('submit');
+});
+})(jQuery, window);
+</script>
+	
+
+	<script type="text/javascript">
+	<!--
+		// initialize quick reply
+		qr_init();
+	//-->
+	</script>
+<!-- / quick reply -->
+
+
+
+<!-- next / previous links -->
+	<br />
+	<div class="smallfont" align="center">
+		<strong>&laquo;</strong>
+			<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows-prev-thread.html" rel="nofollow">Previous Thread</a>
+			|
+			<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows-next-thread.html" rel="nofollow">Next Thread</a>
+		<strong>&raquo;</strong>
+	</div>
+<!-- / next / previous links -->
+
+
+
+
+
+
+
+<!-- controls for non-popup browsers -->
+
+
+<table class="tborder" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="border-top-width:0px">
+<tr>
+	<td class="thead" colspan="2">Thread Tools<a name="goto_threadtools"></a></td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt1" colspan="2">
+
+	<!-- thread tools -->
+	<div class="smallfont">
+		
+
+			<div><span class="sprite inlineimg printer">Show Printable Version</span> <a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows-print.html" rel="nofollow">Show Printable Version</a></div>
+			<div><span class="sprite inlineimg sendtofriend">Email this Page</span> <a href="http://www.taurusclub.com/forum/sendmessage.php?do=sendtofriend&amp;t=101475" rel="nofollow">Email this Page</a></div>
+		
+		
+		
+	</div>
+	<!-- / thread tools -->
+
+	</td>
+	
+</tr>
+
+</table>
+<br />
+
+
+<!-- / controls for non-popup browsers -->
+
+
+<!-- forum rules and admin links -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%" valign="top">
+		
+	</td>
+	<td class="smallfont" align="right">
+		<table cellpadding="0" cellspacing="0" border="0">
+		
+		
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /forum rules and admin links -->
+<br>
+
+<br />
+
+
+
+
+
+<table class="tborder forumrules" cellpadding="0" cellspacing="0" border="0" width="210">
+<thead>
+<tr>
+
+<td class="thead">
+Posting Rules
+</td>
+
+	<td class="thead" align="right">
+		<a style="float:right" href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#top" onclick="return toggle_collapse('forumrules')"><span id="collapseimg_forumrules" class="sprite inlineimg collapseimg"><!-- -->&nbsp;</span></a>
+		
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_forumrules" style="">
+<tr>
+	<td colspan="2" class="alt1" nowrap="nowrap"><div class="smallfont">
+		
+		<div>You <strong>may not</strong> post new threads</div>
+		<div>You <strong>may not</strong> post replies</div>
+		<div>You <strong>may not</strong> post attachments</div>
+		<div>You <strong>may not</strong> edit your posts</div>
+		<hr />
+		
+		<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=bbcode" target="_blank">BB code</a> is <strong>On</strong></div>
+		<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=showsmilies" target="_blank">Smilies</a> are <strong>On</strong></div>
+		<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=bbcode#imgcode" target="_blank">[IMG]</a> code is <strong>On</strong></div>
+		<div>HTML code is <strong>Off</strong></div><div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=linkbacks#trackbacks" target="_blank">Trackbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=linkbacks#pingbacks" target="_blank">Pingbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=linkbacks#refbacks" target="_blank">Refbacks</a> are <strong>On</strong></div>
+		<hr />
+		<div><a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=showrules" target="_blank">Forum Rules</a></div>
+	</div></td>
+</tr>
+</tbody>
+</table>
+</div><!-- Close class="showthreadPage" -->
+
+
+<!-- temp -->
+<div style="display:none">
+	<!-- thread rate -->
+	
+		
+	
+	<!-- / thread rate -->
+</div>
+<script type="text/javascript" src="http://www.taurusclub.com/forum/clientscript/vbulletin_autosave.js"></script>
+<!-- SlimCut -->
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_1x1_SlimCut_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_1x1_SlimCut_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+<div class="vbmenu_popup" id="linkbacktools_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">LinkBack<a name="goto_linkback"></a></td>
+	</tr>
+
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.taurusclub.com/forum/vbseo/resources/images/forum/linkback_url.gif" alt="LinkBack URL" /> <a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html" onclick="prompt('Use the following URL when referencing this thread from another forum or blog.','http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html');return false;">LinkBack URL</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="http://www.taurusclub.com/forum/vbseo/resources/images/forum/linkback_about.gif" alt="About LinkBacks" /> <a rel="nofollow" href="http://www.taurusclub.com/forum/misc.php?do=linkbacks">About LinkBacks</a></td>
+	</tr>
+
+	</table>
+</div>
+
+</div>
+</div>
+
+<aside class="noprint" id="sidebar">
+<div style="display: none;" class="sidebar-controls ">
+<span class="sprite inlineimg sidebar-controls-icon"></span>
+<span class="sprite inlineimg br-creditcheck"></span>
+<span class="sprite inlineimg br-warranty"></span>
+<span class="sprite inlineimg br-history"></span>
+<span class="sprite inlineimg br-shipping"></span>
+<span class="sprite inlineimg br-escrow"></span>
+<span class="sprite inlineimg br-tires"></span>
+<span class="sprite inlineimg br-inspections"></span>
+<span class="sprite inlineimg br-insurance"></span>
+</div>
+<div class="sidebar">
+<div class="search-in-one">
+    <div class="change_btn "><div class="image sprite-google-search"></div>
+        <ul class="search_menu">
+            <li data-search-type="google-search"><div class="icon sprite-google-search"></div> Google search</li>
+            <li data-search-type="vb-search"><div class="icon sprite-vb-search"></div> VB search</li>
+        </ul>
+    </div>
+    
+    <div class="search-item google-search">
+    <div class='ams_gtsearch' style='width: 150px; margin:auto;' id='cse_gtsearch_form_5'></div>
+<script>
+vsamsgtsearches.push('cse_gtsearch_form_5');
+</script>
+    </div> 
+    
+</div><section class="text_wrapper ad box-ad">
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_300x250_TopRight_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_300x250_TopRight_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+
+
+</section>
+<!-- existing ad code goes here -->
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_328x170_FeaturedVehicle_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_328x170_FeaturedVehicle_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_328x170_AutoInsurance_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_328x170_AutoInsurance_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+
+
+
+
+
+
+<section>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="cmps-table" width="100%">
+		<thead>
+			<tr>
+				<td  colspan="0">
+				
+				<h2 class="title">Premium Vendor Showcase</h2></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_89" style="">
+			
+				<tr>
+<td>
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_300x120_PremiumVendor_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_300x120_PremiumVendor_AUTO_Forum'); });
+						</script>
+					</div></div>
+</td>
+</tr>
+			
+		</tbody>
+	</table>
+</section>
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_328x170_WheelsTire_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_328x170_WheelsTire_AUTO_Forum'); });
+						</script>
+					</div></div>
+
+
+<section>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="cmps-table" width="100%">
+		<thead>
+			<tr>
+				<td  colspan="0">
+				
+				<h2 class="title">Recent Discussions</h2></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_57" style="">
+			
+				<tr>
+	<td class="alt1 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">2</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/104-introduction-forum/327290-2007-ford-five-hundred.html" title="Hi Everybody, 
+                       I'm new to the TCCA forum but I'm a long time Ford guy.  I really learned to mod with my beloved Ford Contours...." itemprop="headline">2007 Ford Five Hundred -...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Today <span class="time">12:09 AM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/141594-buttonpuncher.html" itemprop="contributor">ButtonPuncher</a>
+                 <meta itemprop="author" content="ButtonPuncher">
+                 <meta itemprop="dateCreated" content="Yesterday 10:57 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt2 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">0</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/121-5th-6th-gen-suspension-handling-brakes/327298-2007-ford-five-hundred.html" title="Alright, well it's late, so I'll just post the base info real quick... 
+ 
+I used the info in the 2013+ brake info thread to order a bunch of 2013..." itemprop="headline">2007 Ford Five Hundred -...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Today <span class="time">12:08 AM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/141594-buttonpuncher.html" itemprop="contributor">ButtonPuncher</a>
+                 <meta itemprop="author" content="ButtonPuncher">
+                 <meta itemprop="dateCreated" content="Today 12:08 AM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt1 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">4</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+				<span style="float:right">
+					
+						<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="vba_attach_win(327289); return false"><span class="sprite inlineimg paperclip">1 Attachment(s)</span></a>
+					
+					
+				</span>
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/87-engine-drivetrain/327289-rough-acceleration.html" title="I spilled some oil topping off my car yesterday so i took it to the car wash today and used the sprayer to spray off where i spilled the oil. Now the..." itemprop="headline">Rough acceleration</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">10:52 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/36682-chartmaker.html" itemprop="contributor">chartmaker</a>
+                 <meta itemprop="author" content="Dakotasmith23">
+                 <meta itemprop="dateCreated" content="Yesterday 05:50 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt2 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">22</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+				<span style="float:right">
+					
+						<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="vba_attach_win(252777); return false"><span class="sprite inlineimg paperclip">474 Attachment(s)</span></a>
+					
+					
+				</span>
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/193-diode-dynamics/252777-ford-taurus-license.html" title="http://www.diodedynamics.com/images/global/sig/blue1_600x115.gif 
+ 
+Ford Taurus License Plate LEDs 
+ 
+ 
+License plate bulbs are used to illuminate..." itemprop="headline">Ford Taurus License...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">10:14 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/77009-diode-dynamics.html" itemprop="contributor">Diode Dynamics</a>
+                 <meta itemprop="author" content="Diode Dynamics">
+                 <meta itemprop="dateCreated" content="12-19-2014 12:38 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt1 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">219</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+				<span style="float:right">
+					
+						<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#" onclick="vba_attach_win(285921); return false"><span class="sprite inlineimg paperclip">25071 Attachment(s)</span></a>
+					
+					
+				</span>
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/101-other-rides/285921-sousa632-s-1999-durango.html" title="Well after complaining about it for long enough, I'm doing something about it! I'm replacing the 2003. My wife will keep the wagon and this is it's..." itemprop="headline">Sousa632's 1999 Durango</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">09:23 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/37681-sousa632.html" itemprop="contributor">sousa632</a>
+                 <meta itemprop="author" content="sousa632">
+                 <meta itemprop="dateCreated" content="09-26-2015 03:40 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt2 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">9</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/82-maintenance-repair/326594-power-steering-growl.html" title="After an almost complete loss of power steering and &quot;gray soup&quot; in power steering fluid, my buddy replaced his ps pump on his tec, but the problem..." itemprop="headline">Power steering Growl</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">09:18 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/141362-shawnjhawn.html" itemprop="contributor">shawnjhawn</a>
+                 <meta itemprop="author" content="azure">
+                 <meta itemprop="dateCreated" content="02-09-2017 09:46 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt1 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">18</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/193-diode-dynamics/285689-ford-taurus-fog-light.html" title="http://www.diodedynamics.com/images/global/sig/blue1_600x115.gif 
+ 
+ 
+ 
+Ford Taurus Fog Light LED Bulbs 
+ 
+ 
+..." itemprop="headline">Ford Taurus Fog Light...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">08:39 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/77009-diode-dynamics.html" itemprop="contributor">Diode Dynamics</a>
+                 <meta itemprop="author" content="Diode Dynamics">
+                 <meta itemprop="dateCreated" content="09-24-2015 09:50 AM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt2 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">5</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/82-maintenance-repair/327281-03-stuttering-after.html" title="Hello everyone, this is my first post so I hope its in the right section.  
+I have an 03 Taurus that stutters when something seems to get warmed up...." itemprop="headline">03 stuttering after...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">07:57 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/11378-jeff-k.html" itemprop="contributor">Jeff K</a>
+                 <meta itemprop="author" content="Bobyter">
+                 <meta itemprop="dateCreated" content="Yesterday 12:59 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt1 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">10</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/193-diode-dynamics/285681-ford-taurus-oem-hid.html" title="http://www.diodedynamics.com/images/global/sig/blue1_600x115.gif 
+ 
+ 
+Ford Taurus Replacement OEM HID Bulbs  
+ 
+ 
+These replacement OEM-size HID..." itemprop="headline">Ford Taurus OEM HID...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">05:58 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/77009-diode-dynamics.html" itemprop="contributor">Diode Dynamics</a>
+                 <meta itemprop="author" content="Diode Dynamics">
+                 <meta itemprop="dateCreated" content="09-24-2015 09:43 AM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr><tr>
+	<td class="alt2 columns columns-comments">
+
+	 <div class="picture main-column-picture">    
+
+		
+				<div style="padding-top:0px"><span class="sprite count">8</span></div>
+		
+	
+	</div>
+    
+    	<div class="main-column-text-wrapper">
+   	 <div class="text main-column-text">
+    
+    		<div class="smallfont">
+		
+
+		
+		
+
+		
+			 <a href="http://www.taurusclub.com/forum/193-diode-dynamics/224457-ford-taurus-footwell-led.html" title="http://www.diodedynamics.com/images/global/sig/blue1_600x115.gif 
+ 
+http://www.youtube.com/watch?v=aAEwNTExA80 
+ 
+Looking to add a unique touch to..." itemprop="headline">Ford Taurus Footwell LED...</a>
+		
+		
+		
+
+        
+        <div>
+        
+				 <span itemprop="dateModified">Yesterday <span class="time">05:56 PM</span></span> by <a rel="nofollow" href="http://www.taurusclub.com/forum/77009-diode-dynamics.html" itemprop="contributor">Diode Dynamics</a>
+                 <meta itemprop="author" content="Diode Dynamics">
+                 <meta itemprop="dateCreated" content="05-26-2014 12:07 PM">
+				
+			
+        </div>
+					
+		</div>
+		
+    </div>
+    </div>  
+    
+</td>
+</tr>
+			
+		</tbody>
+	</table>
+</section>
+<section class="text_wrapper ad box-ad">
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_300x250_TopLeft_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_300x250_TopLeft_AUTO_Forum'); });
+						</script>
+					</div></div>
+</section>
+
+<section>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="cmps-table" width="100%">
+		<thead>
+			<tr>
+				<td  colspan="0">
+				
+				<h2 class="title">Buyer's Resource</h2></td>
+			</tr>
+		</thead>
+		<tbody id="collapseobj_module_17" style="">
+			
+				<tr>
+	<td class="alt2">
+<table cellspacing=0 cellpadding=0 class="buyers-resources">
+<tr><td valign='top'><a href="http://www.autoguide.com/car-loans/"><span class="sprite inlineimg br-loan"></span></a></td><td><a href="http://www.autoguide.com/buyers-guide/car-loans.html">Auto Loans</a> <span>Get Approved Today</span></td></tr>
+<!--<tr><td valign='top'><a href="http://www.taurusclub.com/forum/"><span class="sprite inlineimg br-creditcheck"></span></a></td><td><a href="http://www.taurusclub.com/forum/">Credit Check</a> <span>Get yours now</span></td></tr>-->
+<tr><td valign='top'><a href="http://www.autoguide.com/buyers-guide/car-warranty.html"><span class="sprite inlineimg br-warranty"></span></a></td><td><a href="http://www.autoguide.com/buyers-guide/car-warranty.html">Warranty</a> <span>Extended warranty packages</span></td></tr>
+<tr><td valign='top'><a href="http://www.autoguide.com/vehicle-history.html"><span class="sprite inlineimg br-history"></span></a></td><td><a href="http://www.autoguide.com/vehicle-history.html">Vehicle History</a> <span>Get info on Auto vin check free</span></td></tr>
+<!--<tr><td valign='top'><a href="http://www.taurusclub.com/forum/"><span class="sprite inlineimg br-shipping"></span></a></td><td><a href="http://www.taurusclub.com/forum/">Shipping</a> <span>Get a free shipping quote</span></td></tr>-->
+<!--<tr><td valign='top'><a href="http://www.taurusclub.com/forum/"><span class="sprite inlineimg br-escrow"></span></a></td><td><a href="http://www.taurusclub.com/forum/">Escrow</a> <span>Transfer your money safely</span></td></tr>-->
+<tr><td valign='top'><a  href="http://www.autoguide.com/buyers-guide/automotive-tires.html"><span class="sprite inlineimg br-tires"></span></a></td><td><a  href="http://www.autoguide.com/buyers-guide/automotive-tires.html">Tires</a> <span>Find the right tires for your car</span></td></tr>
+<!--<tr><td valign='top'><a href="http://www.taurusclub.com/forum/"><span class="sprite inlineimg br-inspections"></span></a></td><td><a href="http://www.taurusclub.com/forum/">Inspections</a> <span>Certified car inspections</span></td></tr>-->
+<tr><td valign='top'><a href="http://www.autoguide.com/buyers-guide/auto-insurance.html" target="_blank"><span class="sprite inlineimg reputation"></span></a></td><td><a href="http://www.autoguide.com/buyers-guide/auto-insurance.html" target="_blank">Insurance</a> <span>Get a free insurance quote</span></td></tr>
+</table>
+	</td>
+</tr>
+			
+		</tbody>
+	</table>
+</section>
+
+<section id="facebook-like" class="section">
+<div align="center">
+<div style="text-align:center;" class="fb-page" data-href="https://www.facebook.com/pages/Taurus-Clubcom/338848729483033"
+  data-width="300" data-hide-cover="false" data-show-facepile="false" 
+  data-show-posts="false">
+</div>
+</div>
+</section>
+
+</div>
+</aside>
+
+<div class="clear"><!-- -->&nbsp;</div>
+</div>
+<!-- end wrapper -->
+
+
+<script type="text/javascript">ame_toggle_view({other : 'true',post : 'true',blog : 'true',group : 'true',vm : 'true',sig : 'true'});</script><div class="Leaderboard">
+<div style='width:100%; text-align:center;'><div id='TaurusClub_com_728x90_Bottom_AUTO_Forum' style='width:auto; height:auto;'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('TaurusClub_com_728x90_Bottom_AUTO_Forum'); });
+						</script>
+					</div></div>
+</div>
+
+
+
+
+
+
+<div id="footer" class="footer">
+<form action="http://www.taurusclub.com/forum/" method="get" style="clear:left">
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="page" align="center">
+<tr>
+	
+		<td class="tfoot" valign="top">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser">
+					<option value="49" class="" selected="selected">-- TaurusClub.com (Full)</option>
+<option value="25" class="" >-- TaurusClub.com (Classic - Light)</option>
+<option value="33" class="" >-- TaurusClub.com (Classic - Dark)</option>
+<option value="41" class="" >-- TaurusClub.com (Mobile)</option>
+
+				</optgroup>
+			</select>
+		</td>
+	
+	
+	<td class="tfoot subnav-bottom" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="/forum/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> |<a href="/forum/advertise.php" rel="nofollow" accesskey="9">Advertise</a> |
+				<a href="http://www.taurusclub.com">Ford Taurus Forum : Ford Taurus Owners Car Club Forums</a> | 
+				
+				
+				<a href="http://www.taurusclub.com/forum/archive/index.php/">Archive</a> | 
+				
+				<a href="http://www.taurusclub.com/forum/privacy-policy.php">Privacy Statement</a> | 
+				
+				<a href="http://www.taurusclub.com/forum/117-electronics-security-audio-visual/101475-fuses-seteros-power-windows.html#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+
+
+
+
+<div align="center">
+<a href="http://www.autoguide.com/"><img class="photo" src="/forum/images/TaurusClub_2015/misc/spacer.gif" data-original="/forum/images/TaurusClub_2015/misc/footer-logo.png" border="0" height="60" width="250" alt="AutoGuide.com Group" /></a>
+</div>
+
+
+
+
+
+<div align="center">
+
+
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+
+
+	</div>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- end footer -->
+
+</div></div></div><!-- end spacer_open -->
+
+</div>
+<!-- end container -->
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+
+
+
+<script src="http://www.taurusclub.com/forum/clientscript/scripts-bottom.js"></script>
+
+<script src="http://www.taurusclub.com/forum/clientscript/scripts-defer.js"></script>
+
+
+<script src="http://www.google.com/cse/brand?form=&amp;lang=en"></script>
+
+<script>
+//setTimeout(ghostwriter.loadscripts, 250); 
+</script>  
+
+<div id="update-browser">For the best viewing experience please update your browser to <a href="http://www.google.com/chrome" target="blank">Google Chrome</a></div>
+
+
+
+
+
+
+
+<!-- Toyota Inmarket Script-->
+<script type="text/javascript" src="//static.verticalscope.com/js/iframe-messenger/toyota-inmarketv3.js"></script>
+<!-- /Toyota InMarket Script--><!-- D_T_O  --><!-- vBadvanced 5-1-9-7-3 --><script>
+var renderVSAMSGTSearch = function() {
+	for(var a = 0; a < vsamsgtsearches.length; a++)     
+		google.search.cse.element.render({div: vsamsgtsearches[a], tag: 'searchbox-only'})
+}, startVSAMSGTSearch = function() {
+	'complete' == document.readyState ? renderVSAMSGTSearch() : google.setOnLoadCallback(renderVSAMSGTSearch)
+};
+			
+		window.__gcse = { parsetags: 'explicit', callback: startVSAMSGTSearch}, function() {
+			var cx = 'partner-pub-7865546952023728:y7h6bke794b';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		}();
+</script>
+<table cellpadding="3" cellspacing="0" border="0" class="page" align="center" width="100%"><tr><td class="tfoot" align="center" width="100%"><div class="smallfont"><strong><a href="http://www.verticalscope.com/aboutus/tos.php?site=taurusclub.com">Terms of Use</a></strong></div></td></tr></table>
+
+
+<img src="http://h.nexac.com/e/a-2107/s-4400/c-637/g-2095.xgi?pkey=bijo15bijox40&chpcm=Ford&chpsg=&chpcr=&chpck=&rand=&chpth=" width="1" height="1" border="0">
+
+
+<!-- Adblock Check -->
+<div class="afs_ads">&nbsp;</div>
+<script>
+(function() {
+    var adBlockDetector = function() {
+        setTimeout(function() {
+            if (!document.getElementsByClassName) return;
+            
+            var ads = document.getElementsByClassName("afs_ads");
+            ad  = ads[ads.length - 1];
+
+            if (!ad || ad.innerHTML.length == 0 || ad.clientHeight === 0) {
+                _gaq.push(["_trackEvent", "Adblock", "Blocked", "true",,true]);
+            } else {
+                ad.style.display = "none";
+                _gaq.push(["_trackEvent", "Adblock", "Unblocked", "false",,true]);
+            }
+
+        }, 500);
+    }
+
+    /* Attach a listener for page load */
+    if (window.addEventListener) {
+        window.addEventListener("load", adBlockDetector, false);
+    } else {
+        window.attachEvent("onload", adBlockDetector); //IE
+    }
+})();
+</script>
+<!-- /Adblock Check-->
+<!-- Lotame -->
+<script src="//tags.crwdcntrl.net/c/8060/cc_af.js"></script>
+<!-- /Lotame -->
+
+<!-- SWOOP -->
+<script type="text/javascript">
+  (function addSwoopOnce(domain) {
+    var win = window;
+    try {
+      while (!(win.parent == win || !win.parent.document)) {
+        win = win.parent;
+      }
+    } catch (e) {
+      /* noop */
+    }
+    var doc = win.document;
+    if (!doc.getElementById("swoop_sdk")) {
+      var serverbase = doc.location.protocol + "//ardrone.swoop.com/";
+      var s = doc.createElement("script");
+      s.type = "text/javascript";
+      s.src = serverbase + "js/spxw.js";
+      s.id = "swoop_sdk";
+      s.setAttribute("data-domain", domain);
+      s.setAttribute("data-serverbase", serverbase);
+      doc.head.appendChild(s);
+    }
+  })("SW-86972467-92");
+</script>
+<!-- /SWOOP -->
+<script type="text/javascript">
+var vs_api = vsapi.api();
+var vs_o = vs_api.vbulletinInit(0, [1047957,1047964,1047995,1048233,1048239,1048329,1048500,1049550,2115081,2115177]);
+vs_o.addPostElement(document.getElementById("post1047957"), document.getElementById("post_message_1047957"), 1047957, 101475, 117, 5395, 0);vs_o.addPostElement(document.getElementById("post1047964"), document.getElementById("post_message_1047964"), 1047964, 101475, 117, 1489, 1);vs_o.addPostElement(document.getElementById("post1047995"), document.getElementById("post_message_1047995"), 1047995, 101475, 117, 125, 2);vs_o.addPostElement(document.getElementById("post1048233"), document.getElementById("post_message_1048233"), 1048233, 101475, 117, 5395, 3);vs_o.addPostElement(document.getElementById("post1048239"), document.getElementById("post_message_1048239"), 1048239, 101475, 117, 92, 4);vs_o.addPostElement(document.getElementById("post1048329"), document.getElementById("post_message_1048329"), 1048329, 101475, 117, 5784, 5);vs_o.addPostElement(document.getElementById("post1048500"), document.getElementById("post_message_1048500"), 1048500, 101475, 117, 125, 6);vs_o.addPostElement(document.getElementById("post1049550"), document.getElementById("post_message_1049550"), 1049550, 101475, 117, 5710, 7);vs_o.addPostElement(document.getElementById("post2115081"), document.getElementById("post_message_2115081"), 2115081, 101475, 117, 39770, 8);vs_o.addPostElement(document.getElementById("post2115177"), document.getElementById("post_message_2115177"), 2115177, 101475, 117, 53829, 9);
+</script>
+      <!-- VigLink vBulletin Plugin v2.0.7.0001: http://viglink.com -->
+      <script type="text/javascript">
+        var vglnk = { api_url: '//api.viglink.com/api',
+                      key: '97c1bc195ed92a5e71ed1f0d38ce7cc3' };
+
+        (function(d, t) {
+          var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+          s.src = ('https:' == document.location.protocol ? vglnk.api_url :
+                   '//cdn.viglink.com/api') + '/vglnk.js';
+          var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+        }(document, 'script'));
+      </script>
+      <!-- end VigLink -->
+<br /><div style="z-index:3" class="smallfont" align="center"></div><!-- Taboola Footer -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+<!-- /Taboola Footer -->
+
+<script type="text/javascript">
+//<![CDATA[
+
+window.orig_onload = window.onload;
+window.onload = function() {
+var cpost=document.location.hash.substring(1);var cpost2='';if(cpost && (typeof fetch_object != 'undefined')){ var ispost=cpost.substring(0,4)=='post';if(ispost)cpost2='post_'+cpost.substring(4);if((cobj = fetch_object(cpost))||(cobj = fetch_object(cpost2))){cobj.scrollIntoView(true);}else if(ispost){cpostno = cpost.substring(4,cpost.length);if(parseInt(cpostno)>0){location.replace('http://www.taurusclub.com/forum/showthread.php?p='+cpostno);};} }
+
+if(typeof window.orig_onload == "function") window.orig_onload();
+}
+
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0f2b0d60a0","applicationID":"2342438","transactionName":"YFMEZUdYCBADVRddVlkZM0NcFgAMEEMOG09VRQNeG0kOEw==","queueTime":0,"applicationTime":770,"atts":"TBQHEw9CGx4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

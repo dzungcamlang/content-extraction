@@ -1,0 +1,193 @@
+[ROM][SonyAosp][24/12/2016][Nougat] AOSP for honami 7.1
+767 posts
+Thanks: 560
+ 
+By SuperLamic, Senior Member on 3rd September 2016, 01:10 PM
+This is a testing build of AOSP nougat. It's based on sources by sonyxperiadev, maintained by alviteri. (big thanks to him)
+
+It's working quite well, just a few bugs:
+>Camera doesn't focus well (tap to focus works, but it's slow)
+>No deep sleep - Radio - ProxyController
+
+Gapps included/built in
+
+Download
+Build 24. 12. 2016
+Build 18. 11. 2016
+Build 5. 11. 2016
+Build 21. 10. 2016
+Build 9. 9. 2016
+Build 7. 9. 2016
+Build 5. 9. 2016
+Build 2. 9. 2016
+
+Changelog
+24.12.2016
+>Many updates to kernel (security etc..)
+>Patches to camera
+>Overall update - 7.1.1
+18.11.2016
+>Update blobs (camera improvements)
+>Patches to cam stability
+-Optimized kernel + updated interactive gov
+5.11.2016
+>Update blobs (fix cam and proximity)
+>@munjeni's charging fix and fixed detection of usb connection
+Still no deep sleep
+21.10.2016
+>A lot of updates, security, camera, android 7.1
+9.9.2016
+>black (daynight) theme - activate in settings - display
+>fix some mhl things
+Patches:
+-removed latest regulators patch
+-remove camera fd
+7.9.2016
+>Add current values for cpus
+>fix cpp for smmu dts node (camera)
+Patches:
+- USB: Disable regulators only when enabled
+5.9.2016
+>Camera KW fixes (camera still does not work well)
+Patches:
+- Charger: add missing properties
+- Hotplug: tune the values
+- Audio: remove fixed bandwidth
+- Bluetooth: set BT name dynamically (I'm not really sure if this fixed bt, but it works)
+- Touchscreen: enable touch size
+- Wifi: use config from stock
+2.9.2016
+>Initial release
+Patches: 
+- audio: kernel jack , headsethook number (first custom rom where audio jack works as in stock)
+- memory: don't limit memory to 1.4 GB
+
+
+
+
+XDA:DevDB Information
+AOSP, ROM for the Sony Xperia Z1
+
+Contributors
+SuperLamic, davidteri91, sonyxperiadev 
+Source Code: https://github.com/SonyAosp
+
+ROM OS Version: 7.x Nougat
+ROM Kernel: Linux 3.10.x
+ROM Firmware Required: 236 bootloader
+Based On: AOSP
+
+Version Information
+Status: Testing
+
+Created 2016-09-03
+Last Updated 2016-12-24
+ Glex01
+3rd September 2016, 01:43 PM |#2  
+Junior Member
+Thanks Meter: 2
+ 
+More 
+just for c6903?
+ SuperLamic
+3rd September 2016, 01:56 PM |#3  
+
+
+SuperLamic's Avatar
+OP Senior Member
+Flag Prague
+Thanks Meter: 560
+ 
+More 
+Quote:
+Originally Posted by Glex01 
+just for c6903?
+
+if you flash modem fw for other version it may work. But I don't have any other device to test.
+ Glex01
+3rd September 2016, 02:10 PM |#4  
+
+
+Junior Member
+Thanks Meter: 2
+ 
+More 
+Quote:
+Originally Posted by SuperLamic 
+if you flash modem fw for other version it may work. But I don't have any other device to test.
+
+Please give C6902 modem link
+Thanks
+ monnett
+3rd September 2016, 02:29 PM |#5  
+
+monnett's Avatar
+Senior Member
+Flag bandung
+Thanks Meter: 48
+ 
+More 
+Awesome one 
+ SuperLamic
+3rd September 2016, 06:54 PM |#6  
+
+SuperLamic's Avatar
+OP Senior Member
+Flag Prague
+Thanks Meter: 560
+ 
+More 
+Quote:
+Originally Posted by Glex01 
+Please give C6902 modem link
+Thanks
+
+I'm sorry, but I don't have any. You should be able to get that from your stock rom - /system/etc/firmware - take all modem.* and mba.* files and replace them in this rom.
+ zawy.
+3rd September 2016, 07:19 PM |#7  
+Senior Member
+Thanks Meter: 12
+ 
+More 
+Quote:
+Originally Posted by SuperLamic 
+I'm sorry, but I don't have any. You should be able to get that from your stock rom - /system/etc/firmware - take all modem.* and mba.* files and replace them in this rom.
+
+Sorry for OT, but does it work similiar, if i want to install some ROM, which is for Z1 compact ?
+SuperLamic
+3rd September 2016, 08:06 PM |#8  
+SuperLamic's Avatar
+OP Senior Member
+Flag Prague
+Thanks Meter: 560
+ 
+More 
+Quote:
+Originally Posted by zawy. 
+Sorry for OT, but does it work similiar, if i want to install some ROM, which is for Z1 compact ?
+
+Um, no. You can't install rom for honami (xperia z1) on amami (xperia z1 c). You have to compile the rom on your own or wait till any1 compiles it for you.
+ coxahogit@stexsy.com
+4th September 2016, 03:07 AM |#9  
+Thanks Meter: 1
+ 
+More 
+Awesome job brotha.I am facing Charging issue on USB port using both wall charger or PC the device doesnt detect charger plugged Any possible fix Btw Congrats for the first bootable Nougat build for z1 
+Attached Thumbnails
+asakapa
+4th September 2016, 03:59 AM |#10  
+Junior Member
+Flag Tayug
+Thanks Meter: 2
+ 
+More 
+Hope this rom will be stable
+Hope this rom will be stable
+ Animeshkr.
+4th September 2016, 09:15 AM |#11  
+Junior Member
+Thanks Meter: 0
+ 
+More 
+Charging
+The phn didn't charge, is there any way to fix it.

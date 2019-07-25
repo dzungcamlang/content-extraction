@@ -1,0 +1,81 @@
+ 12-29-2009, 02:47 PM Thread Starter
+sunnyhollowfarms
+Junior Member
+ 
+Join Date: May 2009
+Posts: 23
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+9650sts header variable speed problems
+Having problems adjusting variable header drive to speed i want. If it is on slow and you speed it up it goes way to far. Ive had better luck speeding it up all the way then tapping button to slow it down to the speed i want.
+It is the regular duty drive on 693 head so no problems slipping or getting hot. also was switched to single point header hookup by previous owner. It almost seems like valve is sticking open for a little after you release the button. Or did they forget to put an orifice in somewhere? Also loses speed slowly throughout the day. not sure if that is related or not. thanks. 
+
+ 
+ 
+
+sunnyhollowfarms is offline  
+Quote Quick Reply
+12-29-2009, 07:48 PM
+greentech
+Senior Member
+ 
+Join Date: Sep 2006
+Posts: 778
+Mentioned: 0 Post(s)
+Quoted: 6 Post(s)
+Re: 9650sts header variable speed problems
+With the single point connector you have to add a ball valve to the hydraulic line between the upper variable sheaves and the single point block to hold any speed above slow. The block leaks internally. Set your speed with the ball valve open and close it to hold it there. You could close it part way to serve as an orfice too. 
+
+ 
+ 
+greentech is offline  
+Quote Quick Reply
+post #3 of 6 (permalink) Old 12-30-2009, 10:54 AM
+thor1ststech
+Member
+ 
+Join Date: Oct 2009
+Posts: 94
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: 9650sts header variable speed problems
+Depending on serial number there was a change with the upper variable speed cylinder. The newer one is larger so it had more displacment and adjusts slower. Deere recommendations have always been to speed past the speed you want and tap the button to slow it down. Also on the slowing down on it's own it couls be a couple of things. First make sure the upper variable speed cylinder isn't leaking. If there is oil collectin in the upper shield then there is a leak. Deere came out with new style seals a couple years back that fixed the bad seal problem. Second is you could have a leak in the valve stack at the solenoid. If you don't have single point you can ger the fh speed set then unhook the variable speed hose and see if the speed holds. If it does then it is in the valve stack. If not it is in the variable speed cylinder. Hope this helps
+thor1ststech is offline  
+Quote Quick Reply
+
+post #4 of 6 (permalink) Old 12-31-2009, 09:28 AM Thread Starter
+sunnyhollowfarms
+Junior Member
+ 
+Join Date: May 2009
+Posts: 23
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: 9650sts header variable speed problems
+First of all, thanks guys for the info so far. Secondly, a friend of mine ran it some this fall and thought the speed adjust is worse than a 9510 or 9610 which i think the header drive is nearly identical. For myself i dont know because i never ran one. i dont expect it to be as easy to adjust as the 9660sts we demoed several years back but it would be nice if it were better. as far as it slowing down, it is very gradual and it could easily be lived with if we fix the adjustment problem. but i may check it out and see if it is the valve stack or internal leak. thanks
+sunnyhollowfarms is offline  
+Quote Quick Reply
+post #5 of 6 (permalink) Old 12-31-2009, 10:40 AM
+thor1ststech
+Member
+ 
+Join Date: Oct 2009
+Posts: 94
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: 9650sts header variable speed problems
+If you want you can try an AH121643 orfice. They are $60 and are threaded into the pioneer coupler on the variable speed cylinder hose.
+thor1ststech is offline  
+Quote Quick Reply
+post #6 of 6 (permalink) Old 01-15-2010, 01:29 AM Thread Starter
+sunnyhollowfarms
+Junior Member
+ 
+Join Date: May 2009
+Posts: 23
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: 9650sts header variable speed problems
+Just an update. I went to the local hydraulic shop and bought a $30 turn valve and put it on. now i have infinite adjust from shut to open. It very much improve my ability to adjust the speed. thanks again for the replies and help given.
+sunnyhollowfarms is offline  
+Quote Quick Reply

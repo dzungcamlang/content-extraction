@@ -1,0 +1,142 @@
+02-06-2008, 08:14 AM Thread Starter
+dreamer
+Member
+ 
+Join Date: Dec 2007
+Posts: 87
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Problems with MX 285 Going off Line
+We have been having our 285's transmission go off line every now and again when we shut it off, then we are not able to move it. After a period of time it will all of a sudden work again. Is there anyone else out there having a problem like this or if you did how were you able to fix it? Yesterday I was using it to move snow and it actually locked up while driving. (I kissed the windshield pretty good) That was the first time that happened.
+
+ 
+ 
+
+dreamer is offline  
+Quote Quick Reply
+02-06-2008, 10:03 AM
+okpanhandle
+Senior Member
+ 
+okpanhandle's Avatar
+ 
+Join Date: Jun 2007
+Location: Guymon, OK
+Posts: 3,100
+Mentioned: 1 Post(s)
+Quoted: 42 Post(s)
+Re: Problems with MX 285 Going off Line
+Sometimes the tranny on our 270 will throw a TRANS FAULT and lock itself in neutral, but it only does it when I hit the clutch or change direction. Restarting the tractor will clear it every time. I mentioned it to the mechanic when he was out to look at something else, but he didn't have any idea. He showed me how to read fault codes, but I don't have anything to tell me what the code means. It hasn't done it in a while, but I'm not going to believe it fixed itself. I hope it doesn't start quitting on me while I'm moving. That sounds rough. 
+
+ 
+ 
+okpanhandle is offline  
+Quote Quick Reply
+post #3 of 15 (permalink) Old 02-06-2008, 10:13 AM
+anteater6788
+Senior Member
+ 
+Join Date: Jan 2006
+Posts: 193
+Mentioned: 0 Post(s)
+Quoted: 2 Post(s)
+Re: Problems with MX 285 Going off Line
+Sounds like it could be the cab power solinoid. We've had to replace one of them in our MX-240 and the tech said when they go on the second gen MXs (which only had one instead of two) can can cause the tractor to go straight to park. What happens is that over time a little resistance builds up in the coil and drops the voltage enough to make the computor do funny things. The solinoids are under a panel behind the seat and if you see any discoloration on the terminals it's a good sign it's gotten hot and that's the problem.
+anteater6788 is offline  
+Quote Quick Reply
+
+post #4 of 15 (permalink) Old 02-06-2008, 11:15 AM
+bleedred
+Senior Member
+ 
+Join Date: Dec 2005
+Location: ECIA
+Posts: 929
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: Problems with MX 285 Going off Line
+We had a similar problem with our MX255 not long after we bought it. I think it ended up being either the the sensor on the clutch pedal throwing a weird reading, or the the sensor on the gear selector on the steering column. Can't remember which it was but solved the problem.
+
+As you stated the tractor would throw a trans fault (I think it was) and then you couldn't get it out of neutral.
+
+Pretty annoying when your grain cart can't move!
+bleedred is offline  
+Quote Quick Reply
+post #5 of 15 (permalink) Old 02-06-2008, 11:27 AM
+magnum8930
+Senior Member
+ 
+Join Date: Jan 2008
+Posts: 277
+Mentioned: 0 Post(s)
+Quoted: 1 Post(s)
+Re: Problems with MX 285 Going off Line
+i have seen our 240 throw a TRANS FAULT twice last year when going between forward and reverse quickly. but like okpanhandle said restart it and it worked just fine. Was going to get the fault code out of it and check with the dealer when we take it out of the shed for spring service. Other than doing that twice it hasent effected anything else as far as performance. If needed i can go get the code out of it if anyone wants to know.
+magnum8930 is offline  
+Quote Quick Reply
+post #6 of 15 (permalink) Old 02-06-2008, 06:42 PM
+hobby95
+Member
+ 
+Join Date: Jan 2008
+Posts: 46
+Mentioned: 0 Post(s)
+Quoted: 3 Post(s)
+Re: Problems with MX 285 Going off Line
+We had a mx240 that would shift to neutral and throw a TRANS FAULT without warning in the field. Dealer had it several times and never figured it out.
+Traded for a JD 8420 never had a bit of trouble in 2000 hours.
+We also have an early model MX180 with 5000 hours. Was fairly trouble free till it hit 4000 hours, now it is going to nickle and dime us to death. Have a friend who runs 5 MX270 on manure tanks, same thing, run good to 4000 then start breaking hydraulic lines and injector lines all the time.
+hobby95 is offline  
+Quote Quick Reply
+post #7 of 15 (permalink) Old 02-07-2008, 07:31 AM
+ajgern81
+Member
+ 
+Join Date: Aug 2007
+Posts: 43
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: Problems with MX 285 Going off Line
+Had the same trouble with our Mx 200. The dealer was out to work on the combine and I told them about it. They got out their laptop and re calibrated the inching pedal. That was 2 years ago. haven't had a problem with it since. They also put in the latest software which seemed to help the tractor even shift smoother.
+ajgern81 is offline  
+Quote Quick Reply
+post #8 of 15 (permalink) Old 02-08-2008, 05:43 PM
+anteater6788
+Senior Member
+ 
+Join Date: Jan 2006
+Posts: 193
+Mentioned: 0 Post(s)
+Quoted: 2 Post(s)
+Re: Problems with MX 285 Going off Line
+We did have to replace the bottom of clutch travel switch on our MX 240 once because it would throw the trans fault code until you restarted the tractor. If that is the problem if you shift without using the clutch it should work fine.
+anteater6788 is offline  
+Quote Quick Reply
+post #9 of 15 (permalink) Old 02-18-2008, 10:30 PM
+tech
+Member
+ 
+Join Date: Oct 2007
+Posts: 93
+Mentioned: 0 Post(s)
+Quoted: 0 Post(s)
+Re: Problems with MX 285 Going off Line
+there could be a few diffrent problms that you are having, it could be in your A post controller or in your trans controller. If you are not getting a fault code when this happens then thats what I wood look at first. If it fails quickly than I would have a tech come out when you are using it and have them hook up the lap top and monitor the controllers to see what goes off line and the voltage that is being dropped at the controllers. I've seen it on a few.
+tech is offline  
+Quote Quick Reply
+post #10 of 15 (permalink) Old 02-18-2008, 10:48 PM
+scott
+Senior Member
+ 
+Join Date: Jun 2007
+Location: Leeds, north dakota
+Posts: 2,233
+Mentioned: 0 Post(s)
+Quoted: 22 Post(s)
+Re: Problems with MX 285 Going off Line
+dreamer,I am a new holland mechanic, we share the same tractor, you will most likely have to a mechanic hook up to it with a laptop, inching pedal, clutch, has a sensor on it, clutch packs are also sensitive may have to recalibrate transmission, scott. 
+
+ 
+ 
+scott is offline  
+Quote Quick Reply

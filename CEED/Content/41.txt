@@ -1,0 +1,255 @@
+This monograph includes information on the following:
+
+1) Manganese Chloride †
+2) Manganese Sulfate †
+
+VA CLASSIFICATION
+Primary: TN499
+
+Note: For a listing of dosage forms and brand names by country availability, see Dosage Forms section(s).
+
+†Not commercially available in Canada.
+
+
+
+Category:
+
+
+Nutritional supplement (mineral)—
+
+Indications
+
+Accepted
+
+Manganese deficiency (prophylaxis and treatment)—Manganese supplements are indicated in the prevention and treatment of manganese deficiency, which may result from inadequate nutrition or intestinal malabsorption but does not occur in healthy individuals receiving an adequate balanced diet. For prophylaxis of manganese deficiency, dietary improvement, rather than supplementation, is advisable. For treatment of manganese deficiency, supplementation is preferred. {18}
+—Although deficiency in humans has not been documented, {11} deficiency of manganese in animals may lead to poor reproductive performance, growth retardation, congenital malformations in the offspring, abnormal formation of bone and cartilage, dermatitis {04}, and impaired glucose tolerance. {02}
+—Some unusual diets (e.g., reducing diets that drastically restrict food selection) may not supply minimum daily requirements of manganese. Supplementation may be necessary in patients receiving total parenteral nutrition (TPN) {19} or undergoing rapid weight loss or in those with malnutrition, because of inadequate dietary intake.
+
+
+Pharmacology/Pharmacokinetics
+
+Physicochemical characteristics:
+Molecular weight—
+    Manganese chloride: 203.3 {05}
+    Manganese sulfate: 169.01 {05}
+    Elemental manganese: 54.9 {03}
+
+Mechanism of action/Effect:
+
+Manganese is an activator for enzymes such as polysaccharide polymerase, liver arginase, cholinesterase, and pyruvate carboxylase. {01} {07} {19} It may also be a cofactor in lipid, protein, and carbohydrate metabolism. {10}
+
+Absorption:
+
+Variable, ranging from 3 to 50%. Manganese does undergo enterohepatic circulation. {04}
+
+Protein binding:
+
+Bound to a specific transport protein, transmanganin, a beta-1-globulin. {01} {19}
+
+
+Storage
+
+Manganese is concentrated in mitochondria-rich tissues such as brain, kidney, pancreas, and liver. {01}
+
+Elimination:
+    Primarily through bile, but may be eliminated in pancreatic juice or returned to the lumen of duodenum, jejunum, or ileum in the event of biliary obstruction. Urinary excretion is negligible. {01} {19}
+
+
+Precautions to Consider
+
+Pregnancy/Reproduction
+
+Pregnancy—
+Studies have not been done in humans and problems in humans have not been documented with intake of normal daily recommended amounts. {19}
+
+Studies have not been done in animals. {19}
+
+FDA Pregnancy Category C (parenteral manganese). {19}
+
+Breast-feeding
+
+Problems in humans have not been documented with intake of normal daily recommended amounts.
+
+Pediatrics
+
+Problems in pediatrics have not been documented with intake of normal daily recommended amounts.
+
+Manganese sulfate injection that contains benzyl alcohol as a preservative should not be used in newborn and immature infants. The use of benzyl alcohol in neonates has been associated with a fatal toxic syndrome consisting of metabolic acidosis and CNS, respiratory, circulatory, and renal function impairment.
+
+
+Geriatrics
+
+
+Problems in geriatrics have not been documented with intake of normal daily recommended amounts.
+
+Medical considerations/Contraindications
+The medical considerations/contraindications included have been selected on the basis of their potential clinical significance (reasons given in parentheses where appropriate)— not necessarily inclusive (» = major clinical significance).
+
+
+Risk-benefit should be considered when the following medical problems exist
+Biliary tract dysfunction or
+Hepatic dysfunction    (increased manganese blood concentrations may result because manganese is excreted in the bile {01} {19})
+
+
+
+Patient monitoring
+The following may be especially important in patient monitoring (other tests may be warranted in some patients, depending on condition; » = major clinical significance):
+
+Manganese concentrations, plasma    (determinations may be recommended at monthly {12} intervals; however, some clinicians do not recommend monitoring manganese concentrations because deficiency is rare {01} {13})
+
+
+
+
+Side/Adverse Effects
+There have been no reports of toxicity or side effects from oral manganese supplements. {01} {17}
+
+
+
+Patient Consultation
+As an aid to patient consultation, refer to Advice for the Patient, Manganese Supplements (Systemic).
+
+In providing consultation, consider emphasizing the following selected information (» = major clinical significance):
+
+Description of use
+Description should include function in the body, signs of deficiency
+
+
+Importance of diet
+Importance of proper nutrition; supplement may be needed because of inadequate dietary intake
+
+Food sources of manganese
+
+Recommended daily intake for manganese
+
+Proper use of this dietary supplement
+
+» Proper dosing
+Missed dose: No cause for concern because of length of time necessary for depletion; remembering to take as directed
+
+» Proper storage
+
+
+General Dosing Information
+Because of the infrequency of manganese deficiency occurring alone, combinations of several vitamins and/or minerals are commonly administered. Many commercial vitamin-mineral complexes are available.
+
+For parenteral dosage forms only
+In most cases, parenteral administration is indicated only when oral administration is not acceptable (for example, in nausea, vomiting, preoperative and postoperative conditions) or possible (for example, in malabsorption syndromes or following gastric resection).
+
+Diet/Nutrition
+Recommended dietary intakes for manganese are defined differently worldwide.
+
+
+For U.S.:
+The Recommended Dietary Allowances (RDAs) for vitamins and minerals are determined by the Food and Nutrition Board of the National Research Council and are intended to provide adequate nutrition in most healthy persons under usual environmental stresses. In addition, a different designation may be used by the FDA for food and dietary supplement labeling purposes, as with Daily Value (DV). DVs replace the previous labeling terminology United States Recommended Daily Allowances (USRDAs). {02} {09}
+
+
+
+For Canada:
+Recommended Nutrient Intakes (RNIs) for vitamins, minerals, and protein are determined by Health and Welfare Canada and provide recommended amounts of a specific nutrient while minimizing the risk of chronic diseases. {16}
+
+There is no RDA or RNI established for manganese. The following daily intakes are considered adequate for all individuals {02}:
+
+
+Infants and children—
+Birth to 3 years of age: 0.3 to 1.5 mg.
+
+4 to 6 years of age: 1.5 to 2 mg.
+
+7 to 10 years of age: 2 to 3 mg.
+
+
+
+Adolescents and adults—
+2 to 5 mg.
+
+
+The best dietary sources of manganese include whole grains, cereal products, lettuce, dry beans, and peas. {02} {08}
+
+
+MANGANESE CHLORIDE
+
+
+Parenteral Dosage Forms
+
+MANGANESE CHLORIDE INJECTION USP
+
+Usual adult and adolescent dose
+Deficiency (prophylaxis and treatment)
+Intravenous, 200 mcg (0.2 mg) {14} of elemental manganese a day, added to total parenteral nutrition (TPN).
+
+
+Usual pediatric dose
+Deficiency (prophylaxis and treatment)
+Intravenous, 2 to 10 mcg (0.002 to 0.01 mg) of elemental manganese a day, added to total parenteral nutrition (TPN). {14}
+
+
+Strength(s) usually available
+U.S.—
+
+
+360 mcg (0.36 mg) (0.1 mg elemental manganese) per mL (Rx)[Generic]
+
+Canada—
+Not commercially available.
+
+Packaging and storage:
+Store below 40 °C (104 °F), preferably between 15 and 30 °C (59 and 86 °F), unless otherwise specified by manufacturer.
+
+
+MANGANESE SULFATE
+
+
+Parenteral Dosage Forms
+
+MANGANESE SULFATE INJECTION USP
+
+Usual adult and adolescent dose
+See Manganese Chloride Injection USP.
+
+Usual pediatric dose
+See Manganese Chloride Injection USP.
+
+Note: Injection that contains benzyl alcohol as a preservative should not be used in newborn and immature infants. The use of benzyl alcohol in neonates has been associated with a fatal toxic syndrome consisting of metabolic acidosis and CNS, respiratory, circulatory, and renal function impairment.
+
+
+Strength(s) usually available
+U.S.—
+
+
+308 mcg (0.308 mg) (0.1 mg elemental manganese) per mL (Rx)[Generic]
+
+Canada—
+Not commercially available.
+
+Packaging and storage:
+Store below 40 °C (104 °F), preferably between 15 and 30 °C (59 and 86 °F), unless otherwise specified by manufacturer.
+
+Preparation of dosage form:
+Manganese sulfate is compatible with amino acids, dextrose, electrolytes, and vitamins usually used for total parenteral nutrition (TPN). {01}
+
+
+
+Revised: 04/25/1995
+
+
+
+References
+Manganese sulfate injection product information (LyphoMed–U.S.) Rev 10/88.
+National Research Council. Recommended dietary allowances. 10th ed. Washington DC: National Academy Press, 1989: 230-5.
+Solomons N. Manganese in Clinical guide to parenteral micronutrition. First ed. 1984: 145-50.
+Friedman B, Freeland-Graves J, Bales C et al. Manganese balance and clinical observations in young men fed a manganese-deficient diet. J Nutr 1987; 117: 133–43.
+Fleeger CA, editor. USAN 1993. USAN and the USP dictionary of drug names. Rockville, MD: The United States Pharmacopeial Convention, Inc., 1992: 400-1.
+Manganese product label (Jamieson–Canada).
+Utter M. The biochemistry of manganese. Med Clinics of N Am 1976; 60(4): 713-726.
+Burton B. Human Nutrition. Third Ed. New York: McGraw-Hill, 1976: 143.
+Food and Drug Administration. Focus on food labeling. FDA Consumer. May, 1993.
+Panelist comment, 1991.
+Panel comment, 1991.
+Panel comment, 1991.
+Panel comment, 1991.
+Panelist comment, 1991.
+Redbook 1993. Montvale, NJ: Medical Economics Data, 1993: 351.
+Health and Welfare Canada. Nutrition recommendations, the report of the scientific committee. Ottawa Canada: Canadian Government Publishing Centre, 1990: 13-4.
+Reviewer's comment, 1994.
+Consensus from Nutrition and Electrolytes Advisory Panel meeting, 1995.
+Manganese chloride product information (Abbott—US), Rec 2/95, Rev 11/89.

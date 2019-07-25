@@ -1,0 +1,3038 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+<script>!function e(t,n,o){function r(i,u){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!u&&c)return c(i,!0);if(a)return a(i,!0);var d=new Error("Cannot find module '"+i+"'");throw d.code="MODULE_NOT_FOUND",d}var f=n[i]={exports:{}};t[i][0].call(f.exports,function(e){var n=t[i][1][e];return r(n?n:e)},f,f.exports,e,t,n,o)}return n[i].exports}for(var a="function"==typeof require&&require,i=0;i<o.length;i++)r(o[i]);return r}({1:[function(e,t,n){(function(e){function n(){try{var e=new o("cat",{detail:{foo:"bar"}});return"cat"===e.type&&"bar"===e.detail.foo}catch(t){}return!1}var o=e.CustomEvent;t.exports=n()?o:"undefined"!=typeof document&&"function"==typeof document.createEvent?function(e,t){var n=document.createEvent("CustomEvent");return t?n.initCustomEvent(e,t.bubbles,t.cancelable,t.detail):n.initCustomEvent(e,!1,!1,void 0),n}:function(e,t){var n=document.createEventObject();return n.type=e,t?(n.bubbles=Boolean(t.bubbles),n.cancelable=Boolean(t.cancelable),n.detail=t.detail):(n.bubbles=!1,n.cancelable=!1,n.detail=void 0),n}}).call(this,"undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{})},{}],2:[function(e,t,n){function o(e,t,n,o){"addEventListener"in e?e.addEventListener(t,n,o):"attachEvent"in e&&e.attachEvent("on"+t,n)}var r=e(1);!function(){window.adonis=window.adonis||{},window.adonis.scriptStatuses={};var e=function(){var e="NEW_SCRIPT_EVENT",t=new r(e,{detail:{}});window.dispatchEvent(t)};o(document,"load",function(t){t.target&&"SCRIPT"===t.target.nodeName&&(window.adonis.scriptStatuses[t.target.src]="load",e())},!0),o(document,"error",function(t){t.target&&"SCRIPT"===t.target.nodeName&&(window.adonis.scriptStatuses[t.target.src]="error",e())},!0)}()},{1:1}]},{},[2]);</script>
+	
+		<title>Nexus 7 (2013)</title>
+	
+	<meta name="keywords" content="Nexus 7 (2013), root, help, forum, android, roms, mods, themes"/>
+
+	
+		<meta name="description" content="Nexus 7 (2013) help, reviews, wallpaper, root tools, ROMs and more"/>
+		
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	
+		<script type="text/javascript">var purchccat1='Nexus 7 (2013)';var purchccat2='';</script>
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+            <script>var xda_ad_choice=(function(){var rand=function(min,max){return Math.random()*(max-min)+min;};var getRandomItem=function(list,weight){var total_weight=weight.reduce(function(prev,cur,i,arr){return prev+cur;});var random_num=rand(0,total_weight);var weight_sum=0;for(var i=0;i<list.length;i++){weight_sum+=weight[i];weight_sum=+weight_sum.toFixed(2);if(random_num<=weight_sum){return list[i];}}};var list=["purch","sortable"];var weight=[1.00,0.00];var random_item=getRandomItem(list,weight);return random_item;})();if(location.hash=="#xda_ad_test"){xda_ad_choice="sortable";}window.adBlockDetect=(function(){var enabled;var callback=function(args){if(args.length==1&&typeof args[0]==="function"){args[0](enabled);}};var poll=function(args){if(typeof enabled==="undefined"){setTimeout(function(){poll(args);},105);return;}callback(args);};(function(){var test=document.createElement("div");test.innerHTML="&nbsp;";test.className="adsbox";document.documentElement.appendChild(test);window.setTimeout(function(){if(test.offsetHeight===0){enabled=true;}else{enabled=false;}test.remove();},100);})();return function(){poll(arguments);};})();</script>
+
+            <!--
+      ___          _____          ___     
+     /__/|        /  /::\        /  /\    
+    |  |:|       /  /:/\:\      /  /::\   
+    |  |:|      /  /:/  \:\    /  /:/\:\  
+  __|__|:|     /__/:/ \__\:|  /  /:/~/::\ 
+ /__/::::\____ \  \:\ /  /:/ /__/:/ /:/\:\
+    ~\~~\::::/  \  \:\  /:/  \  \:\/:/__\/
+     |~~|:|~~    \  \:\/:/    \  \::/     
+     |  |:|       \  \::/      \  \:\     
+     |  |:|        \__\/        \  \:\    
+     |__|/                       \__\/    DEVELOPERS
+-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- <meta name="viewport" content="width=745, maximum-scale=1.0"> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQ8DWFNVGwoIVFNUDg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(14)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(14)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(14)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(w=-w,b.data=w)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(14)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,g),g.prototype=p.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var w=1,b=document.createTextNode(w);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[g[n]];return f&&f.push([w,n,r,i]),i}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",g[n]=e,e in u||(u[e]=[])})}var y={},g={},w={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return w}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=w.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(12),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(9);var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},g=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),w=e.exports={offset:a(),origin:v,features:{},xhrWrappable:g};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,7]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="theme-color" content="#de7300">
+<meta name="msapplication-TileColor" content="#de7300">
+
+
+
+<meta property="fb:admins" content="9336956">
+
+<base href="https://forum.xda-developers.com/">
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600|Hind:400,600,500|Titillium+Web:200,400,300italic,300,400italic,700,700italic" rel="stylesheet" type="text/css">
+
+
+	
+		
+			<link href="//forum-lw-1.xda-cdn.com/css/2015/2015.min.css?v=1487688055" rel="stylesheet" type="text/css">
+		
+		<script type="text/javascript">var nofacssserved=false;</script>
+	
+
+
+
+
+
+
+
+<!--[if lte IE 8]>
+    <link href="//forum-lw-1.xda-cdn.com/css/2015/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+<script type="text/javascript">if(typeof console==="undefined"){var console={log:function(logMsg){}};}console.firebug=false;</script>
+
+
+<!--[if lt IE 9]>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--<![endif]-->
+
+
+
+<script type="text/javascript">var tmntag=tmntag||{};tmntag.cmd=tmntag.cmd||[];(function(){var tmnhead=document.createElement('script');tmnhead.async=true;tmnhead.type='text/javascript';tmnhead.src=('https:'==document.location.protocol?'https:':'http:')+'//ads.servebom.com/tmnhead.js';var node=document.getElementsByTagName('script')[0];node.parentNode.insertBefore(tmnhead,node);})();var SESSIONURL="s=ed404c927f272e7151184c5f7bb0da1a&";var SECURITYTOKEN="guest";var IMGDIR_MISC="//forum-lw-1.xda-cdn.com/images/2015/misc";var vb_disable_ajax=parseInt("0",10);var stylevarcdn1='//forum-lw-1.xda-cdn.com/';var styleid=21;var is_mobile=0;</script>
+
+
+	<script type="text/javascript" src="//forum-lw-1.xda-cdn.com/clientscript/2015.head.min.js?v=1487688055"></script>
+
+
+<!--[if lte IE 6]>
+    <script type="text/javascript">
+        if (!jQuery.cookie('ie6redirectcheck')) {
+        
+            if (confirm('Looks like you are using an old version of Internet Explorer, would you like to redirect to a compatible layout of the website?')) {
+                var currenthref = window.location.href;
+
+                var appendchar = (currenthref.indexOf('?') > -1) ? '&' : '?';
+
+                window.location = currenthref + appendchar + 'styleid=15';
+            }
+            
+            jQuery.cookie('ie6redirectcheck', '1', { expires: 365 });
+        }
+    </script>
+<![endif]-->
+
+
+	<link rel="alternate" type="application/rss+xml" title="xda-developers RSS Feed" href="external.php?type=RSS2"/>
+	
+
+
+
+
+<script>if($.cookie('xda_adtest')!=undefined){var xda_adtest=$.cookie('xda_adtest');}else{var xda_adtest=3;}(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//forum-lw-2.xda-cdn.com/analytics.js','ga');ga('create','UA-12268453-1','auto');ga('set','dimension1','Yes');ga('set','dimension2','No');ga('set','dimension3','21');ga('set','dimension5',xda_adtest);ga('send','pageview');</script>
+
+
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="//forum-lw-1.xda-cdn.com/images/2015/favicons/favicon-16x16.png" sizes="16x16">
+<meta name="msapplication-TileColor" content="#e67800">
+<meta name="msapplication-TileImage" content="//forum-lw-1.xda-cdn.com/images/2015/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="//forum-lw-1.xda-cdn.com/images/2015/favicons/browserconfig.xml">
+
+<!-- Criteo -->
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<script>window.addEventListener("message",function(event){if(event.origin==="https://cas.criteo.com"&&event.data){var elements=document.querySelectorAll("iframe[src*='cb="+event.data+"&']");if(elements.length){elements[0].parentNode.style.display='none';}}},false);</script>
+
+
+<!--
+<script type="text/javascript" src="/clientscript/mqttws31.js"></script>
+<script type="text/javascript" src="/clientscript/mqtt-test.js?123=1"></script>
+-->
+
+
+
+
+
+                <script>jQuery(document).ready(function(e){var forumid="2407";var $forumSearchDiv=$(".forumSearch");if($forumSearchDiv){$forumSearchDiv.submit(function(e){e.preventDefault();var query=encodeURIComponent($(this).find("input[type=text]").val());var url="/search/forum/"+forumid+"?query="+query;window.location=url;});}});</script>
+                
+	
+	<meta property="og:title" content="Google Nexus 7 (2013) Forum on XDA Developers"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:site_name" content="XDA Developers"/>
+                <meta property="og:image" content="//forum-lw-1.xda-cdn.com/devdb/deviceForum/screenshots/2407/20130729T112728.png"/>
+                <meta property="og:url" content="https://forum.xda-developers.com/nexus-7-2013"/>
+                <meta property="og:description" content="The Nexus 7 (2013) is the second iteration of the flagship tablet designed and developed by Google, in conjunction with Asus. With improvements across the board, the Nexus 7 (2013) features a 7-inch, 1200 x 1920 display, a Qualcomm Snapdragon S4 Pro quad-core chip, 2 GB of RAM, and 16 or 32 GB of internal storage. The device runs on Google's latest Android Jelly Bean 4.3."/> 
+	<link rel="canonical" href="/nexus-7-2013"/>
+	
+</head>
+<body class="min-width-728 logged-out forumdisplaycategory">
+<script>!function e(t,n,r){function o(a,c){if(!n[a]){if(!t[a]){var s="function"==typeof require&&require;if(!c&&s)return s(a,!0);if(i)return i(a,!0);var d=new Error("Cannot find module '"+a+"'");throw d.code="MODULE_NOT_FOUND",d}var u=n[a]={exports:{}};t[a][0].call(u.exports,function(e){var n=t[a][1][e];return o(n?n:e)},u,u.exports,e,t,n,r)}return n[a].exports}for(var i="function"==typeof require&&require,a=0;a<r.length;a++)o(r[a]);return o}({1:[function(e,t,n){!function(){function t(){o&&console.log.apply(console,arguments)}var n=e(4),r=window.RTCPeerConnection||window.mozRTCPeerConnection||window.webkitRTCPeerConnection;if(!r)return void n.reportEvent("bootstrap.ifw.rtc.absent");n.reportEvent("bootstrap.ifw.rtc.exists"),window.adonisHash=window.location.hash;var o=window.adonisHash.indexOf("adonis-logging")!==-1,i=function(e){var t=function(){e===!0&&console.log.apply(console,arguments)},n=["script","img"];document.addEventListener("load",function(e){t("withinIframe load event",e.target),!e.target||"SCRIPT"!==e.target.nodeName&&"IMG"!==e.target.nodeName||(e.target._loadState="load")},!0),document.addEventListener("error",function(e){t("withinIframe error event",e.target),!e.target||"SCRIPT"!==e.target.nodeName&&"IMG"!==e.target.nodeName||(e.target._loadState="error")},!0),window.addEventListener("message",function(e){if(void 0!==e.data.iframeId){t("message received "+e.data.iframeId);var r=e.data,o=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)},i=function(e){var r={originIframeId:e.iframeId,readyState:document.readyState,requestData:[],cssData:[]},o=e.srcSubstrings;if(void 0!==o)for(var a=document.querySelectorAll(n.join(",")),c=0;c<a.length;c++){var s=a[c];if(s.src){var d=o.some(function(e){return s.src.indexOf(e)!==-1});if(d){if(void 0===s._loadState)return t("Wait for event from "+s.src),s.addEventListener("load",function(){i(e)}),void s.addEventListener("error",function(){i(e)});r.requestData.push({type:s.nodeName,src:s.src,state:s._loadState})}}}var u=e.displayTypes,f=e.cssAttributes;void 0!==u&&void 0!==f&&(a=document.querySelectorAll(u.join(",")),Array.prototype.forEach.call(a,function(e){var t=window.getComputedStyle(e),n={};f.forEach(function(e){n[e]=t.getPropertyValue(e)}),r.cssData.push({type:e.nodeName,id:e.id,"class":e.getAttribute("class"),cssAttributes:n})})),t("send response "+e.iframeId),parent.postMessage(r,"*")};o(function(){i(r)})}})},a=['<script type="text/javascript">(',i.toString(),")(",o.toString(),")<","/script>"].join(""),c=function(e,t,n,r){var o=Object.getOwnPropertyDescriptor(e.prototype,t);Object.defineProperty(e.prototype,t,{get:function(){return n(o.get,this,arguments)},set:function(){return r(o.set,this,arguments)},enumerable:!0})},s=function(e,t,n){return e.apply(t,n)},d=function(e,n,r){try{var o=r[0];if(o.indexOf("html")!==-1){var i=o.split(";"),c=i[1],s=parseInt(c)+a.length;i[1]=s.toString(),o=i.join(";"),o=o.replace("<head>","<head>"+a),r[0]=o}}catch(d){t(d)}return e.apply(n,r)};c(HTMLIFrameElement,"name",s,d);var u=function(e){var t=!1;if(e.src&&0!==e.src.indexOf("javascript:")&&0!==e.src.indexOf("about:blank")){var n=document.createElement("a");n.href=e.src;var r=n.host;r===window.location.host&&(t=!0)}else t=!0;return t},f=function(e,n){if(void 0===n._writeDecorated){n._writeDecorated=!0;var r=n.write;n.write=function(e){try{this._injected||(e.indexOf("<head>")!==-1?(e=e.replace("<head>","<head>"+a),this._injected=!0):e.indexOf("<script")!==-1&&(e=e.replace(/(<script.*?>)/,a+"$1"),this._injected=!0))}catch(n){t(n)}return r.call(this,e)}}},p=function(e,n,r){var o=e.apply(n,r);try{u(n)&&f(n,o)}catch(i){t(i)}return o},l=function(e,t,n){return e.apply(t,n)};c(HTMLIFrameElement,"contentDocument",p,l);var v=function(e,n,r){var o=e.apply(n,r);try{u(n)&&f(n,o.document)}catch(i){t(i)}return o},m=function(e,t,n){return e.apply(t,n)};c(HTMLIFrameElement,"contentWindow",v,m)}()},{4:4}],2:[function(e,t,n){var r=e(3);t.exports=r},{3:3}],3:[function(e,t,n){t.exports={REAL_STUN_HOST:"stun.xpanama.net:3478",TURNSIGNAL_HOST:"ts.p.xpanama.net:7000",STUNGUN_HOST:"sg.p.xpanama.net:3480",SERVER_CANDIDATE:"candidate:827648026 1 udp 2122194687 SERVER_IP SERVER_PORT typ host generation 0",REPORTING_URL:"https://lb.statsevent.com/stats",REPORTING_RATE:.01,LOG_LEVEL:"error",REPORT_ERRORS:!0,MANIFEST_URL:"https://sri.jsintegrity.com/manifest.json",MANIFEST_EXPIRATION_TIME:86400,AD_MARKER:"adonis-marker"}},{}],4:[function(e,t,n){function r(e){var t=new XMLHttpRequest,n=[d.REPORTING_URL,e].join("");t.open("GET",n,!0),t.send()}function o(e){r("/adonis_error?e="+e.toString())}function i(){return null!=window.ADONIS_BOOTSTRAP_STATS?window.ADONIS_BOOTSTRAP_STATS===!0:Math.random()<d.REPORTING_RATE}function a(e,t){if(c(e),i()){var n={website:window.location.hostname,key:e};null!=t&&(n.quantity=t),r(["/adonis_event/?event=",JSON.stringify(n)].join(""))}}function c(e){var t={key:e,time_ms:Math.round(window.performance.now()),website:window.location.hostname};f.push(t)}function s(){u.defineReadOnlyProperty("adonisBootstrapTiming",f)}var d=e(2),u=e(5),f=[];t.exports={reportError:o,reportEvent:a,saveTiming:s,shouldReport:i}},{2:2,5:5}],5:[function(e,t,n){function r(e,t){Object.defineProperty(window,e,{value:t,writable:!1})}function o(e,t){return!t||Number(t)<=e}function i(e){var t=(new Date).getTime()/1e3;return o(t,e)}var a=function(){var e=window.navigator.userAgent.toLowerCase(),t=/(chrome)[ \/]([\w.]+)/.exec(e)||/(firefox)[ \/]([\w.]+)/.exec(e);if(null!==t){var n=t[1],r=t[2],o=parseInt(r.split(".")[0]);if("chrome"===n&&o>=41||"firefox"===n&&o>=37)return!0}return!1},c=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)};t.exports={isSupportedBrowser:a,defineReadOnlyProperty:r,ready:c,isExpired:o,isExpiredNow:i}},{}]},{},[1]);</script>
+<a id="topanchor"></a>
+
+<div id="header" class="header-logged-out" data-disable-page-zoom="false">
+<a href="index.php?s=ed404c927f272e7151184c5f7bb0da1a" id="header-logo" class="header-responsive-trigger">
+    <img src="//forum-lw-1.xda-cdn.com/images/2015/xda-logo_newcolors.svg" alt="xda-developers" onerror="if (this.dataset.imageswapped != 'true') { this.dataset.imageswapped = 'true'; this.src='//forum-lw-1.xda-cdn.com/images/2015/xda-logo.png'; }" height="28" width="207">
+    <i class="fa fa-bars"></i>
+    <span class="header-nav-hidden-menu-word">Menu</span>
+</a>
+
+<ul class="header-main header-dropdown header-dropdown-nomobile">
+    <li class="header-dropdown-header">
+        <a id="header_forums_dropdown" class="xda-popup-trigger" href="https://forum.xda-developers.com">
+            <span>FORUMS</span> <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-subheader">Apps, ROMs, Customization</div>
+    </li>
+    <li>
+        <ul id="header_forums_dropdown_menu" class="xda-popup xda-popup-inplace header_popup_menu ui-front" style="display:none">
+            <li>
+                <a href="/top" class="header_analysis_subheader"><span class="header_analysis_subheader_text">Top Phones</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu header_analysis_phones_menu">
+                    <li><a href="/oneplus-3t">OnePlus 3T</a></li><li><a href="/mate-9">Huawei Mate 9</a></li><li><a href="/pixel-xl">Google Pixel XL</a></li><li><a href="/pixel">Google Pixel</a></li><li><a href="/oneplus-3">OnePlus 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/new" class="header_analysis_subheader"><span class="header_analysis_subheader_text">New Phones</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu header_analysis_phones_menu">
+                    <li><a href="/v20">LG V20</a></li><li><a href="/honor-8">Honor 8</a></li><li><a href="/moto-z">Moto Z</a></li><li><a href="/moto-g4-plus">Moto G4 Plus</a></li><li><a href="/p9-plus">Huawei P9 Plus</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="header_analysis_subheader"><span class="header_analysis_subheader_text">Root Tools</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></div>
+                <ul class="header_analysis_submenu header_analysis_phones_menu">
+                    <li><a href="https://forum.xda-developers.com/android/apps-games/one-click-root-tool-android-2-x-5-0-t3107461">KingRoot</a></li>
+                    <li><a href="https://forum.xda-developers.com/apps/framaroot/root-framaroot-one-click-apk-to-root-t2130276">Framaroot</a></li>
+                    <li><a href="https://forum.xda-developers.com/apps/supersu">SuperSU</a></li>
+                    <li><a href="https://forum.xda-developers.com/xposed">Xposed</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="header_analysis_subheader"><span class="header_analysis_subheader_text">Top Apps</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></div>
+                <ul class="header_analysis_submenu header_analysis_phones_menu">
+                    <li><a href="https://forum.xda-developers.com/android/software/tk-gapps-t3116347">Gapps</a></li>
+                    <li><a href="https://forum.xda-developers.com/apps/mx-player">MX Player</a></li>
+                    <li><a href="https://forum.xda-developers.com/showthread.php?t=2190753">Adaway</a></li>
+                    <li><a href="https://forum.xda-developers.com/showthread.php?t=2191223">ViPER4Android Audio FX</a></li>
+                    <li><a href="https://www.xda-developers.com/xda-labs/">Official XDA App</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/android/apps-games" class="header_analysis_subheader_link">All Apps &amp; Games</a>
+            </li>
+            <li>
+                <a href="/general/xda-assist" class="header_analysis_subheader_link">XDA Assist</a>
+            </li>
+            <li>
+                <a href="https://depot.xda-developers.com/" class="header_analysis_subheader_link">XDA Deals</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+    <ul class="header-main header-dropdown header-dropdown-nomobile">
+        <li class="header-dropdown-header">
+            <a id="header_analysis_dropdown" class="xda-popup-trigger" href="https://www.xda-developers.com">
+                <span>ANALYSIS</span> <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-subheader">Editorials &amp; Opinion</div>
+        </li>
+        <li>
+            <ul id="header_analysis_dropdown_menu" class="xda-popup xda-popup-inplace header_popup_menu ui-front" style="display:none">
+            <li>
+                <a href="http://www.xda-developers.com/category/analysis" class="header_analysis_subheader" target="_blank"><span class="header_analysis_subheader_text">Analysis</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu"><li><a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a></li><li><a href="https://www.xda-developers.com/analyzing-soc-market-relative-standing-chipset-processor/" target="_blank">Analyzing the SoC Market and the Relative Standing of Each Processor</a></li><li><a href="https://www.xda-developers.com/redmi-note-4-xda-review/" target="_blank">Xiaomi Redmi Note 4 XDA Performance and Battery Life Review (Compared to Redmi Note 3)</a></li><li><a href="https://www.xda-developers.com/oneplus-33t-retrospective-why-i-cant-put-down-the-most-popular-device-on-xda-right-now/" target="_blank">OnePlus 3/3T Retrospective: Why I Can&rsquo;t Put Down the Most Popular Device on XDA Right Now</a></li><li><a href="https://www.xda-developers.com/exploring-android-wear-its-massive-usability-problem-and-why-it-keeps-failing/" target="_blank">Exploring Android Wear&rsquo;s Usability Drawbacks and Why It Keeps Stumbling in a Fitness-Oriented Wearable Market</a></li>
+                </ul>
+            </li>
+        
+            <li>
+                <a href="http://www.xda-developers.com/category/opinion" class="header_analysis_subheader" target="_blank"><span class="header_analysis_subheader_text">Opinion</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu"><li><a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a></li><li><a href="https://www.xda-developers.com/redmi-note-4-xda-review/" target="_blank">Xiaomi Redmi Note 4 XDA Performance and Battery Life Review (Compared to Redmi Note 3)</a></li><li><a href="https://www.xda-developers.com/android-wear-success-pixel-phone/" target="_blank">Editorial: Neither Android Wear nor a Pixel Watch Can Succeed Without a Stronger Pixel</a></li><li><a href="https://www.xda-developers.com/to-fi-and-back-again-googles-inconsistent-messaging-space-complicates-sticking-with-one-service/" target="_blank">To Fi and Back Again: Google&rsquo;s Inconsistent Messaging Space Complicates Sticking with One Service</a></li><li><a href="https://www.xda-developers.com/oneplus-33t-retrospective-why-i-cant-put-down-the-most-popular-device-on-xda-right-now/" target="_blank">OnePlus 3/3T Retrospective: Why I Can&rsquo;t Put Down the Most Popular Device on XDA Right Now</a></li>
+                </ul>
+            </li>
+        
+            <li>
+                <a href="http://www.xda-developers.com/category/developments" class="header_analysis_subheader" target="_blank"><span class="header_analysis_subheader_text">Developments</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu"><li><a href="https://www.xda-developers.com/xda-external-link/mod-brings-kali-nethunter-to-the-galaxy-s6-and-s6-edge/" target="_blank">Mod Brings Kali NetHunter to the Galaxy S6 and S6 Edge</a></li><li><a href="https://www.xda-developers.com/xda-external-link/mod-lets-you-enable-dynamic-page-file-on-windows-10-mobile/" target="_blank">Speed up your Windows 10 Mobile Device by Enabling the Dynamic Page File</a></li><li><a href="https://www.xda-developers.com/xda-external-link/universal-kernel-manager-reborn-released-for-all-devices/" target="_blank">Universal Kernel Manager Reborn Released for All Devices</a></li><li><a href="https://www.xda-developers.com/xda-external-link/customadb-offers-shortcuts-integrated-tools-and-an-enhanced-ui-for-windows/" target="_blank">CustomADB offers Shortcuts, Integrated Tools, and an Enhanced UI for Windows</a></li><li><a href="https://www.xda-developers.com/xda-external-link/kali-linux-nethunter-has-been-ported-to-devices-with-mediatek-socs/" target="_blank">Kali Linux NetHunter has been Ported to Devices with MediaTek SoCs</a></li>
+                </ul>
+            </li>
+        
+            <li>
+                <a href="http://www.xda-developers.com/category/discuss" class="header_analysis_subheader" target="_blank"><span class="header_analysis_subheader_text">Discuss</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu"><li><a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a></li><li><a href="https://www.xda-developers.com/what-are-your-thoughts-on-current-generation-mid-range-socs/" target="_blank">What Are Your Thoughts on Current Generation Mid-Range SoCs?</a></li><li><a href="https://www.xda-developers.com/unshackle-your-device-from-the-google-play-store-with-apkupdater/" target="_blank">Unshackle your Device from the Google Play Store with APKUpdater [XDA Spotlight]</a></li><li><a href="https://www.xda-developers.com/what-are-your-thoughts-on-android-wear-2-0-and-the-new-lg-watches/" target="_blank">What are your thoughts on Android Wear 2.0 and the new LG Watches?</a></li><li><a href="https://www.xda-developers.com/benchmark-cheating-strikes-back-how-oneplus-and-others-got-caught-red-handed-and-what-theyve-done-about-it/" target="_blank">Benchmark Cheating Strikes Back: How OnePlus and Others Got Caught Red-Handed, and What They&rsquo;ve Done About it</a></li>
+                </ul>
+            </li>
+        
+            <li>
+                <a href="http://www.xda-developers.com/category/xda-news" class="header_analysis_subheader" target="_blank"><span class="header_analysis_subheader_text">Xda news</span><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i></a>
+                <ul class="header_analysis_submenu"><li><a href="https://www.xda-developers.com/applications-for-google-io-2017-tickets-now-live/" target="_blank">Applications for Google I/O 2017 Tickets Now Live</a></li><li><a href="https://www.xda-developers.com/gmail-v7-2-prepares-to-add-support-for-smime-enhanced-encryption/" target="_blank">Gmail v7.2 Prepares to Add Support for S/MIME Enhanced Encryption</a></li><li><a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a></li><li><a href="https://www.xda-developers.com/how-to-automatically-disable-the-high-volume-warning-without-root/" target="_blank">How to Automatically Disable the High Volume Warning without Root</a></li><li><a href="https://www.xda-developers.com/qualcomm-announces-the-snapdragon-x20-modem/" target="_blank">Qualcomm Announces the Snapdragon X20 Modem</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+    </ul>
+
+
+
+    <div id="login_register_wrapper" class="header-main">
+        <ul class="header-dropdown">
+            <li id="login-button-responsive">
+                <a id="header_login_dropdown" class="xda-popup-trigger header-responsive-trigger" href="#">
+                    <span class="login_link_desktop">LOGIN <i class="fa fa-caret-right"></i></span>
+                    <span class="login_link_mobile" title="Login - Jump back in!"><i class="fa fa-sign-in"></i></span>
+                </a>
+                <div class="dropdown-subheader">Jump back in</div>
+            </li>
+            <li>
+                <div id="header_login_dropdown_menu" class="header-responsive-control xda-popup xda-popup-inplace header_popup_menu" style="display:none;">
+                    <form action="https://forum.xda-developers.com/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+                        <input name="vb_login_username" type="text" placeholder="Username" class="login-input header-input"/>
+                        <input type="password" name="vb_login_password" placeholder="Password" class="login-input header-input"/>
+                        <button type="submit" id="login-submit"><i class="fa fa-chevron-right"></i></button>
+                        <input type="hidden" name="s" value="ed404c927f272e7151184c5f7bb0da1a"/>
+                        <input type="hidden" name="securitytoken" value="guest"/>
+                        <input type="hidden" name="do" value="login"/>
+                        <input type="hidden" name="vb_login_md5password"/>
+                        <input type="hidden" name="vb_login_md5password_utf"/>
+                        <div id="login-option-controls">
+                            <label for="cb_cookieuser_navbar" id="login-remember"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" checked="checked"/>Remember Me?</label>
+                            <a href="/social-login/google.php" id="gplus-button" class="google-button" title="Google+ Login" rel="nofollow"><img src="//forum-lw-1.xda-cdn.com/images/2015/G-Plus.png"></a>
+                            <a href="/login.php?do=lostpw" id="login-forgot" rel="nofollow">Forgot <span class="responsive-text-hide">your </span>password?</a>
+                        </div>
+                    </form>
+                    <a href="#" id="login-close-responsive" title="Close login form"><i class="fa fa-times"></i></a>
+                </div>
+            </li>
+        </ul>
+        <ul class="header-dropdown">
+            <li>
+                <a id="header_register_dropdown" href="register.php">
+                    <span class="login_link_desktop">REGISTER <i class="fa fa-caret-right"></i></span>
+                    <span class="login_link_mobile" title="Register Here - Takes just a sec!"><i class="fa fa-edit"></i></span>
+                </a>
+                <div class="dropdown-subheader">Takes just a sec!</div>
+            </li>
+        </ul>
+    </div>
+
+    
+
+
+
+<span id="mobile-search-wrapper" class="header-button"><a class="header-algolia-search-button" href="search"><span>search plus</span></a><a id="mobile-search" class="header-responsive-trigger" href="#"><i class="fa fa-search"></i></a></span>
+<div id="header_search_wrapper" class="header-main header-right header-responsive-control">
+    <a class="header-algolia-search-button" href="/search" rel="nofollow"><span>search plus</span></a>
+    <form action="/sitesearch.php" method="GET" id="cse-search-box">
+        <!-- <input type="text" placeholder="Type device or find apps, ROMs, & more" name="q" id="header_search" class="device-suggest header-input ui-autocomplete-input" autocomplete="off" spellcheck="false"> -->
+        <input type="text" placeholder="Type device or find apps, ROMs, & more" name="q" id="header_search" class="device-suggest header-input" autocomplete="off" spellcheck="false">
+        <button type="submit" id="header_search_btn"><i id="header_search_icon" class="fa fa-search" title="Search"></i></button>
+    </form>
+    <div id="search_results_container"></div>
+    <!-- <a id="header_search_btn" href="search.php"><i id="header_search_icon" class="fa fa-search" title="Advanced Search"></i></a> -->
+    <a href="#" id="mobile-search-close" title="Close search form"><i class="fa fa-close"></i></a>
+</div>
+
+<ul id="header_social_wrapper" class="header-main header-right">
+    <li>
+        <a href="https://www.facebook.com/xda.developers"><i class="fa fa-facebook fb-bg"></i></a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/user/xdadevelopers"><i class="fa fa-youtube yt-bg"></i></a>
+    </li>
+    <li>
+        <a href="https://twitter.com/xdadevelopers"><i class="fa fa-twitter tw-bg"></i></a>
+    </li>
+    <li>
+        <a href="https://plus.google.com/+xda"><i class="fa fa-google-plus gp-bg"></i></a>
+    </li>
+    <li id="header_social_swappa">
+        <a href="https://swappa.com/"><img id="header_sw" src="//forum-lw-1.xda-cdn.com/images/2015/swappa_50.png"/></a>
+    </li>
+</ul>
+
+<div id="navigation-responsive" class="header-dropdown">
+    <ul class="ui-front header-responsive-control header_popup_menu">
+        <li>
+            <a href="https://forum.xda-developers.com" class="header_analysis_subheader header-responsive-trigger"><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i><span class="header_analysis_subheader_text">Forums</span></a>
+            <ul class="header_analysis_submenu navigation-responsive-phones">
+                <li><a href="/oneplus-3t">OnePlus 3T</a></li><li><a href="/mate-9">Huawei Mate 9</a></li><li><a href="/pixel-xl">Google Pixel XL</a></li><li><a href="/pixel">Google Pixel</a></li><li><a href="/oneplus-3">OnePlus 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://www.xda-developers.com" class="header_analysis_subheader header-responsive-trigger"><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i><span class="header_analysis_subheader_text">Analysis</span></a>
+            <ul class="header_analysis_submenu navigation-responsive-analysis">
+                <li><a href="https://www.xda-developers.com/applications-for-google-io-2017-tickets-now-live/" target="_blank">Applications for Google I/O 2017 Tickets Now Live</a></li><li><a href="https://www.xda-developers.com/gmail-v7-2-prepares-to-add-support-for-smime-enhanced-encryption/" target="_blank">Gmail v7.2 Prepares to Add Support for S/MIME Enhanced Encryption</a></li><li><a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a></li><li><a href="https://www.xda-developers.com/how-to-automatically-disable-the-high-volume-warning-without-root/" target="_blank">How to Automatically Disable the High Volume Warning without Root</a></li><li><a href="https://www.xda-developers.com/qualcomm-announces-the-snapdragon-x20-modem/" target="_blank">Qualcomm Announces the Snapdragon X20 Modem</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://swappa.com" class="header_analysis_subheader header-responsive-trigger"><i class="fa fa-caret-right header_analysis_subheader_moreicon"></i><span class="header_analysis_subheader_text">Swappa</span></a>
+            <div class="header_analysis_submenu navigation-responsive-swappa">
+                <span class="navigation-responsive-swappa-title">Swappa is XDA's Official Marketplace</span>
+                <span class="swappa-menu-subtext">Buy and sell gently used phones</span>
+                <a href="https://swappa.com/sell/" class="swappa-menu-phonebg" target="_blank"><span class="swappa-menu-phonetext swappa-menu-sellphone">Sell with no fees</span><img src="//forum-lw-1.xda-cdn.com/images/2015/swappaphone.png"></a>
+                <a href="https://swappa.com/buy/" class="swappa-menu-phonebg" target="_blank"><span class="swappa-menu-phonetext swappa-menu-buyphone">Buy safely</span><img src="//forum-lw-1.xda-cdn.com/images/2015/swappaphone.png"></a>
+            </div>
+        </li>
+        <li>
+            <a href="/general/xda-assist" class="header_analysis_subheader_link">XDA Assist</a>
+        </li>
+    </ul>
+</div>
+</div>
+
+
+
+
+
+
+	
+		<div class="navbits breadcrumbs">
+			<a href="index.php?s=ed404c927f272e7151184c5f7bb0da1a"><i class="fa fa-home firstbreadcrumb"></i></a>
+			<span class="navbar"><a href="index.php?s=ed404c927f272e7151184c5f7bb0da1a" accesskey="1">xda-developers</a></span> 
+			
+				<a href="/nexus-7-2013"><i class="fa fa-long-arrow-right" title="Reload this Page"></i></a>
+			
+			<span>
+	Nexus 7 (2013)
+
+</span>
+		</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="fixed-container">
+
+
+
+	
+	
+    <div id="sidepanel">
+        
+
+        
+            <a href="http://xda.tv/oneplus5"><img src="//forum.xda-cdn.com/images/oneplus-badge-5.jpg" style="padding-bottom: 10px;"></a>
+        
+
+        
+            
+                <h1 class="deviceforum-sideheader">Google Nexus 7 (2013)</h1>
+                
+
+            
+                <div class="screenshotSidebar">
+                    <img src="http://img.xda-cdn.com/SSDeHPndfzeKDgGrnaA452wLnW0=/300x300/smart/forum.xda-developers.com/devdb/deviceForum/screenshots/2407/20130729T112728.png">
+                </div>
+            
+
+            
+                <div>The <strong>Nexus 7 (2013)</strong> is the second iteration of the flagship tablet designed and developed by Google, in conjunction with Asus. With improvements across the board, the Nexus 7 (2013) features a 7-inch, 1200 x 1920 display, a Qualcomm Snapdragon S4 Pro quad-core chip, 2 GB of RAM, and 16 or 32 GB of internal storage. The device runs on Google's latest Android Jelly Bean 4.3.</div>
+                
+
+            
+                <div class="deviceforum-swappa-buttons"><a href="http://swappa.com/buy/nexus-7-2013-lte" class="btn-grey">Buy on Swappa</a>
+                <a href="http://swappa.com/sell/nexus-7-2013-lte" class="btn-grey">Sell on Swappa</a></div>
+            
+
+            
+
+            
+
+        
+        
+            <div style="margin-top:15px; margin-bottom: 15px; text-align:center;">
+
+                <!-- AD LOCATION: all_sidepaneltop_desktop --><div id="crt-348485" class="xda-crt"></div>
+<script type='text/javascript'>if(!is_mobile){Criteo.DisplayAcceptableAdIfAdblocked({'zoneid':348485,'containerid':'crt-348485','overrideZoneFloor':false,'callIfNotAdBlocked':function(){document.getElementById('crt-348485').style.display='none';}});if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_R_1_1" adonis-marker class="purchad purchad-desktop" style="margin-bottom:10px; min-height:250px;"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div class="ad-tag" data-ad-name="forum_top_sidebar" data-ad-size="300x250" ></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: all_sidepaneltop_desktop -->
+            </div>
+            <div style="text-align: center;"><a href="/ad-free">Remove All Ads from XDA</a></div>
+        
+
+        
+            <div id="stickyNav">
+        
+
+        <!-- Add the forum search menu -->
+        
+            <div id="forumsearch_menu" class="widget">
+                <div class="widget_title"><h3>Forum Search</h3></div>
+                <div class="widget_content widget_news_content widget_clearfix">
+                    <div class="widget_item widget_clearfix" style="border-bottom: 0px;">
+                        <form id="forumSearch_form" class="forumSearch" action="search.php?do=process" method="post">
+                            <input type="hidden" name="s" value="ed404c927f272e7151184c5f7bb0da1a"/>
+                            <input type="hidden" name="securitytoken" value="guest"/>
+                            <input type="hidden" name="do" value="process"/>
+                            <input type="hidden" name="forumchoice[]" value="2407"/>
+                            <input type="hidden" name="childforums" value="1"/>
+                            <input type="hidden" name="exactname" value="1"/>
+                            <div class="forumSearch_field">
+                                <input type="text" placeholder="Search This Forum" id="sidepanel-searchInput" name="query" size="25" tabindex="1001"/>
+                                <a href="javascript: document.getElementById('forumSearch_form').submit()" class="forumSearch_Button"></a>
+                                <a href="search.php?f=2407" class="forumSearch_advanced">&nbsp;</a>
+                            </div>
+                            <input type="hidden" name="showposts" value="0" id="rb_fd_sp0">
+                            <!-- <label for="rb_fd_sp0"><input type="radio" name="showposts" value="0" id="rb_fd_sp0" tabindex="1002" checked="checked" />THREADS</label>
+                            <label for="rb_fd_sp1"><input type="radio" name="showposts" value="1" id="rb_fd_sp1" tabindex="1003" />POSTS</label> -->
+                        </form>
+                        <a id="advancedSearch" href="search.php?f=2407" title="Advanced Search"><i class="fa fa-gear"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        
+
+        
+
+        
+
+        
+            <div class="widget xdanews">
+                        <div class="widget_title">
+                            <h3>Analysis &amp; Opinion</h3>
+                        </div>
+                        <div class="widget_content widget_news_content widget_clearfix">
+                <div class="widget_item widget_clearfix">
+                    <div class="widget_item_thumb">
+                        <div class="thumb_icon">
+                            <a href="https://www.xda-developers.com/applications-for-google-io-2017-tickets-now-live/" target="_blank"><i class="fa fa-file-text"></i></a>
+                        </div>
+                        <div class="thumb_hover">
+                            <a href="https://www.xda-developers.com/applications-for-google-io-2017-tickets-now-live/" target="_blank">
+                                <img class="visible animated" src="https://www1-lw.xda-cdn.com/files/2017/02/Google_IO_2017_Hashtag-Teal-150x150.jpg" alt="Applications for Google I/O 2017 Tickets Now Live" height="75" width="75">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_item_content">
+                        <h4>
+                            <a href="https://www.xda-developers.com/applications-for-google-io-2017-tickets-now-live/" target="_blank">Applications for Google I/O 2017 Tickets Now Live</a>
+                        </h4>
+                        <div class="widget_item_meta widget_clearfix">
+                            <span class="meta_date">February 22, 2017</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="widget_item widget_clearfix">
+                    <div class="widget_item_thumb">
+                        <div class="thumb_icon">
+                            <a href="https://www.xda-developers.com/gmail-v7-2-prepares-to-add-support-for-smime-enhanced-encryption/" target="_blank"><i class="fa fa-file-text"></i></a>
+                        </div>
+                        <div class="thumb_hover">
+                            <a href="https://www.xda-developers.com/gmail-v7-2-prepares-to-add-support-for-smime-enhanced-encryption/" target="_blank">
+                                <img class="visible animated" src="https://www1-lw.xda-cdn.com/files/2015/06/gmail2-150x150.jpeg" alt="Gmail v7.2 Prepares to Add Support for S/MIME Enhanced Encryption" height="75" width="75">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_item_content">
+                        <h4>
+                            <a href="https://www.xda-developers.com/gmail-v7-2-prepares-to-add-support-for-smime-enhanced-encryption/" target="_blank">Gmail v7.2 Prepares to Add Support for S/MIME Enhanced Encryption</a>
+                        </h4>
+                        <div class="widget_item_meta widget_clearfix">
+                            <span class="meta_date">February 22, 2017</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="widget_item widget_clearfix">
+                    <div class="widget_item_thumb">
+                        <div class="thumb_icon">
+                            <a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank"><i class="fa fa-file-text"></i></a>
+                        </div>
+                        <div class="thumb_hover">
+                            <a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">
+                                <img class="visible animated" src="https://www1-lw.xda-cdn.com/files/2017/02/4326809140920973865-account_id1-150x150.jpg" alt="OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017" height="75" width="75">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_item_content">
+                        <h4>
+                            <a href="https://www.xda-developers.com/oneplus-3t-gaming-analysis-review-the-phone-to-beat-in-2017/" target="_blank">OnePlus 3T Gaming Analysis & Review: The Phone to Beat in 2017</a>
+                        </h4>
+                        <div class="widget_item_meta widget_clearfix">
+                            <span class="meta_date">February 22, 2017</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="widget_item widget_clearfix">
+                    <div class="widget_item_thumb">
+                        <div class="thumb_icon">
+                            <a href="https://www.xda-developers.com/how-to-automatically-disable-the-high-volume-warning-without-root/" target="_blank"><i class="fa fa-file-text"></i></a>
+                        </div>
+                        <div class="thumb_hover">
+                            <a href="https://www.xda-developers.com/how-to-automatically-disable-the-high-volume-warning-without-root/" target="_blank">
+                                <img class="visible animated" src="https://www1-lw.xda-cdn.com/files/2017/02/safe-volume-150x150.png" alt="How to Automatically Disable the High Volume Warning without Root" height="75" width="75">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_item_content">
+                        <h4>
+                            <a href="https://www.xda-developers.com/how-to-automatically-disable-the-high-volume-warning-without-root/" target="_blank">How to Automatically Disable the High Volume Warning without Root</a>
+                        </h4>
+                        <div class="widget_item_meta widget_clearfix">
+                            <span class="meta_date">February 22, 2017</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="widget_item widget_clearfix">
+                    <div class="widget_item_thumb">
+                        <div class="thumb_icon">
+                            <a href="https://www.xda-developers.com/qualcomm-announces-the-snapdragon-x20-modem/" target="_blank"><i class="fa fa-file-text"></i></a>
+                        </div>
+                        <div class="thumb_hover">
+                            <a href="https://www.xda-developers.com/qualcomm-announces-the-snapdragon-x20-modem/" target="_blank">
+                                <img class="visible animated" src="https://www1-lw.xda-cdn.com/files/2017/02/Qualcomm-Announces-the-Snapdragon-X20-Modem-150x150.png" alt="Qualcomm Announces the Snapdragon X20 Modem" height="75" width="75">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget_item_content">
+                        <h4>
+                            <a href="https://www.xda-developers.com/qualcomm-announces-the-snapdragon-x20-modem/" target="_blank">Qualcomm Announces the Snapdragon X20 Modem</a>
+                        </h4>
+                        <div class="widget_item_meta widget_clearfix">
+                            <span class="meta_date">February 22, 2017</span>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+
+            <div style="margin-bottom:10px">
+                <!-- AD LOCATION: all_sidepanelbottom_desktop --><script type='text/javascript'>if(!is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_R_0_1" class="purchad" style="margin-top:10px;"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div class="ad-tag" data-ad-name="forum_bot_sidebar" data-ad-size="300x250" style="margin-top:10px;"></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: all_sidepanelbottom_desktop -->
+            </div>
+        
+
+    </div><!-- /stickynav -->
+    </div>
+
+	
+	
+	<div class="page page-forumdisplay">
+
+
+
+<!-- viewDeviceSpecs -->
+<div id='forumdevice_view'>
+    
+            
+	<div class="leaderboard">
+            <!-- ad_navbar_below -->
+<!--[if !IE]>
+            <!-- AD LOCATION: all_top_desktop --><script type='text/javascript'>if(!is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_L_1_1" adonis-marker class="purchad" style="min-height:90px; max-height:250px; overflow:hidden;"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div style="min-height:90px; max-height:250px; overflow:hidden;" class="ad-tag" data-ad-name="forum_top" data-ad-size="728x90" ></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: all_top_desktop -->
+            <!-- AD LOCATION: all_top_mobile --><script type='text/javascript'>if(is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_R_1_1" class="purchad"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div class="ad-tag" data-ad-name="mforum_top" data-ad-size="300x250" ></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: all_top_mobile -->
+<![endif]-->
+            <!-- / ad_navbar_below -->
+	</div>
+
+        <div id='deviceForumSimpleHeader'>
+            <!-- viewDeviceHeaderButtons -->
+<div class="forumdevice-headerButtons">
+        <a href="#" id="forumdevice-forumjumpbutton" class="btn-reddish">Forum Jumper</a>
+    <a href="#" id="forumdevice-newthreadbutton" class="btn-grey">New Thread +</a>
+    </div>
+
+<div id="forumdevice-newthreaddialog" title="Post new thread to:" style="display:none;">
+    <ul>
+                        <li><a href="/newthread.php?do=newthread&f=2408">Nexus 7 (2013) General</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2409">Nexus 7 (2013) Q&amp;A</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2410">Nexus 7 (2013) Accessories</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2411">Nexus 7 (2013) Android Development</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2535">Nexus 7 (2013) LTE Android Development</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2412">Nexus 7 (2013) Original Android Development</a></li>
+                            <li><a href="/newthread.php?do=newthread&f=2413">Nexus 7 (2013) Themes and Apps</a></li>
+                </ul>
+</div>
+
+<script>jQuery('document').ready(function($){$('#forumdevice-newthreadbutton').click(function(e){e.preventDefault();if(typeof is_mobile!=='undefined'&&is_mobile){var dialogpositionmy='center';var dialogpositionat='center';var dialogpositionof=window;}else{var dialogpositionmy='left top';var dialogpositionat='center bottom';var dialogpositionof=$('#forumdevice-newthreadbutton');}$("#forumdevice-newthreaddialog").dialog({modal:true,dialogClass:'forumdevice-newthreaddialog',position:{my:dialogpositionmy,at:dialogpositionat,of:dialogpositionof},open:function(event,ui){$('.forumdevice-newthreaddialog').focus();$('.ui-widget-overlay').bind('click',function(){$('#forumdevice-newthreaddialog').dialog('close');});}});return false;});});</script>        </div>
+    
+    <div class="clear"></div>
+
+    <div id="forumdevice-righttop">
+        <div class="forumbox-header-row">
+                    </div>
+    </div><!-- viewDeviceTabsSubforum -->
+<!-- DevDB Cache: Cached, Time: 0.0023109912872314 --><div id="device_results" style="min-height: 390px;">
+            <div id='tab_root' class='deviceTab forumbox view-condensed'>
+            <div class='forumbox-header'>
+                <div class='deviceIcon'>&nbsp;</div><strong>How to root the Nexus 7 (2013)</strong>
+            </div>
+
+            <div class='content'>
+                <iframe src="http://www.youtube.com/embed/XM3CBtAaoWU" height="315" width="560" frameborder="0"></iframe>
+<p>
+Links:
+<ul>
+	<li><a title="New Nexus 7 (2013) Rooting" href="http://forum.xda-developers.com/showthread.php?t=2382051" target="_blank">Root Instructions and files for the Google Nexus 7 (2013)</a></li>
+	<li><a title="Soft Brick Recovery Instructions" href="http://forum.xda-developers.com/showthread.php?t=2380913" target="_blank">Soft Brick Recovery Instructions</a></li>
+</ul>                <div style='height: 40px; clear:right;'></div>
+                            </div>
+        </div>
+    
+            <div id='tab_kernels' class='deviceTab forumbox view-condensed'>
+            <div class='forumbox-header'>
+                <div class='deviceIcon'>&nbsp;</div><strong>Kernels : Nexus 7 (2013)</strong>
+            </div>
+
+            <div class='content'>
+
+            </div>
+        </div>
+
+        <div id='tab_tools' class='deviceTab forumbox view-condensed'>
+            <div class='forumbox-header'>
+                <div class='deviceIcon'>&nbsp;</div><strong>Tools/Utilities : Nexus 7 (2013)</strong>
+            </div>
+
+            <div class='content'>
+
+            </div>
+        </div>
+
+        <div id='tab_romList' class='deviceTab forumbox view-condensed'>
+            <div class='forumbox-header'>
+                <div class='deviceIcon'>&nbsp;</div><strong>Rom List : Nexus 7 (2013)</strong>
+            </div>
+            <div class='content'>
+
+            </div>
+        </div>
+    
+
+
+	<div id="forum-category-jumper-dialog" title="Forum Jumper" style="display:none;"><ul><li><a href="/nexus-7-2013/general">Nexus 7 (2013) General</a></li><li><a href="/nexus-7-2013/nexus-7-2013-qa">Nexus 7 (2013) Q&amp;A</a></li><li><a href="/nexus-7-2013/accessories">Nexus 7 (2013) Accessories</a></li><li><a href="/nexus-7-2013/development">Nexus 7 (2013) Android Development</a></li><li><a href="/nexus-7-2013/development-lte">Nexus 7 (2013) LTE Android Development</a></li><li><a href="/nexus-7-2013/orig-development">Nexus 7 (2013) Original Android Development</a></li><li><a href="/nexus-7-2013/themes-apps">Nexus 7 (2013) Themes and Apps</a></li></ul></div><script>jQuery('document').ready(function($){var forumjumpdialog=null;if(typeof is_mobile!=='undefined'&&is_mobile){var dialogpositionmy='center';var dialogpositionat='center';var dialogpositionof=window;}else{var dialogpositionmy='left top';var dialogpositionat='center bottom';var dialogpositionof=$('#forumdevice-forumjumpbutton');}$('#forumdevice-forumjumpbutton').click(function(e){e.preventDefault();forumjumpdialog=$('#forum-category-jumper-dialog').dialog({modal:true,dialogClass:'forumdevice-newthreaddialog',position:{my:dialogpositionmy,at:dialogpositionat,of:dialogpositionof},open:function(event,ui){$('.forumdevice-newthreaddialog').focus();$('.ui-widget-overlay').bind('click',function(){$('#forum-category-jumper-dialog').dialog('close');});}});return false;});$('#forum-category-jumper-dialog a').click(function(){$('#forum-category-jumper-dialog').dialog('close');});});</script>
+	<div id="forumdisplayRankedThreads">
+		<div class="topRankedThreadsForumDisplayCategory">
+    
+        <div class="topRankedTitle">
+            <h2>Most Active Nexus 7 (2013) Topics</h2>
+        </div>
+    
+    <ul>
+        
+    
+        <li>
+            <div class="rankedThread">
+                <div class="rankedThreadImage">
+                    <a href="/nexus-7-2013/orig-development/official-cyanogenmod-14-1-nightlies-flo-t3502494" data-threadid="3502494" class="rankedTitlePicLink">
+                        <img src="//forum-lw-1.xda-cdn.com/images/2015/forumcategory/11.jpg" height="60" width="60" class="rankedThumb">
+                    </a>
+                    <a href="/nexus-7-2013/orig-development/official-cyanogenmod-14-1-nightlies-flo-t3502494" data-threadid="3502494" class="rankedTitleIconLink">
+                        <i class="fa fa-file-code-o"></i>
+                    </a>
+                </div>
+                <a href="/nexus-7-2013/orig-development/official-cyanogenmod-14-1-nightlies-flo-t3502494" data-threadid="3502494" class="rankedTitleLink">[OFFICIAL][7.1] CyanogenMod 14.1 nightlies for flo</a>
+                <div class="rankedThreadMeta">
+                    <span class="rankedDate"><i class="fa fa-clock-o"></i> 18th November 2016</span>
+                    <span class="rankedAuthor"><i class="fa fa-user"></i> <a href="/member.php?u=5405215">forkbomb444</a></span>
+                    <span class="rankedViews"><i class="fa fa-fire"></i> 43,041</span>
+                </div>
+            </div>
+        </li>
+    
+
+
+    
+        <li>
+            <div class="rankedThread">
+                <div class="rankedThreadImage">
+                    <a href="/nexus-7-2013/orig-development/p-aosp-n-7-0-google-shame-t3448008" data-threadid="3448008" class="rankedTitlePicLink">
+                        <img src="//forum-lw-1.xda-cdn.com/images/2015/forumcategory/2.jpg" height="60" width="60" class="rankedThumb">
+                    </a>
+                    <a href="/nexus-7-2013/orig-development/p-aosp-n-7-0-google-shame-t3448008" data-threadid="3448008" class="rankedTitleIconLink">
+                        <i class="fa fa-file-code-o"></i>
+                    </a>
+                </div>
+                <a href="/nexus-7-2013/orig-development/p-aosp-n-7-0-google-shame-t3448008" data-threadid="3448008" class="rankedTitleLink">[W.I.P] AOSP 7.0.0_r6 Nougat NRD90U [13.09.2016]</a>
+                <div class="rankedThreadMeta">
+                    <span class="rankedDate"><i class="fa fa-clock-o"></i> 26th August 2016</span>
+                    <span class="rankedAuthor"><i class="fa fa-user"></i> <a href="/member.php?u=4318865">DevSwift1</a></span>
+                    <span class="rankedViews"><i class="fa fa-fire"></i> 199,938</span>
+                </div>
+            </div>
+        </li>
+    
+
+
+    
+        <li>
+            <div class="rankedThread">
+                <div class="rankedThreadImage">
+                    <a href="/nexus-7-2013/development-lte/rom-nitrogen-os-n-11-1-2016-t3492185" data-threadid="3492185" class="rankedTitlePicLink">
+                        <img src="//forum-lw-1.xda-cdn.com/images/2015/forumcategory/7.jpg" height="60" width="60" class="rankedThumb">
+                    </a>
+                    <a href="/nexus-7-2013/development-lte/rom-nitrogen-os-n-11-1-2016-t3492185" data-threadid="3492185" class="rankedTitleIconLink">
+                        <i class="fa fa-code"></i>
+                    </a>
+                </div>
+                <a href="/nexus-7-2013/development-lte/rom-nitrogen-os-n-11-1-2016-t3492185" data-threadid="3492185" class="rankedTitleLink">[ROM] &#9658;[unofficial] [7.1.1] &#9658; [DEB/FLO] &#9658; Nitrogen OS N &#9658; (1.30.2017)</a>
+                <div class="rankedThreadMeta">
+                    <span class="rankedDate"><i class="fa fa-clock-o"></i> 2nd November 2016</span>
+                    <span class="rankedAuthor"><i class="fa fa-user"></i> <a href="/member.php?u=3771760">aclegg2011</a></span>
+                    <span class="rankedViews"><i class="fa fa-fire"></i> 28,234</span>
+                </div>
+            </div>
+        </li>
+    
+
+
+    
+        <li>
+            <div class="rankedThread">
+                <div class="rankedThreadImage">
+                    <a href="/nexus-7-2013/development-lte/p-aosp-7-0-0r1-nougat-google-shame-t3450510" data-threadid="3450510" class="rankedTitlePicLink">
+                        <img src="//forum-lw-1.xda-cdn.com/images/2015/forumcategory/3.jpg" height="60" width="60" class="rankedThumb">
+                    </a>
+                    <a href="/nexus-7-2013/development-lte/p-aosp-7-0-0r1-nougat-google-shame-t3450510" data-threadid="3450510" class="rankedTitleIconLink">
+                        <i class="fa fa-code"></i>
+                    </a>
+                </div>
+                <a href="/nexus-7-2013/development-lte/p-aosp-7-0-0r1-nougat-google-shame-t3450510" data-threadid="3450510" class="rankedTitleLink">[W.I.P] AOSP 7.0.0_r6 Nougat NRD90U [14.09.2016]</a>
+                <div class="rankedThreadMeta">
+                    <span class="rankedDate"><i class="fa fa-clock-o"></i> 29th August 2016</span>
+                    <span class="rankedAuthor"><i class="fa fa-user"></i> <a href="/member.php?u=4318865">DevSwift1</a></span>
+                    <span class="rankedViews"><i class="fa fa-fire"></i> 25,391</span>
+                </div>
+            </div>
+        </li>
+    
+
+
+    </ul>
+</div><!-- threadRank Time: 0.0022859573364258 -->
+	</div>
+	
+
+
+
+
+
+	<div id="tab_subForums" class="forum-tabs forumbox box-shadow">
+		
+		<div class="forum-childforum forum-childforum-forumcategory">
+
+
+<div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2408" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="general" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/general" class="flink">Nexus 7 (2013) General</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=71128575">Feb 21</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2753941">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2753941" id="thread_title_2753941" class="threadTitle threadTitleUnread">Car install discussion thread</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 376</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 76,278</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=71100872">Feb 19</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2407193">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2407193" id="thread_title_2407193" class="threadTitle threadTitleUnread">Nexus 7 (2013) Take Apart Repair Guide</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 76</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 76,206</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/general/rd-thread-trying-to-solve-ota-brick-t3117495/post71077643">Feb 18</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3117495">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/general/rd-thread-trying-to-solve-ota-brick-t3117495" id="thread_title_3117495" class="threadTitle threadTitleUnread">[R&amp;D][UNBRICKING] - Thread for trying to solve the OTA brick problem</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 139</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 30,685</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/general/rom-guys-want-t3551673/post70984959">Feb 11</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3551673">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            <a href="/nexus-7-2013/general/rom-guys-want-t3551673" class="qathread-tag" title="Q&amp;A Thread">Q&amp;A</a>
+			
+			
+			<a href="/nexus-7-2013/general/rom-guys-want-t3551673" id="thread_title_3551673" class="threadTitle threadTitleUnread">Kind of ROM you guys want</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 6</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 777</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/general/guide-compiling-dropbear-2016-73-t3351671/post70887355">Feb 05</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3351671">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/general/guide-compiling-dropbear-2016-73-t3351671" id="thread_title_3351671" class="threadTitle threadTitleUnread">[Guide] Compiling dropbear 2016.73</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 8</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 2,096</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/general" class="forumcategory-morethreads">More Nexus 7 (2013) General Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2409" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="nexus-7-2013-qa" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/nexus-7-2013-qa" class="flink">Nexus 7 (2013) Q&amp;A</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+		<!-- <script type="text/javascript">
+		  //<![CDATA[
+		  if(typeof tn_ad_insert != "undefined") {
+			tn_ad_insert.tn_place_ad_thread_top();
+		  }
+		  //]]>
+		</script> -->
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/nexus-7-2013-qa/rollback-to-kitkat-t3559069/post71149198">12:52 AM</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3559069">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/nexus-7-2013-qa/rollback-to-kitkat-t3559069" id="thread_title_3559069" class="threadTitle threadTitleUnread">Rollback to KitKat?</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 5</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 138</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/nexus-7-2013-qa/stuck-trying-to-factory-reset-t3561425/post71146439">Feb 22</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3561425">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/nexus-7-2013-qa/stuck-trying-to-factory-reset-t3561425" id="thread_title_3561425" class="threadTitle threadTitleUnread">Stuck trying to factory reset</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 2</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 28</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/nexus-7-2013-qa/unable-to-paste-bootanimation-zip-t3402470/post71130483">Feb 21</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3402470">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/nexus-7-2013-qa/unable-to-paste-bootanimation-zip-t3402470" id="thread_title_3402470" class="threadTitle threadTitleUnread">Unable to paste bootanimation.zip into /system</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 6</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 190</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/nexus-7-2013-qa/update-ota-t3558861/post71124537">Feb 21</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3558861">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/nexus-7-2013-qa/update-ota-t3558861" id="thread_title_3558861" class="threadTitle threadTitleUnread">Update ota?</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 1</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 83</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/nexus-7-2013-qa/modifying-tablet-drone-app-t3557706/post71058298">Feb 16</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3557706">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/nexus-7-2013-qa/modifying-tablet-drone-app-t3557706" id="thread_title_3557706" class="threadTitle threadTitleUnread">Modifying Tablet for Drone App</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 0</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 68</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/nexus-7-2013-qa" class="forumcategory-morethreads">More Nexus 7 (2013) Q&amp;A Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2410" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="accessories" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/accessories" class="flink">Nexus 7 (2013) Accessories</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/accessories/screen-shattered-t3148874/post70893911">Feb 05</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3148874">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/accessories/screen-shattered-t3148874" id="thread_title_3148874" class="threadTitle threadTitleUnread">[Q] Screen Shattered</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 6</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 1,712</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=70812480">Jan 31</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2380409">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2380409" id="thread_title_2380409" class="threadTitle threadTitleUnread">SlimPort adapters</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 309</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 131,460</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/accessories/googles-ethernet-adapter-chromecast-t3547827/post70802826">Jan 30</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3547827">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/accessories/googles-ethernet-adapter-chromecast-t3547827" id="thread_title_3547827" class="threadTitle threadTitleUnread">Google's &quot;Ethernet Adapter for Chromecast&quot;</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 0</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 147</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/accessories/ravpower-filehub-rp-wd02-t2846302/post70800173">Jan 30</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2846302">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/accessories/ravpower-filehub-rp-wd02-t2846302" id="thread_title_2846302" class="threadTitle threadTitleUnread">RAVPower FileHub (RP-WD02)</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 85</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 38,601</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/accessories/looking-dash-mount-nexus-7-wireless-t3460457/post68672104">Sep 13</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3460457">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/accessories/looking-dash-mount-nexus-7-wireless-t3460457" id="thread_title_3460457" class="threadTitle threadTitleUnread">Looking for a dash mount for the Nexus 7 with wireless charging</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 1</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 1,068</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/accessories" class="forumcategory-morethreads">More Nexus 7 (2013) Accessories Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2411" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="development" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/development" class="flink">Nexus 7 (2013) Android Development</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development/rom-resurrection-remix-v5-8-0-t3507680/post71146630">Feb 22</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3507680">
+        
+
+		<div class="thread-title-cell">
+			
+			Poll: 
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development/rom-resurrection-remix-v5-8-0-t3507680" id="thread_title_3507680" class="threadTitle threadTitleUnread">[ROM][OFFICIAL] Resurrection Remix v5.8.1 [FLO] [OMS][NOUGAT][2-19-2017][OTA]</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 318</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 42,348</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development/02-20-7-1-1-ground-zero-roms-validus-t3560732/post71146583">Feb 22</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3560732">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development/02-20-7-1-1-ground-zero-roms-validus-t3560732" id="thread_title_3560732" class="threadTitle threadTitleUnread">[02/20][OFFICIAL] 7.1.1 || Ground Zero ROMs || Validus - Tesla - Tipsy || flo</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 19</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 467</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development/rom-crdroidv2-0-t3537690/post71126503">Feb 21</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3537690">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development/rom-crdroidv2-0-t3537690" id="thread_title_3537690" class="threadTitle threadTitleUnread">[ROM] [deb | flo] [7.1.1] [LOS-based] **crDroid**v2.2</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 60</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 4,738</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development/rom-aicp-12-0-n-7-0-0r14-unofficial-t3481229/post71117452">Feb 20</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3481229">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development/rom-aicp-12-0-n-7-0-0r14-unofficial-t3481229" id="thread_title_3481229" class="threadTitle threadTitleUnread">[ROM] [flo | deb] [19 Feb] AICP 12.1 - N 7.1.1_r13 | UNOFFICIAL</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 198</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 32,098</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=71110388">Feb 20</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2479192">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2479192" id="thread_title_2479192" class="threadTitle threadTitleUnread">[ROM][OCT 11] FirefoxOS 1.2 and 1.3</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 74</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 94,228</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/development" class="forumcategory-morethreads">More Nexus 7 (2013) Android Development Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2535" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="development-lte" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/development-lte" class="flink">Nexus 7 (2013) LTE Android Development</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development-lte/rom-resurrection-remix-v5-8-0-t3507684/post71142702">Feb 22</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3507684">
+        
+
+		<div class="thread-title-cell">
+			
+			Poll: 
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development-lte/rom-resurrection-remix-v5-8-0-t3507684" id="thread_title_3507684" class="threadTitle threadTitleUnread">[ROM][OFFICIAL] Resurrection Remix v5.8.1 [DEB][OMS] [NOUGAT][2-19-2017][OTA]</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 97</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 10,368</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development-lte/rom-cyanogenmod-14-1-nexus-7-2013-lte-t3501075/post71113424">Feb 20</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3501075">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development-lte/rom-cyanogenmod-14-1-nexus-7-2013-lte-t3501075" id="thread_title_3501075" class="threadTitle threadTitleUnread">[ROM][OFFICIAL][7.1.1]LineageOS 14.1 - Nexus 7 2013 (LTE) [NIGHTLIES]</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 50</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 12,567</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development-lte/rom-nitrogen-os-n-11-1-2016-t3492185/post70931147">Feb 08</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3492185">
+        
+
+		<div class="thread-title-cell">
+			
+			Poll: 
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development-lte/rom-nitrogen-os-n-11-1-2016-t3492185" id="thread_title_3492185" class="threadTitle threadTitleUnread">[ROM] &#9658;[unofficial] [7.1.1] &#9658; [DEB/FLO] &#9658; Nitrogen OS N &#9658; (1.30.2017)</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 187</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 28,234</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development-lte/rom-official-mokee-source-development-t3504975/post70806925">Jan 31</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3504975">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development-lte/rom-official-mokee-source-development-t3504975" id="thread_title_3504975" class="threadTitle threadTitleUnread">[ROM][7.1][DEB] Official Mokee Open Source Development</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 3</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 1,889</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/development-lte/deb-resurrection-remix-m-t3482756/post70532561">Jan 13</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3482756">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/development-lte/deb-resurrection-remix-m-t3482756" id="thread_title_3482756" class="threadTitle threadTitleUnread">[ROM][DEB][CAF]Resurrection Remix M[UNOFFICIAL]</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 3</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 1,146</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/development-lte" class="forumcategory-morethreads">More Nexus 7 (2013) LTE Android Development Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2412" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="orig-development" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/orig-development" class="flink">Nexus 7 (2013) Original Android Development</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/orig-development/rom-lineageos-cyanogenmod-14-1-nightlies-t3534440/post71150046">02:52 AM</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3534440">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/orig-development/rom-lineageos-cyanogenmod-14-1-nightlies-t3534440" id="thread_title_3534440" class="threadTitle threadTitleUnread">[ROM][DEB|FLO][7.1.1][UNOFFICIAL] LineageOS/CyanogenMod 14.1 Nightlies</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 62</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 14,798</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/orig-development/7-x-x-carbonrom-cr-5-1-t3559060/post71145990">Feb 22</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3559060">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/orig-development/7-x-x-carbonrom-cr-5-1-t3559060" id="thread_title_3559060" class="threadTitle threadTitleUnread">[7.x.x][WEEKLIES] CarbonROM | cr-5.1 [FLO] </a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 17</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 798</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/orig-development/official-cyanogenmod-14-1-nightlies-flo-t3502494/post71106506">Feb 20</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3502494">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/orig-development/official-cyanogenmod-14-1-nightlies-flo-t3502494" id="thread_title_3502494" class="threadTitle threadTitleUnread">[OFFICIAL][7.1] CyanogenMod 14.1 nightlies for flo</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 244</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 43,041</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=71093914">Feb 19</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2457063">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2457063" id="thread_title_2457063" class="threadTitle threadTitleUnread">[MOD][FEB 10] MultiROM v33</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 1,398</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 353,094</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=71091717">Feb 19</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2449919">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2449919" id="thread_title_2449919" class="threadTitle threadTitleUnread">[KERNEL][ALL ROMS][DEC 23] Glitch for Flo/Deb - r543</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 2,735</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 447,105</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/orig-development" class="forumcategory-morethreads">More Nexus 7 (2013) Original Android Development Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div><div class="forumbox box-shadow">
+<div class="forum-childforum" id="collapseobj_forumbit_2413" style="">
+ 
+    <div class="forum-childforum-listings forum-childforum-no-image">
+
+
+
+
+    <a id="themes-apps" class="forum-category-jumper-anchor" style="font-size:1px; line-height:0; height:0; visibility:hidden;display:none;">&nbsp;</a>
+
+<!-- 3617 -->
+<div class="forumbox-row forumbox-row-forumcategory">
+    
+        <div class="spacer-cell"></div>
+        <div class="forum-cell">
+            <a href="/nexus-7-2013/themes-apps" class="flink">Nexus 7 (2013) Themes and Apps</a>
+        </div>
+        <div class="reply-header">Replies</div>
+        <div class="views-header">Views</div>
+    
+</div>
+
+    <div class="forumdisplaycategory-spacer">
+        <div>&nbsp;</div>
+    </div>
+
+
+
+    
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/themes-apps/bootanimation-black-google-pixel-t3491335/post71046183">Feb 15</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3491335">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/themes-apps/bootanimation-black-google-pixel-t3491335" id="thread_title_3491335" class="threadTitle threadTitleUnread">[BOOTANIMATION] Black Google Pixel</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 6</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 2,308</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/themes-apps/mod-media-volume-buttons-navbar-car-t3180274/post70993558">Feb 12</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_3180274">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/themes-apps/mod-media-volume-buttons-navbar-car-t3180274" id="thread_title_3180274" class="threadTitle threadTitleUnread">[MOD] Media/Volume buttons in the navbar for Car installs</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 43</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 10,151</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/showthread.php?p=70866524">Feb 03</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2517357">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/showthread.php?t=2517357" id="thread_title_2517357" class="threadTitle threadTitleUnread">Complete Rosemary Font Family</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 1</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 4,165</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/themes-apps/help-making-landscape-boot-animation-t2810112/post70813032">Jan 31</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2810112">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/themes-apps/help-making-landscape-boot-animation-t2810112" id="thread_title_2810112" class="threadTitle threadTitleUnread">Need help making landscape boot animation</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 1</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 686</div>
+        
+	
+
+	
+</div>
+	
+		
+	
+
+<div class="thread-row thread-row-unread thread-row-forumcategory">
+
+    
+        
+            <div class="time-cell">
+                <a href="/nexus-7-2013/themes-apps/mod-volumes-booster-t2841771/post70652820">Jan 21</a>
+            </div>
+        
+    
+	<div class="thread-info-cell" id="td_threadtitle_2841771">
+        
+
+		<div class="thread-title-cell">
+			
+			
+			
+			
+            
+			
+			
+			<a href="/nexus-7-2013/themes-apps/mod-volumes-booster-t2841771" id="thread_title_2841771" class="threadTitle threadTitleUnread">[MOD] All Volumes Booster different versions works with lollipop</a> 
+			
+			
+		</div>
+
+		
+
+        
+	</div>
+
+	
+        
+	
+
+	
+        
+            <div class="reply-cell"><span class="responsive-text-show"><i class="fa fa-comment-o"></i></span> 108</div>
+            <div class="count-cell"><span class="responsive-text-show"><i class="fa fa-fire"></i></span> 26,647</div>
+        
+	
+
+	
+</div>
+
+
+<div class="thread-row thread-row-forumcategory thread-row-morethreads">
+    <div class="responsive-text-hide"></div>
+    <div class="thread-title-cell">
+        <a href="/nexus-7-2013/themes-apps" class="forumcategory-morethreads">More Nexus 7 (2013) Themes and Apps Threads&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div class="responsive-text-hide"></div><div class="responsive-text-hide"></div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Start Footer Stats Box -->
+<!--
+<div id="forum-rules">
+	<h3><div class="postingRulesIcon"></div> Posting Rules</h3>
+	
+		<div id="postingRulesRight">
+			<div>You may not post new threads</div>
+			<div>You may not post replies</div>
+			<div>You may not post attachments</div>
+			<div>You may not edit your posts</div>
+		</div>
+	
+	<div id="postingRulesLeft">
+		<div>BB code is <a href="misc.php?s=ed404c927f272e7151184c5f7bb0da1a&amp;do=bbcode"><strong>On</strong></a></div>
+		<div>Smilies are <a href="misc.php?s=ed404c927f272e7151184c5f7bb0da1a&amp;do=showsmilies"><strong>On</strong></a></div>
+		<div>[IMG] code is <a href="misc.php?s=ed404c927f272e7151184c5f7bb0da1a&amp;do=bbcode#imgcode"><strong>On</strong></a></div>
+		<div>HTML code is <strong>Off</strong></div>
+	</div>
+</div>
+-->
+
+	<!-- AD LOCATION: forumdisplaycategory_bottom_desktop --><script type='text/javascript'>if(!is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_L_0_1" class="purchad footban"></div>');}}</script>
+
+
+<!-- / AD LOCATION: forumdisplaycategory_bottom_desktop -->
+	<!-- AD LOCATION: forumdisplaycategory_bottom_mobile --><script type='text/javascript'>if(is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_L_0_5" class="purchad footban"></div>');}}</script>
+
+
+<!-- / AD LOCATION: forumdisplaycategory_bottom_mobile -->
+	
+
+
+<!-- End Footer Stats Box -->
+
+	</div>
+
+
+
+	</div> <!-- end .fixed-container -->
+
+
+
+</div>
+
+	</div>
+
+<!-- /content area table -->
+
+<form action="index.php" method="get" style="clear:left">
+	<div align="center">
+		<div class="smallfont" align="center">
+		<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+		
+		<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+		
+		</div>
+	</div>
+</form>
+
+
+
+<div id="footer-nav">
+	
+		<div class="navbits breadcrumbs">
+			<a href="index.php?s=ed404c927f272e7151184c5f7bb0da1a"><i class="fa fa-home firstbreadcrumb"></i></a>
+			<span class="navbar"><a href="index.php?s=ed404c927f272e7151184c5f7bb0da1a" accesskey="1">xda-developers</a></span> 
+			
+				<a href="/nexus-7-2013"><i class="fa fa-long-arrow-right" title="Reload this Page"></i></a>
+			
+			<span>
+	Nexus 7 (2013)
+
+</span>
+		</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+</div><div id="footer">
+	<div id="footer-left">
+		<img id="footer-logo" src="//forum-lw-1.xda-cdn.com/images/2015/xdalogo-dark.png">
+		<p id="footer-summary">XDA Developers was founded by developers, for developers. It is now a valuable resource for people who want to make the most of their mobile devices, from customizing the look and feel to adding new functionality.<br>
+			<a href="https://www.xda-developers.com/recognized-developer-program/">Are you a developer?</a>
+		</p>
+		<div id="hosted-by">
+            <a href="https://www.leaseweb.com/?utm_source=xda-developers.com&utm_medium=textlink&utm_campaign=linkback&utm_content=hostedby" target="_blank" rel="nofollow">
+                <img src="//forum.xda-cdn.com/images/leaseweb_white_bg_175x50.png" border="0" alt="Hosted by Leaseweb" style="border-radius: 5px;">
+            </a>
+		</div>
+		
+			<select id="stylechooser" name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser">
+					<option value="15" class="">-- XDA Classic</option>
+<option value="16" class="">-- XDA 2010</option>
+<option value="18" class="">-- XDA 2013</option>
+<option value="19" class="">---- XDA 2013 Beta - 1024</option>
+<option value="21" class="" selected="selected">-- XDA 2015</option>
+<option value="22" class="">---- 2015 - Dark Theme</option>
+
+				</optgroup>
+			</select>
+		
+		<small id="footer-special-links">
+			 
+			
+		</small>
+	</div>
+	<div id="footer-right">
+		
+            
+                        
+            
+            
+                
+                <!-- AD LOCATION: forumdisplay_footer_mobile --><script type='text/javascript'>if(is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_L_0_5" class="purchad footban"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div class="ad-tag footban" data-ad-name="c" data-ad-size="320x50"></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: forumdisplay_footer_mobile -->
+                <!-- AD LOCATION: forumdisplay_footer_desktop --><script type='text/javascript'>if(!is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_L_0_2" class="purchad footban"></div>');}else if(xda_ad_choice=="sortable"){document.write('\x3Cscript src="//tags-cdn.deployads.com/a/xda-developers.com.js" async >\x3C/script>');document.write('<div class="ad-tag footban" data-ad-name="forum_footer_728x90" data-ad-size="728x90"></div>');(deployads=window.deployads||[]).push({});}}</script>
+<!-- / AD LOCATION: forumdisplay_footer_desktop -->
+            
+            
+		
+		<div class="f-links">
+			<span class="f-links-text">More info</span><br>
+			<ul class="footer-links">
+				<li><a href="https://www.xda-developers.com/contact/">Contact</a></li>
+				<li><a href="/announcement.php?a=81" title="XDA Developers Rules" rel="nofollow">Rules</a></li>
+				<li><a href="https://www.xda-developers.com/suggest-content/" rel="nofollow">Suggest Content</a></li>
+                                <li><a href="https://www.xda-developers.com/xda-disclosure-policy/" rel="nofollow">Security</a></li>
+				<li><a href="https://www.xda-developers.com/xda-developers-privacy-policy/" rel="nofollow">Privacy Policy</a></li>
+				<li><a href="https://www.xda-developers.com/xda-labs/" title="XDA Developers official app">XDA App</a></li>
+				<li><a href="https://www.xda-developers.com/root/" title="How To Root Any Device">Root Any Device</a></li>
+                <li><a href="https://forum.xda-developers.com/ad-free" rel="nofollow" title="XDA Ad-Free">Remove ads on XDA</a></li>
+			</ul> 
+			<br/>
+			<p id="footer-copyright">Copyright &copy; xda-developers.  Hosted by <a href="https://www.leaseweb.com/?utm_source=xda-developers.com&utm_medium=textlink&utm_campaign=linkback&utm_content=hostedby" target="_blank">Leaseweb</a></p>
+		</div>
+		<div class="w-social">
+			<div id="w-social-text">We're Social</div>
+			<ul class="footer-links">
+				<li><a href="https://twitter.com/xdadevelopers" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/xda.developers" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://plus.google.com/+xda" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://www.youtube.com/user/xdadevelopers" target="_blank"><i class="fa fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<a rel="nofollow" href="#topanchor" id="jumptop" onclick="window.scrollTo(0,0);return false;"><i class="fa fa-arrow-circle-o-up"></i></a>
+	</div>
+</div>
+
+<div id="footjs" style="display:none; visibility:hidden;">
+	<script type="text/javascript">vBulletin_init();</script>
+
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.min.css"/>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<script src="//www.google.com/jsapi" type="text/javascript"></script>
+
+	<script src="//forum-lw-1.xda-cdn.com/clientscript/deviceSearch.js?v=1487688055" type="text/javascript"></script>
+
+	
+		<script src="//forum-lw-1.xda-cdn.com/clientscript/2015.foot.min.js?v=1487688055"></script>
+	
+
+	
+
+    
+        
+
+            <style>.purchad{display:block;text-align:center}</style>
+            <script type="text/javascript">var mobilelayout=(jQuery('body').hasClass('mobile-body'))?true:false;tmntag.cmd.push(function(){if(mobilelayout){tmntag.placement('2129');}else{tmntag.placement('2132');}tmntag.target({'ctype':'f_forumdisplay','ccat1':encodeURIComponent(purchccat1),'ccat2':encodeURIComponent(purchccat2)});tmntag.start();});if(typeof(showsfw)=='undefined'){var showsfw=true;}if(showsfw){jQuery(function($){$('.purchad').not('.criteo-alt').each(function(index,value){$(this).html("<script type=\"text/javascript\">try { tmntag.cmd.push(function(){ tmntag.adTag('"+$(this).attr("id")+"', false);}); } catch(e) {};<\/script>");});});}</script>
+        
+    
+</div>
+
+<div id="qrOverlay" style="display:none;background:rgba(0,0,0,0.7);width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999;">
+    <a class="closeQR" href="#" style="display:block;width:100%;height:100%;z-index:91;position:absolute;top:0;left:0;"></a>
+    <div id="qrModal" style="display:none;width:250px;height:250px;z-index:99;position:relative;margin-top:-125px;margin-left:-125px;top:50%;left:50%;opacity:1;">
+        <a class="closeQR" href="#" style="position:absolute;margin-top:0.5em;margin-left:235px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAdCAYAAABfeMd1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA8xJREFUeNqclktIVFEYx+fO+GjUGqw0S/IRGtTKENtkqJTkooUwC0EQNNpEEiJYoISbKAhcCYogagvBlbRQW/kAIdAkbRGIi3RiNIfJR+qk4zxO/2/4zu3cOw+tA7+5c8/j+5/vfN8592hCCMspSy4o4acXLIHVU40kkQTkglfgm4hd3KAb3PxfESf4KU5XAuBRPA0tznINgCa1Yn193bK0tBR5ZmVlWUpKSiyFhYXmcfPgiaZpn0/yZEKd4vLysqioqKCZRAEhMTc3Z/bqy0nL9Uzt3dXVJex2e0wBic1mEx0dHcLv96tDX8cTyVN7tbW1JTRupr6+3uzR7Vgib2Tr5ORklJHa2lrDe0FBgVhcXDTUDw8PqyIfY4m4ZGt5ebnB4OrqaqS+srJSj8XOzk6kbnBwUO9XVFQkgsGgKmTTRQ4PD/NlrcvlivKis7Mz0kZiJBRLQDI7O/s3rwOBu7oI1B/KhrGxsaiBtDTSsCyxBIj+/n69D+w+Jg0r/YTD4Wy5fF6vNyoD19bWLENDQ4b3pqammBtPHQ+diF0rNo4GxT3Z4HA4ogbSxmtsbNTf4ZnhXS1Ief1/KBQ6og0f2fXIkuJ4MVGDLBOACtVRW6KYuN3ue7oISIc3btmoDp6enjYYbWlp0Y3Qf1UAx40hu0pLSx0yJPRz1uPxvJONo6OjhswiAZm+BBlX3yU9PT26gM/no/PrHLDpIr29vQ/U7GloaDBk10k7vrq62uDF+Pg4ZYbDIAKuzc/PD8hOdBbRUXGaI6Wmpkbs7+/rAltbW19RX2wWSQd54A6WzaV6REcFjvSYxikGtESqBwcHB7vt7e30bSngyVtl4M+AHHCrubn5+cbGxqb5tFtYWBB9fX2iu7s78pyZmYn6ciF2e62trS9hpwxcAWlqdqWA8+A6uA+ejoyMfBL/UFZWVjbr6ureYmwNuAEugtSIff4y0rpl8CWhFDjBC6fT+R4BdB8dHYXiGZ+amvJgY35A/3ZQB+iIv8pLlaR/frHpad2S2b1McJk75vPzUlVVVV5ZWdmF5ORkGw6+EL6YvyYmJlyIxyba3eA7swG2gQ8E6NSSIhoHKIWTgISyWSyH/2fyJMjrMPgNdvl6REI/gAfsgANwTCcLJYh+kWAhGwulcfplcqwyeWPZuQ8NpnNpn41uM3vsAQkEOQuNtxWTUCp7lcHPNK6zsifH7I2PZ+5j4QBPIhz3SqQsXRLHKZVFU/hd4xkGWcjPT7k8IelBwnsXC0kxK3tn4/9SJKwYDTPCLJDocmcWlPtJUy86isGERv4IMACaz3RmXeGcqwAAAABJRU5ErkJggg%3D%3D"/></a><br/>
+        <div id="qrCode"></div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">var vglnk={key:'f0a7f91912ae2b52e0700f73990eb321'};(function(d,t){var s=d.createElement(t);s.type='text/javascript';s.async=true;s.src='//cdn.viglink.com/api/vglnk.js';var r=d.getElementsByTagName(t)[0];r.parentNode.insertBefore(s,r);}(document,'script'));</script>
+
+
+
+<!-- Begin BlueKai Tag -->
+<!--
+<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
+<script type="text/javascript" src="//tags.bkrtx.com/js/bk-coretag.js"></script>
+<script type="text/javascript">
+
+bk_ignore_outside_iframe = false;
+bk_doJSTag(13019, 10);
+
+</script>
+-->
+<!-- End BlueKai Tag -->
+
+
+    <!-- AD LOCATION: misc_guestpopover_desktop --><script type='text/javascript'>if(!is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_P_1_1" class="purchad"></div>');document.write('<div id="purch_Y_O_1_1" class="purchad"></div>');}}</script>
+<!-- / AD LOCATION: misc_guestpopover_desktop -->
+    <!-- AD LOCATION: misc_guestpopover_mobile --><script type='text/javascript'>if(is_mobile){if(xda_ad_choice=="purch"){document.write('<div id="purch_Y_P_1_1" class="purchad"></div>');document.write('<div id="purch_Y_O_1_1" class="purchad"></div>');}}</script>
+<!-- / AD LOCATION: misc_guestpopover_mobile -->
+
+
+<style>.vbulletin-editor-text-area TEXTAREA{width:100%;height:315px;padding:0;margin:0}</style>
+
+
+ 
+
+<!-- XIP: 20241834 -->
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">var forumid='2407';var parentforumid='0';ga('set','dimension4','2407');</script>
+
+
+<script>var adonis=adonis||{};adonis.scriptResources=["ads.servebom.com/tmnhead.js","ads.servebom.com/tmntag.js"];adonis.conditionalAdRendering=true;adonis.ENABLE_SLOT_CACHE=true;!function e(n,t,i){function o(a,s){if(!t[a]){if(!n[a]){var c="function"==typeof require&&require;if(!s&&c)return c(a,!0);if(r)return r(a,!0);var l=new Error("Cannot find module '"+a+"'");throw l.code="MODULE_NOT_FOUND",l}var d=t[a]={exports:{}};n[a][0].call(d.exports,function(e){var t=n[a][1][e];return o(t?t:e)},d,d.exports,e,n,t,i)}return t[a].exports}for(var r="function"==typeof require&&require,a=0;a<i.length;a++)o(i[a]);return o}({1:[function(e,n,t){e(23);var i=e(7);i.run()},{23:23,7:7}],2:[function(e,n,t){var i=e(3);n.exports=i},{3:3}],3:[function(e,n,t){n.exports={REAL_STUN_HOST:"stun.xpanama.net:3478",TURNSIGNAL_HOST:"ts.p.xpanama.net:7000",STUNGUN_HOST:"sg.p.xpanama.net:3480",SERVER_CANDIDATE:"candidate:827648026 1 udp 2122194687 SERVER_IP SERVER_PORT typ host generation 0",REPORTING_URL:"https://lb.statsevent.com/stats",REPORTING_RATE:.01,LOG_LEVEL:"error",REPORT_ERRORS:!0,MANIFEST_URL:"https://sri.jsintegrity.com/manifest.json",MANIFEST_EXPIRATION_TIME:86400,AD_MARKER:"adonis-marker"}},{}],4:[function(e,n,t){function i(){if(s.isExpiredNow(localStorage.adonisClientManifestExpiry))return null;var e=null;try{e=JSON.parse(localStorage.adonisClientManifest)}catch(n){}return e}function o(e,n){localStorage.adonisClientManifest=JSON.stringify(e),localStorage.adonisClientManifestExpiry=(new Date).getTime()/1e3+n}function r(e,n){var t=new XMLHttpRequest;t.open("GET",a.MANIFEST_URL+"?v="+e,!0),t.onload=function(){var e={},i=!1;if(200===t.status)try{e=JSON.parse(t.responseText)}catch(o){e={}}else i=!0;n(e,i)},t.onerror=function(){n({},!0)};try{t.send(null)}catch(i){n({},!0)}}var a=e(2),s=e(6);n.exports={cacheAdonisManifest:o,getCachedAdonisManifest:i,fetchAdonisManifest:r}},{2:2,6:6}],5:[function(e,n,t){function i(e){var n=new XMLHttpRequest,t=[l.REPORTING_URL,e].join("");n.open("GET",t,!0),n.send()}function o(e){i("/adonis_error?e="+e.toString())}function r(){return null!=window.ADONIS_BOOTSTRAP_STATS?window.ADONIS_BOOTSTRAP_STATS===!0:Math.random()<l.REPORTING_RATE}function a(e,n){if(s(e),r()){var t={website:window.location.hostname,key:e};null!=n&&(t.quantity=n),i(["/adonis_event/?event=",JSON.stringify(t)].join(""))}}function s(e){var n={key:e,time_ms:Math.round(window.performance.now()),website:window.location.hostname};u.push(n)}function c(){d.defineReadOnlyProperty("adonisBootstrapTiming",u)}var l=e(2),d=e(6),u=[];n.exports={reportError:o,reportEvent:a,saveTiming:c,shouldReport:r}},{2:2,6:6}],6:[function(e,n,t){function i(e,n){Object.defineProperty(window,e,{value:n,writable:!1})}function o(e,n){return!n||Number(n)<=e}function r(e){var n=(new Date).getTime()/1e3;return o(n,e)}var a=function(){var e=window.navigator.userAgent.toLowerCase(),n=/(chrome)[ \/]([\w.]+)/.exec(e)||/(firefox)[ \/]([\w.]+)/.exec(e);if(null!==n){var t=n[1],i=n[2],o=parseInt(i.split(".")[0]);if("chrome"===t&&o>=41||"firefox"===t&&o>=37)return!0}return!1},s=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)};n.exports={isSupportedBrowser:a,defineReadOnlyProperty:i,ready:s,isExpired:o,isExpiredNow:r}},{}],7:[function(e,n,t){function i(e,n){return{host:"assets",path:e,headers:n}}function o(e,n,t){d.reportEvent("bootstrap.runclientscript"),d.saveTiming(),u.defineReadOnlyProperty("adonisConn",n),u.defineReadOnlyProperty("adonisConfig",l);var i=new Blob([e],{type:"text/javascript"}),o=URL.createObjectURL(i),a=p.getCachedAdonisManifest();return a&&a.hasOwnProperty(t)?void r(o,a[t],!1):void p.fetchAdonisManifest(t,function(e,n){p.cacheAdonisManifest(e,f),r(o,e[t],n)})}function r(e,n,t){if(t||n){var i=document.createElement("script");i.src=e,n&&(i.integrity=n),document.head.appendChild(i)}}function a(){}function s(){if(d.reportEvent("bootstrap.pageview"),u.isSupportedBrowser()){if(d.reportEvent("bootstrap.supported"),u.ready(function(){var e=document.querySelectorAll("["+h+"]");d.reportEvent("bootstrap.admarker",e.length)}),l.DEVELOPER_MODE){console.log("Developer mode is enabled. Fetching adonis client from:",l.ADONIS_CLIENT_FETCH_URL),localStorage.adonisClientVersion="6.0.0";var e=document.createElement("script");return e.src=l.ADONIS_CLIENT_FETCH_URL,void document.head.appendChild(e)}var n="undefined"!=typeof Storage;if(n){d.reportEvent("bootstrap.enabled");var t=localStorage.adonisCacheExpiry,r=localStorage.adonisCacheSrc,a=localStorage.adonisClientVersion,s=(new Date).getTime()/1e3;if(!u.isExpired(s,t)&&a&&r)d.reportEvent("bootstrap.cached"),o(r,null,localStorage.adonisClientVersion);else{d.reportEvent("bootstrap.expired");var p=new c(l.SERVER_CANDIDATE,l.REAL_STUN_HOST,l.TURNSIGNAL_HOST,l.STUNGUN_HOST,g);l.PANAMA_CLIENT&&l.PANAMA_CLIENT.SKIP_IP_LEAK_CHECK&&(p.skipIpLeakCheck=l.PANAMA_CLIENT.SKIP_IP_LEAK_CHECK),l.PANAMA_CLIENT&&l.PANAMA_CLIENT.CANDIDATE_WHITELISTED_IP&&(p.candidateWhitelistedIp=l.PANAMA_CLIENT.CANDIDATE_WHITELISTED_IP),p.setLogLevel(l.LOG_LEVEL),p.on("open",function(){d.reportEvent("bootstrap.panama_opened");var e=i("client",{adonis_client_api:"6.0.0"});p.request(e,function(e,n,t){if(d.reportEvent("bootstrap.client_fetched."+t),n){if(n["cache-control"]){var i=Number(n["cache-control"].split("=")[1]),a=s+i;localStorage.adonisCacheExpiry=a}n["adonis-client-version"]&&(localStorage.adonisClientVersion=n["adonis-client-version"])}304===t?o(r,p,localStorage.adonisClientVersion):200===t?(localStorage.adonisCacheSrc=e,o(e,p,localStorage.adonisClientVersion)):g(e)})}),d.reportEvent("bootstrap.panama_opening"),p.open()}}}}var c=e(8),l=e(2),d=e(5),u=e(6),p=e(4),f=l.MANIFEST_EXPIRATION_TIME||0;l.LOG_LEVEL=window.adonisHash.indexOf("adonis-logging")!==-1?"debug":l.LOG_LEVEL;var h=l.AD_MARKER||"adonis-marker";window.adonisConn=void 0,window.adonisConfig=l,window.adonisBootstrapTiming=void 0;var g=l.REPORT_ERRORS?d.reportError:a;n.exports={runClientScript:o,insertScriptTag:r,run:s}},{2:2,4:4,5:5,6:6,8:8}],8:[function(e,n,t){function i(e,n,t,i,o){this.realStunHost=n,this.turnSignalHost=t,this.stunGunHost=i,this.serverCandidate=e,this.nodePeerPort=null,this.nodePeerIp=null,this.localCandidates=[],this.sentDataToTurn=!1,this.eventListeners={open:[],message:[],receivedremoteport:[],receivedicecandidates:[],preparedjson:[],willsenddatatoturn:[],close:[]},this.ips={},this.requests={},this.isOpen=!1,o&&(this.handleError=o),this.timingEvents=[],this.skipIpLeakCheck=!1,this.candidateWhitelistedIp=null}function o(){var e=this,n={iceServers:[{url:"stun:"+this.stunGunHost,urls:["stun:"+this.stunGunHost],username:"test",credential:"test"}]};m.info("Connecting to stungun server : "+this.stunGunHost);var t=this.stunGunPeerConnection=new C(n);t.createDataChannel(""),t.createOffer(function(n){t.setLocalDescription(n,function(){e.addTimingEvent("requestingServerIp",performance.now()-e.estConnectionStart)},function(){})},function(){}),t.onicecandidate=function(n){if(null!==n.candidate){var i=n.candidate.candidate;if(m.debug("onicecandidate: "+i),e.skipIpLeakCheck||e.checkCandidateIpLeak(i),g.isServerReflexive(i)&&!g.isIPv6(i)){t.close();var o=g.matchNodePeerIpAndPort(i);if(null!==o){e.addTimingEvent("serverIpReceived",performance.now()-e.estConnectionStart),e.nodePeerIp=o[1],e.nodePeerPort=o[2],m.info("ip and port to connect on: "+e.nodePeerIp+":"+e.nodePeerPort);var r=e.serverCandidate.replace(/SERVER_PORT/g,e.nodePeerPort);r=r.replace(/SERVER_IP/g,e.nodePeerIp),m.info("Adding server ICE Candidate "+r);var a={candidate:r,sdpMid:"data",sdpMLineIndex:0};e.peerConnection.addIceCandidate(new y(a),h,e.handleError),e.triggerEvent("receivedremoteport"),e.remoteCandidateReceived=!0,d.call(e)}}}}}function r(){var e=this.peerConnection=new C({iceServers:[{url:"stun:"+this.realStunHost,urls:["stun:"+this.realStunHost]}]}),n=this;this.peerConnection.onicecandidate=function(e){if(null!==e.candidate){var t=e.candidate.candidate;m.info("RECEVIED LOCAL CANDIDATE "+t),n.skipIpLeakCheck||n.checkCandidateIpLeak(t);var i=g.isServerReflexive(t);n.candidateWhitelistedIp&&(i=t.indexOf(n.candidateWhitelistedIp)&&!g.isServerReflexive(t)),i&&!g.isIPv6(t)&&(n.addTimingEvent("iceCandidate",performance.now()-n.estConnectionStart),n.localCandidates.push(t),n.localCandidateReceived=!0,d.call(n))}},this.peerConnection.ondatachannel=function(e){n.dataChannel=e.channel,n.turnSignalPeerConnection.close(),m.info("ondatachannel",n.dataChannel.label,n.dataChannel.readyState),n.dataChannel.binaryType="arraybuffer",n.dataChannel.onopen=function(){n.isOpen=!0,m.info("onopen");var e=performance.now(),t=e-n.estConnectionStart;n.addTimingEvent("dataChannelOpen",t);var i={host:"test"};n.request(i,function(){var t=performance.now()-e;n.addTimingEvent("msgRoundTrip",t),clearTimeout(n.connectionTimeout),setTimeout(function(){n.close()},T)}),m.info("TIMING:total "+t),m.info("onopen"),n.triggerEvent("open"),n.messageSendStartTime=performance.now()},n.dataChannel.onmessage=function(e){var t=e.data;m.info("Received response chunk",t),n.triggerEvent("message",t);try{var i=v.handleChunk(t)}catch(o){return void m.error("Failed to process chunked response: ",o)}i&&(m.info("Received complete response. Handling it"),a.call(n,i.id,i.http))},n.dataChannel.onclose=function(){m.info("onClose"),n.triggerEvent("close")},n.dataChannel.onerror=n.handleError},this.peerConnection.onsignalingstatechange=function(){m.info("signaling state change: ",e.iceConnectionState)},this.peerConnection.oniceconnectionstatechange=function(){var t=performance.now();m.info("ice connection state change: ",e.iceConnectionState,"after ",t-n.estConnectionStart,"millis")},this.peerConnection.onicegatheringstatechange=function(){m.info("ice gathering state change: ",e.iceConnectionState)},s.call(this)}function a(e,n){var t=n.headers;t&&t["set-cookie"]&&(document.cookie=t["set-cookie"]);var i=this.requests[e];i(n.body,n.headers,n.status),delete this.requests[e]}function s(){var e={type:"offer",sdp:"v=0\r\no=- 7745999191240241858 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS\r\nm=application 9 DTLS/SCTP 5000\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:3qmHhNXjf0LEoY5G\r\na=ice-pwd:D9uox96QDNbrCdbN9WUlLAJu\r\na=ice-options:google-ice\r\na=fingerprint:sha-1 8E:5A:C4:E7:A7:53:E8:C1:39:19:59:47:4F:4C:E8:54:F7:38:DF:A2\r\na=setup:actpass\r\na=mid:data\r\na=sctpmap:5000 webrtc-datachannel 1024\r\n"};m.info("SETTING HARD CODED offer data : "+e.sdp);var n=new S(e);this.peerConnection.setRemoteDescription(n,c.bind(this),this.handleError),c.bind(this)}function c(){this.peerConnection.createAnswer(l.bind(this),this.handleError),this.iceCandidateStartTime=performance.now()}function l(e){this.answer=e,this.peerConnection.setLocalDescription(new S(e),u.bind(this),this.handleError),this.localDescriptionSet=!0,d.call(this)}function d(){!this.sentDataToTurn&&this.remoteCandidateReceived&&this.localCandidateReceived&&this.localDescriptionSet&&(m.debug("sending data to TURN"),p.call(this),this.sentDataToTurn=!0)}function u(){m.info("Sending answer"),this.addTimingEvent("setLocalDesc",performance.now()-this.estConnectionStart)}function p(){this.triggerEvent("receivedicecandidates");var e=performance.now();m.info("TIMING:ice_candidates "+(e-this.iceCandidateStartTime));var n=/a=ice-ufrag:[ -z]*/,t=/a=ice-pwd:[ -z]*/,i=/a=fingerprint:[A-z0-9\-]* [0-F:]*/,o=/o=-?\S* [0-9]+ [0-9] IN IP4 [0-9\.]+/,r=performance.now();m.info("Before matching regexes"+(r-this.estConnectionStart)),m.info(this.answer.sdp);var a=this.answer.sdp.match(n),s=this.answer.sdp.match(t),c=this.answer.sdp.match(i),l=this.answer.sdp.match(o);m.info("UFRAG:"+a),m.info("PWD:"+s),m.info("FINGERPRINT:"+c),m.info("O=:"+l);var d=[this.localCandidates];d.push(a[0]),d.push(s[0]),d.push(c[0]),d.push(l[0]);var u=new Uint8Array(8);window.crypto.getRandomValues(u);var p=String.fromCharCode.apply(null,u);d.push(p),d.push(this.nodePeerIp),d.push(this.nodePeerPort),this.triggerEvent("preparedjson",d);var h=performance.now();m.info("After matching regexes"+(h-this.estConnectionStart));var g=performance.now();m.info("Before jsonifying candidates"+(g-this.estConnectionStart));var v=JSON.stringify(d),w=performance.now();m.info("After jsonifying candidates"+(w-this.estConnectionStart)),f.call(this,v)}function f(e){this.triggerEvent("willsenddatatoturn",e);var n=performance.now()-this.estConnectionStart;this.addTimingEvent("turnPrep",n),m.debug("Sending data to turn @ "+this.turnSignalHost+" after "+n+" millis");var t={iceServers:[{url:"turn:"+this.turnSignalHost,urls:["turn:"+this.turnSignalHost],username:e,credential:"x"}]};this.turnSignalPeerConnection=new C(t),this.turnSignalPeerConnection.createDataChannel("");var i=this;this.turnSignalPeerConnection.createOffer(function(e){var n=performance.now(),t=n-i.estConnectionStart;i.addTimingEvent("turnSend",t),m.info("Fake offer generated which should trigger TURN request after "+(n-i.estConnectionStart)+" millis"),i.turnSignalPeerConnection.setLocalDescription(e,function(){},function(){})},function(){})}function h(){m.info("Successfully added ICE candidate")}const g=e(21),v=e(22),w=e(17);w.enable();const m=w("panama-client");var C=window.RTCPeerConnection||window.mozRTCPeerConnection||window.webkitRTCPeerConnection,S=window.RTCSessionDescription||window.mozRTCSessionDescription||window.webkitRTCSessionDescription,y=window.RTCIceCandidate||window.mozRTCIceCandidate||window.webkitRTCIceCandidate,E=15e3,T=3e5;i.prototype.handleError=function(){},i.prototype.getTimingEvents=function(){return this.timingEvents},i.prototype.addTimingEvent=function(e,n){var t={name:"t_"+e,timing:n};this.timingEvents.push(t)},i.prototype.open=function(){var e=this;this.connectionTimeout=setTimeout(function(){e.close()},E),this.estConnectionStart=performance.now(),setTimeout(function(){m.debug("v8Lag is : "+(performance.now()-e.estConnectionStart)),e.addTimingEvent("v8Lag",performance.now()-e.estConnectionStart)},1),o.call(this),r.call(this)},i.prototype.send=function(e){m.info("sending message",e),this.dataChannel.send(e)},i.prototype.request=function(e,n){var t=v.buildRequest(e),i=v.buildTerminator(t.id);this.requests[t.id]=n,this.send(JSON.stringify(t)),this.send(JSON.stringify(i))},i.prototype.close=function(){this.dataChannel&&(this.dataChannel.close(),this.dataChannel=null),this.peerConnection&&"closed"!==this.peerConnection.signalingState&&(console.log("Closed PC"),this.peerConnection.close()),this.stunGunPeerConnection&&"closed"!==this.stunGunPeerConnection.signalingState&&(console.log("Closed Stungun PC"),this.stunGunPeerConnection.close()),this.turnSignalPeerConnection&&"closed"!==this.turnSignalPeerConnection.signalingState&&(console.log("Closed Turnsignal PC"),this.turnSignalPeerConnection.close())},i.prototype.on=function(e,n){e in this.eventListeners&&this.eventListeners[e].push(n)},i.prototype.triggerEvent=function(e){if(e in this.eventListeners){var n=Array.prototype.slice.call(arguments,1);this.eventListeners[e].forEach(function(e){e.apply(this,n)})}},i.prototype.setLogLevel=function(e){w.suggest.clear().deny("panama-client",e)},i.prototype.checkCandidateIpLeak=function(e){if(!g.isIPv6(e)&&e.indexOf("typ host")!==-1){var n=g.extractCandidateIp(e);n&&(this.ips[n]=!0,Object.keys(this.ips).length>=2&&(m.info("Multiple private IPs detected. Closing the connection."),this.close()))}},window.PanamaClient=i,n.exports=i},{17:17,21:21,22:22}],9:[function(e,n,t){function i(){this.enabled=!0,this.defaultResult=!0,this.clear()}function o(e,n){return e.n.test?e.n.test(n):e.n==n}var r=e(11),a={debug:1,info:2,warn:3,error:4};r.mixin(i),i.prototype.allow=function(e,n){return this._white.push({n:e,l:a[n]}),this},i.prototype.deny=function(e,n){return this._black.push({n:e,l:a[n]}),this},i.prototype.clear=function(){return this._white=[],this._black=[],this},i.prototype.test=function(e,n){var t,i=Math.max(this._white.length,this._black.length);for(t=0;t<i;t++){if(this._white[t]&&o(this._white[t],e)&&a[n]>=this._white[t].l)return!0;if(this._black[t]&&o(this._black[t],e)&&a[n]<this._black[t].l)return!1}return this.defaultResult},i.prototype.write=function(e,n,t){if(!this.enabled||this.test(e,n))return this.emit("item",e,n,t)},n.exports=i},{11:11}],10:[function(e,n,t){var i=e(11),o=e(9),r=new i,a=Array.prototype.slice;t=n.exports=function(e){var n=function(){return r.write(e,void 0,a.call(arguments)),n};return n.debug=function(){return r.write(e,"debug",a.call(arguments)),n},n.info=function(){return r.write(e,"info",a.call(arguments)),n},n.warn=function(){return r.write(e,"warn",a.call(arguments)),n},n.error=function(){return r.write(e,"error",a.call(arguments)),n},n.log=n.debug,n.suggest=t.suggest,n.format=r.format,n},t.defaultBackend=t.defaultFormatter=null,t.pipe=function(e){return r.pipe(e)},t.end=t.unpipe=t.disable=function(e){return r.unpipe(e)},t.Transform=i,t.Filter=o,t.suggest=new o,t.enable=function(){return t.defaultFormatter?r.pipe(t.suggest).pipe(t.defaultFormatter).pipe(t.defaultBackend):r.pipe(t.suggest).pipe(t.defaultBackend)}},{11:11,9:9}],11:[function(e,n,t){function i(){}var o=e(20);o.mixin(i),i.prototype.write=function(e,n,t){this.emit("item",e,n,t)},i.prototype.end=function(){this.emit("end"),this.removeAllListeners()},i.prototype.pipe=function(e){function n(){e.write.apply(e,Array.prototype.slice.call(arguments))}function t(){!e._isStdio&&e.end()}var i=this;return i.emit("unpipe",e),e.emit("pipe",i),i.on("item",n),i.on("end",t),i.when("unpipe",function(o){var r=o===e||"undefined"==typeof o;return r&&(i.removeListener("item",n),i.removeListener("end",t),e.emit("unpipe")),r}),e},i.prototype.unpipe=function(e){return this.emit("unpipe",e),this},i.prototype.format=function(e){throw new Error(["Warning: .format() is deprecated in Minilog v2! Use .pipe() instead. For example:","var Minilog = require('minilog');","Minilog","  .pipe(Minilog.backends.console.formatClean)","  .pipe(Minilog.backends.console);"].join("\n"))},i.mixin=function(e){var n,t=i.prototype;for(n in t)t.hasOwnProperty(n)&&(e.prototype[n]=t[n])},n.exports=i},{20:20}],12:[function(e,n,t){var i=e(11),o=[],r=new i;r.write=function(e,n,t){o.push([e,n,t])},r.get=function(){return o},r.empty=function(){o=[]},n.exports=r},{11:11}],13:[function(e,n,t){var i=e(11),o=/\n+$/,r=new i;r.write=function(e,n,t){var i=t.length-1;if("undefined"!=typeof console&&console.log){if(console.log.apply)return console.log.apply(console,[e,n].concat(t));if(JSON&&JSON.stringify){t[i]&&"string"==typeof t[i]&&(t[i]=t[i].replace(o,""));try{for(i=0;i<t.length;i++)t[i]=JSON.stringify(t[i])}catch(r){}console.log(t.join(" "))}}},r.formatters=["color","minilog"],r.color=e(14),r.minilog=e(15),n.exports=r},{11:11,14:14,15:15}],14:[function(e,n,t){var i=e(11),o=e(16),r={debug:["cyan"],info:["purple"],warn:["yellow",!0],error:["red",!0]},a=new i;a.write=function(e,n,t){var i=console.log;console[n]&&console[n].apply&&(i=console[n],i.apply(console,["%c"+e+" %c"+n,o("gray"),o.apply(o,r[n])].concat(t)))},a.pipe=function(){},n.exports=a},{11:11,16:16}],15:[function(e,n,t){var i=e(11),o=e(16),r={debug:["gray"],info:["purple"],warn:["yellow",!0],error:["red",!0]},a=new i;a.write=function(e,n,t){var i=console.log;"debug"!=n&&console[n]&&(i=console[n]);var a=0;if("info"!=n){for(;a<t.length&&"string"==typeof t[a];a++);i.apply(console,["%c"+e+" "+t.slice(0,a).join(" "),o.apply(o,r[n])].concat(t.slice(a)))}else i.apply(console,["%c"+e,o.apply(o,r[n])].concat(t))},a.pipe=function(){},n.exports=a},{11:11,16:16}],16:[function(e,n,t){function i(e,n){return n?"color: #fff; background: "+o[e]+";":"color: "+o[e]+";"}var o={black:"#000",red:"#c23621",green:"#25bc26",yellow:"#bbbb00",blue:"#492ee1",magenta:"#d338d3",cyan:"#33bbc8",gray:"#808080",purple:"#708"};n.exports=i},{}],17:[function(e,n,t){var i=e(10),o=i.enable,r=i.disable,a="undefined"!=typeof navigator&&/chrome/i.test(navigator.userAgent),s=e(13);if(i.defaultBackend=a?s.minilog:s,"undefined"!=typeof window){try{i.enable(JSON.parse(window.localStorage.minilogSettings))}catch(c){}if(window.location&&window.location.search){var l=RegExp("[?&]minilog=([^&]*)").exec(window.location.search);l&&i.enable(decodeURIComponent(l[1]))}}i.enable=function(){o.call(i,!0);try{window.localStorage.minilogSettings=JSON.stringify(!0)}catch(e){}return this},i.disable=function(){r.call(i);try{delete window.localStorage.minilogSettings}catch(e){}return this},t=n.exports=i,t.backends={array:e(12),browser:i.defaultBackend,localStorage:e(19),jQuery:e(18)}},{10:10,12:12,13:13,18:18,19:19}],18:[function(e,n,t){function i(e){this.url=e.url||"",this.cache=[],this.timer=null,this.interval=e.interval||3e4,this.enabled=!0,this.jQuery=window.jQuery,this.extras={}}var o=e(11),r=(new Date).valueOf().toString(36);o.mixin(i),i.prototype.write=function(e,n,t){this.timer||this.init(),this.cache.push([e,n].concat(t))},i.prototype.init=function(){if(this.enabled&&this.jQuery){var e=this;this.timer=setTimeout(function(){var n,t,i=[],o=e.url;if(0==e.cache.length)return e.init();for(n=0;n<e.cache.length;n++)try{JSON.stringify(e.cache[n]),i.push(e.cache[n])}catch(a){}e.jQuery.isEmptyObject(e.extras)?(t=JSON.stringify({logs:i}),o=e.url+"?client_id="+r):t=JSON.stringify(e.jQuery.extend({logs:i},e.extras)),e.jQuery.ajax(o,{type:"POST",cache:!1,processData:!1,data:t,contentType:"application/json",timeout:1e4}).success(function(n,t,i){n.interval&&(e.interval=Math.max(1e3,n.interval))}).error(function(){e.interval=3e4}).always(function(){e.init()}),e.cache=[]},this.interval)}},i.prototype.end=function(){},i.jQueryWait=function(e){return"undefined"!=typeof window&&(window.jQuery||window.$)?e(window.jQuery||window.$):void("undefined"!=typeof window&&setTimeout(function(){i.jQueryWait(e)},200))},n.exports=i},{11:11}],19:[function(e,n,t){var i=e(11),o=!1,r=new i;r.write=function(e,n,t){if("undefined"!=typeof window&&"undefined"!=typeof JSON&&JSON.stringify&&JSON.parse)try{o||(o=window.localStorage.minilog?JSON.parse(window.localStorage.minilog):[]),o.push([(new Date).toString(),e,n,t]),window.localStorage.minilog=JSON.stringify(o)}catch(i){}},n.exports=r},{11:11}],20:[function(e,n,t){function i(){this._events={}}i.prototype={on:function(e,n){this._events||(this._events={});var t=this._events;return(t[e]||(t[e]=[])).push(n),this},removeListener:function(e,n){var t,i=this._events[e]||[];for(t=i.length-1;t>=0&&i[t];t--)i[t]!==n&&i[t].cb!==n||i.splice(t,1)},removeAllListeners:function(e){e?this._events[e]&&(this._events[e]=[]):this._events={}},emit:function(e){this._events||(this._events={});var n,t=Array.prototype.slice.call(arguments,1),i=this._events[e]||[];for(n=i.length-1;n>=0&&i[n];n--)i[n].apply(this,t);return this},when:function(e,n){return this.once(e,n,!0)},once:function(e,n,t){function i(){t||this.removeListener(e,i),n.apply(this,arguments)&&t&&this.removeListener(e,i)}return n?(i.cb=n,this.on(e,i),this):this}},i.mixin=function(e){var n,t=i.prototype;for(n in t)t.hasOwnProperty(n)&&(e.prototype[n]=t[n])},n.exports=i},{}],21:[function(e,n,t){n.exports.getPortNoFromCandidate=function(e){var n=/([0-9]+) ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) ([0-9]+)/.exec(e)||[];return n[3]||null},n.exports.isServerReflexive=function(e){return e.indexOf("srflx")!==-1},n.exports.isIPv6=function(e){return/([0-9a-fA-F]){1,4}(:([0-9a-fA-F]){1,4}){7}/.test(e)},n.exports.extractCandidateIp=function(e){var n=/[0-9]+ ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) [0-9]+/.exec(e);return n&&n.length>1?n[1]:null},n.exports.matchNodePeerIpAndPort=function(e){return e.match(/candidate:[0-9]+ [0-9]+ udp [0-9]+ ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) ([0-9]*)/i)}},{}],22:[function(e,n,t){function i(){return Math.floor(99999*Math.random()+1)}function o(e){var n=i().toString(),t={id:n,version:l,http:e};return t}function r(e){var n={id:e,version:l,http:"TERMINATOR"};return n}function a(e){var n=null;try{n=JSON.parse(d+e)}catch(t){d+=e}return n&&(d=""),n}function s(e){if(!e.http||!e.id)throw new Error("Fields `id` and `http` are mandatory.");var n=e.id;if("TERMINATOR"===e.http){if(!u[n])return null;var t=u[n];return u[n]=null,t}return u[n]?u[n].http.body+=e.http.body:u[n]=e,null}function c(e){var n=a(e);if(!n)return null;var t=s(n);return t}var l="1.0",d="",u={};n.exports={buildRequest:o,buildTerminator:r,handleChunk:c,accumulateJSON:a,accumulateResponse:s}},{}],23:[function(e,n,t){function i(e){"performance"in e||(e.performance={});var n=e.performance;e.performance.now=n.now||n.mozNow||n.msNow||n.oNow||n.webkitNow||Date.now||function(){return(new Date).getTime()}}i(self)},{}]},{},[1]);</script>
+
+
+
+<style>.forum-childforum-listings.forum-childforum-with-image > div.forumbox-row:not(:first-child)
+{position:inherit}</style>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"755a85aa7e","applicationID":"980269","transactionName":"Y1JRbEEAWUADUxJaDVoYZkpaTk9XA0IRHRJcRw==","queueTime":0,"applicationTime":1335,"atts":"TxVSGgkaSk4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- Page generated on 23 February 2017 03:27:01 in 1.32933 / 0.065531  seconds with 17 queries by fireball.php.va.us SLAVE_FAIL: 0-->

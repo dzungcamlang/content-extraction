@@ -1,0 +1,2700 @@
+Champion Analytics - League of Legends.
+Champion Analytics.
+OP.GG uses data from ranked games Platinum and higher.
+Region : Korea - Version : 7.3.
+All.
+Top.
+Jungle.
+Middle.
+ADC.
+Support.
+Free Rotation.
+Aatrox.
+Aatrox.
+Ahri.
+Ahri.
+Middle.
+Akali.
+Akali.
+Top.
+Middle.
+Alistar.
+Alistar.
+Support.
+Amumu.
+Amumu.
+Jungle.
+Anivia.
+Anivia.
+Middle.
+Annie.
+Annie.
+Middle.
+Support.
+Ashe.
+Ashe.
+ADC.
+Aurelion Sol.
+Aurelion Sol.
+Middle.
+Azir.
+Azir.
+Middle.
+Bard.
+Bard.
+Support.
+Blitzcrank.
+Blitzcrank.
+Support.
+Brand.
+Brand.
+Support.
+Middle.
+Braum.
+Braum.
+Support.
+Caitlyn.
+Caitlyn.
+ADC.
+Camille.
+Camille.
+Top.
+Jungle.
+Cassiopeia.
+Cassiopeia.
+Middle.
+Cho'Gath.
+Cho'Gath.
+Corki.
+Corki.
+Middle.
+ADC.
+Darius.
+Darius.
+Top.
+Diana.
+Diana.
+Middle.
+Dr. Mundo.
+Dr. Mundo.
+Top.
+Draven.
+Draven.
+ADC.
+Ekko.
+Ekko.
+Middle.
+Top.
+Elise.
+Elise.
+Jungle.
+Evelynn.
+Evelynn.
+Jungle.
+Ezreal.
+Ezreal.
+ADC.
+Fiddlesticks.
+Fiddlesticks.
+Jungle.
+Fiora.
+Fiora.
+Top.
+Fizz.
+Fizz.
+Middle.
+Top.
+Galio.
+Galio.
+Gangplank.
+Gangplank.
+Top.
+Garen.
+Garen.
+Top.
+Gnar.
+Gnar.
+Top.
+Gragas.
+Gragas.
+Top.
+Jungle.
+Graves.
+Graves.
+Jungle.
+Hecarim.
+Hecarim.
+Jungle.
+Top.
+Heimerdinger.
+Heimerdinger.
+Top.
+Illaoi.
+Illaoi.
+Top.
+Irelia.
+Irelia.
+Top.
+Ivern.
+Ivern.
+Jungle.
+Janna.
+Janna.
+Support.
+Jarvan IV.
+Jarvan IV.
+Jungle.
+Jax.
+Jax.
+Top.
+Jungle.
+Jayce.
+Jayce.
+Top.
+Middle.
+Jhin.
+Jhin.
+ADC.
+Jinx.
+Jinx.
+ADC.
+Kalista.
+Kalista.
+ADC.
+Karma.
+Karma.
+Support.
+Karthus.
+Karthus.
+Middle.
+Kassadin.
+Kassadin.
+Middle.
+Katarina.
+Katarina.
+Middle.
+Kayle.
+Kayle.
+Top.
+Middle.
+Kennen.
+Kennen.
+Top.
+Kha'Zix.
+Kha'Zix.
+Jungle.
+Kindred.
+Kindred.
+Jungle.
+Kled.
+Kled.
+Top.
+Kog'Maw.
+Kog'Maw.
+ADC.
+LeBlanc.
+LeBlanc.
+Middle.
+Lee Sin.
+Lee Sin.
+Jungle.
+Leona.
+Leona.
+Support.
+Lissandra.
+Lissandra.
+Middle.
+Top.
+Lucian.
+Lucian.
+ADC.
+Lulu.
+Lulu.
+Support.
+Middle.
+Lux.
+Lux.
+Middle.
+Support.
+Malphite.
+Malphite.
+Top.
+Support.
+Malzahar.
+Malzahar.
+Support.
+Middle.
+Maokai.
+Maokai.
+Top.
+Master Yi.
+Master Yi.
+Jungle.
+Miss Fortune.
+Miss Fortune.
+Support.
+ADC.
+Mordekaiser.
+Mordekaiser.
+Top.
+Morgana.
+Morgana.
+Support.
+Middle.
+Nami.
+Nami.
+Support.
+Nasus.
+Nasus.
+Top.
+Nautilus.
+Nautilus.
+Top.
+Support.
+Nidalee.
+Nidalee.
+Jungle.
+Nocturne.
+Nocturne.
+Jungle.
+Nunu.
+Nunu.
+Olaf.
+Olaf.
+Top.
+Jungle.
+Orianna.
+Orianna.
+Middle.
+Pantheon.
+Pantheon.
+Top.
+Jungle.
+Middle.
+Poppy.
+Poppy.
+Top.
+Support.
+Quinn.
+Quinn.
+Top.
+Middle.
+Rammus.
+Rammus.
+Jungle.
+Rek'Sai.
+Rek'Sai.
+Jungle.
+Renekton.
+Renekton.
+Top.
+Rengar.
+Rengar.
+Jungle.
+Top.
+Riven.
+Riven.
+Top.
+Rumble.
+Rumble.
+Top.
+Jungle.
+Ryze.
+Ryze.
+Middle.
+Top.
+Sejuani.
+Sejuani.
+Jungle.
+Shaco.
+Shaco.
+Jungle.
+Shen.
+Shen.
+Top.
+Shyvana.
+Shyvana.
+Jungle.
+Singed.
+Singed.
+Top.
+Sion.
+Sion.
+Top.
+Support.
+Sivir.
+Sivir.
+ADC.
+Skarner.
+Skarner.
+Jungle.
+Sona.
+Sona.
+Support.
+Soraka.
+Soraka.
+Support.
+Swain.
+Swain.
+Top.
+Middle.
+Syndra.
+Syndra.
+Middle.
+Tahm Kench.
+Tahm Kench.
+Support.
+Top.
+Taliyah.
+Taliyah.
+Middle.
+Talon.
+Talon.
+Middle.
+Top.
+Taric.
+Taric.
+Support.
+Teemo.
+Teemo.
+Top.
+Thresh.
+Thresh.
+Support.
+Tristana.
+Tristana.
+ADC.
+Trundle.
+Trundle.
+Top.
+Support.
+Tryndamere.
+Tryndamere.
+Top.
+Twisted Fate.
+Twisted Fate.
+Middle.
+Twitch.
+Twitch.
+ADC.
+Jungle.
+Udyr.
+Udyr.
+Urgot.
+Urgot.
+Varus.
+Varus.
+ADC.
+Middle.
+Vayne.
+Vayne.
+ADC.
+Veigar.
+Veigar.
+Middle.
+Support.
+Vel'Koz.
+Vel'Koz.
+Support.
+Middle.
+Vi.
+Vi.
+Jungle.
+Viktor.
+Viktor.
+Middle.
+Vladimir.
+Vladimir.
+Top.
+Middle.
+Volibear.
+Volibear.
+Warwick.
+Warwick.
+Jungle.
+Top.
+Wukong.
+Wukong.
+Top.
+Jungle.
+Xerath.
+Xerath.
+Middle.
+Xin Zhao.
+Xin Zhao.
+Jungle.
+Yasuo.
+Yasuo.
+Middle.
+Top.
+Yorick.
+Yorick.
+Top.
+Zac.
+Zac.
+Jungle.
+Top.
+Zed.
+Zed.
+Middle.
+Ziggs.
+Ziggs.
+Middle.
+ADC.
+Zilean.
+Zilean.
+Support.
+Middle.
+Zyra.
+Zyra.
+Support.
+That Champion doesn't appear to exist!
+Win Rate.
+Pick Rate.
+Ban Rate.
+Summary.
+Top.
+Jungle.
+Middle.
+ADC.
+Support.
+1Quinn.
+Top, Middle.
+55.18%.
+Pick Rate 3.87%.
+2Talon.
+Middle, Top.
+54.85%.
+Pick Rate 4.65%.
+3Pantheon.
+Top, Jungle, Middle.
+54.23%.
+Pick Rate 6.76%.
+4Wukong.
+Top, Jungle.
+54.2%.
+Pick Rate 1.87%.
+5Akali.
+Top, Middle.
+53.5%.
+Pick Rate 2.5%.
+6Olaf.
+Top, Jungle.
+52.86%.
+Pick Rate 1.82%.
+7Kayle.
+Top, Middle.
+52.51%.
+Pick Rate 3.1%.
+8Kled.
+Top.
+52.26%.
+Pick Rate 6%.
+9Swain.
+Top, Middle.
+51.58%.
+Pick Rate 1.45%.
+10.
+Jayce.
+Top, Middle.
+51.5%.
+Pick Rate 9.47%.
+11.
+Sion.
+Top, Support.
+51.21%.
+Pick Rate 2.11%.
+12.
+Maokai.
+Top.
+51.09%.
+Pick Rate 17.94%.
+13.
+Rengar.
+Jungle, Top.
+50.82%.
+Pick Rate 1.25%.
+14.
+Tryndamere.
+Top.
+50.7%.
+Pick Rate 1.18%.
+15.
+Mordekaiser.
+Top.
+50.67%.
+Pick Rate 0.97%.
+16.
+Malphite.
+Top, Support.
+50.63%.
+Pick Rate 4.59%.
+17.
+Jax.
+Top, Jungle.
+50.52%.
+Pick Rate 3.24%.
+18.
+Singed.
+Top.
+50.46%.
+Pick Rate 4.61%.
+19.
+Zac.
+Jungle, Top.
+50.39%.
+Pick Rate 1.52%.
+20.
+Vladimir.
+Top, Middle.
+50.21%.
+Pick Rate 2.32%.
+21.
+Yorick.
+Top.
+50.18%.
+Pick Rate 0.7%.
+22.
+Riven.
+Top.
+49.97%.
+Pick Rate 8.66%.
+23.
+Fiora.
+Top.
+49.93%.
+Pick Rate 10.35%.
+24.
+Darius.
+Top.
+49.86%.
+Pick Rate 6.53%.
+25.
+Gangplank.
+Top.
+49.82%.
+Pick Rate 6.79%.
+26.
+Illaoi.
+Top.
+49.77%.
+Pick Rate 2.83%.
+27.
+Renekton.
+Top.
+49.76%.
+Pick Rate 6.11%.
+28.
+Gragas.
+Top, Jungle.
+49.7%.
+Pick Rate 2.83%.
+29.
+Irelia.
+Top.
+49.7%.
+Pick Rate 5.46%.
+30.
+Lissandra.
+Middle, Top.
+49.39%.
+Pick Rate 0.84%.
+31.
+Rumble.
+Top, Jungle.
+49.25%.
+Pick Rate 8.08%.
+32.
+Teemo.
+Top.
+49.14%.
+Pick Rate 3.52%.
+33.
+Fizz.
+Middle, Top.
+49.05%.
+Pick Rate 0.78%.
+34.
+Heimerdinger.
+Top.
+48.74%.
+Pick Rate 0.52%.
+35.
+Nautilus.
+Top, Support.
+48.72%.
+Pick Rate 3.72%.
+36.
+Tahm Kench.
+Support, Top.
+48.64%.
+Pick Rate 0.66%.
+37.
+Hecarim.
+Jungle, Top.
+48.6%.
+Pick Rate 0.68%.
+38.
+Ekko.
+Middle, Top.
+48.3%.
+Pick Rate 4.19%.
+39.
+Nasus.
+Top.
+48.08%.
+Pick Rate 2.12%.
+40.
+Garen.
+Top.
+47.96%.
+Pick Rate 1.3%.
+41.
+Dr. Mundo.
+Top.
+47.21%.
+Pick Rate 1.09%.
+42.
+Poppy.
+Top, Support.
+47.2%.
+Pick Rate 5.87%.
+43.
+Ryze.
+Middle, Top.
+47.17%.
+Pick Rate 2.2%.
+44.
+Camille.
+Top, Jungle.
+47.14%.
+Pick Rate 4.92%.
+45.
+Kennen.
+Top.
+47.06%.
+Pick Rate 4.66%.
+46.
+Trundle.
+Top, Support.
+46.87%.
+Pick Rate 1.18%.
+47.
+Shen.
+Top.
+46.65%.
+Pick Rate 5.78%.
+48.
+Yasuo.
+Middle, Top.
+46.03%.
+Pick Rate 4.79%.
+49.
+Warwick.
+Jungle, Top.
+44.16%.
+Pick Rate 0.73%.
+50.
+Gnar.
+Top.
+44.07%.
+Pick Rate 1.23%.
+1Shaco.
+Jungle.
+54.65%.
+Pick Rate 5.19%.
+2Ivern.
+Jungle.
+54.34%.
+Pick Rate 2.28%.
+3Rengar.
+Jungle, Top.
+52.15%.
+Pick Rate 10.23%.
+4Evelynn.
+Jungle.
+51.52%.
+Pick Rate 9.44%.
+5Graves.
+Jungle.
+51.2%.
+Pick Rate 30.17%.
+6Wukong.
+Top, Jungle.
+50.69%.
+Pick Rate 1.41%.
+7Elise.
+Jungle.
+50.62%.
+Pick Rate 21.21%.
+8Jax.
+Top, Jungle.
+50.57%.
+Pick Rate 1.69%.
+9Skarner.
+Jungle.
+50.29%.
+Pick Rate 0.7%.
+10.
+Kha'Zix.
+Jungle.
+50.19%.
+Pick Rate 24.22%.
+11.
+Rammus.
+Jungle.
+50.19%.
+Pick Rate 1.81%.
+12.
+Xin Zhao.
+Jungle.
+50.13%.
+Pick Rate 1.11%.
+13.
+Pantheon.
+Top, Jungle, Middle.
+49.97%.
+Pick Rate 1.7%.
+14.
+Nocturne.
+Jungle.
+49.97%.
+Pick Rate 3.32%.
+15.
+Hecarim.
+Jungle, Top.
+49.81%.
+Pick Rate 3.1%.
+16.
+Jarvan IV.
+Jungle.
+49.71%.
+Pick Rate 1.95%.
+17.
+Shyvana.
+Jungle.
+49.56%.
+Pick Rate 0.88%.
+18.
+Kindred.
+Jungle.
+49.36%.
+Pick Rate 0.95%.
+19.
+Lee Sin.
+Jungle.
+49.32%.
+Pick Rate 43.15%.
+20.
+Warwick.
+Jungle, Top.
+49.21%.
+Pick Rate 3.1%.
+21.
+Gragas.
+Top, Jungle.
+49.18%.
+Pick Rate 2.35%.
+22.
+Rek'Sai.
+Jungle.
+48.95%.
+Pick Rate 4.06%.
+23.
+Fiddlesticks.
+Jungle.
+48.72%.
+Pick Rate 0.95%.
+24.
+Zac.
+Jungle, Top.
+48.72%.
+Pick Rate 3.4%.
+25.
+Nidalee.
+Jungle.
+48.59%.
+Pick Rate 2.78%.
+26.
+Vi.
+Jungle.
+48.4%.
+Pick Rate 3.02%.
+27.
+Twitch.
+ADC, Jungle.
+48.39%.
+Pick Rate 0.84%.
+28.
+Master Yi.
+Jungle.
+46.3%.
+Pick Rate 3.88%.
+29.
+Amumu.
+Jungle.
+45.87%.
+Pick Rate 1.55%.
+30.
+Sejuani.
+Jungle.
+45.79%.
+Pick Rate 0.7%.
+31.
+Rumble.
+Top, Jungle.
+45.45%.
+Pick Rate 0.93%.
+32.
+Olaf.
+Top, Jungle.
+45.31%.
+Pick Rate 1.23%.
+33.
+Camille.
+Top, Jungle.
+42.84%.
+Pick Rate 0.59%.
+1Karthus.
+Middle.
+55.9%.
+Pick Rate 2.19%.
+2Talon.
+Middle, Top.
+55.28%.
+Pick Rate 10.1%.
+3Pantheon.
+Top, Jungle, Middle.
+54.89%.
+Pick Rate 1.17%.
+4Quinn.
+Top, Middle.
+54.52%.
+Pick Rate 0.92%.
+5Anivia.
+Middle.
+53.75%.
+Pick Rate 2.84%.
+6Aurelion Sol.
+Middle.
+53.03%.
+Pick Rate 1.98%.
+7Zed.
+Middle.
+52.69%.
+Pick Rate 15.38%.
+8Jayce.
+Top, Middle.
+52.28%.
+Pick Rate 6.64%.
+9Zilean.
+Support, Middle.
+52.09%.
+Pick Rate 1.49%.
+10.
+Ahri.
+Middle.
+51.76%.
+Pick Rate 11.75%.
+11.
+Corki.
+Middle, ADC.
+51.61%.
+Pick Rate 22.71%.
+12.
+LeBlanc.
+Middle.
+51.43%.
+Pick Rate 2.83%.
+13.
+Akali.
+Top, Middle.
+51.22%.
+Pick Rate 0.8%.
+14.
+Annie.
+Middle, Support.
+51.11%.
+Pick Rate 1.58%.
+15.
+Swain.
+Top, Middle.
+51.07%.
+Pick Rate 0.8%.
+16.
+Ekko.
+Middle, Top.
+50.62%.
+Pick Rate 7.47%.
+17.
+Fizz.
+Middle, Top.
+50.46%.
+Pick Rate 3.11%.
+18.
+Kayle.
+Top, Middle.
+50.46%.
+Pick Rate 1.31%.
+19.
+Ziggs.
+Middle, ADC.
+50.45%.
+Pick Rate 1.63%.
+20.
+Malzahar.
+Support, Middle.
+50.44%.
+Pick Rate 1.25%.
+21.
+Twisted Fate.
+Middle.
+50.39%.
+Pick Rate 11.48%.
+22.
+Vladimir.
+Top, Middle.
+50.06%.
+Pick Rate 2.01%.
+23.
+Lulu.
+Support, Middle.
+49.81%.
+Pick Rate 0.99%.
+24.
+Vel'Koz.
+Support, Middle.
+49.78%.
+Pick Rate 1.4%.
+25.
+Katarina.
+Middle.
+49.69%.
+Pick Rate 6.86%.
+26.
+Taliyah.
+Middle.
+49.65%.
+Pick Rate 2.46%.
+27.
+Xerath.
+Middle.
+49.4%.
+Pick Rate 2.93%.
+28.
+Syndra.
+Middle.
+48.76%.
+Pick Rate 6.45%.
+29.
+Veigar.
+Middle, Support.
+48.65%.
+Pick Rate 1.27%.
+30.
+Morgana.
+Support, Middle.
+48.5%.
+Pick Rate 1.34%.
+31.
+Kassadin.
+Middle.
+48.47%.
+Pick Rate 4.51%.
+32.
+Varus.
+ADC, Middle.
+48.43%.
+Pick Rate 3.07%.
+33.
+Cassiopeia.
+Middle.
+48.06%.
+Pick Rate 6.45%.
+34.
+Diana.
+Middle.
+48.03%.
+Pick Rate 1.39%.
+35.
+Orianna.
+Middle.
+47.51%.
+Pick Rate 10.17%.
+36.
+Yasuo.
+Middle, Top.
+47.43%.
+Pick Rate 4.81%.
+37.
+Ryze.
+Middle, Top.
+46.38%.
+Pick Rate 11.99%.
+38.
+Brand.
+Support, Middle.
+46.27%.
+Pick Rate 0.78%.
+39.
+Lissandra.
+Middle, Top.
+44.97%.
+Pick Rate 1.56%.
+40.
+Lux.
+Middle, Support.
+44.85%.
+Pick Rate 2.12%.
+41.
+Viktor.
+Middle.
+44.59%.
+Pick Rate 7.82%.
+42.
+Azir.
+Middle.
+43.37%.
+Pick Rate 1.93%.
+1Miss Fortune.
+Support, ADC.
+55.08%.
+Pick Rate 9.93%.
+2Ziggs.
+Middle, ADC.
+54.98%.
+Pick Rate 1.38%.
+3Draven.
+ADC.
+54.42%.
+Pick Rate 3.33%.
+4Twitch.
+ADC, Jungle.
+52.31%.
+Pick Rate 3.32%.
+5Jhin.
+ADC.
+52.06%.
+Pick Rate 42.98%.
+6Varus.
+ADC, Middle.
+51.43%.
+Pick Rate 30.93%.
+7Kog'Maw.
+ADC.
+50.76%.
+Pick Rate 1.59%.
+8Kalista.
+ADC.
+49.91%.
+Pick Rate 1.27%.
+9Corki.
+Middle, ADC.
+49.86%.
+Pick Rate 2.15%.
+10.
+Jinx.
+ADC.
+49.27%.
+Pick Rate 6.37%.
+11.
+Caitlyn.
+ADC.
+48.86%.
+Pick Rate 15.32%.
+12.
+Sivir.
+ADC.
+48.2%.
+Pick Rate 7.31%.
+13.
+Ezreal.
+ADC.
+48.14%.
+Pick Rate 42.05%.
+14.
+Lucian.
+ADC.
+47.78%.
+Pick Rate 9.49%.
+15.
+Vayne.
+ADC.
+46.95%.
+Pick Rate 9.09%.
+16.
+Tristana.
+ADC.
+46.72%.
+Pick Rate 1.95%.
+17.
+Ashe.
+ADC.
+46.35%.
+Pick Rate 10.24%.
+1Sion.
+Top, Support.
+54.36%.
+Pick Rate 1.01%.
+2Blitzcrank.
+Support.
+54.2%.
+Pick Rate 24.25%.
+3Janna.
+Support.
+52.54%.
+Pick Rate 7.23%.
+4Leona.
+Support.
+51.88%.
+Pick Rate 8%.
+5Zilean.
+Support, Middle.
+51.38%.
+Pick Rate 4.91%.
+6Sona.
+Support.
+51.17%.
+Pick Rate 2.85%.
+7Soraka.
+Support.
+51.12%.
+Pick Rate 8.81%.
+8Malzahar.
+Support, Middle.
+51.03%.
+Pick Rate 8.08%.
+9Thresh.
+Support.
+50.74%.
+Pick Rate 32.49%.
+10.
+Lulu.
+Support, Middle.
+50.46%.
+Pick Rate 7.36%.
+11.
+Taric.
+Support.
+50.42%.
+Pick Rate 1.27%.
+12.
+Brand.
+Support, Middle.
+50.36%.
+Pick Rate 3.77%.
+13.
+Nautilus.
+Top, Support.
+50.29%.
+Pick Rate 3.66%.
+14.
+Zyra.
+Support.
+50.01%.
+Pick Rate 7.89%.
+15.
+Trundle.
+Top, Support.
+49.55%.
+Pick Rate 1.14%.
+16.
+Nami.
+Support.
+49.53%.
+Pick Rate 8.73%.
+17.
+Morgana.
+Support, Middle.
+49.46%.
+Pick Rate 5.53%.
+18.
+Vel'Koz.
+Support, Middle.
+49.21%.
+Pick Rate 3.36%.
+19.
+Karma.
+Support.
+48.87%.
+Pick Rate 16.51%.
+20.
+Alistar.
+Support.
+48.62%.
+Pick Rate 7.19%.
+21.
+Tahm Kench.
+Support, Top.
+48.44%.
+Pick Rate 3.26%.
+22.
+Braum.
+Support.
+48.18%.
+Pick Rate 4.71%.
+23.
+Poppy.
+Top, Support.
+47.86%.
+Pick Rate 0.53%.
+24.
+Bard.
+Support.
+47.54%.
+Pick Rate 3.76%.
+25.
+Malphite.
+Top, Support.
+46.93%.
+Pick Rate 0.68%.
+26.
+Veigar.
+Middle, Support.
+46.3%.
+Pick Rate 0.84%.
+27.
+Annie.
+Middle, Support.
+45.7%.
+Pick Rate 1.01%.
+28.
+Lux.
+Middle, Support.
+44.17%.
+Pick Rate 1.22%.
+29.
+Miss Fortune.
+Support, ADC.
+43.77%.
+Pick Rate 12.77%.
+Top.
+Jungle.
+Middle.
+ADC.
+Support.
+1Maokai.
+Top.
+17.94%.
+Win Rate 51.09%.
+2Fiora.
+Top.
+10.35%.
+Win Rate 49.93%.
+3Jayce.
+Top, Middle.
+9.47%.
+Win Rate 51.5%.
+4Riven.
+Top.
+8.66%.
+Win Rate 49.97%.
+5Rumble.
+Top, Jungle.
+8.08%.
+Win Rate 49.25%.
+6Gangplank.
+Top.
+6.79%.
+Win Rate 49.82%.
+7Pantheon.
+Top, Jungle, Middle.
+6.76%.
+Win Rate 54.23%.
+8Darius.
+Top.
+6.53%.
+Win Rate 49.86%.
+9Renekton.
+Top.
+6.11%.
+Win Rate 49.76%.
+10.
+Kled.
+Top.
+6%.
+Win Rate 52.26%.
+11.
+Poppy.
+Top, Support.
+5.87%.
+Win Rate 47.2%.
+12.
+Shen.
+Top.
+5.78%.
+Win Rate 46.65%.
+13.
+Irelia.
+Top.
+5.46%.
+Win Rate 49.7%.
+14.
+Camille.
+Top, Jungle.
+4.92%.
+Win Rate 47.14%.
+15.
+Yasuo.
+Middle, Top.
+4.79%.
+Win Rate 46.03%.
+16.
+Kennen.
+Top.
+4.66%.
+Win Rate 47.06%.
+17.
+Talon.
+Middle, Top.
+4.65%.
+Win Rate 54.85%.
+18.
+Singed.
+Top.
+4.61%.
+Win Rate 50.46%.
+19.
+Malphite.
+Top, Support.
+4.59%.
+Win Rate 50.63%.
+20.
+Ekko.
+Middle, Top.
+4.19%.
+Win Rate 48.3%.
+21.
+Quinn.
+Top, Middle.
+3.87%.
+Win Rate 55.18%.
+22.
+Nautilus.
+Top, Support.
+3.72%.
+Win Rate 48.72%.
+23.
+Teemo.
+Top.
+3.52%.
+Win Rate 49.14%.
+24.
+Jax.
+Top, Jungle.
+3.24%.
+Win Rate 50.52%.
+25.
+Kayle.
+Top, Middle.
+3.1%.
+Win Rate 52.51%.
+26.
+Gragas.
+Top, Jungle.
+2.83%.
+Win Rate 49.7%.
+27.
+Illaoi.
+Top.
+2.83%.
+Win Rate 49.77%.
+28.
+Akali.
+Top, Middle.
+2.5%.
+Win Rate 53.5%.
+29.
+Vladimir.
+Top, Middle.
+2.32%.
+Win Rate 50.21%.
+30.
+Ryze.
+Middle, Top.
+2.2%.
+Win Rate 47.17%.
+31.
+Nasus.
+Top.
+2.12%.
+Win Rate 48.08%.
+32.
+Sion.
+Top, Support.
+2.11%.
+Win Rate 51.21%.
+33.
+Wukong.
+Top, Jungle.
+1.87%.
+Win Rate 54.2%.
+34.
+Olaf.
+Top, Jungle.
+1.82%.
+Win Rate 52.86%.
+35.
+Zac.
+Jungle, Top.
+1.52%.
+Win Rate 50.39%.
+36.
+Swain.
+Top, Middle.
+1.45%.
+Win Rate 51.58%.
+37.
+Garen.
+Top.
+1.3%.
+Win Rate 47.96%.
+38.
+Rengar.
+Jungle, Top.
+1.25%.
+Win Rate 50.82%.
+39.
+Gnar.
+Top.
+1.23%.
+Win Rate 44.07%.
+40.
+Trundle.
+Top, Support.
+1.18%.
+Win Rate 46.87%.
+41.
+Tryndamere.
+Top.
+1.18%.
+Win Rate 50.7%.
+42.
+Dr. Mundo.
+Top.
+1.09%.
+Win Rate 47.21%.
+43.
+Mordekaiser.
+Top.
+0.97%.
+Win Rate 50.67%.
+44.
+Lissandra.
+Middle, Top.
+0.84%.
+Win Rate 49.39%.
+45.
+Fizz.
+Middle, Top.
+0.78%.
+Win Rate 49.05%.
+46.
+Warwick.
+Jungle, Top.
+0.73%.
+Win Rate 44.16%.
+47.
+Yorick.
+Top.
+0.7%.
+Win Rate 50.18%.
+48.
+Hecarim.
+Jungle, Top.
+0.68%.
+Win Rate 48.6%.
+49.
+Tahm Kench.
+Support, Top.
+0.66%.
+Win Rate 48.64%.
+50.
+Heimerdinger.
+Top.
+0.52%.
+Win Rate 48.74%.
+1Lee Sin.
+Jungle.
+43.15%.
+Win Rate 49.32%.
+2Graves.
+Jungle.
+30.17%.
+Win Rate 51.2%.
+3Kha'Zix.
+Jungle.
+24.22%.
+Win Rate 50.19%.
+4Elise.
+Jungle.
+21.21%.
+Win Rate 50.62%.
+5Rengar.
+Jungle, Top.
+10.23%.
+Win Rate 52.15%.
+6Evelynn.
+Jungle.
+9.44%.
+Win Rate 51.52%.
+7Shaco.
+Jungle.
+5.19%.
+Win Rate 54.65%.
+8Rek'Sai.
+Jungle.
+4.06%.
+Win Rate 48.95%.
+9Master Yi.
+Jungle.
+3.88%.
+Win Rate 46.3%.
+10.
+Zac.
+Jungle, Top.
+3.4%.
+Win Rate 48.72%.
+11.
+Nocturne.
+Jungle.
+3.32%.
+Win Rate 49.97%.
+12.
+Hecarim.
+Jungle, Top.
+3.1%.
+Win Rate 49.81%.
+13.
+Warwick.
+Jungle, Top.
+3.1%.
+Win Rate 49.21%.
+14.
+Vi.
+Jungle.
+3.02%.
+Win Rate 48.4%.
+15.
+Nidalee.
+Jungle.
+2.78%.
+Win Rate 48.59%.
+16.
+Gragas.
+Top, Jungle.
+2.35%.
+Win Rate 49.18%.
+17.
+Ivern.
+Jungle.
+2.28%.
+Win Rate 54.34%.
+18.
+Jarvan IV.
+Jungle.
+1.95%.
+Win Rate 49.71%.
+19.
+Rammus.
+Jungle.
+1.81%.
+Win Rate 50.19%.
+20.
+Pantheon.
+Top, Jungle, Middle.
+1.7%.
+Win Rate 49.97%.
+21.
+Jax.
+Top, Jungle.
+1.69%.
+Win Rate 50.57%.
+22.
+Amumu.
+Jungle.
+1.55%.
+Win Rate 45.87%.
+23.
+Wukong.
+Top, Jungle.
+1.41%.
+Win Rate 50.69%.
+24.
+Olaf.
+Top, Jungle.
+1.23%.
+Win Rate 45.31%.
+25.
+Xin Zhao.
+Jungle.
+1.11%.
+Win Rate 50.13%.
+26.
+Kindred.
+Jungle.
+0.95%.
+Win Rate 49.36%.
+27.
+Fiddlesticks.
+Jungle.
+0.95%.
+Win Rate 48.72%.
+28.
+Rumble.
+Top, Jungle.
+0.93%.
+Win Rate 45.45%.
+29.
+Shyvana.
+Jungle.
+0.88%.
+Win Rate 49.56%.
+30.
+Twitch.
+ADC, Jungle.
+0.84%.
+Win Rate 48.39%.
+31.
+Skarner.
+Jungle.
+0.7%.
+Win Rate 50.29%.
+32.
+Sejuani.
+Jungle.
+0.7%.
+Win Rate 45.79%.
+33.
+Camille.
+Top, Jungle.
+0.59%.
+Win Rate 42.84%.
+1Corki.
+Middle, ADC.
+22.71%.
+Win Rate 51.61%.
+2Zed.
+Middle.
+15.38%.
+Win Rate 52.69%.
+3Ryze.
+Middle, Top.
+11.99%.
+Win Rate 46.38%.
+4Ahri.
+Middle.
+11.75%.
+Win Rate 51.76%.
+5Twisted Fate.
+Middle.
+11.48%.
+Win Rate 50.39%.
+6Orianna.
+Middle.
+10.17%.
+Win Rate 47.51%.
+7Talon.
+Middle, Top.
+10.1%.
+Win Rate 55.28%.
+8Viktor.
+Middle.
+7.82%.
+Win Rate 44.59%.
+9Ekko.
+Middle, Top.
+7.47%.
+Win Rate 50.62%.
+10.
+Katarina.
+Middle.
+6.86%.
+Win Rate 49.69%.
+11.
+Jayce.
+Top, Middle.
+6.64%.
+Win Rate 52.28%.
+12.
+Cassiopeia.
+Middle.
+6.45%.
+Win Rate 48.06%.
+13.
+Syndra.
+Middle.
+6.45%.
+Win Rate 48.76%.
+14.
+Yasuo.
+Middle, Top.
+4.81%.
+Win Rate 47.43%.
+15.
+Kassadin.
+Middle.
+4.51%.
+Win Rate 48.47%.
+16.
+Fizz.
+Middle, Top.
+3.11%.
+Win Rate 50.46%.
+17.
+Varus.
+ADC, Middle.
+3.07%.
+Win Rate 48.43%.
+18.
+Xerath.
+Middle.
+2.93%.
+Win Rate 49.4%.
+19.
+Anivia.
+Middle.
+2.84%.
+Win Rate 53.75%.
+20.
+LeBlanc.
+Middle.
+2.83%.
+Win Rate 51.43%.
+21.
+Taliyah.
+Middle.
+2.46%.
+Win Rate 49.65%.
+22.
+Karthus.
+Middle.
+2.19%.
+Win Rate 55.9%.
+23.
+Lux.
+Middle, Support.
+2.12%.
+Win Rate 44.85%.
+24.
+Vladimir.
+Top, Middle.
+2.01%.
+Win Rate 50.06%.
+25.
+Aurelion Sol.
+Middle.
+1.98%.
+Win Rate 53.03%.
+26.
+Azir.
+Middle.
+1.93%.
+Win Rate 43.37%.
+27.
+Ziggs.
+Middle, ADC.
+1.63%.
+Win Rate 50.45%.
+28.
+Annie.
+Middle, Support.
+1.58%.
+Win Rate 51.11%.
+29.
+Lissandra.
+Middle, Top.
+1.56%.
+Win Rate 44.97%.
+30.
+Zilean.
+Support, Middle.
+1.49%.
+Win Rate 52.09%.
+31.
+Vel'Koz.
+Support, Middle.
+1.4%.
+Win Rate 49.78%.
+32.
+Diana.
+Middle.
+1.39%.
+Win Rate 48.03%.
+33.
+Morgana.
+Support, Middle.
+1.34%.
+Win Rate 48.5%.
+34.
+Kayle.
+Top, Middle.
+1.31%.
+Win Rate 50.46%.
+35.
+Veigar.
+Middle, Support.
+1.27%.
+Win Rate 48.65%.
+36.
+Malzahar.
+Support, Middle.
+1.25%.
+Win Rate 50.44%.
+37.
+Pantheon.
+Top, Jungle, Middle.
+1.17%.
+Win Rate 54.89%.
+38.
+Lulu.
+Support, Middle.
+0.99%.
+Win Rate 49.81%.
+39.
+Quinn.
+Top, Middle.
+0.92%.
+Win Rate 54.52%.
+40.
+Swain.
+Top, Middle.
+0.8%.
+Win Rate 51.07%.
+41.
+Akali.
+Top, Middle.
+0.8%.
+Win Rate 51.22%.
+42.
+Brand.
+Support, Middle.
+0.78%.
+Win Rate 46.27%.
+1Jhin.
+ADC.
+42.98%.
+Win Rate 52.06%.
+2Ezreal.
+ADC.
+42.05%.
+Win Rate 48.14%.
+3Varus.
+ADC, Middle.
+30.93%.
+Win Rate 51.43%.
+4Caitlyn.
+ADC.
+15.32%.
+Win Rate 48.86%.
+5Ashe.
+ADC.
+10.24%.
+Win Rate 46.35%.
+6Miss Fortune.
+Support, ADC.
+9.93%.
+Win Rate 55.08%.
+7Lucian.
+ADC.
+9.49%.
+Win Rate 47.78%.
+8Vayne.
+ADC.
+9.09%.
+Win Rate 46.95%.
+9Sivir.
+ADC.
+7.31%.
+Win Rate 48.2%.
+10.
+Jinx.
+ADC.
+6.37%.
+Win Rate 49.27%.
+11.
+Draven.
+ADC.
+3.33%.
+Win Rate 54.42%.
+12.
+Twitch.
+ADC, Jungle.
+3.32%.
+Win Rate 52.31%.
+13.
+Corki.
+Middle, ADC.
+2.15%.
+Win Rate 49.86%.
+14.
+Tristana.
+ADC.
+1.95%.
+Win Rate 46.72%.
+15.
+Kog'Maw.
+ADC.
+1.59%.
+Win Rate 50.76%.
+16.
+Ziggs.
+Middle, ADC.
+1.38%.
+Win Rate 54.98%.
+17.
+Kalista.
+ADC.
+1.27%.
+Win Rate 49.91%.
+1Thresh.
+Support.
+32.49%.
+Win Rate 50.74%.
+2Blitzcrank.
+Support.
+24.25%.
+Win Rate 54.2%.
+3Karma.
+Support.
+16.51%.
+Win Rate 48.87%.
+4Miss Fortune.
+Support, ADC.
+12.77%.
+Win Rate 43.77%.
+5Soraka.
+Support.
+8.81%.
+Win Rate 51.12%.
+6Nami.
+Support.
+8.73%.
+Win Rate 49.53%.
+7Malzahar.
+Support, Middle.
+8.08%.
+Win Rate 51.03%.
+8Leona.
+Support.
+8%.
+Win Rate 51.88%.
+9Zyra.
+Support.
+7.89%.
+Win Rate 50.01%.
+10.
+Lulu.
+Support, Middle.
+7.36%.
+Win Rate 50.46%.
+11.
+Janna.
+Support.
+7.23%.
+Win Rate 52.54%.
+12.
+Alistar.
+Support.
+7.19%.
+Win Rate 48.62%.
+13.
+Morgana.
+Support, Middle.
+5.53%.
+Win Rate 49.46%.
+14.
+Zilean.
+Support, Middle.
+4.91%.
+Win Rate 51.38%.
+15.
+Braum.
+Support.
+4.71%.
+Win Rate 48.18%.
+16.
+Brand.
+Support, Middle.
+3.77%.
+Win Rate 50.36%.
+17.
+Bard.
+Support.
+3.76%.
+Win Rate 47.54%.
+18.
+Nautilus.
+Top, Support.
+3.66%.
+Win Rate 50.29%.
+19.
+Vel'Koz.
+Support, Middle.
+3.36%.
+Win Rate 49.21%.
+20.
+Tahm Kench.
+Support, Top.
+3.26%.
+Win Rate 48.44%.
+21.
+Sona.
+Support.
+2.85%.
+Win Rate 51.17%.
+22.
+Taric.
+Support.
+1.27%.
+Win Rate 50.42%.
+23.
+Lux.
+Middle, Support.
+1.22%.
+Win Rate 44.17%.
+24.
+Trundle.
+Top, Support.
+1.14%.
+Win Rate 49.55%.
+25.
+Annie.
+Middle, Support.
+1.01%.
+Win Rate 45.7%.
+26.
+Sion.
+Top, Support.
+1.01%.
+Win Rate 54.36%.
+27.
+Veigar.
+Middle, Support.
+0.84%.
+Win Rate 46.3%.
+28.
+Malphite.
+Top, Support.
+0.68%.
+Win Rate 46.93%.
+29.
+Poppy.
+Top, Support.
+0.53%.
+Win Rate 47.86%.
+1LeBlanc.
+Middle.
+91.32%.
+2Katarina.
+Middle.
+76.73%.
+3Malzahar.
+Support, Middle.
+65.61%.
+4Camille.
+Top, Jungle.
+56.73%.
+5Rengar.
+Jungle, Top.
+55.94%.
+6Zed.
+Middle.
+43.92%.
+7Jayce.
+Top, Middle.
+43.32%.
+8Talon.
+Middle, Top.
+25.74%.
+9Ryze.
+Middle, Top.
+20.99%.
+10.
+Kha'Zix.
+Jungle.
+18.16%.
+11.
+Evelynn.
+Jungle.
+13.69%.
+12.
+Lee Sin.
+Jungle.
+12.99%.
+13.
+Corki.
+Middle, ADC.
+10.96%.
+14.
+Yasuo.
+Middle, Top.
+6.8%.
+15.
+Elise.
+Jungle.
+6.51%.
+16.
+Graves.
+Jungle.
+6.29%.
+17.
+Varus.
+ADC, Middle.
+5.63%.
+18.
+Pantheon.
+Top, Jungle, Middle.
+2.76%.
+19.
+Garen.
+Top.
+2.57%.
+20.
+Darius.
+Top.
+2.08%.
+21.
+Blitzcrank.
+Support.
+2.02%.
+22.
+Syndra.
+Middle.
+1.89%.
+23.
+Jhin.
+ADC.
+1.47%.
+24.
+Twisted Fate.
+Middle.
+1.44%.
+25.
+Ekko.
+Middle, Top.
+1.32%.
+26.
+Maokai.
+Top.
+1.16%.
+27.
+Warwick.
+Jungle, Top.
+1.13%.
+28.
+Kled.
+Top.
+1.07%.
+29.
+Fiora.
+Top.
+0.94%.
+30.
+Miss Fortune.
+Support, ADC.
+0.77%.
+31.
+Shaco.
+Jungle.
+0.76%.
+32.
+Teemo.
+Top.
+0.71%.
+33.
+Cassiopeia.
+Middle.
+0.67%.
+34.
+Zyra.
+Support.
+0.63%.
+35.
+Kennen.
+Top.
+0.61%.
+36.
+Viktor.
+Middle.
+0.6%.
+37.
+Quinn.
+Top, Middle.
+0.59%.
+38.
+Riven.
+Top.
+0.57%.
+39.
+Gangplank.
+Top.
+0.57%.
+40.
+Ezreal.
+ADC.
+0.53%.
+41.
+Fizz.
+Middle, Top.
+0.39%.
+42.
+Rumble.
+Top, Jungle.
+0.38%.
+43.
+Singed.
+Top.
+0.38%.
+44.
+Thresh.
+Support.
+0.33%.
+45.
+Nocturne.
+Jungle.
+0.33%.
+46.
+Nunu.
+0.32%.
+47.
+Galio.
+0.3%.
+48.
+Ivern.
+Jungle.
+0.29%.
+49.
+Rek'Sai.
+Jungle.
+0.29%.
+50.
+Ahri.
+Middle.
+0.27%.
+51.
+Karma.
+Support.
+0.27%.
+52.
+Zilean.
+Support, Middle.
+0.27%.
+53.
+Vladimir.
+Top, Middle.
+0.27%.
+54.
+Rammus.
+Jungle.
+0.26%.
+55.
+Nidalee.
+Jungle.
+0.25%.
+56.
+Vayne.
+ADC.
+0.23%.
+57.
+Illaoi.
+Top.
+0.23%.
+58.
+Hecarim.
+Jungle, Top.
+0.23%.
+59.
+Master Yi.
+Jungle.
+0.22%.
+60.
+Soraka.
+Support.
+0.22%.
+61.
+Poppy.
+Top, Support.
+0.21%.
+62.
+Alistar.
+Support.
+0.21%.
+63.
+Irelia.
+Top.
+0.2%.
+64.
+Draven.
+ADC.
+0.17%.
+65.
+Aurelion Sol.
+Middle.
+0.17%.
+66.
+Akali.
+Top, Middle.
+0.16%.
+67.
+Tahm Kench.
+Support, Top.
+0.16%.
+68.
+Shen.
+Top.
+0.16%.
+69.
+Orianna.
+Middle.
+0.15%.
+70.
+Malphite.
+Top, Support.
+0.15%.
+71.
+Kassadin.
+Middle.
+0.15%.
+72.
+Kayle.
+Top, Middle.
+0.15%.
+73.
+Zac.
+Jungle, Top.
+0.14%.
+74.
+Leona.
+Support.
+0.14%.
+75.
+Gragas.
+Top, Jungle.
+0.13%.
+76.
+Ziggs.
+Middle, ADC.
+0.12%.
+77.
+Lux.
+Middle, Support.
+0.12%.
+78.
+Renekton.
+Top.
+0.12%.
+79.
+Karthus.
+Middle.
+0.12%.
+80.
+Diana.
+Middle.
+0.12%.
+81.
+Heimerdinger.
+Top.
+0.11%.
+82.
+Taliyah.
+Middle.
+0.11%.
+83.
+Anivia.
+Middle.
+0.1%.
+84.
+Nasus.
+Top.
+0.1%.
+85.
+Jax.
+Top, Jungle.
+0.1%.
+86.
+Nautilus.
+Top, Support.
+0.1%.
+87.
+Caitlyn.
+ADC.
+0.1%.
+88.
+Aatrox.
+0.1%.
+89.
+Brand.
+Support, Middle.
+0.1%.
+90.
+Olaf.
+Top, Jungle.
+0.1%.
+91.
+Mordekaiser.
+Top.
+0.09%.
+92.
+Vel'Koz.
+Support, Middle.
+0.09%.
+93.
+Swain.
+Top, Middle.
+0.08%.
+94.
+Wukong.
+Top, Jungle.
+0.08%.
+95.
+Morgana.
+Support, Middle.
+0.08%.
+96.
+Twitch.
+ADC, Jungle.
+0.07%.
+97.
+Kindred.
+Jungle.
+0.07%.
+98.
+Annie.
+Middle, Support.
+0.06%.
+99.
+Trundle.
+Top, Support.
+0.06%.
+100.
+Yorick.
+Top.
+0.06%.
+101.
+Lissandra.
+Middle, Top.
+0.06%.
+102.
+Lulu.
+Support, Middle.
+0.06%.
+103.
+Vi.
+Jungle.
+0.05%.
+104.
+Fiddlesticks.
+Jungle.
+0.05%.
+105.
+Azir.
+Middle.
+0.05%.
+106.
+Veigar.
+Middle, Support.
+0.05%.
+107.
+Sion.
+Top, Support.
+0.05%.
+108.
+Bard.
+Support.
+0.05%.
+109.
+Xerath.
+Middle.
+0.05%.
+110.
+Nami.
+Support.
+0.05%.
+111.
+Urgot.
+0.04%.
+112.
+Tryndamere.
+Top.
+0.04%.
+113.
+Gnar.
+Top.
+0.04%.
+114.
+Lucian.
+ADC.
+0.04%.
+115.
+Ashe.
+ADC.
+0.04%.
+116.
+Shyvana.
+Jungle.
+0.04%.
+117.
+Udyr.
+0.04%.
+118.
+Braum.
+Support.
+0.04%.
+119.
+Dr. Mundo.
+Top.
+0.04%.
+120.
+Taric.
+Support.
+0.03%.
+121.
+Kog'Maw.
+ADC.
+0.03%.
+122.
+Sejuani.
+Jungle.
+0.03%.
+123.
+Janna.
+Support.
+0.03%.
+124.
+Skarner.
+Jungle.
+0.03%.
+125.
+Jarvan IV.
+Jungle.
+0.03%.
+126.
+Jinx.
+ADC.
+0.03%.
+127.
+Cho'Gath.
+0.03%.
+128.
+Tristana.
+ADC.
+0.03%.
+129.
+Volibear.
+0.03%.
+130.
+Amumu.
+Jungle.
+0.02%.
+131.
+Sona.
+Support.
+0.02%.
+132.
+Kalista.
+ADC.
+0.02%.
+133.
+Xin Zhao.
+Jungle.
+0.02%.
+134.
+Sivir.
+ADC.
+0.02%.
+Learn more.
+Highest Win Rate Champion by Role Learn more.
+Top.
+1. Quinn.
+2. Talon.
+3. Pantheon.
+4. Wukong.
+5. Akali.
+Jungle.
+1. Shaco.
+2. Ivern.
+3. Rengar.
+4. Evelynn.
+5. Graves.
+Middle.
+1. Karthus.
+2. Talon.
+3. Pantheon.
+4. Quinn.
+5. Anivia.
+ADC.
+1. Miss Fortune.
+2. Ziggs.
+3. Draven.
+4. Twitch.
+5. Jhin.
+Support.
+1. Sion.
+2. Blitzcrank.
+3. Janna.
+4. Leona.
+5. Zilean.
+Highest Pick Rate Champion by Role.
+Top.
+1. Maokai.
+2. Fiora.
+3. Jayce.
+4. Riven.
+5. Rumble.
+Jungle.
+1. Lee Sin.
+2. Graves.
+3. Kha'Zix.
+4. Elise.
+5. Rengar.
+Middle.
+1. Corki.
+2. Zed.
+3. Ryze.
+4. Ahri.
+5. Twisted Fate.
+ADC.
+1. Jhin.
+2. Ezreal.
+3. Varus.
+4. Caitlyn.
+5. Ashe.
+Support.
+1. Thresh.
+2. Blitzcrank.
+3. Karma.
+4. Miss Fortune.
+5. Soraka.
+Ban Rate.
+11. LeBlanc.
+LeBlanc.
+91.32%.
+22. Katarina.
+Katarina.
+76.73%.
+33. Malzahar.
+Malzahar.
+65.61%.
+44. Camille.
+Camille.
+56.73%.
+55. Rengar.
+Rengar.
+55.94%.
+66. Zed.
+Zed.
+43.92%.
+77. Jayce.
+Jayce.
+43.32%.
+88. Talon.
+Talon.
+25.74%.
+99. Ryze.
+Ryze.
+20.99%.
+10.
+10. Kha'Zix.
+Kha'Zix.
+18.16%.

@@ -1,0 +1,19 @@
+version: '2'
+services:
+
+    crawler_news_py3:
+        image: registry.gitlab.com/fi_ai/crawler-news:py3
+        restart: always
+        mem_limit: 3g
+        cpuset: 0-3
+        logging:
+            driver: json-file
+            options:
+                max-size: 5m
+                max-file: "1"
+        environment:
+            BOOTSTRAP_SERVERS: 103.234.37.70:9002
+            MAX_WORKER: 20
+            PROCESSING_QUOTA: 400
+            MAGIC_BROWSER_MASTER_ENDPOINT: http://103.234.36.16:9005
+            LOG_LEVEL: debug

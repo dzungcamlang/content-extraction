@@ -1,0 +1,128 @@
+NEXUS 7 (2013) GENERAL	REPLIES	VIEWS
+ 
+Feb 21	
+Car install discussion thread
+376	76,278
+Feb 19	
+Nexus 7 (2013) Take Apart Repair Guide
+76	76,206
+Feb 18	
+[R&D][UNBRICKING] - Thread for trying to solve the OTA brick problem
+139	30,685
+Feb 11	
+Q&A Kind of ROM you guys want
+6	777
+Feb 05	
+[Guide] Compiling dropbear 2016.73
+8	2,096
+More Nexus 7 (2013) General Threads  		
+NEXUS 7 (2013) Q&A	REPLIES	VIEWS
+ 
+12:52 AM	
+Rollback to KitKat?
+5	138
+Feb 22	
+Stuck trying to factory reset
+2	28
+Feb 21	
+Unable to paste bootanimation.zip into /system
+6	190
+Feb 21	
+Update ota?
+1	83
+Feb 16	
+Modifying Tablet for Drone App
+0	68
+More Nexus 7 (2013) Q&A Threads  		
+NEXUS 7 (2013) ACCESSORIES	REPLIES	VIEWS
+ 
+Feb 05	
+[Q] Screen Shattered
+6	1,712
+Jan 31	
+SlimPort adapters
+309	131,460
+Jan 30	
+Google's "Ethernet Adapter for Chromecast"
+0	147
+Jan 30	
+RAVPower FileHub (RP-WD02)
+85	38,601
+Sep 13	
+Looking for a dash mount for the Nexus 7 with wireless charging
+1	1,068
+More Nexus 7 (2013) Accessories Threads  		
+NEXUS 7 (2013) ANDROID DEVELOPMENT	REPLIES	VIEWS
+ 
+Feb 22	
+Poll: [ROM][OFFICIAL] Resurrection Remix v5.8.1 [FLO] [OMS][NOUGAT][2-19-2017][OTA]
+318	42,348
+Feb 22	
+[02/20][OFFICIAL] 7.1.1 || Ground Zero ROMs || Validus - Tesla - Tipsy || flo
+19	467
+Feb 21	
+[ROM] [deb | flo] [7.1.1] [LOS-based] **crDroid**v2.2
+60	4,738
+Feb 20	
+[ROM] [flo | deb] [19 Feb] AICP 12.1 - N 7.1.1_r13 | UNOFFICIAL
+198	32,098
+Feb 20	
+[ROM][OCT 11] FirefoxOS 1.2 and 1.3
+74	94,228
+More Nexus 7 (2013) Android Development Threads  		
+NEXUS 7 (2013) LTE ANDROID DEVELOPMENT	REPLIES	VIEWS
+ 
+Feb 22	
+Poll: [ROM][OFFICIAL] Resurrection Remix v5.8.1 [DEB][OMS] [NOUGAT][2-19-2017][OTA]
+97	10,368
+Feb 20	
+[ROM][OFFICIAL][7.1.1]LineageOS 14.1 - Nexus 7 2013 (LTE) [NIGHTLIES]
+50	12,567
+Feb 08	
+Poll: [ROM] ►[unofficial] [7.1.1] ► [DEB/FLO] ► Nitrogen OS N ► (1.30.2017)
+187	28,234
+Jan 31	
+[ROM][7.1][DEB] Official Mokee Open Source Development
+3	1,889
+Jan 13	
+[ROM][DEB][CAF]Resurrection Remix M[UNOFFICIAL]
+3	1,146
+More Nexus 7 (2013) LTE Android Development Threads  		
+NEXUS 7 (2013) ORIGINAL ANDROID DEVELOPMENT	REPLIES	VIEWS
+ 
+02:52 AM	
+[ROM][DEB|FLO][7.1.1][UNOFFICIAL] LineageOS/CyanogenMod 14.1 Nightlies
+62	14,798
+Feb 22	
+[7.x.x][WEEKLIES] CarbonROM | cr-5.1 [FLO]
+17	798
+Feb 20	
+[OFFICIAL][7.1] CyanogenMod 14.1 nightlies for flo
+244	43,041
+Feb 19	
+[MOD][FEB 10] MultiROM v33
+1,398	353,094
+Feb 19	
+[KERNEL][ALL ROMS][DEC 23] Glitch for Flo/Deb - r543
+2,735	447,105
+More Nexus 7 (2013) Original Android Development Threads  		
+NEXUS 7 (2013) THEMES AND APPS	REPLIES	VIEWS
+ 
+Feb 15	
+[BOOTANIMATION] Black Google Pixel
+6	2,308
+Feb 12	
+[MOD] Media/Volume buttons in the navbar for Car installs
+43	10,151
+Feb 03	
+Complete Rosemary Font Family
+1	4,165
+Jan 31	
+Need help making landscape boot animation
+1	686
+Jan 21	
+[MOD] All Volumes Booster different versions works with lollipop
+108	26,647
+More Nexus 7 (2013) Themes and Apps Threads  		
+
+ xda-developers  Nexus 7 (2013)

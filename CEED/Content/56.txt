@@ -1,0 +1,13 @@
+02-09-2016, 01:30 PM Thread Author  Thread Author    #1  
+AC Question
+AC Question's Avatar
+Guest
+Can i use screen mirroring on lg stylo
+Quick reply to this message REPLY
+02-09-2016, 07:14 PM #2  
+Rukbat  Rukbat is offline
+Rukbat's Avatar
+
+Posts22,832 PostsGlobal Posts22,834 Global PostsMentioned0 Post(s)Tagged0 Thread(s)	
+At the very least, you can use a Chromecast device and the Chromecast app. That should work on any device running 4.4.2 or later.
+Quick reply to this message REPLY

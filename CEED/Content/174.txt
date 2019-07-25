@@ -1,0 +1,156 @@
+Depart: Wed Mar 15 2017 Return: Sat Mar 18 2017 Trip spans 4 days
+$292
+Select
+ American Airlines
+American Airlines
+AUS2:15a→OKC5:55a3h 40m 1 stop
+OKC4:09p→AUS7:13p3h 04m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Fri May 12 2017 Return: Sun May 14 2017 Trip spans 3 days
+$292
+Select
+ Major Airline
+Major Airline
+AUS10:35p→OKC10:49a12h 14m 1 stop
+OKC11:35a→AUS9:17p9h 42m 1 stop
+Depart: Sat May 13 2017 Return: Sun May 14 2017 Trip spans 2 days
+$292
+Select
+ United
+United
+AUS4:20a→OKC8:57a4h 37m 1 stop
+OKC3:00p→AUS7:57p4h 57m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Thu Apr 27 2017 Return: Sat Apr 29 2017 Trip spans 3 days
+$292
+Select
+ American Airlines
+American Airlines
+AUS2:15a→OKC5:49a3h 34m 1 stop
+OKC12:03p→AUS4:14p4h 11m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Thu Mar 23 2017 Return: Sun Mar 26 2017 Trip spans 4 days
+$302
+Select
+ Major Airline
+Major Airline
+AUS10:35p→OKC9:26a10h 51m 1 stop
+OKC10:10a→AUS9:11p11h 01m 1 stop
+Depart: Fri Mar 24 2017 Return: Sun Mar 26 2017 Trip spans 3 days
+$302
+Select
+ United
+United
+AUS8:35a→OKC1:22p4h 47m 1 stop
+OKC2:20a→AUS5:59a3h 39m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Mon Mar 13 2017 Return: Tue Mar 14 2017 Trip spans 2 days
+$302
+Select
+ American Airlines
+American Airlines
+AUS3:45p→OKC7:16p3h 31m 1 stop
+OKC1:10a→AUS5:50a4h 40m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Thu Mar 30 2017 Return: Sun Apr 2 2017 Trip spans 4 days
+$302
+Select
+ Major Airline
+Major Airline
+AUS10:35p→OKC9:26a10h 51m 1 stop
+OKC10:10a→AUS9:11p11h 01m 1 stop
+Depart: Fri Mar 31 2017 Return: Sun Apr 2 2017 Trip spans 3 days
+$302
+Select
+ United
+United
+AUS9:47a→OKC1:22p3h 35m 1 stop
+OKC6:55a→AUS10:58a4h 03m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Thu Apr 6 2017 Return: Sun Apr 9 2017 Trip spans 4 days
+$302
+Select
+ Major Airline
+Major Airline
+AUS10:35p→OKC9:26a10h 51m 1 stop
+OKC10:10a→AUS9:11p11h 01m 1 stop
+Depart: Fri Apr 7 2017 Return: Sun Apr 9 2017 Trip spans 3 days
+$302
+Select
+ United
+United
+AUS9:55a→OKC1:29p3h 34m 1 stop
+OKC5:10a→AUS10:09a4h 59m 1 stop
+Show reviews
+7.0 Good (32,714 reviews)
+Depart: Fri May 5 2017 Return: Sun May 7 2017 Trip spans 3 days
+$302
+Select
+ American Airlines
+American Airlines
+AUS1:05a→OKC5:59a4h 54m 1 stop
+OKC10:25a→AUS2:45p4h 20m 1 stop
+Show reviews
+7.0 Good (14,494 reviews)
+Depart: Thu Apr 20 2017 Return: Sun Apr 23 2017 Trip spans 4 days
+$302
+Select
+ United
+United
+AUS11:20a→OKC5:20p6h 00m 1 stop
+OKC3:55a→AUS7:50a3h 55m 1 stop
+Depart: Thu May 11 2017 Return: Sun May 14 2017 Trip spans 4 days
+$302
+Select
+ Major Airline
+Major Airline
+AUS10:35p→OKC10:49a12h 14m 1 stop
+OKC11:35a→AUS9:17p9h 42m 1 stop
+Depart: Tue May 16 2017 Return: Wed May 17 2017 Trip spans 2 days
+$302
+Select
+ American Airlines
+American Airlines
+AUS3:00a→OKC5:59a2h 59m 1 stop
+OKC1:10a→AUS5:53a4h 43m 1 stop
+Depart: Fri Apr 21 2017 Return: Sun Apr 23 2017 Trip spans 3 days
+$302
+Select
+ United
+United
+AUS3:36p→OKC6:49p3h 13m 1 stop
+OKC2:30p→AUS6:35p4h 05m 1 stop
+Depart: Wed May 17 2017 Return: Sat May 20 2017 Trip spans 4 days
+$302
+Select
+ American Airlines
+American Airlines
+AUS2:15a→OKC5:59a3h 44m 1 stop
+OKC12:03p→AUS4:14p4h 11m 1 stop
+Depart: Mon Mar 20 2017 Return: Tue Mar 21 2017 Trip spans 2 days
+$321
+Select
+ Major Airline
+Major Airline
+AUS1:00a→OKC1:43a0h 43m 1 stop
+OKC1:00a→AUS1:43a0h 43m 1 stop
+Depart: Sun May 14 2017 Return: Wed May 17 2017 Trip spans 4 days
+$302
+Select
+ United
+United
+AUS2:30a→OKC6:17a3h 47m 1 stop
+OKC8:20a→AUS11:40a3h 20m 1 stop
+Depart: Fri May 19 2017 Return: Sat May 20 2017 Trip spans 2 days
+$302
+Select
+ American Airlines
+American Airlines
+AUS3:45p→OKC7:05p3h 20m 1 stop
+OKC12:03p→AUS4:14p4h 11m 1 stop

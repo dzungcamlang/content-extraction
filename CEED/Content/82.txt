@@ -1,0 +1,317 @@
+04-20-2011, 11:21 PM	  #1
+AZg37
+Premier Member
+
+Thread Starter
+iTrader: (17)
+ 
+AZg37's Avatar
+ 
+Join Date: Apr 2008
+Location: Peoria, AZ
+Posts: 1,357
+Thanks: 0
+Thanked 31 Times in 4 Posts
+Grounding kits made simple, step by step guide to making your own!
+This guide will allow you to make your own grounding kit. These instructions will work for 2nd Gen G35 sedan, 08-XX G37 coupes, 09-XX G37 Sedans and 350/370 Z's. Please note the layouts may not be 100% identical between models, but you should be able to adjust and make these instructions work. By following these instructions, you will have every thing you need to make and install your own grounding kit that will help with car audio quality, as well as firm up those transmission shifts and fix lag in 5AT and 7AT coupes and sedans.
+Items you will need:
+
+12 ft. of 8 gauge oxygen free copper cable
+6 individual 8 gauge ring terminals
+3 individual 4 gauge ring terminals
+Crimping tool and wire stripper
+some zip ties for neatness, if you desire (I didn't use any)
+
+Please note that all measurements in the photos are taken from the crimping point of the terminals and not from the end of the terminals themselves. The total amount of wiring used is 136 inches, so having 12 feet will allow you 8 inches of extra wiring to make sure you have enough.
+Better to be slightly long in measuring than to have wires that are too short!!!
+
+The kit is broken down into 3 wires: the drivers side wire, passenger side wire, and single connecting cable.
+
+You'll note that there are 2 different sizes in ring terminals. This is explained here:
+
+
+
+
+Use these next photo's to identify the length of each cable and connection, as well as which terminal goes to which connection point. There is a total of 9 connections, labeled A,B,C,D,E,F,G,H,I. You can also choose to go off course and mount additional wires to anywhere you want a strong ground signal. Some choose to add throttle body grounds, and some ground the ECU directly. It's all up to you! This instructions are for just a basic grounding kit that gets the job done!
+
+MAKING THE WIRES
+Passenger's side wire lengths and construction:
+
+
+Connecting Cable:
+
+
+Driver's side cable:
+
+
+
+
+
+After you construct your 3 cables in the specified lengths, follow these installation instructions to enjoy your creation!
+
+INSTALLATION: 
+
+Items you will need:
+Ratchet, 10mm socket, extension if desired, 10mm wrench, 12mm socket.
+
+Step 1. Detach the negative battery terminal from the battery.
+
+Step 2. Remove the engine shroud and set it aside.
+
+Step 3. Attach connection terminal A on the passenger side wire to the negative battery terminal. You can simply force the wire through the existing wire loom leading into the battery box. Wait to connect the wire to the batter until the end of the install.
+
+
+
+Step 4. Attach connection terminal B to the passenger's side wheel well bolt where there is already wires connected.
+
+
+Step 5. Attach connection terminal C to the engine block corner next to intake. Make sure to run the wires under the intake tube.
+
+
+Step 6. Attach connection terminal D to the front of the engine using the dipstick mount. Passenger side wire is now complete!
+
+
+Step 7. Using the single connecting cable, attach connection terminal E to the engine block bolt behind the coolant hose:
+
+
+Step 8. Connect terminal F to the bolt on the drivers side wheel well, making sure to tuck the wire under the driver's side intake tube. Single cable is now complete!
+
+
+Step 9. Using the Driver's side cable, attach connection terminal G to the top of the engine block where there are wires already connected:
+
+
+Step 10. Attach connection terminal H to the mount on the wheel well next to the driver's side strut, across from the intake/throttle body. Make sure to run the wires under the intake tube.
+
+
+Step 11. Attach connection terminal I next to connection F on the drivers side wheel well where there are already wires grounded. This completes the driver's side wire!!
+
+
+Step 12. Connect connection A from the passenger side wire to the battery terminal, make sure all connections on all wires are tight, and then replace battery box cover.
+
+Step 13. Replace engine shroud cover, make sure all wires are tucked, secure, and not in the way of anything.
+
+YOUR JOBS DONE, TIME TO ENJOY TRANSMISSION AND AUDIO IMPROVEMENTS!!!!!
+
+
+RESULTS
+
+
+
+
+
+Most owners notice an immediate improvement in audio sound. Audio levels seem louder. I noticed this first hand and was very impressed. Owners also report improvements in Automatic transmission shifting. The lag between shifts in DS mode are dramatically improved, and shifts are firm and tight. It's also an added bonus that the wires look pretty cool, but if you don't want them to be an eye sore, tuck and zip-tie them away.
+
+Last edited by AZg37; 04-21-2011 at 12:31 AM.
+AZg37 is offline  	Reply With Quote
+The Following 22 Users Say Thank You to AZg37 For This Useful Post:	
+BaapsG37 (11-13-2014), Blksonic (01-02-2016), Bolt00 (08-01-2015), conquistador (11-15-2014), Coy1231 (01-21-2015), Domate (03-18-2014), G Nepal (07-08-2014), G37X300ZX (12-25-2014), G37xhibeet (06-11-2015), GoFightNguyen (05-23-2014), gsteigerwald (05-30-2014), hammonds42 (06-09-2014), hexotic (11-19-2015), HoldmyMouse (03-23-2014), monytx (11-29-2014), Mr Nurner (07-23-2015), oldbeezer (12-17-2015), petemo94 (01-12-2016), Roadrash666 (08-27-2014), STR (10-15-2014), teonguyen (09-17-2014), USMC93V (06-08-2014)
+Old 04-20-2011, 11:50 PM	  #2
+xlack
+Registered User
+iTrader: (3)
+ 
+Join Date: Jul 2007
+Location: Singapore
+Posts: 4,338
+Thanks: 0
+Thanked 2 Times in 2 Posts
+ 
+nice write up and very nice DIY!
+xlack is offline  	Reply With Quote
+Old 04-21-2011, 12:01 AM	  #3
+Damn Dirty Ape
+Registered User
+iTrader: (16)
+ 
+Damn Dirty Ape's Avatar
+ 
+Join Date: Jan 2011
+Location: Southern Illinois
+Posts: 941
+Thanks: 17
+Thanked 10 Times in 8 Posts
+What years and models is this for? Just wondering.
+Damn Dirty Ape is offline  	Reply With Quote
+Old 04-21-2011, 12:15 AM	  #4
+AZg37
+Premier Member
+
+Thread Starter
+iTrader: (17)
+ 
+AZg37's Avatar
+ 
+Join Date: Apr 2008
+Location: Peoria, AZ
+Posts: 1,357
+Thanks: 0
+Thanked 31 Times in 4 Posts
+This should work for 2nd gen G35 sedan, G37 sedans, and G37 coupes. The layout may not be 100% identical, but the kit should still work. These photos were taken on my 09 G37 sedan.
+AZg37 is offline  	Reply With Quote
+Old 04-21-2011, 12:14 PM	  #5
+rAiN
+Registered User
+iTrader: (5)
+ 
+Join Date: Jan 2006
+Posts: 1,612
+Thanks: 6
+Thanked 23 Times in 13 Posts
+would i be able to pick these parts up from local stores?
+if you did, where you get them from? i am local. fairfax,va
+rAiN is offline  	Reply With Quote
+Old 04-21-2011, 12:46 PM	  #6
+AZg37
+Premier Member
+
+Thread Starter
+iTrader: (17)
+ 
+AZg37's Avatar
+ 
+Join Date: Apr 2008
+Location: Peoria, AZ
+Posts: 1,357
+Thanks: 0
+Thanked 31 Times in 4 Posts
+You can pick up the supplies from many different places. Lowes or Home Depot sell wire by the foot, or you can pick up spools of it on ebay for cheap. The terminals can be found at a hardware store, online, or car audio places because they are used for stereo installations.
+AZg37 is offline  	Reply With Quote
+Old 04-21-2011, 12:48 PM	  #7
+breftayka
+Registered User
+iTrader: (13)
+ 
+Join Date: Jun 2010
+Location: Louisiana
+Posts: 2,521
+Thanks: 0
+Thanked 11 Times in 3 Posts
+Quote:
+Originally Posted by rAiN  View Post
+would i be able to pick these parts up from local stores?
+if you did, where you get them from? i am local. fairfax,va
+I bought a roll of 4 ga for $25 from O' Reillys. I was doing a couple of sets for some local friends. The ends are a few dollars, and then you can get some braided sleeving for it. genuinedealz.com has some sleeving for like $2 shipped for 25 ft of 1/4". Makes it look much nicer. 
+The hardest part of this is getting the right lengths lol. 
+
+GREAT DIY. New sticky.
+breftayka is offline  	Reply With Quote
+Old 04-21-2011, 12:51 PM	  #8
+rAiN
+Registered User
+iTrader: (5)
+ 
+Join Date: Jan 2006
+Posts: 1,612
+Thanks: 6
+Thanked 23 Times in 13 Posts
+thinking of heading out to radioshack to work on this project since i got nothing else to do all day today.
+rAiN is offline  	Reply With Quote
+Old 04-21-2011, 01:00 PM	  #9
+breftayka
+Registered User
+iTrader: (13)
+ 
+Join Date: Jun 2010
+Location: Louisiana
+Posts: 2,521
+Thanks: 0
+Thanked 11 Times in 3 Posts
+Radioshack is expensivo man. Check out local automotive store. Half the price.
+breftayka is offline  	Reply With Quote
+Old 04-21-2011, 01:09 PM	  #10
+rAiN
+Registered User
+iTrader: (5)
+ 
+Join Date: Jan 2006
+Posts: 1,612
+Thanks: 6
+Thanked 23 Times in 13 Posts
+Quote:
+Originally Posted by breftayka  View Post
+Radioshack is expensivo man. Check out local automotive store. Half the price.
+hey man  hows the f.i? couldnt remember your screenname at first.
+the local automotive store near my house is all straight up hustle but i just checked their website and they dont have any of those oxygem free 8 gauge cable
+rAiN is offline  	Reply With Quote
+Old 04-21-2011, 06:32 PM	  #11
+breftayka
+Registered User
+iTrader: (13)
+ 
+Join Date: Jun 2010
+Location: Louisiana
+Posts: 2,521
+Thanks: 0
+Thanked 11 Times in 3 Posts
+Quote:
+Originally Posted by rAiN  View Post
+hey man  hows the f.i? couldnt remember your screenname at first.
+the local automotive store near my house is all straight up hustle but i just checked their website and they dont have any of those oxygem free 8 gauge cable
+FI is niiice. I like it. Thanks again. Wish I had your shipping skills though...
+
+I used 4 ga. Usually can find it anywhere, but do what you gotta do I suppose. If you check out that site genuinedealz.com I think they can make them for you for extremely cheap if you give them the lengths. They even have all of the supplies needed. Very cheap too.
+breftayka is offline  	Reply With Quote
+Old 04-21-2011, 08:41 PM	  #12
+Djfarhan
+Registered User
+ 
+Djfarhan's Avatar
+ 
+Join Date: Nov 2010
+Location: Dubai, UAE
+Posts: 4,253
+Thanks: 76
+Thanked 59 Times in 47 Posts
+       
+you can notice the difference between the shifts, highly recommend this!
+Djfarhan is offline  	Reply With Quote
+Old 04-21-2011, 08:53 PM	  #13
+chuckie311
+Winning!
+
+iTrader: (3)
+ 
+chuckie311's Avatar
+ 
+Join Date: Jan 2011
+Location: Las Vegas
+Posts: 2,243
+Thanks: 13
+Thanked 124 Times in 105 Posts
+  
+oh yeah what do you notice??? because grounding your car isent going to make it shift any different!!
+chuckie311 is offline  	Reply With Quote
+Old 04-21-2011, 08:57 PM	  #14
+Djfarhan
+Registered User
+ 
+Djfarhan's Avatar
+ 
+Join Date: Nov 2010
+Location: Dubai, UAE
+Posts: 4,253
+Thanks: 76
+Thanked 59 Times in 47 Posts
+       
+i thought that was one of the benefits of it! well maybe i was just wishful thinking today :P
+Djfarhan is offline  	Reply With Quote
+Old 04-22-2011, 02:21 AM	  #15
+AZg37
+Premier Member
+
+Thread Starter
+iTrader: (17)
+ 
+AZg37's Avatar
+ 
+Join Date: Apr 2008
+Location: Peoria, AZ
+Posts: 1,357
+Thanks: 0
+Thanked 31 Times in 4 Posts
+Quote:
+Originally Posted by chuckie311  View Post
+oh yeah what do you notice??? because grounding your car isnt going to make it shift any different!!
+I personally disagree. While manually shifting in DS mode the car has noticeable change in lag between shifting gears. If you disagree, that's your opinion, but don't state that grounding kits do nothing like it's a fact. I installed grounding kits on both my G's and saw the same results. It's not a must, and I really only recommend it to 5AT and 7AT owners who are either audio enthusiasts or spirited drivers who enjoy DS mode, but hate trying to time your shifts because of the delay.
+
+AZg37 is offline  	Reply With Quote

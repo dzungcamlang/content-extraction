@@ -1,0 +1,58 @@
+Solved Convert number of month to name of month
+
+Tags:
+Hewlett-packard 2003
+excel
+spreadsheet
+problems
+jvr3 May 2, 2009 at 16:09:27
+Specs: windows
+How do I convert the number of the month (1, 2, 3) to the month (Jan, Feb, Mar) in excel?
+Best Answer
+jon_k May 6, 2009 at 05:17:27
+My $0.02: For a number from 1 to 12, I'd use
+=TEXT(DATE(2000,A1,1),"mmm")
+
+
+See in Thread ↓
+
+#1
+DerbyDad03 May 2, 2009 at 16:38:48
+What do you mean "convert"?
+Are you trying to retain the entire date but change the way it is displayed or are you trying to extract the month and put it in a cell by itself?
+
+
+Report •
+
+#2
+jvr3 May 3, 2009 at 06:08:00
+While changing the way the date is displayed is my ultimate goal, extracting the month number, i.e. 5 = May...11=Nov from another column that I hide within the spreadsheet will also solve my problem. I am learning more about Vlookup and this excel function looks like a promising approach.
+
+Report •
+
+#3
+mmcconaghy May 3, 2009 at 07:41:28
+To redesign the way your date’s display you have all the choices offered 
+in the Date section of cell formatting or you can “roll your own” using a Custom Format.
+But for now try this:
+
+With your Date in A1 try this in cell B1:
+
+=TEXT(A1,”MMMMM”) 
+for the first letter of the month
+
+=TEXT(A1,”MMMM”) 
+for the month spelled out completely
+
+=TEXT(A1,”MMM”) 
+for the 3 letter abbreviation of month
+
+If you have a cell with just a number from 1 thru 12 you are going to 
+have to use some type of =IF function, or VBA code to match up the 
+number with the correct Month.
+
+MIKE
+
+http://www.skeptic.com/
+
+

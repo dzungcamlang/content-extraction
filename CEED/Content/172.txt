@@ -1,0 +1,33 @@
+Example 1
+
+Estimate f ' (2.5) given the following table of values:
+
+
+Answer
+For each problem, we rearrange the information given into a more familiar table, then calculate the slopes.
+
+
+
+As h approaches 0 from the right we find the slopes 6 and 10. As h  approaches 0 from the left we find the slopes 5 and 9. We estimate that f ' (2.5) is in between 9 and 10.
+
+Example 2
+
+Estimate g ' (4) given the following table of values:
+
+
+
+Answer
+
+
+We estimate that g ' (4) is in between 0.2 and 0.4. Notice that we used g  instead of f for the function name; this changes the labels on the tables but nothing else.
+
+Example 3
+
+Estimate f ' (2) given the following table of values:
+
+
+
+Answer
+
+
+It looks like f ' (2) is between 1 and 2. We had more values of a + h to the left of 2 than we did to the right of 2, but that's not going to change the way we do things.

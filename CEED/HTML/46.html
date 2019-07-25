@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPLZ7V9');</script>
+<!-- End Google Tag Manager -->
+
+    <script src="http://ap.lijit.com/www/sovrn_beacon_standalone/sovrn_standalone_beacon.js?iid=7708508&uid=shmoop" id="sBeacon"></script>
+    
+            <meta name="keywords" content="The Count of Monte Cristo, Chapter 30, chapter, summary, summaries, literature, book, detail" />
+        <meta name="description" content="Free summary and analysis of Chapter 30 in Alexandre Dumas’s The Count of Monte Cristo that won’t make you snore. We promise." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="user" data-user-logged-in="" data-user-username=""
+            data-user-show-ads="1" />
+    
+    <!-- Icons ================ -->
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="http://media1.shmoop.com/images/general/apple-touch-icon-57x57-precomposed.png" />
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://media1.shmoop.com/images/general/apple-touch-icon-72x72-precomposed.png" />
+    <!-- For iPhone with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://media1.shmoop.com/images/general/apple-touch-icon-114x114-precomposed.png" />
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://media1.shmoop.com/images/general/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="shortcut icon" href="/assets/https/images/favicon.ico" />
+    <title>The Count of Monte Cristo Chapter 30 Summary</title>
+<link rel="canonical" href="http://www.shmoop.com/count-of-monte-cristo/chapter-30-summary.html" /><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bitter|Gloria+Hallelujah|Roboto:500,400,300" /><link rel="stylesheet" href="/assets/stylesheets/default.min.css?1487291347459" />
+<link rel="stylesheet" href="/assets/stylesheets/learning-guides.min.css?1487291347459" />
+<style id="antiClickjack">body{display: none !important;}</style>
+                <script type="text/javascript">
+                    if (window.self === window.top
+                        || window.self.document.domain === window.top.document.domain
+                    ) {
+                        var antiClickjack = document.getElementById("antiClickjack");
+                        antiClickjack.parentNode.removeChild(antiClickjack);
+                    } else {
+                        window.top.location = window.self.location;
+                    }
+                </script><script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>            <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "stats.g.doubleclick.net/dc.js' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+                    <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker('UA-5404347-1');
+                _gaq.push(['_setCustomVar', 1, 'Service Level', 'free', 1]);
+            } catch (err) {}
+
+            //Google Analytics Tracking Code for Outbound Links
+            function recordOutboundLink(link, category, action)
+            {
+                try {
+                    var pageTracker=_gat._getTracker('UA-5404347-1');
+                    pageTracker._trackEvent(category, action);
+                    setTimeout('document.location = "' + link.href + '"', 100)
+                } catch (err) {}
+            }
+        </script>
+                <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5404347-4', 'auto', 'subscriptions');ga('create', 'UA-5404347-5', 'auto', 'shmoopyou');        </script>
+        
+        	<script>
+        		var pbjs = pbjs || {};
+         		pbjs.que = pbjs.que || [];
+                pbjs.que.push(function() {
+                    pbjs.setPriceGranularity('high');
+                });
+        	</script>
+        	<script async type='text/javascript' src='/assets/js/prebid/_prebid.js'></script>
+        	<script type='text/javascript' src='/assets/js/prebid/_prebidAdUnits.js'></script>
+            <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+            <script>
+	            (function () {
+	             var gads = document.createElement('script');
+	             gads.async = true;
+	             gads.type = 'text/javascript';
+	             var useSSL = 'https:' == document.location.protocol;
+	             gads.src = (useSSL ? 'https:' : 'http:') +
+	                        '//www.googletagservices.com/tag/js/gpt.js';
+	             var node = document.getElementsByTagName('script')[0];
+	             node.parentNode.insertBefore(gads, node);
+		         })();
+              var googletag = googletag || {};
+              googletag.cmd = googletag.cmd || [];
+            </script>
+            <script>
+                var current_domain = window.location.hostname;
+                var winWidth = window.innerWidth;
+                var adThrottleMobile = Math.random();
+                var adThrottleHighImpact = Math.random();
+                var adThrottleLeaderboardFooter = Math.random();
+                var adThrottleSovrn = Math.random();
+                googletag.cmd.push(function() {
+        
+                        var mappingBillboard = googletag.sizeMapping().
+                          addSize([992, 0], [728, 90]).
+                          addSize([0, 0], [300, 250]).
+                          build();
+                        googletag.defineSlot('/1052486/Content_300_Box', [300, 250], 'div-gpt-ad-1485456199839-13').addService(googletag.pubads());
+                        googletag.defineSlot('/1052486/Content_300_Box_2', [300, 250], 'div-gpt-ad-1485456199839-14').addService(googletag.pubads());
+                        googletag.defineSlot('/1052486/300x600', [300, 600], 'div-gpt-ad-1485455366249-3').addService(googletag.pubads());
+                        googletag.defineSlot('/1052486/Billboard', winWidth < 768 ? [300,250] : [728,90], 'div-gpt-ad-1485456199839-10').defineSizeMapping(mappingBillboard).addService(googletag.pubads());
+              googletag.pubads().setTargeting('domain', current_domain)
+              googletag.pubads().enableSingleRequest();
+              googletag.pubads().collapseEmptyDivs();
+              googletag.pubads().enableVideoAds();
+              googletag.companionAds().setRefreshUnfilledSlots(true);
+              googletag.enableServices();
+          });
+        </script>    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/assets/stylesheets/ie.css" type="text/css" />
+    <![endif]-->
+</head>
+<body class="learning_guides wallpaper">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPLZ7V9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <section class="wallpaper-container visible-xs" id="site_takeover_wallpaper_mobile_link" data-event="Computer Programming Site Takeover (Mobile)">
+                <a
+            href="https://www.shmoop.com/subscriptions/plans.html" target="_blank" onClick="pageTracker._trackEvent('Promotions', 'Click', 'Computer Programming Site Takeover (Mobile)');" 
+            class="wallpaper-xs"
+            data-eventlabel="Computer Programming Site Takeover (Mobile)"
+            data-event-campaign="subscriptions"         >
+            <img class="img-responsive img-link" src="http://media1.shmoop.com/images/internal-promo/computer-programming-ads/computer_programming_ad.jpg">
+        </a>
+                    </section>
+                
+    
+<!-- special link ;) -->
+<a rel="nofollow" style="display: none;" href="/die-heuning-pot/"></a>
+
+<!-- begin accesibility skip to nav skip content -->
+<ul class="hide">
+    <li><a href="#main-nav" title="Skip to navigation" accesskey="n">Skip to navigation</a></li>
+    <li><a href="#page" title="Skip to content" accesskey="c">Skip to content</a></li>
+</ul>
+<!-- end /.visuallyhidden accesibility-->
+
+<div class="markwater container hide">
+    <img class="pull-left" src="https://d32v6r6fgi4k49.cloudfront.net/images/general/shmoop-logo-watermark.jpg"/>
+    <span class="pull-right">&copy; 2017 Shmoop University, Inc. All rights reserved.</span>
+</div>
+
+<!-- begin .header-->
+<header id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-2 col-md-3">
+                <a href="http://www.shmoop.com/" title="Shmoop - We Speak Student" class="logo">
+                    <img src="/assets/https/images/shmoop_logo_small.png" alt="Shmoop - We Speak Student" width="96" height="38">
+                    <em class="hidden-xs hidden-sm">We speak student</em>
+                </a>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-xs-8 col-sm-10 col-md-9">
+                            <div class="user-nav btn-group btn-group-justified btn-group-justified-block">
+                    <a class="btn btn-primary" href="https://www.shmoop.com/register-extended.html?origin_page=%2Fcount-of-monte-cristo%2Fchapter-30-summary.html"><i class="fa fa-user"></i> Register</a>
+                    <a class="btn btn-primary" href="https://www.shmoop.com/login.html?origin_page=%2Fcount-of-monte-cristo%2Fchapter-30-summary.html"><i class="fa fa-sign-in"></i> Login</a>
+                </div>
+                                            <div class="container-searchbox">
+                    <gcse:searchbox-only resultsUrl="/search/">
+                        <div class="input-group" data-anchor="searchbox-placeholder">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <div class="btn btn-primary">
+                                    <i class="fa fa-spinner fa-spin"></i>
+                                </div>
+                            </span>
+                        </div>
+                    </gcse:searchbox-only>
+                </div>
+                <div class="visible-lg visible-md">
+                    <div class="header-promo">
+                    <h4><a href="https://www.shmoop.com/subscriptions/plans.html" data-trigger="internal-promo" data-event-campaign="subscriptions" data-eventlabel="Universal Search Link - Premium Shmoop" data-flow-tracking-campaign="subscriptions">Premium Shmoop</a> | <a href="http://www.shmoop.com/essay-lab/">Free Essay Lab</a></h4>
+                </div>                </div>
+                            </div>
+        </div>
+        <nav class="main-nav navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="btn btn-primary navbar-toggle pull-left" data-toggle="collapse" data-target="#main-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Using an ID because this _must_ be the only main-nav on the page -->
+            <!-- the nav-color-cycle is explicity declared for performance -->
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="nav nav-justified" role="tablist">
+                    <li class="nav-color-cycle1"><a title="Subscriptions" href="https://www.shmoop.com/subscriptions/plans.html" data-trigger="internal-promo" data-eventlabel="Premium Tab" data-event-campaign="subscriptions" data-flow-tracking-campaign="subscriptions">Premium</a></li>
+                    <li class="nav-color-cycle2"><a title="Test Prep" href="http://www.shmoop.com/test-prep/">Test Prep</a></li>
+                    <li class="nav-color-cycle3"><a title="Learning Guides" href="http://www.shmoop.com/learning-guides/">Learning Guides</a></li>
+                    <li class="nav-color-cycle4"><a title="College" href="http://www.shmoop.com/college/">College</a></li>
+                    <li class="nav-color-cycle5"><a title="Careers" href="http://www.shmoop.com/careers/">Careers</a></li>
+                    <li class="nav-color-cycle6"><a title="Video" href="http://www.shmoop.com/video/">Video</a></li>
+                    <li class="nav-color-cycle7"><a title="Shmoop Answers" href="http://www.shmoop.com/qa/">Shmoop Answers</a></li>
+                    <li class="nav-color-cycle8"><a title="For Teachers" href="http://www.shmoop.com/teaching-guides/">Teachers</a></li>
+                    <li class="nav-color-cycle9"><a title="Courses" href="http://www.shmoop.com/courses/">Courses</a></li>
+                    <li class="nav-color-cycle10"><a title="Schools" href="https://schools.shmoop.com">Schools</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </header>
+             <section class="container wallpaper-container" id="takeover-wallpaper" data-event="Computer Programming Site Takeover (Header Large)">
+                <a
+            href="https://www.shmoop.com/subscriptions/plans.html" target="_blank" onClick="pageTracker._trackEvent('Promotions', 'Click', 'Computer Programming Site Takeover (Header Large)');"            class="visible-lg wallpaper-element wallpaper-top" style="background-image: url('http://media1.shmoop.com/images/internal-promo/computer-programming-ads/computer_programming_header_1.jpg');"            data-eventlabel="Computer Programming Site Takeover (Header Large)"
+            data-event-campaign="subscriptions"         >
+        </a>
+                                <a
+            href="https://www.shmoop.com/subscriptions/plans.html" target="_blank" onClick="pageTracker._trackEvent('Promotions', 'Click', 'Computer Programming Site Takeover (Header Medium)');"            class="visible-md wallpaper-element wallpaper-top" style="background-image: url('http://media1.shmoop.com/images/internal-promo/computer-programming-ads/computer_programming_header_2.jpg');"            data-eventlabel="Computer Programming Site Takeover (Header Medium)"
+            data-event-campaign="subscriptions"         >
+        </a>
+                                <a
+            href="https://www.shmoop.com/subscriptions/plans.html" target="_blank" onClick="pageTracker._trackEvent('Promotions', 'Click', 'Computer Programming Site Takeover (Header Small)');"            class="visible-sm wallpaper-element wallpaper-top" style="background-image: url('http://media1.shmoop.com/images/internal-promo/computer-programming-ads/computer_programming_header_3.jpg');"            data-eventlabel="Computer Programming Site Takeover (Header Small)"
+            data-event-campaign="subscriptions"         >
+        </a>
+                            </section>
+    
+    <main id="page" class="container">
+        <div data-achor="site-type" data-site-type-para="www"></div>
+        <div class="modal fade" tabindex="-1" role="dialog" data-anchor="exit-enterprise-site-modal"></div>
+        
+                            <!-- /1052486/Out_of_Page_1x1 -->
+                             <div id='div-gpt-ad-1486759415111-0' class='Out_of_Page_1x1'></div>
+                            <!-- /1052486/Mobile_1x1_Interstitial -->
+                            <div id='div-gpt-ad-1486757470323-0' class='Mobile_1x1_Interstitial'></div>
+                        <!-- /1052486/High_Impact_1x1_Ads -->
+                        <div id='div-gpt-ad-1486757764343-0' class='High_Impact_1x1_Ads'></div><!-- /1052486/Billboard -->
+                            <div id='div-gpt-ad-1485456199839-10' class='Billboard'>
+                                <script>
+                                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1485456199839-10'); });
+                                </script>
+                            </div><div class="panel-spacer m-t m-b"></div>        <!-- begin main content -->
+        
+	<!-- begin headline -->
+        <div class="headline">
+    		<!-- citation buttons, title, and breadcrumb -->
+        
+<!-- title -->
+<div class="row">
+        <div class="col-sm-1 left-img">
+        <img src="http://media1.shmoop.com/media/covers/literature/lit00191.jpg" alt="The Count of Monte Cristo" class="img-responsive" style="width: 100px"/>
+    </div>
+    <div class="col-sm-7 col-md-6 col-lg-7 text-left center-text">
+            <div class="row">
+            <h1>The Count of Monte Cristo</h1>
+            &nbsp;&nbsp;<h2>by Alexandre Dumas</h2>        </div>
+        <div class="row">
+            <ul class="breadcrumb"><li class='hidden-xs'><a href="/" title="Home">Home</a> <span class="divider">/</span></li><li class='hidden-xs'><a href="/literature/" title="Literature">Literature</a> <span class="divider">/</span></li><li class='hidden-xs'><a href="/count-of-monte-cristo/" title="The Count of Monte Cristo">The Count of Monte Cristo</a> <span class="divider">/</span></li><li class='hidden-xs'><a href="summary.html" title="Events">Events</a> <span class="divider">/</span></li><li class='hidden-xs'>Chapter 30 </li></ul><ul class="breadcrumb breadcrumb-shorten visible-xs"><li class='visible-xs-inline'><a href="summary.html" title="Events">Events</a> <span class="divider">/</span></li><li class='visible-xs-inline'>Chapter 30 </li></ul>        </div>
+    </div>
+        <div class="col-sm-4 col-md-5 col-lg-4 headline-btn-traffic">
+        <a href="/subscriptions/plans.html" class="headline-premium-link hidden-xs hidden-sm" data-eventlabel="Learning Guide - Headline Link (Desktop)" data-event-campaign="subscriptions" data-flow-tracking-campaign="subscriptions">SHMOOP PREMIUM</a>
+                <a class="btn btn-info" data-ga="header-button" href="summary.html">Summary</a>
+                <a href="/subscriptions/plans.html" class="headline-premium-link visible-sm pull-right" data-eventlabel="Learning Guide - Headline Link (Tablet)" data-event-campaign="subscriptions" data-flow-tracking-campaign="subscriptions">SHMOOP PREMIUM</a>
+        <a href="/subscriptions/plans.html" class="headline-premium-link visible-xs m-t m-b" data-eventlabel="Learning Guide - Headline Link (Mobile)" data-event-campaign="subscriptions" data-flow-tracking-campaign="subscriptions">SHMOOP PREMIUM</a>
+    </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="citeThisPageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Cite This Source</h4>
+                <div class="modal-body">
+                    <div class="cite-content"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	</div>
+	<!-- close headline -->
+
+	<!-- begin main content -->
+    <section>
+    	<div class="row content">
+        	<div class="left-nav col-sm-3 col-lg-2">
+
+                <div class="visible-xs">
+                  <p class="navbar-button text-center">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse"
+                     data-target="#leftNav-bar1" style="font-size:1.5em;">
+                        MENU <i class="fa fa-sort-desc"></i>
+                    </button>
+                  </p>
+                </div>
+                <div id="leftNav-bar1" class="collapse navbar-collapse">
+                <ul class="nav nav-stacked">
+                <li>
+                                <a href="/count-of-monte-cristo/">Intro <i class="fa fa-chevron-right"></i></a>
+                            </li><div class="parent-active">
+                            <li class="active">
+                                <a href="summary.html">Summary <i class="fa fa-chevron-right"></i></i></a>
+                                <li class="inner-list"><a href="chapter-1-summary.html" >Chapter 1</a></li><li class="inner-list"><a href="chapter-2-summary.html" >Chapter 2</a></li><li class="inner-list"><a href="chapter-3-summary.html" >Chapter 3</a></li><li class="inner-list"><a href="chapter-4-summary.html" >Chapter 4</a></li><li class="inner-list"><a href="chapter-5-summary.html" >Chapter 5</a></li><li class="inner-list"><a href="chapter-6-summary.html" >Chapter 6</a></li><li class="inner-list"><a href="chapter-7-summary.html" >Chapter 7</a></li><li class="inner-list"><a href="chapter-8-summary.html" >Chapter 8</a></li><li class="inner-list"><a href="chapter-9-summary.html" >Chapter 9</a></li><li class="inner-list"><a href="chapter-10-summary.html" >Chapter 10</a></li><li class="inner-list"><a href="chapter-11-summary.html" >Chapter 11</a></li><li class="inner-list"><a href="chapter-12-summary.html" >Chapter 12</a></li><li class="inner-list"><a href="chapter-13-summary.html" >Chapter 13</a></li><li class="inner-list"><a href="chapter-14-summary.html" >Chapter 14</a></li><li class="inner-list"><a href="chapter-15-summary.html" >Chapter 15</a></li><li class="inner-list"><a href="chapter-16-summary.html" >Chapter 16</a></li><li class="inner-list"><a href="chapter-17-summary.html" >Chapter 17</a></li><li class="inner-list"><a href="chapter-18-summary.html" >Chapter 18</a></li><li class="inner-list"><a href="chapter-19-summary.html" >Chapter 19</a></li><li class="inner-list"><a href="chapter-20-summary.html" >Chapter 20</a></li><li class="inner-list"><a href="chapter-21-summary.html" >Chapter 21</a></li><li class="inner-list"><a href="chapter-22-summary.html" >Chapter 22</a></li><li class="inner-list"><a href="chapter-23-summary.html" >Chapter 23</a></li><li class="inner-list"><a href="chapter-24-summary.html" >Chapter 24</a></li><li class="inner-list"><a href="chapter-25-summary.html" >Chapter 25</a></li><li class="inner-list"><a href="chapter-26-summary.html" >Chapter 26</a></li><li class="inner-list"><a href="chapter-27-summary.html" >Chapter 27</a></li><li class="inner-list"><a href="chapter-28-summary.html" >Chapter 28</a></li><li class="inner-list"><a href="chapter-29-summary.html" >Chapter 29</a></li><li class="active inner-list"><a class="not-a-link" href="#" style="cursor: default;" onclick="return false;" >Chapter 30</a></li><li class="inner-list"><a href="chapter-31-summary.html" >Chapter 31</a></li><li class="inner-list"><a href="chapter-32-summary.html" >Chapter 32</a></li><li class="inner-list"><a href="chapter-33-summary.html" >Chapter 33</a></li><li class="inner-list"><a href="chapter-34-summary.html" >Chapter 34</a></li><li class="inner-list"><a href="chapter-35-summary.html" >Chapter 35</a></li><li class="inner-list"><a href="chapter-36-summary.html" >Chapter 36</a></li><li class="inner-list"><a href="chapter-37-summary.html" >Chapter 37</a></li><li class="inner-list"><a href="chapter-38-summary.html" >Chapter 38</a></li><li class="inner-list"><a href="chapter-39-summary.html" >Chapter 39</a></li><li class="inner-list"><a href="chapter-40-summary.html" >Chapter 40</a></li><li class="inner-list"><a href="chapter-41-summary.html" >Chapter 41</a></li><li class="inner-list"><a href="chapter-42-summary.html" >Chapter 42</a></li><li class="inner-list"><a href="chapter-43-summary.html" >Chapter 43</a></li><li class="inner-list"><a href="chapter-44-summary.html" >Chapter 44</a></li><li class="inner-list"><a href="chapter-45-summary.html" >Chapter 45</a></li><li class="inner-list"><a href="chapter-46-summary.html" >Chapter 46</a></li><li class="inner-list"><a href="chapter-47-summary.html" >Chapter 47</a></li><li class="inner-list"><a href="chapter-48-summary.html" >Chapter 48</a></li><li class="inner-list"><a href="chapter-49-summary.html" >Chapter 49</a></li><li class="inner-list"><a href="chapter-50-summary.html" >Chapter 50</a></li><li class="inner-list"><a href="chapter-51-summary.html" >Chapter 51</a></li><li class="inner-list"><a href="chapter-52-summary.html" >Chapter 52</a></li><li class="inner-list"><a href="chapter-53-summary.html" >Chapter 53</a></li><li class="inner-list"><a href="chapter-54-summary.html" >Chapter 54</a></li><li class="inner-list"><a href="chapter-55-summary.html" >Chapter 55</a></li><li class="inner-list"><a href="chapter-56-summary.html" >Chapter 56</a></li><li class="inner-list"><a href="chapter-57-summary.html" >Chapter 57</a></li><li class="inner-list"><a href="chapter-58-summary.html" >Chapter 58</a></li><li class="inner-list"><a href="chapter-59-summary.html" >Chapter 59</a></li><li class="inner-list"><a href="chapter-60-summary.html" >Chapter 60</a></li><li class="inner-list"><a href="chapter-61-summary.html" >Chapter 61</a></li><li class="inner-list"><a href="chapter-62-summary.html" >Chapter 62</a></li><li class="inner-list"><a href="chapter-63-summary.html" >Chapter 63</a></li><li class="inner-list"><a href="chapter-64-summary.html" >Chapter 64</a></li><li class="inner-list"><a href="chapter-65-summary.html" >Chapter 65</a></li><li class="inner-list"><a href="chapter-66-summary.html" >Chapter 66</a></li><li class="inner-list"><a href="chapter-67-summary.html" >Chapter 67</a></li><li class="inner-list"><a href="chapter-68-summary.html" >Chapter 68</a></li><li class="inner-list"><a href="chapter-69-summary.html" >Chapter 69</a></li><li class="inner-list"><a href="chapter-70-summary.html" >Chapter 70</a></li><li class="inner-list"><a href="chapter-71-summary.html" >Chapter 71</a></li><li class="inner-list"><a href="chapter-72-summary.html" >Chapter 72</a></li><li class="inner-list"><a href="chapter-73-summary.html" >Chapter 73</a></li><li class="inner-list"><a href="chapter-74-summary.html" >Chapter 74</a></li><li class="inner-list"><a href="chapter-75-summary.html" >Chapter 75</a></li><li class="inner-list"><a href="chapter-76-summary.html" >Chapter 76</a></li><li class="inner-list"><a href="chapter-77-summary.html" >Chapter 77</a></li><li class="inner-list"><a href="chapter-78-summary.html" >Chapter 78</a></li><li class="inner-list"><a href="chapter-79-summary.html" >Chapter 79</a></li><li class="inner-list"><a href="chapter-80-summary.html" >Chapter 80</a></li><li class="inner-list"><a href="chapter-81-summary.html" >Chapter 81</a></li><li class="inner-list"><a href="chapter-82-summary.html" >Chapter 82</a></li><li class="inner-list"><a href="chapter-83-summary.html" >Chapter 83</a></li><li class="inner-list"><a href="chapter-84-summary.html" >Chapter 84</a></li><li class="inner-list"><a href="chapter-85-summary.html" >Chapter 85</a></li><li class="inner-list"><a href="chapter-86-summary.html" >Chapter 86</a></li><li class="inner-list"><a href="chapter-87-summary.html" >Chapter 87</a></li><li class="inner-list"><a href="chapter-88-summary.html" >Chapter 88</a></li><li class="inner-list"><a href="chapter-89-summary.html" >Chapter 89</a></li><li class="inner-list"><a href="chapter-90-summary.html" >Chapter 90</a></li><li class="inner-list"><a href="chapter-91-summary.html" >Chapter 91</a></li><li class="inner-list"><a href="chapter-92-summary.html" >Chapter 92</a></li><li class="inner-list"><a href="chapter-93-summary.html" >Chapter 93</a></li><li class="inner-list"><a href="chapter-94-summary.html" >Chapter 94</a></li><li class="inner-list"><a href="chapter-95-summary.html" >Chapter 95</a></li><li class="inner-list"><a href="chapter-96-summary.html" >Chapter 96</a></li><li class="inner-list"><a href="chapter-97-summary.html" >Chapter 97</a></li><li class="inner-list"><a href="chapter-98-summary.html" >Chapter 98</a></li><li class="inner-list"><a href="chapter-99-summary.html" >Chapter 99</a></li><li class="inner-list"><a href="chapter-100-summary.html" >Chapter 100</a></li><li class="inner-list"><a href="chapter-101-summary.html" >Chapter 101</a></li><li class="inner-list"><a href="chapter-102-summary.html" >Chapter 102</a></li><li class="inner-list"><a href="chapter-103-summary.html" >Chapter 103</a></li><li class="inner-list"><a href="chapter-104-summary.html" >Chapter 104</a></li><li class="inner-list"><a href="chapter-105-summary.html" >Chapter 105</a></li><li class="inner-list"><a href="chapter-106-summary.html" >Chapter 106</a></li><li class="inner-list"><a href="chapter-107-summary.html" >Chapter 107</a></li><li class="inner-list"><a href="chapter-108-summary.html" >Chapter 108</a></li><li class="inner-list"><a href="chapter-109-summary.html" >Chapter 109</a></li><li class="inner-list"><a href="chapter-110-summary.html" >Chapter 110</a></li><li class="inner-list"><a href="chapter-111-summary.html" >Chapter 111</a></li><li class="inner-list"><a href="chapter-112-summary.html" >Chapter 112</a></li><li class="inner-list"><a href="chapter-113-summary.html" >Chapter 113</a></li><li class="inner-list"><a href="chapter-114-summary.html" >Chapter 114</a></li><li class="inner-list"><a href="chapter-115-summary.html" >Chapter 115</a></li><li class="inner-list"><a href="chapter-116-summary.html" >Chapter 116</a></li><li class="inner-list"><a href="chapter-117-summary.html" >Chapter 117</a></li>
+                            </li>
+                        </div>
+                        <li>
+                                <a href="themes.html">Themes <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="quotes.html">Quotes <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="characters.html">Characters <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="literary-devices.html">Analysis <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="questions.html">Questions <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="quizzes.html">Quizzes <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="flashcards.html">Flashcards <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="resources.html">Best of the Web <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                                <a href="essay.html">Write Essay <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                            <a href="/literature-glossary/" target="_blank">Lit Glossary <i class="fa fa-chevron-right"></i></a>
+                        </li><li>
+                                <a href="/count-of-monte-cristo/table-of-contents.html">Table of Contents <i class="fa fa-chevron-right"></i></a>
+                            </li><li>
+                        <a href="/subscriptions/plans.html" target="_blank"
+                           data-event-campaign="subscriptions" data-eventlabel="subscriptions-learning-guide-leftNav" >SHMOOP PREMIUM <i class="fa fa-chevron-right"></i></a>
+                    </li></ul></div>                
+                        <!-- /1052486/sovrn_ad_unit -->
+                        <div id='div-gpt-ad-1487098504692-0'></div>        	</div>
+                        <div class="col-sm-9 col-lg-6 content-learning-guide">
+                <h1 class="content-title">The Count of Monte Cristo Chapter 30 Summary</h1><ul class="pager">
+		 				<li><a class="" href="chapter-29-summary.html" title="Chapter 29">
+		 					<i class="fa fa-caret-left"></i>&nbsp;BACK</a></li>
+			 			<li><a class="" href="chapter-31-summary.html" title="Chapter 31">NEXT&nbsp;<i class="fa fa-caret-right"></i>
+						</a></li></ul><h2></h2>
+						<div class="PrimaryContent" id="div_PrimaryContent"><h2>The Fifth of September</h2><p><ul><li>This is a great chapter.</li><li>Nearly three months have gone by, but Morrel still hasn't been able to come up with the money. He's totally distraught, and he doesn't know what to do. Where can he find the money? He can't. His name and his reputation are in ruins.</li><li>Morrel decides he's going to kill himself. He even tells his son, Maximillian, about this plan. Max agrees it's a good idea (whaa?).</li><li>But just before he's about to take his own life, Julie receives a letter from Sinbad the Sailor (drumroll please). She does everything Sinbad tells her to do, and, as a result, she finds the little red purse that Morrel had once given to Edmond's dad (Dant&#232;s Sr.) when he was on his deathbed. The little red purse is filled with documents that explain that Morrel's debts have been forgiven. AND it contains a big diamond that is specifically for Julie and her marriage to Emmanuel. Sweet.</li><li>And if that wasn't enough, a brand spanking new ship sails into the harbor &#8211; it's the new <i>Pharaon. </i></li><li>Can you hear the shrieks of joy and the triumphant soundtrack getting louder and louder as the camera focuses on the happy scene in Morrel's home and then zooms out to the Marseille harbor and then zooms out even more, until Marseille is just a little dot on the horizon?</li><li>This is to say, our protagonist, Edmond is leaving Marseille.</li></ul></p></div><ul class="pager">
+		 				<li><a class="" href="chapter-29-summary.html" title="Chapter 29">
+		 					<i class="fa fa-caret-left"></i>&nbsp;BACK</a></li>
+			 			<li><a class="" href="chapter-31-summary.html" title="Chapter 31">NEXT&nbsp;<i class="fa fa-caret-right"></i>
+						</a></li></ul><div class="row">
+	<div class="col-xs-12 text-center">
+		<a href="#" class="modal-button cite-this-page" data-toggle="modal" data-target="#citeThisPageModal">
+		    <i class="fa fa-pencil-square-o"></i>
+		    &nbsp;Cite This Page
+		</a>
+	</div>
+</div>
+                
+		<div class="row">
+			<div class="col-xs-12">
+            	<h3>People who Shmooped this also Shmooped...</h3>
+            </div>
+        </div>
+<div class="row">
+	<div class="col-lg-12">
+		<a href="/brokeback-mountain" data-trigger="internal-promo" data-eventlabel="recommended-items " class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/media/covers/literature/brokeback-mountain.jpg"></div>
+				<div class="col-md-9">
+					<h2>Brokeback Mountain - Learning Guide <i class="fa fa-arrow-circle-right"></i></h2>
+					<p></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="/please-ignore-vera-dietz" data-trigger="internal-promo" data-eventlabel="recommended-items " class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/media/covers/literature/lit00086.jpg"></div>
+				<div class="col-md-9">
+					<h2>Please Ignore Vera Dietz - Learning Guide <i class="fa fa-arrow-circle-right"></i></h2>
+					<p></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="/diamond-as-big-as-ritz" data-trigger="internal-promo" data-eventlabel="recommended-items " class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/media/covers/literature/lit80016.jpg"></div>
+				<div class="col-md-9">
+					<h2>The Diamond as Big as the Ritz - Learning Guide <i class="fa fa-arrow-circle-right"></i></h2>
+					<p></p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="http://www.shmoop.com/wtf-explanation/" data-trigger="internal-promo" data-eventlabel="Bootstrap3LearningGuideFooter WTF Ad Tool Footer" class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/images/general/wtf_icon.png"></div>
+				<div class="col-md-9">
+					<h2>WHY'S THIS FUNNY? <i class="fa fa-arrow-circle-right"></i></h2>
+					<p>Find out what that little icon means...and why we're funny.</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="http://www.shmoop.com/career-test/" data-trigger="internal-promo" data-eventlabel="Bootstrap3LearningGuideFooter Career Test" class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/images/internal-promo/essay_lab-ro.png"></div>
+				<div class="col-md-9">
+					<h2>Career Test and Advice Center <i class="fa fa-arrow-circle-right"></i></h2>
+					<p>Plan your future...or at least your next step.</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="http://www.shmoop.com/quotes" data-trigger="internal-promo" data-eventlabel="Bootstrap3LearningGuideFooter famous quotes" class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/images/general/famous_quotes_literature.jpg"></div>
+				<div class="col-md-9">
+					<h2>Famous Quotes <i class="fa fa-arrow-circle-right"></i></h2>
+					<p>The who, what, where, when, and why of all your favorite quotes.</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-lg-12">
+		<a href="http://www.shmoop.com/movies/" data-trigger="internal-promo" data-eventlabel="Bootstrap3LearningGuideFooter MoviesLearningGuideFooter" class="btn-feature" target="_blank">
+			<div class="row">
+				<div class="col-md-3"><img class="img-responsive" src="http://media1.shmoop.com/images/general/famous_quotes_movies.jpg"></div>
+				<div class="col-md-9">
+					<h2>Movies <i class="fa fa-arrow-circle-right"></i></h2>
+					<p>Go behind the scenes on all your favorite films.</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+                
+
+            </div>
+            <div class="clearfix visible-sm-block visible-md-block"></div>
+            <div class="col-lg-4">
+                            	<div class="ad text-center">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12">
+                            <!-- /1052486/Content_300_Box -->
+                            <div id='div-gpt-ad-1485456199839-13' class='Content_300_Box'>
+                                <script>
+                                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1485456199839-13'); });
+                                </script>
+                            </div>                                <!-- /1052486/Content_300_Box_2 -->
+                            <div id='div-gpt-ad-1485456199839-14' class='Content_300_Box_2'>
+                                <script>
+                                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1485456199839-14'); });
+                                </script>
+                            </div>                            </div>
+                        <div class="hidden-sm hidden-md">
+                		                          </div>
+                        <div class="col-sm-12 col-lg-12">
+                            <div class="ad300x600"><!-- /1052486/ad300x600 -->
+                            <div id='div-gpt-ad-1485455366249-3' class='ad300x600'>
+                              <script>
+                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1485455366249-3'); });
+                              </script>
+                            </div></div>
+                        </div>
+                    </div>
+            	</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for awarding badges/shmoints -->
+    
+    
+	
+
+        
+        
+                        <!-- /1052486/Leaderboard_Footer -->
+                        <div id='div-gpt-ad-1487098260631-0'  class='Leaderboard_Footer'></div>    </main>
+
+    
+
+        <footer class="">
+        <div class="container hidden-xs hidden-sm">
+            <ul>
+                <li>&copy; 2017 Shmoop University. All rights reserved. <em class="tech-slogan"><strong>We speak tech</strong></em></li>
+                                <li><a href="http://www.shmoop.com/everything" title="Site Map">Site Map</a></li>
+                                <li><a href="http://www.shmoop.com/how-to-shmoop/" target="_blank" title="Help" rel="nofollow">Help</a></li>
+                <li><a href="http://www.shmoop.com/public/about_us/" title="About Us" rel="nofollow">About Us</a></li>
+                                <li><a href="http://www.shmoop.com/advertisers" title="Advertisers" rel="nofollow">Advertisers</a></li>
+                                <li><a href="http://www.shmoop.com/public/jobs/" title="Jobs" rel="nofollow">Jobs</a></li>
+                <li><a href="http://www.shmoop.com/public/partners/" title="Partners" rel="nofollow">Partners</a></li>
+                <li><a href="http://www.shmoop.com/public/terms/" title="Terms of Use" rel="nofollow">Terms of Use</a></li>
+                <li><a href="http://www.shmoop.com/public/privacy/" title="Privacy Policy" rel="nofollow">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="container visible-sm-block text-center">
+            <div class="row">
+                                <a href="/everything" title="Site Map">Site Map</a>
+                                <a href="/how-to-shmoop/" target="_blank" title="Help" rel="nofollow">Help</a>
+                                <a href="/advertisers" title="Advertisers" rel="nofollow">Advertisers</a>
+                                <a href="/public/jobs/" title="Jobs" rel="nofollow">Jobs</a>
+                <a href="/public/partners/" title="Partners" rel="nofollow">Partners</a>
+                <a href="/public/terms/" title="Terms of Use" rel="nofollow">Terms of Use</a>
+                <a href="/public/privacy/" title="Privacy Policy" rel="nofollow">Privacy</a>
+            </div>
+            <div class="row bottom-row">
+                &copy; 2017 Shmoop University. All rights reserved. <em class="tech-slogan"><strong>We speak tech</strong></em>
+            </div>
+        </div>
+        <div class="container visible-xs-block text-center">
+            <p>
+                <a href="http://www.facebook.com/shmoop" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-facebook fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a href="http://www.twitter.com/shmoop" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a href="http://www.youtube.com/user/shmoopdotcom" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-youtube fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a href="http://www.pinterest.com/shmoop" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-pinterest fa-stack-1x"></i>
+                    </span>
+                </a>
+                <a href="http://blog.shmoop.com" target="_blank">
+                    <span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-rss fa-stack-1x"></i>
+                    </span>
+                </a>
+            </p>
+            <p>
+                                <a href="/everything" title="Site Map">Site Map</a></li>
+                                <a href="/how-to-shmoop/" target="_blank" title="Help" rel="nofollow">Help</a>
+            </p>
+            <p>
+                                <a href="/advertisers" title="Advertisers" rel="nofollow">Advertisers</a>
+                                <a href="/public/jobs/" title="Jobs" rel="nofollow">Jobs</a>
+                <a href="/public/partners/" title="Partners" rel="nofollow">Partners</a>
+            </p>
+            <p>
+                <a href="/public/terms/" title="Terms of Use" rel="nofollow">Terms of Use</a>
+                <a href="/public/privacy/" title="Privacy Policy" rel="nofollow">Privacy</a>
+            </p>
+            <p><em class="tech-slogan">We speak tech</em></p>
+            <p>&copy; 2017 Shmoop University. All rights reserved.</p>
+        </div>
+    </footer>
+        <div data-trigger="chat-windows"></div>
+    <!-- Logout Modal -->
+    <div id="logoutModal" class="modal fade logout-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content text-center">
+                <h2>Logging out…</h2>
+                <p><i class="fa fa-2x fa-spin fa-spinner"></i></p>
+            </div>
+        </div>
+    </div>
+    <!-- auto logout modal -->
+    <div id="autoLogoutModal" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h2>Logging out...</h2>
+                </div>
+                <div class="modal-body">
+                    <p>You've been inactive for a while, logging you out in a few seconds...</p>
+                    <p><i class="fa fa-2x fa-spin fa-spinner"></i></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">I'm Still Here!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- close page-->
+
+        <script>
+    var jsonParams = {
+'siteType': '"www"',
+};
+    // Override $ until jQuery has loaded
+    (function (window) {
+        'use strict';
+        var _queue = [],
+            checkFor$ = function () {
+                if (typeof($.noop) !== 'undefined') {
+                    for (var i = 0; i < _queue.length; i++) {
+                    try { _queue[i](); } catch (e) {}                    }
+                } else {
+                    setTimeout(checkFor$, 100);
+                }
+            };
+
+        window.$ = function (f) {
+            _queue.push(f);
+        };
+
+        setTimeout(checkFor$, 1);
+    })(window);
+    </script>
+    <script type="text/javascript" src="/assets/javascript/default.min.js?1487291347459" ></script>
+<script type="text/javascript" src="/assets/js/modules/citationsForLitMovementModals.js?1487291347459" ></script>
+<script type="text/javascript">$(function(){shmoopUI.manager.load();})</script>
+    
+    <!-- 3RD PARTY CODE (FB, GOOGLE, MILLION LEVERS, ETC.) -->
+<div data-anchor="dfp-settings" data-targeting='{"section":["literature","learning_guides"],"subject":["literature"]}' data-refresh-ads="false" style="display:none;"></div>
+		<!-- Begin comScore Tag -->
+		<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "6034644" });
+		  (function () {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		  })();
+		</script>
+		<noscript>
+		  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6034644&cv=2.0&cj=1" />
+		</noscript>
+		<!-- End comScore Tag -->
+			<!--  Quantcast Tag -->
+<script>
+ var ezt = ezt ||[];
+
+ (function(){
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-13DnZovcJlDxc";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem,scpt);
+ }());
+
+
+ ezt.push({qacct: 'p-13DnZovcJlDxc',
+       uid: '' 
+           });
+</script>
+<noscript>
+  <img src="//pixel.quantserve.com/pixel/p-13DnZovcJlDxc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast Tag -->		<script type='text/javascript'>
+		    window.fbAsyncInit = function() {
+			    FB.init({
+                    appId: 118463231505567,
+                    status: true,
+                    cookie: true,
+                    xfbml: true,
+                    version: 'v2.5'
+                });
+                Facebook.init();
+			};
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+		</script>
+        
+    
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"bb990c8b6b","applicationID":"27253081","transactionName":"YgNWZhZVXREFAhFYCVtJd0cXQFwPSwIKVQMaEF1XE0ccFgEMFV0HQQNHHQhdRwcWABFEFFBJUUQBWkc0Vk8VWRY=","queueTime":0,"applicationTime":243,"atts":"TkRVEF5PTh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

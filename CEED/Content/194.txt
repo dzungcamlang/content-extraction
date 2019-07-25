@@ -1,0 +1,38 @@
+JD 48000
+Office Space For Rent
+0
+Property Entry – ID :
+88001
+7
+More Property Request Property Entry – ID :
+87001
+
+PrevNext
+JD 400000
+Un Furnished Office For Sale in Abraj Immar
+0
+Property Entry – ID :
+87001
+9
+More Property Request Property Entry – ID :
+87000
+
+PrevNext
+JD 30000
+UnFurnished Office For Rent in Abraj Imar
+0
+Property Entry – ID :
+87000
+12
+More Property Request Property Entry – ID :
+48008
+
+PrevNext
+Office Space For Rent
+0
+Property Entry – ID :
+48008
+10
+Office Space For Rent 
+More Property Request
+

@@ -1,0 +1,16 @@
+File sharing and storage made simple.
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=542578585845936&amp;ev=PageView&amp;noscript=1">
+Click to dismiss this message.
+100 Recent Messages.
+Message title goes here.
+Short paragraph explaining the nature of the message goes here.
+It appears you are using an older browser. For a better experience when using MediaFire, we recommend you upgrade your browser.
+Help.
+Questions? Submit a ticket or visit our Help Center.
+Additional help links: Contact Us.
+CLOSE.
+Invalid or Deleted File.
+The key you provided for file access was invalid. This is usually caused because the file is no longer stored on MediaFire. This occurs when the file is removed by the originating user or MediaFire. Still have questions, or think we've made a mistake? Please contact support for further assistance.
+SANDBOX.
+©2017 MediaFire  Build 117867 Need help? Submit a ticket.
+ .

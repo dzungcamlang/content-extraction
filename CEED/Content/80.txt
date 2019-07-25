@@ -1,0 +1,82 @@
+ 06-18-2012, 10:53 AM Thread Starter
+eamuscatuli3
+Bicycle Rider
+ 
+Join Date: Apr 2007
+Posts: 3
+Jerky acceleration and jumpy tach --> MAF problem?
+I have a 2005 Mazda 3s 2.3L, MTx. On Saturday, I changed the air filter--it had about 40k miles on it. The job seemed easy enough ... I took off the battery cover and air duct leading to the battery box. Then I unhinged the 4 clamps on the air filter cover and removed the old filter. It was a bit cumbersome to get the new filter in, but I eventually did, replaced the cover, and put everything else back together.
+
+Sunday I drove 100 miles without any problem ... great mileage, smooth running engine. This morning, I drove a few miles without trouble, then noticed my check engine light had come on. As I went into first and second gear, the car suddenly ran in a very jerky manner and the tach bounced up and down. The tach continued to do this even when I disengaged the clutch. This continued all the way around the block, before I pulled over and turned it off. 
+
+Any ideas? My gut is that there's an issue with the MAF, but I'm not sure. Since the tach jumps around even when I don't have the car in gear, I don't think it's a transmission issue, but rather an engine problem.
+eamuscatuli3 is offline  
+Quote Quick Reply
+06-18-2012, 11:55 AM
+adumbrille
+Le Mans: Prototype Class
+ 
+adumbrille's Avatar
+ 
+Join Date: Jan 2010
+Location: Washington
+Posts: 2,441
+Re: Jerky acceleration and jumpy tach --> MAF problem?
+sounds like a vacuum leak. Check to make sure you tightened everything back down correctly. It would help to get the CEL read and report on what it says as well.
+Build Thread:
+
+
+To view links or images in signatures your post count must be 10 or greater. You currently have 0 posts.
+adumbrille is offline  
+Quote Quick Reply
+post #3 of 6 (permalink) Old 06-18-2012, 01:30 PM
+ekanddsm
+Le Mans: Prototype Class
+ 
+Join Date: Apr 2007
+Location: So Cal
+Posts: 1,319
+Re: Jerky acceleration and jumpy tach --> MAF problem?
+Try unplugging the maf sensor and then reconnect it. Sometimes, they dont get seated back into place and can cause some funny issues with the car.
+So you have a fast______(your cars name here)????
+ekanddsm is offline  
+Quote Quick Reply
+
+post #4 of 6 (permalink) Old 06-18-2012, 09:53 PM Thread Starter
+eamuscatuli3
+Bicycle Rider
+ 
+Join Date: Apr 2007
+Posts: 3
+Re: Jerky acceleration and jumpy tach --> MAF problem?
+CEL code is p0103, defined as &quot;Mass or volume air flow circuit high input&quot;
+
+I bought some CRC MAF cleaner and used that, but it didn't really help. I took out the Purolator air filter and re-installed it--that didn't help, either.
+
+The only thing that seems to have made the car run smoothly is taking out the air filter altogether, although I haven't driven it like that.
+eamuscatuli3 is offline  
+Quote Quick Reply
+post #5 of 6 (permalink) Old 06-19-2012, 01:32 AM
+Postman2K
+Short Track Racer
+ 
+Join Date: Oct 2009
+Location: Ottawa, Ontario, Canada
+Posts: 198
+Send a message via MSN to Postman2K
+Re: Jerky acceleration and jumpy tach --> MAF problem?
+I have a '04 HB MTX, and I have the same code. Apparently '04, '05, and '06 models have issues with the MAF wires. I drove with the same idle problems for like a month, it was managable but my gas milage took a hit, and this was during the winter. On further examination of my MAF, I noticed that one of the four wires that connect to the plug which plugs into the MAF had snap or popped off due to the &quot;circuit high input&quot;. This definately through off the MAF and caused the idling issues. So I rewired the disconnected wire, turned her over, and bingo, problem solved! FYI, this happened to me twice. In my opinion, the wires that connect to the MAF should be a thicker gauge the handle the higher input. 
+
+So check to see that all the wires are connected to the MAF. Its easily missed if ur not looking for it.
+Postman2K is offline  
+Quote Quick Reply
+post #6 of 6 (permalink) Old 06-23-2012, 11:21 AM Thread Starter
+eamuscatuli3
+Bicycle Rider
+ 
+Join Date: Apr 2007
+Posts: 3
+Re: Jerky acceleration and jumpy tach --> MAF problem?
+It turns out it was a wiring problem ... one of the wires leading into the MAF plug had broken inside the plug. The job was nothing more than taking apart the plug and fixing the wires.
+eamuscatuli3 is offline  
+Quote Quick Reply

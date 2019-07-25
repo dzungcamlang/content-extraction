@@ -1,0 +1,483 @@
+16101 Jordan Way, Arlington, WA 98223  | Zillow.
+Correct home facts.
+Save.
+Save.
+Saved.
+Hide.
+Hide.
+Hidden.
+Get updates.
+Share.
+Share.
+more.
+Print.
+Get new listings in email.
+Add note.
+Post for sale by owner for free.
+Post for sale by agent for free.
+Post for rent for free.
+Set a Make Me Move price.
+Post a Coming Soon property.
+Verify your ownership.
+Report problem with listing.
+Report a Problem.
+Please tell us who you are:
+Consumer.
+Real estate professional.
+Please select user type.
+Continue.
+Report a Problem.
+What's the issue?
+Incorrect information/photos.
+Home should be for sale/rent.
+Please select an issue.
+Continue.
+Back.
+Don't see your issue here? Visit our Help Center.
+Report a Problem.
+What's incorrect?
+Home facts (bd, ba, sqft, etc)
+Photos.
+Map location.
+Price/tax history.
+Owner claim.
+Zestimate.
+This is a duplicate property.
+Please select an issue.
+Continue.
+Back.
+Don't see your issue here? Visit our Help Center.
+Report a Problem.
+Issue Type:
+The Zestimate is a starting point in figuring out the true value of a house. The amount of data we have for the house affects the Zestimate accuracy. If your home facts are incorrect or missing, this may affect your Zestimate value. More on the Zestimate.
+Are you the owner? If so, you can fix this issue immediately.
+Edit.
+Edit.
+Edit.
+Back.
+Home facts not the problem? Report the issue to us.
+Not the owner? Report the issue to us.
+Report a Problem.
+Issue Type:
+Details:
+Please describe your issue.
+Your email:
+Please enter a valid email address.
+Submit.
+Back.
+Report a Problem.
+Thank you!
+We're sorry there's a problem with this listing. We'll look into it. Thank you for your patience, and for using Zillow!
+Done.
+Submit .
+Cancel.
+We're Sorry.
+This service is temporarily unavailable. Please come back later and try again.
+Search.
+Public View.
+Owner View .
+Washington.
+Arlington.
+98223.
+16101 Jordan Way.
+This property is hidden from your search results. Unhide.
+Sold: $236,000.
+Sold on 12/22/16.
+Zestimate®:
+$256,001.
+Est. Refi Payment.
+$891.
+/mo.
+See current rates.
+A Zestimate® home valuation is Zillow's estimated market value. It is not an appraisal. Use it as a starting point to determine a home's value. Learn more.
+Thinking About Selling?
+Find a local agent who can give you a professional estimate of your home value.
+My Notes.
+Edit.
+Note: This property is not currently for sale or for rent. The description below may be from a previous listing.
+Jordan River Trails Home set in Serene Setting. With scenic view of Stillaguamish River from in & outside your home you will love the peacefulness. Spring & summer nights can be spent on large lower deck entertaining & relaxing. Inside, on the main level, move freely in the open living area connected to kitchen & eating space. Sizeable bedrooms upstairs. One bedroom has a balcony offering unobstructed view of nature. Natural lighting comes through double pane windows giving you every opportunity to peak outside. Detached garage is spacious giving you ample room for projects or keeping car out of the weather. Enjoy your 2 bedrooms, office, & 1 ? bathrooms.
+Facts.
+Baths: 1 full, 1 half.
+Lot: 0.57 acres.
+Single Family.
+Built in 1967.
+All time views: 5,313.
+Heating: Stove.
+Last sold: Dec 2016 for $236,000.
+Last sale price/sqft: $209.
+Features.
+Cable Ready.
+Ceiling Fan.
+Deck.
+Double Pane/Storm Windows.
+Fireplace.
+Flooring: Carpet, Hardwood, Linoleum / Vinyl, Tile.
+Hot Tub/Spa.
+Lawn.
+Parking: Garage - Attached, 1 space, 400 sqft garage.
+RV Parking.
+View: Mountain, Water.
+Waterfront.
+
+Appliances Included.
+Dishwasher.
+Dryer.
+Microwave.
+Range / Oven.
+Refrigerator.
+Washer.
+Construction.
+Exterior material: Wood.
+Roof type: Metal.
+Stories: 2.
+Structure type: Other.
+Other.
+Floor size: 1,128 sqft.
+Heating: Electric, Gas.
+Last remodel year: 2006.
+Laundry: In Unit.
+Parcel #: 00483000002800.
+Zillow Home ID: 38504508.
+More.
+Less.
+County website.
+See data sources.
+Sun Number™ rates a home's potential for solar using a scale of 1-100. The higher the number, the better suited a home is for solar and the more money you could save.
+Sun Number™ Score Components:
+Building Solar.
+/ 60.
+Regional Climate.
+/ 10.
+Electricity Rates.
+/ 20.
+Solar Cost.
+/ 10.
+Total.
+/ 100.
+View full Sun Number™ details.
+Zestimate Details.
+Add owner estimate.
+Zestimate A Zestimate home valuation is Zillow's estimated market value. It is not an appraisal. Use it as a starting point to determine a home's value. Learn more The Value Range is the high and low estimate market value for which Zillow values a home. The more information, the smaller the range, and the more accurate the Zestimate. See data coverage and accuracy table Don't agree with your home's Zestimate? Owners can edit their home facts to make the Zestimate more accurate. Plus, you can leave an opinion on your Zestimate value below. Just click "Owner Estimate".
+$256,001.
++$8,069.
+Last 30 days.
+$236K.
+$269K.
+Zestimate range.
+Rent Zestimate A Rent Zestimate is Zillow's estimated monthly rental price, computed using a proprietary formula. It is a starting point in determining the monthly rental price for a specific property. Learn more The Rent Range is the high and low estimate for which an apartment or home could rent. The more information we have, the smaller the range, and the more accurate the Rent Zestimate. See data coverage and accuracy table.
+$1,650/mo.
++$70.
+Last 30 days.
+$1.5K.
+$1.9K.
+Zestimate range.
+Zestimate forecast.
+$XXX,XXX.
+0One year.
+To see Zestimate forecast Create a free account.
+Zestimate .
+1 month.
+1 year.
+5 years.
+10 years.
+Zestimate.
+Listing price.
+Rent Zestimate.
+Zestimate (% change)
+Tax assessment.
+Tax paid.
+Page views.
+Loading chart...
+No data available at this time. Select another chart from above.
+Improve Your Home Value.
+The return values below are estimates based on the region, home facts, and past sales data. Your situation may vary based on current finish level of the room, changing style trends, depreciation, and how much of the project budget is invested in structural changes vs. functional/cosmetic improvements.
+Project.
+Project Cost.
+Added Value.
+Roofing Replacement.
+$22,436.
++$20,378.
+Minor Kitchen Remodel.
+$22,493.
++$20,117.
+Bathroom Remodel.
+$20,401.
++$19,376.
+Vinyl Window Replacement.
+$15,627.
++$14,377.
+Siding Replacement.
+$16,011.
++$13,740.
+Entry Door Replacement.
+$3,226.
++$3,607.
+Garage Door Replacement.
+$1,852.
++$2,007.
+Fiberglass Attic Insulation.
+$1,320.
++$1,882.
+See More Home Improvement Inspiration.
+Price / Tax History.
+Price History.
+Tax History.
+Neighborhood: 98223.
+Median Zestimate.
+$329,700.
+The Zillow Home Value Index is the median Zestimate valuation for a given geographic area on a given day. Learn more.
+9.8%.
+Past 12 months.
+Market temp .
+Based on three metrics—sale-to-list price ratio, the prevalence of price cuts on home listings, and time-on-market—the market temperature provides information on the current balance of bargaining power between buyers and sellers in this zip code relative to other zip codes in the same metropolitan area. A particular zip code may be identified as a good market for buyers in a metro market favorable to sellers overall. Learn more.
+Cool.
+Buyers' Market.
+Sellers' Market.
+Foreclosures (per 10K)
+2.5.
+98223.
+2.6.
+Arlington.
+1.4.
+United States.
+Zillow predicts 98223 home values will increase 5.2% next year, compared to a 5.1% increase for Arlington as a whole. Among 98223 homes, this home is valued 19.6% less than the midpoint (median) home, but is valued 10.6% more per square foot.
+Neighborhood Map.
+Nearby Homes.
+16105 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$306,777.
+3 bds · 2.5 ba · 1,700 sqft.
+1 day on Zillow.
+·16105 Jordan Way, Arlington, WA.
+16109 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$268,937.
+-- bds · 2 ba · 1,539 sqft.
+1 day on Zillow.
+·16109 Jordan Way, Arlington, WA.
+16115 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$294,252.
+3 bds · 2 ba · 1,392 sqft.
+1 day on Zillow.
+·16115 Jordan Way, Arlington, WA.
+16127 Jordan Way.
+Arlington.
+WA.
+98223.
+SOLD:
+Price/sqft: -- · 3 bds · 2 ba · 1,176 sqft.
+Sold --.
+·16127 Jordan Way, Arlington, WA.
+16120 Jordan Way.
+Arlington.
+WA.
+98223.
+SOLD:
+Price/sqft: -- · 2 bds · 2 ba · 1,584 sqft.
+Sold --.
+·16120 Jordan Way, Arlington, WA.
+13 photos.
+16112 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$207,503.
+1 bd · 1 ba · 770 sqft.
+1 day on Zillow.
+·16112 Jordan Way, Arlington, WA.
+16128 Jordan Way.
+Arlington.
+WA.
+98223.
+SOLD:
+Price/sqft: -- · 3 bds · 2 ba · 2,016 sqft.
+Sold --.
+·16128 Jordan Way, Arlington, WA.
+29 photos.
+16132 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$266,547.
+3 bds · 2 ba · 1,152 sqft.
+1 day on Zillow.
+·16132 Jordan Way, Arlington, WA.
+26 photos.
+16108 Jordan Way.
+Arlington.
+WA.
+98223.
+SOLD:
+Price/sqft: -- · 2 bds · 1.75 ba · 993 sqft.
+Sold --.
+·16108 Jordan Way, Arlington, WA.
+15 photos.
+16131 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$171,724.
+3 bds · 1.5 ba · 784 sqft.
+1 day on Zillow.
+·16131 Jordan Way, Arlington, WA.
+16102 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$266,350.
+3 bds · 1.75 ba · 1,040 sqft.
+1 day on Zillow.
+·16102 Jordan Way, Arlington, WA.
+8 photos.
+16129 Dogwood Ln.
+Arlington.
+WA.
+98223.
+Off Market.
+$196,730.
+2 bds · 1 ba · 576 sqft.
+1 day on Zillow.
+·16129 Dogwood Ln, Arlington, WA.
+14024 162nd Pl NE.
+Arlington.
+WA.
+98223.
+Off Market.
+$179,419.
+2 bds · 2 ba · 1,026 sqft.
+1 day on Zillow.
+·14024 162nd Pl NE, Arlington, WA.
+Jordan Way.
+Arlington.
+WA.
+98223.
+Pre-Foreclosure.
+3 bds · 1.5 ba · 1,030 sqft.
+1 day on Zillow.
+·Sign in for details.
+16200 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$253,435.
+3 bds · 1.5 ba · 1,030 sqft.
+1 day on Zillow.
+·16200 Jordan Way, Arlington, WA.
+16201 Jordan Way.
+Arlington.
+WA.
+98223.
+Off Market.
+$303,479.
+2 bds · 2 ba · 1,704 sqft.
+1 day on Zillow.
+·16201 Jordan Way, Arlington, WA.
+14026 162nd Pl NE.
+Arlington.
+WA.
+98223.
+Off Market.
+$175,217.
+3 bds · 2 ba · 1,152 sqft.
+1 day on Zillow.
+·14026 162nd Pl NE, Arlington, WA.
+14014 162nd Pl NE.
+Arlington.
+WA.
+98223.
+Off Market.
+$204,268.
+3 bds · 2 ba · 1,248 sqft.
+1 day on Zillow.
+·14014 162nd Pl NE, Arlington, WA.
+16133 Dogwood Ln.
+Arlington.
+WA.
+98223.
+SOLD:
+Price/sqft: -- · 3 bds · 2 ba · 1,188 sqft.
+Sold --.
+·16133 Dogwood Ln, Arlington, WA.
+22 photos.
+16116 Dogwood Ln.
+Arlington.
+WA.
+98223.
+Off Market.
+$355,177.
+3 bds · 5 ba · 2,064 sqft.
+1 day on Zillow.
+·16116 Dogwood Ln, Arlington, WA.
+15 photos.
+See more nearby homes.
+
+Affordability Calculator.
+Home Expenses.
+
+
+
+Nearby Schools in Arlington.
+GreatSchools ratings are based on a comparison of test results for all schools in the state. It is designed to be a starting point to help parents make baseline comparisons, not the only factor in selecting the right school for your family.
+Disclaimer: School attendance zone boundaries are supplied by Maponics and are subject to change. Check with the applicable school district prior to making a decision based on these boundaries.
+School Rating.
+ Grades.
+Distance.
+6out of 10.
+Eagle Creek Elementary.
+K-5.
+5.7 mi.
+7out of 10.
+Post Middle.
+6-8.
+5.6 mi.
+8out of 10.
+Arlington High.
+9-12.
+4.9 mi.
+Data by GreatSchools.org.
+More schools in Arlington.
+Disclaimer: School attendance zone boundaries are provided by a third party and subject to change. Check with the applicable school district prior to making a decision based on these boundaries.
+About the ratings: GreatSchools ratings are based on a comparison of test results for all schools in the state. It is designed to be a starting point to help parents make baseline comparisons, not the only factor in selecting the right school for your family. Learn more.
+
+Report this ad.
+
+Report this ad.
+Nearby Similar Sales.
+SOLD: $220,000.
+Sold on 12/30/2016.
+2 beds, 1.0 baths, 816 sqft.
+16214 Dogwood Ln, Arlington, WA 98223.
+SOLD: $191,000.
+Sold on 6/3/2016.
+3 beds, 1.0 baths, 1329 sqft.
+16302 Jordan Way, Arlington, WA 98223.
+SOLD: $204,000.
+Sold on 3/29/2016.
+3 beds, 2.0 baths, 1286 sqft.
+13911 Spruce Ln, Arlington, WA 98223.
+SOLD: $223,000.
+Sold on 4/8/2016.
+3 beds, 2.0 baths, 1138 sqft.
+13717 168th St NE, Arlington, WA 98223.
+SOLD: $250,000.
+Sold on 11/14/2016.
+3 beds, 2.0 baths, 1490 sqft.
+14009 Club Way, Arlington, WA 98223.
+See sales similar to 16101 Jordan Way.
+
+Report this ad.

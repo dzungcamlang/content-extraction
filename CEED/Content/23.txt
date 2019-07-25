@@ -1,0 +1,58 @@
+The radical symbol (√) represents the square root of a number. You can encounter the radical symbol in algebra or even in carpentry or another trade that involves geometry or calculating relative sizes or distances. You can multiply any two radicals that have the same indices (degrees of a root) together. If the radicals do not have the same indices, you can manipulate the equation until they do. If you want to know how to multiply radicals with or without coefficients, just follow these steps.
+Multiply Radicals Without Coefficients
+1
+Make sure that the radicals have the same index. To multiply radicals using the basic method, they have to have the same index. The "index" is the very small number written just to the left of the uppermost line in the radical symbol. If there is no index number, the radical is understood to be a square root (index 2) and can be multiplied with other square roots. You can multiply radicals with different indexes, but that is a more advanced method and will be explained later. Here are two examples of multiplication using radicals with the same indexes:
+Ex. 1: √(18) x √(2) = ?
+Ex. 2: √(10) x √(5) = ?
+Ex. 3: 3√(3) x 3√(9) = ?
+2
+Multiply the numbers under the radical signs. Next, simply multiply the numbers under the radical or square root signs and keep them there. Here's how you do it:
+Ex. 1: √(18) x √(2) = √(36)
+Ex. 2: √(10) x √(5) = √(50)
+Ex. 3: 3√(3) x 3√(9) = 3√(27)
+3
+Simplify the radical expressions. If you've multiplied radicals, there's a good chance that they can be simplified to perfect squares or perfect cubes, or that they can be simplified by finding a perfect square as a factor of the final product. Here's how you do it:
+Ex. 1: √(36) = 6. 36 is a perfect square because it is the product of 6 x 6. The square root of 36 is simply 6.
+Ex. 2: √(50) = √(25 x 2) = √([5 x 5] x 2) = 5√(2). Though 50 is not a perfect square, 25 is a factor of 50 (because it divides evenly into the number) and is a perfect square. You can break 25 down into its factors, 5 x 5, and move one 5 out of the square root sign to simplify the expression.
+You can think of it like this: If you throw the 5 back under the radical, it is multiplied by itself and becomes 25 again.
+Ex. 3:3√(27) = 3. 27 is a perfect cube because it's the product of 3 x 3 x 3. The cube root of 27 is therefore 3.
+Method
+2
+Multiply Radicals with Coefficients
+1
+Multiply the coefficients. The coefficients are the numbers outside of a radical. If there is no given coefficient, then the coefficient can be understood to be 1. Multiply the coefficients together. Here's how you do it:
+Ex. 1: 3√(2) x √(10) = 3√( ? )
+3 x 1 = 3
+Ex. 2: 4√(3) x 3√(6) = 12√( ? )
+4 x 3 = 12
+2
+Multiply the numbers inside the radicals. After you've multiplied the coefficients, you can multiply the numbers inside the radicals. Here's how you do it:
+Ex. 1: 3√(2) x √(10) = 3√(2 x 10) = 3√(20)
+Ex. 2: 4√(3) x 3√(6) = 12√(3 x 6) = 12√(18)
+3
+Simplify the product. Next, simplify the numbers under the radicals by looking for perfect squares or multiples of the numbers under the radicals that are perfect squares. Once you've simplified those terms, just multiply them by their corresponding coefficients. Here's how you do it:
+3√(20) = 3√(4 x 5) = 3√([2 x 2] x 5) = (3 x 2)√(5) = 6√(5)
+12√(18) = 12√(9 x 2) = 12√(3 x 3 x 2) = (12 x 3)√(2) = 36√(2)
+Method
+3
+Multiply Radicals with Different Indices
+1
+Find the LCM (lowest common multiple) of the indices. To find the LCM of the indexes, find the smallest number that is evenly divisible by both indices. Find the LCM of the indices for the following equation:3√(5) x 2√(2) = ?
+The indices are 3 and 2. 6 is the LCM of these two numbers because it is the smallest number that is evenly divisible by both 3 and 2. 6/3 = 2 and 6/2 = 3. To multiply the radicals, both of the indices will have to be 6.
+2
+Write each expression with the new LCM as the index. Here's what the expressions would look like in the equation with their new indexes:
+6√(5) x 6√(2) = ?
+3
+Find the number that you would need to multiply each original index by to find the LCM. For the expression 3√(5), you'd need to multiply the index of 3 by 2 to get 6. For the expression 2√(2), you'd need to multiply the index of 2 by 3 to get 6.
+4
+Make this number the exponent of the number inside the radical. For the first equation, make the number 2 the exponent over the number 5. For the second equation, make the number 3 the exponent over the number 2. Here's what it would look like:
+2 --> 6√(5) = 6√(5)2
+3 --> 6√(2) = 6√(2)3
+5
+Multiply the numbers inside the radicals by their exponents. Here's how you do it:
+6√(5)2 = 6√(5 x 5) = 6√25
+6√(2)3 = 6√(2 x 2 x 2) = 6√8
+6
+Place these numbers under one radical. Place them under a radical and connect them with a multiplication sign. Here's what the result would look like: 6√(8 x 25)
+7
+Multiply them. 6√(8 x 25) = 6√(200). This is the final answer. In some cases, you may be able to simplify these expressions -- for example, you could simplify this expression if you found a number that can be multiplied by itself six times that is a factor of 200. But in this case, the expression cannot be simplified any further.

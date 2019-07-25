@@ -1,0 +1,1 @@
+The factory reset will delete all the data from the internal storage (though it will not touch anything on the SD card, if you have one). There's nothing you can do about it once it's done. If you don't want to lose anything, make sure to back it up beforehand.

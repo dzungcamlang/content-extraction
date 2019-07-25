@@ -1,0 +1,41 @@
+03-12-2016, 01:58 PM Thread Author  Thread Author    #1  
+Jelly Belly  Jelly Belly is offline
+Jelly Belly's Avatar
+Posts126 PostsMentioned0 Post(s)Tagged0 Thread(s)
+Are there any third party apps that can measure your heart rate that use the proper sensor on the S7 edge?
+
+All the ones I have seen in the app store use the camera and are rubbish.
+
+I would like to be able to just get a graph of my hear beat over an extended period rather than just see the hear rate as in S-Health.
+
+Is the heart rate sensor on the S7 Edge specific to Samsung or is it built into Android like the fingerprint sensor is now?
+Quick reply to this message REPLY
+03-14-2016, 03:17 PM #2  
+Amandakay808  Amandakay808 is offline
+Amandakay808's Avatar
+Posts1 PostsMentioned0 Post(s)Tagged0 Thread(s)
+I don't know about 3rd party apps, but I just got the new galaxy s7 as well and was trying to find a way to utilize the heart rate sensor and I found this. Hope it helps! 
+
+HRM Sensor: 
+The heart rate sensor enables users to monitor their physical information, which can be checked through the S Health app. In addition, the front-facing camera of the Galaxy S7 and S7 edge lets you take selfies using your heart rate monitor sensor.
+
+news.samsung .com/global/in-depth-look-whats-inside-the-galaxy-s7-and-s7-edge
+Quick reply to this message REPLY
+03-14-2016, 04:52 PM Thread Author  Thread Author    #3  
+Jelly Belly  Jelly Belly is offline
+Jelly Belly's Avatar
+Posts126 PostsMentioned0 Post(s)Tagged0 Thread(s)
+I hope your are having fun with your new phone. I am still playing with mine like a kid on Christmas morning 
+
+Yeah I know S-Health does it, but was wondering if the sensor uses a standard API in the hope that other apps will make use of it.
+Quick reply to this message REPLY
+03-15-2016, 04:37 AM #4  
+streetkilln  streetkilln is offline
+streetkilln's Avatar
+Posts441 PostsMentioned0 Post(s)Tagged0 Thread(s)
+Quote Originally Posted by Jelly Belly View Post
+I hope your are having fun with your new phone. I am still playing with mine like a kid on Christmas morning 
+
+Yeah I know S-Health does it, but was wondering if the sensor uses a standard API in the hope that other apps will make use of it.
+Sadly no there isn't no third party app
+Quick reply to this message REPLY

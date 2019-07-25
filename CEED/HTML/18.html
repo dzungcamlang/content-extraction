@@ -1,0 +1,403 @@
+<!DOCTYPE html><html lang="en" class="is-desktop"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# ibles-production: http://ogp.me/ns/fb/ibles-production#"><meta charset="utf-8"><title>
+	Corner Lamp 
+</title><meta property="fb:app_id" content="140028286058792"/><meta property="og:site_name" content="Instructables.com"/><link rel="shortcut icon" type="image/x-icon" href="/intl_static/img/siteassets/favicon.ico"/><script type="text/javascript">window.Ibles=window.Ibles||{};Ibles.readCookie=function(a,b){return(b=RegExp('(^|; )'+encodeURIComponent(a)+'=([^;]*)').exec(document.cookie))?decodeURIComponent(b[2]):null;};window.adDependenciesQueue=window.adDependenciesQueue||[];function renderAdSlotAsync(a){var b=function(){googletag.cmd.push(function(){if(typeof window.index_headertag_lightspeed==="undefined"){if(window.console)console.log("HEADERTAG UNDEFINED. Falling back to googletag.display for unit: "+a);googletag.display(a);}else if(window.console)console.log("HEADERTAG DEFINED. IE will render unit: "+a);});};if(!window.adDependenciesQueue.length)b();else{if(!window.adDependenciesPromise)window.adDependenciesPromise=Deferred.when.apply(Deferred,adDependenciesQueue);window.adDependenciesPromise.always(b);}}(function(a){function b(a){return Object.prototype.toString.call(a)==='[object Array]';}function c(a,c){if(b(a))for(var d=0;d<a.length;d++)c(a[d]);else c(a);}function d(a){var c='pending',d=[],e=[],f=null,g={done:function(){for(var a=0;a<arguments.length;a++){if(!arguments[a])continue;if(b(arguments[a])){var e=arguments[a];for(var g=0;g<e.length;g++){if(c==='resolved')e[g].apply(this,f);d.push(e[g]);}}else{if(c==='resolved')arguments[a].apply(this,f);d.push(arguments[a]);}}return this;},fail:function(){for(var a=0;a<arguments.length;a++){if(!arguments[a])continue;if(b(arguments[a])){var d=arguments[a];for(var g=0;g<d.length;g++){if(c==='rejected')d[g].apply(this,f);e.push(d[g]);}}else{if(c==='rejected')arguments[a].apply(this,f);e.push(arguments[a]);}}return this;},always:function(){return this.done.apply(this,arguments).fail.apply(this,arguments);},then:function(){if(arguments.length>1&&arguments[1])this.fail(arguments[1]);if(arguments.length>0&&arguments[0])this.done(arguments[0]);},promise:function(a){if(a==null)return g;else{for(var b in g)a[b]=g[b];return a;}},state:function(){return c;},debug:function(){console.log('[debug]',d,e,c);},isRejected:function(){return c==='rejected';},isResolved:function(){return c==='resolved';}},h={resolveWith:function(a){if(c==='pending'){c='resolved';var b=f=(arguments.length>1)?arguments[1]:[];for(var e=0;e<d.length;e++)d[e].apply(a,b);}return this;},rejectWith:function(a){if(c==='pending'){c='rejected';var b=f=(arguments.length>1)?arguments[1]:[];for(var d=0;d<e.length;d++)e[d].apply(a,b);}return this;},resolve:function(){return this.resolveWith(this,arguments);},reject:function(){return this.rejectWith(this,arguments);}};var i=g.promise(h);if(a)a.apply(i,[i]);return i;}d.when=function(){if(arguments.length<2){var a=arguments.length?arguments[0]:undefined;if(a&&(typeof a.isResolved==='function'&&typeof a.isRejected==='function'))return a.promise();else return d().resolve(a).promise();}else return(function(a){var b=d(),c=a.length,e=0,f=new Array(c);for(var g=0;g<a.length;g++)(function(d){var g=null;if(a[d].done){a[d].done(function(){f[d]=(arguments.length<2)?arguments[0]:arguments;if(++e==c)b.resolve.apply(b,f);}).fail(function(){b.reject(arguments);});}else{g=a[d];a[d]=new Deferred();a[d].done(function(){f[d]=(arguments.length<2)?arguments[0]:arguments;if(++e==c)b.resolve.apply(b,f);}).fail(function(){b.reject(arguments);}).resolve(g);}})(g);return b.promise();})(arguments);};a.Deferred=d;})(window);function fetchScript(a,b){var c=document.createElement('script'),d="https:"==document.location.protocol,e=false;c.async=true;c.src=(a.indexOf('//')==0)?((d?"https:":"http:")+a):a;c.onload=c.onreadystatechange=function(){if(!e&&(!this.readyState||this.readyState=='loaded'||this.readyState=='complete')){e=true;if(typeof b==='function')b.call(this);c.onload=c.onreadystatechange=null;};};var f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(c,f);};(function(a,b){"use strict";function c(){}function d(a,b){if(a){typeof a=="object"&&(a=[].slice.call(a));for(var c=0,d=a.length;c<d;c++)b.call(a,a[c],c);}}function e(a,c){var d=Object.prototype.toString.call(c).slice(8,-1);return c!==b&&c!==null&&d===a;}function f(a){return e("Function",a);}function g(a){return e("Array",a);}function h(a){var b=a.split("/"),c=b[b.length-1],d=c.indexOf("?");return d!==-1?c.substring(0,d):c;}function i(a){(a=a||c,a._done)||(a(),a._done=1);}function j(a,b,d,e){var f=typeof a=="object"?a:{test:a,success:!b?!1:g(b)?b:[b],failure:!d?!1:g(d)?d:[d],callback:e||c},h=!!f.test;return h&&!!f.success?(f.success.push(f.callback),E.load.apply(null,f.success)):h||!f.failure?e():(f.failure.push(f.callback),E.load.apply(null,f.failure)),E;}function k(a){var b={},c,d;if(typeof a=="object")for(c in a)!a[c]||(b={name:c,url:a[c]});else b={name:h(a),url:a};return(d=A[b.name],d&&d.url===b.url)?d:(A[b.name]=b,b);}function l(a){a=a||A;for(var b in a)if(a.hasOwnProperty(b)&&a[b].state!==I)return !1;return !0;}function m(a){a.state=G;d(a.onpreload,function(a){a.call();});}function n(a){a.state===b&&(a.state=F,a.onpreload=[],s({url:a.url,type:"cache"},function(){m(a);}));}function o(){var a=arguments,b=a[a.length-1],c=[].slice.call(a,1),e=c[0];return(f(b)||(b=null),g(a[0]))?(a[0].push(b),E.load.apply(null,a[0]),E):(e?(d(c,function(a){f(a)||!a||n(k(a));}),q(k(a[0]),f(e)?e:function(){E.load.apply(null,c);})):q(k(a[0])),E);}function p(){var a=arguments,b=a[a.length-1],c={};return(f(b)||(b=null),g(a[0]))?(a[0].push(b),E.load.apply(null,a[0]),E):(d(a,function(a){a!==b&&(a=k(a),c[a.name]=a);}),d(a,function(a){a!==b&&(a=k(a),q(a,function(){l(c)&&i(b);}));}),E);}function q(a,b){if(b=b||c,a.state===I){b();return;}if(a.state===H){E.ready(a.name,b);return;}if(a.state===F){a.onpreload.push(function(){q(a,b);});return;}a.state=H;s(a,function(){a.state=I;b();d(z[a.name],function(a){i(a);});C&&l()&&d(z.ALL,function(a){i(a);});});}function r(a){a=a||"";var b=a.split("?")[0].split(".");return b[b.length-1].toLowerCase();}function s(b,d){function e(b){b=b||a.event;h.onload=h.onreadystatechange=h.onerror=null;d();}function f(c){c=c||a.event;(c.type==="load"||/loaded|complete/.test(h.readyState)&&(!x.documentMode||x.documentMode<9))&&(a.clearTimeout(b.errorTimeout),a.clearTimeout(b.cssTimeout),h.onload=h.onreadystatechange=h.onerror=null,d());}function g(){if(b.state!==I&&b.cssRetries<=20){for(var c=0,d=x.styleSheets.length;c<d;c++)if(x.styleSheets[c].href===h.href){f({type:"load"});return;}b.cssRetries++;b.cssTimeout=a.setTimeout(g,250);}}var h,i,j;d=d||c;i=r(b.url);i==="css"?(h=x.createElement("link"),h.type="text/"+(b.type||"css"),h.rel="stylesheet",h.href=b.url,b.cssRetries=0,b.cssTimeout=a.setTimeout(g,500)):(h=x.createElement("script"),h.type="text/"+(b.type||"javascript"),h.src=b.url);h.onload=h.onreadystatechange=f;h.onerror=e;h.async=!1;h.defer=!1;b.errorTimeout=a.setTimeout(function(){e({type:"timeout"});},7e3);j=x.head||x.getElementsByTagName("head")[0];j.insertBefore(h,j.lastChild);}function t(){for(var a,b=x.getElementsByTagName("script"),c=0,d=b.length;c<d;c++)if(a=b[c].getAttribute("data-headjs-load"),!!a){E.load(a);return;}}function u(a,b){var c,e,h;return a===x?(C?i(b):y.push(b),E):(f(a)&&(b=a,a="ALL"),g(a))?(c={},d(a,function(a){c[a]=A[a];E.ready(a,function(){l(c)&&i(b);});}),E):typeof a!="string"||!f(b)?E:(e=A[a],e&&e.state===I||a==="ALL"&&l()&&C)?(i(b),E):(h=z[a],h?h.push(b):h=z[a]=[b],E);}function v(){if(!x.body){a.clearTimeout(E.readyTimeout);E.readyTimeout=a.setTimeout(v,50);return;}C||(C=!0,t(),d(y,function(a){i(a);}));}function w(){x.addEventListener?(x.removeEventListener("DOMContentLoaded",w,!1),v()):x.readyState==="complete"&&(x.detachEvent("onreadystatechange",w),v());}var x=a.document,y=[],z={},A={},B="async" in x.createElement("script")||"MozAppearance" in x.documentElement.style||a.opera,C,D=a.head_conf&&a.head_conf.head||"head",E=a[D]=a[D]||function(){E.ready.apply(null,arguments);},F=1,G=2,H=3,I=4,J;if(x.readyState==="complete")v();else if(x.addEventListener)x.addEventListener("DOMContentLoaded",w,!1),a.addEventListener("load",v,!1);else{x.attachEvent("onreadystatechange",w);a.attachEvent("onload",v);J=!1;try{J=!a.frameElement&&x.documentElement;}catch(K){}J&&J.doScroll&&function L(){if(!C){try{J.doScroll("left");}catch(b){a.clearTimeout(E.readyTimeout);E.readyTimeout=a.setTimeout(L,50);return;}v();}}();}E.load=E.js=B?p:o;E.test=j;E.ready=u;E.ready(x,function(){l()&&d(z.ALL,function(a){i(a);});E.feature&&E.feature("domloaded",!0);});})(window);window.Ibles=window.Ibles||{};Ibles.pageContext=window.Ibles.pageContext||{};Ibles.JST=window.Ibles.JST||{};Ibles.sessionReady=new Deferred();Ibles.assetsLoaded=new Deferred();window.PAGE_SCRIPTS=window.PAGE_SCRIPTS||[];window.loadJS=function(){var a=arguments,b=a[a.length-1],c=[].slice.call(a);if(typeof b=="function")c.pop();else b=null;if(a[0].constructor===Array){a[0].push(b);loadJS.apply(null,a[0]);return;}if(!b&&!c.length)return;if(c.length)PAGE_SCRIPTS=PAGE_SCRIPTS.concat(c);if(b)head.ready(b);};window.sessionReady=function(){var a=arguments,b=a[a.length-1],c=[].slice.call(a);if(typeof b=="function")c.pop();else b=null;if(a[0].constructor===Array){a[0].push(b);sessionReady.apply(null,a[0]);return;}var d=[].slice.call(c);Deferred.when.apply(Deferred,[Ibles.sessionReady,Ibles.assetsLoaded]).done(function(a){if(!b)head.load.apply(null,c);else{var d=function(){setTimeout(function(){b(a);},0);};if(!c.length)d();else head.load(c,d);}});PAGE_SCRIPTS=PAGE_SCRIPTS.concat(d);};(function(a,b){if(!b.__SV){var c=window;try{var d,e,f,g=c.location,h=g.hash;d=function(a,b){return(e=a.match(RegExp(b+"=([^&]*)")))?e[1]:null;};h&&d(h,"state")&&(f=JSON.parse(decodeURIComponent(d(h,"state"))),"mpeditor"===f.action&&(c.sessionStorage.setItem("_mpcehash",h),history.replaceState(f.desiredHash||"",a.title,g.pathname+g.search)));}catch(i){}var j,k;window.mixpanel=b;b._i=[];b.init=function(a,c,d){function e(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)));};}var f=b;"undefined"!==typeof d?f=b[d]=[]:d="mixpanel";f.people=f.people||[];f.toString=function(a){var b="mixpanel";"mixpanel"!==d&&(b+="."+d);a||(b+=" (stub)");return b;};f.people.toString=function(){return f.toString(1)+".people (stub)";};j="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");for(k=0;k<j.length;k++)e(f,j[k]);b._i.push([a,c,d]);};b.__SV=1.2;c=a.createElement("script");c.type="text/javascript";c.async=!0;c.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===a.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";d=a.getElementsByTagName("script")[0];d.parentNode.insertBefore(c,d);}})(document,window.mixpanel||[]);mixpanel.init("7181660458b19710240cbfb48c28f305");Ibles.Q=Ibles.getUrlParam=function(a){a=a.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");var b=new RegExp("[\\?&]"+a+"=([^&#]*)"),c=b.exec(window.location.search);return c==null?"":decodeURIComponent(c[1].replace(/\+/g," "));};(function(){var a=!!Ibles.readCookie("hideAds"),b=!!Ibles.readCookie("adminUser");classStr='';if(a)classStr+=' hide-ads';if(b)classStr+=' admin-user';if(classStr)document.documentElement.className+=classStr;})();</script><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/intl_static/base-desktop-2a70c8bb.css" type="text/css" /><link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' /><!-- headertag --><script type="text/javascript">
+if (document.cookie.indexOf('hideAds') === -1) {
+    var headertagMobile = false;
+    var headertagDeferred = new Deferred();
+    adDependenciesQueue.push(headertagDeferred);
+    fetchScript("//js-sec.indexww.com/ht/ls-instructables.js", function(){
+        headertagDeferred.resolve();
+    });
+}
+</script><script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+fetchScript('//www.googletagservices.com/tag/js/gpt.js');   
+</script><script type="text/javascript">
+if (document.cookie.indexOf('hideAds') === -1) {
+    var sharethroughDeferred = new Deferred();
+    adDependenciesQueue.push(sharethroughDeferred);
+    fetchScript("//native.sharethrough.com/assets/sfp.js", function(){
+        sharethroughDeferred.resolve();
+    });
+}
+</script><script type="text/javascript">
+    if (document.cookie.indexOf('hideAds') === -1) {    
+        googletag.cmd.push(function() {
+            var slots = [];
+            
+            	
+                    slots.push(googletag.defineSlot("/1022072/workshop_leaderboard", [[728, 90], [970, 200], [970, 300], [970, 250]], "gpt-ad-leaderboard").addService(googletag.pubads()));
+            	
+            
+
+            
+if (document.cookie.indexOf('hideAds') === -1) {
+    slots.push(googletag.defineSlot("/1022072/workshop_med_rectangle", [[300, 250],[300, 600],[160, 600],[300, 500]], "gpt-ad-med-rectangle")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot("/1022072/brand_workshop_med_rectangle", [[300, 250], [300, 600], [160, 600], [300, 601]], "gpt-ad-sidebar-brand")
+            .addService(googletag.pubads()));
+
+    
+        
+    slots.push(googletag.defineSlot('/1022072/Native_project_page_middle_645_250', [[645, 250]], 'gpt-ad-native-middle')
+            .addService(googletag.pubads()));
+        
+    
+    
+    slots.push(googletag.defineSlot("/1022072/workshop_inline_med_rectangle", [300, 250], "gpt-ad-inline-med-1")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot("/1022072/rightside_inline_med_rectangle", [300, 250], "gpt-ad-inline-med-2")
+            .addService(googletag.pubads()));
+    slots.push(googletag.defineSlot('/1022072/Native_project_page_bottom_645_250', [[1,1],[645,250]], 'gpt-ad-native-bottom')
+            .addService(googletag.pubads()));
+
+    if (typeof index_headertag_lightspeed !== 'undefined') {
+        var slotMap = {};
+        for (var i = 0; i < slots.length; i++) {
+            slotMap[slots[i].getSlotElementId()] = slots[i];
+        }
+        index_headertag_lightspeed.set_slot_targeting(slotMap);
+    }
+
+    googletag.pubads().setTargeting("kvrefd", "instructables.com");
+    googletag.pubads().setTargeting("content", "Step by St");
+    googletag.pubads().setTargeting("id", "RCIEN4PW2H");
+    googletag.pubads().setTargeting("category", "workshop");
+    googletag.pubads().setTargeting("channel", "lighting");
+    googletag.pubads().setTargeting("author", "M6AHJ03F22");
+    googletag.pubads().setTargeting("featured", "true");
+    googletag.pubads().setTargeting("status", "PUBLISHED");
+    
+        
+            googletag.pubads().setTargeting("step", "intro");
+        
+    
+    
+    
+    
+        googletag.pubads().setTargeting("keyword", ["corner","lamp","lighting","architectu"]);
+    
+}
+
+
+            googletag.pubads().setTargeting("adtest", "");     
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    }
+    </script><link rel="stylesheet" href="/intl_static/ible-76ec76f5.css" type="text/css"><link rel="amphtml" href="http://www.instructables.com/id/Corner-Lamp/?amp_page=true" /><link rel="canonical" href="http://www.instructables.com/id/Corner-Lamp/"/><link rel="next" href="/id/Corner-Lamp/step2/Cut-out-on-table-saw/"/><!-- for andriod app deep links: https://developers.google.com/app-indexing/reference/deeplinks?hl=en --><link rel="alternate" href="android-app://com.adsk.instructables/http/www.instructables.com/id/Corner-Lamp/" /><meta name="description" content="A light where it&#39;s most needed, in the dark corners of your room. It seems like no matter how many lights I turn on the corners always seem so dark. After a little homework the only corner lighting solution I found was this $900 lamp by Peter Bristol that was made for Established &amp; Sons, a designer furniture company. While his light is stunning, the price tag was not. A little more digging revealed a DIY attempt, but it&#39;s incomplete and doesn&#39;t have instructions. Taking matters into my own hands, I decided to make my own using off the shelf components. This lamp is made up of 3 basic components: a plywood triangular frame, an inexpensive lamp socket and cord, and a piece of clear acrylic. This lamp wasn&#39;t hard to make, but did take a little figuring out. Though it&#39;s entirely possible to make with handheld power tools, this ..."/><meta property="og:type" content="article"/><meta property="og:url"    content="http://www.instructables.com/id/Corner-Lamp/"/><meta property="og:image"  content="https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.RECT2100.jpg"/><meta property="og:image:width" content="1297"/><meta property="og:image:height" content="1080"/><meta property="og:title"  content="Corner lamp"/><meta property="og:description"  content="A light where it&#39;s most needed, in the dark corners of your room. It seems like no matter how many lights I turn on the corners always seem so dark. After a little homework the only corner lighting solution I found was this $900 lamp by Peter Bristol that was made for Established &amp; Sons, a designer furniture company. While his light is stunning, the price tag was not. A little more digging revealed a DIY attempt, but it&#39;s incomplete and doesn&#39;t have instructions. Taking matters into my own hands, I decided to make my own using off the shelf components. This lamp is made up of 3 basic components: a plywood triangular frame, an inexpensive lamp socket and cord, and a piece of clear acrylic. This lamp wasn&#39;t hard to make, but did take a little figuring out. Though it&#39;s entirely possible to make with handheld power tools, this ..."/><meta name="twitter:card" content="gallery"/><meta name="twitter:site" content="@instructables"/><meta name="twitter:url" content="http://www.instructables.com/id/Corner-Lamp/"/><meta name="twitter:title" content="Corner lamp"/><meta name="twitter:image0" content="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.MEDIUM.jpg"/><meta name="twitter:image1" content="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.MEDIUM.jpg"/><meta name="twitter:image2" content="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.MEDIUM.jpg"/><meta name="twitter:image3" content="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.MEDIUM.jpg"/><link rel="stylesheet" type="text/css" href="https://cdn.instructables.com/static/promo/promo_styles_20161210.css"><style>
+.course-status{
+display: block;
+position:absolute;
+}
+</style></head><body class="instructable"><div id="gbl-header" class="nopin"><div class="top-bar"><div class="container content-match"><a id="header-robot" title="Instructables Home" href="/"><img alt="Instructables" src="/static/img/header/header-logo.png"/></a><div id="header-search"><form id="header-search-form" class="form-horizontal" action="/howto/" method="get"><div class="control-group"><label class="control-label" for="q">let's make</label><div class="controls"><div class="input-append"><input class="input-medium" type="text" name="q" id="q" /><button class="btn" type="button" id="header-search-btn"><i class="bg-icon search"></i></button></div></div></div></form></div><div id="header-nav-container"><div id="explore" class="btn btn-clear header-nav"><a title="Explore" href="/tag/type-id/">Explore </a></div><div id="publish" class="btn btn-clear header-nav"><a title="Make an Instructable" href="/about/create.jsp">Publish</a></div><a id="classes" class="btn btn-clear classes-global-nav" title="View Classes" href="/classes/">Classes</a></div><div id="you-menu-container" class='pull-right'></div></div></div><div class="bottom-bar" id="header-promo-container"><div class="container main content-match"><a class="share-motto" href="#">share what you make</a><ul id="promo-tabs" class="clearfix"><li class="promo-tabs-label">Featured:</li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="https://www.instructables.com/class/3D-Printing-Class/" title="3D Printing Class">3D Printing Class</a></div></li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="/tag/type-id/category-technology/channel-arduino/" title="Arduino">Arduino</a></div></li><li class="featured-item adspot-link"><div class="adspot-item"><a class="spot-link" href="https://www.instructables.com/tag/type-id/category-craft/channel-sewing/" title="Sewing">Sewing</a></div></li></ul></div></div><div id="header-menus"><div class="header-menu" id="explore-menu"><img class="menu-loading" src="/static/img/lb_loading.gif" alt="loading"/></div><div class="header-menu" id="publish-menu"><div class="menu-content"><div class="publish-video"><iframe id="ytplayer-small" width="470" height="255" src="https://www.youtube.com/embed/iStxkeZlZjc?rel=0&amp;showinfo=0&amp;autohide=1" allowfullscreen=""></iframe></div><div class="publish-description"><img class="methodImage" src="/static/img/header/ible-menu-icon.png" alt="Create an Instructable" /><p class="description">With Instructables you can share what you make with the world, and tap into an ever-growing community of creative experts.</p><a class="btn btn-large" href="/about/create.jsp">How it Works  &raquo;</a><a class="btn btn-large btn-orange login-required verification-required" data-sourcea="header:new-instructable" data-return-url="/editInstructable/new/" href="/editInstructable/new/">New Instructable  &raquo;</a></div></div></div></div></div><!-- Do not change classes and ids. Used by sponsored ad javascript in dfp --><div class="aspace-wrap"><div class="aspace container"><div id="aplace"><div id="gpt-ad-leaderboard" class="gpt-ad"><script type="text/javascript">
+                    if (document.cookie.indexOf('hideAds') === -1) {
+                        renderAdSlotAsync('gpt-ad-leaderboard');
+                    }
+                </script></div></div></div></div><div id="instructable-wrapper" class="wrapper" itemscope itemtype="https://schema.org/Article"><div class="header-bar"><div id="ible-header" class="sticky-header"><div class="container sticky-header-inner"><div id="ible-header-title-row"><div class="title-bar"><h1 class="title" itemprop="name">Corner Lamp</h1><span class="author">
+                        by <a rel="author" href="/member/mikeasaurus/" itemprop="author">mikeasaurus</a><span class="ible-breadbrumb">
+                            
+                            in <a href="/tag/type-id/category-workshop/channel-lighting/">lighting</a></span></span></div><div class="awards-bar"><img class="award-image" alt="Featured" src='/static/img/instructable/award-featured.png'></div></div><div id="ible-header-actions-bar" class="clearfix"><div class="pull-left"><a id="download-pdf-btn-top" data-role-group="pdf" class="btn download-pdf-btn download-pdf disable-preview"
+                       data-sourcea="project:downloadPdf:step0"
+                       data-return-url="/id/Corner-Lamp/" title="Instructables offers this How To as Downloadable PDF to make it easy to print"><i class="bg-icon pdf"></i> Download
+                    </a><div class="btn-group steps-nav"><a class="btn view-all-steps-btn" title="View All Steps" href="/id/Corner-Lamp/?ALLSTEPS"><i class="icon-grid icomoon"></i></a><a class="btn" id="steps-nav-toggle" title="Go To Step">
+                        14 Steps
+                        </a><a class="btn next" id="next-step-btn" rel="next" title="Cut out on table saw: Page 2" href="/id/Corner-Lamp/step2/Cut-out-on-table-saw/"><i class="icon-caret-right icomoon"></i></a></div></div><div class="pull-right"><div id="flag-menu" class="btn-group pull-right flag-dropdown disable-preview"><a data-toggle="dropdown" class="btn flag-btn dropdown-toggle"><i class="icon-flag"></i></a><ul class="dropdown-menu pull-right"></ul></div><div class="btn-group pull-right share-btn disable-preview"><a data-toggle="dropdown" class="btn dropdown-toggle"><i class="icon-share"></i> Share <span class="caret"></span></a><ul class="dropdown-menu share-menu"></ul></div><a class="btn pull-right favorite-btn login-required" data-sourcea="project:favorite:step0"><i class="icon-favorite"></i><span class="fave-btn-txt">Favorite</span></a><a id="imadeit-btn" class="btn pull-right disable-preview"><i class="bg-icon imadeit"></i>&nbsp; <span>I Made it!</span></a><a class="btn pull-right add-to-collection-btn disable-preview has-spinner"><span class="btn-spinner"><i class="icon-refresh spin-it"></i></span><i class="icon-plus"></i> Collection
+                    </a></div></div></div><div id="ible-steps-nav" class="collapsed"><div class="container"><div class="dropdown-bubble"><a
+                
+                    title="Intro: Corner lamp"
+                
+                
+                    href="#intro"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="0">
+                    Intro
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step0/Corner-Lamp/"><img src="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.SQUARE2.jpg" alt="Corner lamp"/></a></div><div class="description"><h4>Intro: Corner lamp</h4><p>A light where it's most needed, in the dark corners of your room. It seems like no matter how many lights I turn on the corners always seem ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Sketch out triangle"
+                
+                
+                    href="#step1"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="1">
+                    1
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step1/Sketch-out-triangle/"><img src="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.SQUARE2.jpg" alt="Sketch out triangle"/></a></div><div class="description"><h4>Step 1: Sketch out triangle</h4><p>To start an equilateral triangle was drawn on a ½" piece of plywood. To get the angle right I used a digital angle finder, but any protractor would ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Cut out on table saw"
+                
+                
+                    href="/id/Corner-Lamp/step2/Cut-out-on-table-saw/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="2">
+                    2
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step2/Cut-out-on-table-saw/"><img src="https://cdn.instructables.com/FQ8/AZXD/IGPGPOLJ/FQ8AZXDIGPGPOLJ.SQUARE2.jpg" alt="Cut out on table saw"/></a></div><div class="description"><h4>Step 2: Cut out on table saw</h4><p>Using the outer triangle lines as a guide, the triangle was cut out of the plywood. You can use a table saw for this, or you can use ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Drill starter holes"
+                
+                
+                    href="/id/Corner-Lamp/step3/Drill-starter-holes/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="3">
+                    3
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step3/Drill-starter-holes/"><img src="https://cdn.instructables.com/F8L/S0AA/IGPGPOLR/F8LS0AAIGPGPOLR.SQUARE2.jpg" alt="Drill starter holes"/></a></div><div class="description"><h4>Step 3: Drill starter holes</h4><p>Once the outside shape has been cut we can start to remove the inside section of the triangle.Using a large diameter drill bit I drilled a few openings ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Clean up interior corners"
+                
+                
+                    href="/id/Corner-Lamp/step4/Clean-up-interior-corners/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="4">
+                    4
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step4/Clean-up-interior-corners/"><img src="https://cdn.instructables.com/F51/YDCX/IGPGPOIQ/F51YDCXIGPGPOIQ.SQUARE2.jpg" alt="Clean up interior corners"/></a></div><div class="description"><h4>Step 4: Clean up interior corners</h4><p>With a little cutting the bulk of the interior wood can be removed in one large piece. This will allow you to maneuver the blade into the corners ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="By hand"
+                
+                
+                    href="/id/Corner-Lamp/step5/By-hand/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="5">
+                    5
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step5/By-hand/"><img src="https://cdn.instructables.com/FW8/SRW0/IGPGPOIR/FW8SRW0IGPGPOIR.SQUARE2.jpg" alt="By hand"/></a></div><div class="description"><h4>Step 5: By hand</h4><p>Of course, power tools can't solve everything. For any really precise areas you can use a thin Japanese saw and remove the wood corners by hand, making sure ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Drill mounting holes"
+                
+                
+                    href="/id/Corner-Lamp/step6/Drill-mounting-holes/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="6">
+                    6
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step6/Drill-mounting-holes/"><img src="https://cdn.instructables.com/FOZ/JRUO/IGPGPOMR/FOZJRUOIGPGPOMR.SQUARE2.jpg" alt="Drill mounting holes"/></a></div><div class="description"><h4>Step 6: Drill mounting holes</h4><p>To mount the triangle frame on the wall we'll need to make some mounting holes. Since the triangle frame is very light it won't require much in the ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Clear acrylic"
+                
+                
+                    href="/id/Corner-Lamp/step7/Clear-acrylic/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="7">
+                    7
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step7/Clear-acrylic/"><img src="https://cdn.instructables.com/FP3/2KF7/IGPGPOMT/FP32KF7IGPGPOMT.SQUARE2.jpg" alt="Clear acrylic"/></a></div><div class="description"><h4>Step 7: Clear acrylic</h4><p>To cover the light and part of the frame a piece of clear acrylic was used. The acrylic was cut to sit on top the face of the ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Sand acrylic "
+                
+                
+                    href="/id/Corner-Lamp/step8/Sand-acrylic/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="8">
+                    8
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step8/Sand-acrylic/"><img src="https://cdn.instructables.com/FJ0/MC8S/IGPGPOMW/FJ0MC8SIGPGPOMW.SQUARE2.jpg" alt="Sand acrylic "/></a></div><div class="description"><h4>Step 8: Sand acrylic </h4><p>To diffuse the light we'll need to make the clear acrylic frosted. Using a orbital sander with a 120 grit sanding pad I evenly sanded both sides of ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Drill magnet divots"
+                
+                
+                    href="/id/Corner-Lamp/step9/Drill-magnet-divots/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="9">
+                    9
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step9/Drill-magnet-divots/"><img src="https://cdn.instructables.com/FLP/BXXZ/IGPGPOIY/FLPBXXZIGPGPOIY.SQUARE2.jpg" alt="Drill magnet divots"/></a></div><div class="description"><h4>Step 9: Drill magnet divots</h4><p>To hold the frosted acrylic to the frame I used small but mighty 3/16" x 1/16" neodymium magnets. I first placed the frosted acrylic on the triangle frame ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Metal attchment points"
+                
+                
+                    href="/id/Corner-Lamp/step10/Metal-attchment-points/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="10">
+                    10
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step10/Metal-attchment-points/"><img src="https://cdn.instructables.com/FO2/1M93/IGPGPOJV/FO21M93IGPGPOJV.SQUARE2.jpg" alt="Metal attchment points"/></a></div><div class="description"><h4>Step 10: Metal attchment points</h4><p>To give the magnets something to grab onto I placed metal machine screws with flat tops into the wood frame.To do this I centered the acrylic sheet with ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title=""
+                
+                
+                    href="/id/Corner-Lamp/step11/step11/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="11">
+                    11
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step11/step11/"><img src="https://cdn.instructables.com/F0C/6IRP/IGPGPON3/F0C6IRPIGPGPON3.SQUARE2.jpg" alt=""/></a></div><div class="description"><h4>Step 11: </h4><p>Before the frame can be mounted on the wall we need to make a cavity in the back of the frame to allow for the power cord. I ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Position frame and lamp"
+                
+                
+                    href="/id/Corner-Lamp/step12/Position-frame-and-lamp/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="12">
+                    12
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step12/Position-frame-and-lamp/"><img src="https://cdn.instructables.com/F15/ID4S/IGPGPON6/F15ID4SIGPGPON6.SQUARE2.jpg" alt="Position frame and lamp"/></a></div><div class="description"><h4>Step 12: Position frame and lamp</h4><p>With the bevels cut on each side, the frame will only fit in one position. Place the light cord and socket against the wall and then place the ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Mount frame + lamp socket"
+                
+                
+                    href="/id/Corner-Lamp/step13/Mount-frame-lamp-socket/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="13">
+                    13
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step13/Mount-frame-lamp-socket/"><img src="https://cdn.instructables.com/F9W/E2TP/IGPGPON8/F9WE2TPIGPGPON8.SQUARE2.jpg" alt="Mount frame + lamp socket"/></a></div><div class="description"><h4>Step 13: Mount frame + lamp socket</h4><p>With the frame positioned screws can be sunk through the drilled openings from inside the frame and into the wall. This frame is very light, so does't require ...</p></div></div></div><div class="dropdown-bubble"><a
+                
+                    title="Add frosted acrylic and enjoy!"
+                
+                
+                    href="/id/Corner-Lamp/step14/Add-frosted-acrylic-and-enjoy/"
+                                
+                class="btn btn-mini jump-to-step-btn"
+                data-stepindex="14">
+                    14
+                </a><div class="dropdown-menu step"><div class="image"><a href="/id/Corner-Lamp/step14/Add-frosted-acrylic-and-enjoy/"><img src="https://cdn.instructables.com/FOI/HFLL/IGPGPONC/FOIHFLLIGPGPONC.SQUARE2.jpg" alt="Add frosted acrylic and enjoy!"/></a></div><div class="description"><h4>Step 14: Add frosted acrylic and enjoy!</h4><p>With the frame and socket installed the frosted acrylic faceplate can be placed on top, firmly held in place by magnets. Plug it in and your darkest corners ...</p></div></div></div></div></div><div class="sticky-header-toggle" style="display:none"></div></div></div><meta itemprop="headline" content="Corner Lamp"/><meta itemprop="image" content="https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.MEDIUM.jpg"/><meta itemprop="keywords" content="workshop lighting"/><meta itemprop="datePublished" content="Aug. 22, 2016, 10:49 a.m."/><meta itemprop="interactionCount" content="favorites:306"/><meta itemprop="interactionCount" content="views:306"/><meta itemprop="award" content="featured"/><div id="instructable-container" class="container content-padding"><div id="instructable-content"><div id="instructable-body"><div class="step-container"><a id="intro"></a><div id="photoset-SQV7GCYIEN4PW2G" data-item-id="SQV7GCYIEN4PW2G" data-item-url="https://www.instructables.com/id/Corner-Lamp/" class="photoset"><div class="photoset-item photoset-image"><a class="photoset-link" data-fancybox-group="photoset-gallery-SQV7GCYIEN4PW2G" href="/file/FCD7DR4IGPGPONB/" data-fancybox-href="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.LARGE.jpg"><img alt="Corner lamp" data-image-id="FCD7DR4IGPGPONB" data-notes='[]' src="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.MEDIUM.jpg?width=614" data-orig="https://cdn.instructables.com/ORIG/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.jpg" data-large="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.LARGE.jpg" data-medium="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.MEDIUM.jpg" data-small="https://cdn.instructables.com/FCD/7DR4/IGPGPONB/FCD7DR4IGPGPONB.SMALL.jpg" data-orig-height="1080" data-orig-width="1379" data-pin-no-hover="true"/></a></div><a class="photoset-showmore">Show All  Items<br/><i class="icon"></i></a></div><div class="step-body" itemprop="articleBody"><p>A light where it's most needed, in the dark corners of your room. It seems like no matter how many lights I turn on the corners always seem so dark. </p><p>After a little homework the only corner lighting solution I found was this <a href="http://www.peterbristol.net/projects/established-sons-corner-light/" target="_blank">$900 lamp by Peter Bristol</a> that was made for <a href="http://establishedandsons.com/products/type/lighting/corner-light/" target="_blank">Established &amp; Sons</a>, a designer furniture company. While his light is stunning, the price tag was not. A little more digging revealed a <a href="http://www.apartmenttherapy.com/900-designer-lamp-diyed-with-affordable-hardware-parts-175292" target="_blank">DIY attempt</a>, but it's incomplete and doesn't have instructions. Taking matters into my own hands, I decided to make my own using off the shelf components. </p><center><img src="https://www.instructables.com/files/orig/FBP/S1TM/IH56JH9M/FBPS1TMIH56JH9M.jpg"></img></center><p>This lamp is made up of 3 basic components: a plywood triangular frame, an inexpensive lamp socket and cord, and a piece of clear acrylic. This lamp wasn't hard to make, but did take a little figuring out. Though it's entirely possible to make with handheld power tools, this project is much easier with a table saw.</p><p>Ready? Let's make!</p></div><div id='gpt-ad-native-middle' class="gpt-ad"><script type='text/javascript'>
+                if (document.cookie.indexOf('hideAds') === -1) {
+                    renderAdSlotAsync('gpt-ad-native-middle');
+                }
+            </script></div></div><div class="step-container"><h2 id="step1" class="step-title">Step 1: Sketch out triangle</h2><div id="photoset-SAXMW20IGPGPOUM" data-item-id="SAXMW20IGPGPOUM" data-item-url="https://www.instructables.com/id/Corner-Lamp/step1/Sketch-out-triangle/" class="photoset"><div class="photoset-item photoset-image"><a class="photoset-link" data-fancybox-group="photoset-gallery-SAXMW20IGPGPOUM" href="/file/FIPYW0TIGPGPOID/" data-fancybox-href="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.LARGE.jpg"><img alt="Sketch out triangle" data-image-id="FIPYW0TIGPGPOID" data-notes='[]' src="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.MEDIUM.jpg?width=614" data-orig="https://cdn.instructables.com/ORIG/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.jpg" data-large="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.LARGE.jpg" data-medium="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.MEDIUM.jpg" data-small="https://cdn.instructables.com/FIP/YW0T/IGPGPOID/FIPYW0TIGPGPOID.SMALL.jpg" data-orig-height="1080" data-orig-width="1619" data-pin-no-hover="true"/></a></div><div class="photoset-item photoset-image hidden-item"><a class="photoset-link" data-fancybox-group="photoset-gallery-SAXMW20IGPGPOUM" href="/file/FD1N8CJIGPGPOK0/" data-fancybox-href="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.LARGE.jpg"><img class="lazy-img" src="/intl_static/img/pixel.png" alt="IMG_9401.jpg" data-image-id="FD1N8CJIGPGPOK0" data-orig="https://cdn.instructables.com/ORIG/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.jpg"  data-large="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.LARGE.jpg" data-medium="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.MEDIUM.jpg" data-small="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.SMALL.jpg" data-notes='[]' data-orig-height="1080" data-orig-width="1620" data-pin-no-hover="true"/><noscript><img src="https://cdn.instructables.com/FD1/N8CJ/IGPGPOK0/FD1N8CJIGPGPOK0.MEDIUM.jpg?width=614" alt="IMG_9401.jpg"/></noscript></a></div><div class="photoset-item photoset-image hidden-item"><a class="photoset-link" data-fancybox-group="photoset-gallery-SAXMW20IGPGPOUM" href="/file/FWMHHJJIGPGPOII/" data-fancybox-href="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.LARGE.jpg"><img class="lazy-img" src="/intl_static/img/pixel.png" alt="IMG_8980.jpg" data-image-id="FWMHHJJIGPGPOII" data-orig="https://cdn.instructables.com/ORIG/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.jpg"  data-large="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.LARGE.jpg" data-medium="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.MEDIUM.jpg" data-small="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.SMALL.jpg" data-notes='[]' data-orig-height="1080" data-orig-width="1620" data-pin-no-hover="true"/><noscript><img src="https://cdn.instructables.com/FWM/HHJJ/IGPGPOII/FWMHHJJIGPGPOII.MEDIUM.jpg?width=614" alt="IMG_8980.jpg"/></noscript></a></div><a class="photoset-showmore">Show All  Items<br/><i class="icon"></i></a></div><div class="step-body" ><p>To start an equilateral triangle was drawn on a ½" piece of plywood. To get the angle right I used a <a href="http://amzn.to/1TdlW9h" style="background-color: initial;" target="_blank">digital angle finder</a>, but any protractor would also work. The triangle size needs to be large enough to create a cavity when installed that will fit a light socket and bulb, I found that with each triangle side measuring 24" gave me a good fit. </p><p>Once the equilateral triangle was drawn I created a concentric triangle with parallel sides inside the first triangle, offset ¾".</p></div></div><div id="double-inline-ads" class="clearfix"><div id="gpt-ad-inline-med-1" class="gpt-ad pull-left"><script type='text/javascript'>
+            if (document.cookie.indexOf('hideAds') === -1) {
+                renderAdSlotAsync("gpt-ad-inline-med-1");
+            }
+        </script></div><div id="gpt-ad-inline-med-2" class="gpt-ad pull-right"><script type='text/javascript'>
+            if (document.cookie.indexOf('hideAds') === -1) {
+                renderAdSlotAsync("gpt-ad-inline-med-2");
+            }
+        </script></div></div></div><div id="steps-pager"><div class="clearfix"><a class="btn btn-large disabled pull-left">&laquo; Previous</a><a class="btn btn-large btn-orange pull-right" rel="next" title="Cut out on table saw: Page 2" href="/id/Corner-Lamp/step2/Cut-out-on-table-saw/">Next &raquo;</a><a class="btn btn-large pull-right view-all-steps-btn" id="allsteps-btn" title="View All Steps" href="/id/Corner-Lamp/?ALLSTEPS">View All Steps</a><a class="btn btn-large pull-right download-pdf-btn download-pdf" data-role-group="pdf" data-sourcea="project:downloadPdfFromStepPager:step0" id="download-pdf-btn-bottom" data-return-url="/id/Corner-Lamp/" title="Instructables offers this How To as Downloadable PDF to make it easy to print"><i class="bg-icon pdf"></i> Download</a></div></div><div id='gpt-ad-native-bottom' class="gpt-ad"><script type='text/javascript'>
+                            if (document.cookie.indexOf('hideAds') === -1) {
+                                renderAdSlotAsync('gpt-ad-native-bottom');
+                            }
+                        </script></div><div id="commentsWrapper"><div id="topLevelCommentField" class="post-comment-container"></div><div id="loaded-comments" class="hide"><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;G-R-E-A-T&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Awesome project, so simple even I could do it with limited tools!:)&lt;/p&gt;&lt;p&gt;This has inspired me.&lt;/p&gt;&lt;p&gt;I am thinking it might be simpler to create the &amp;quot;triangle&amp;quot; with separate glued/nailed &amp;quot;strips&amp;quot; instead of cutting it out of single piece.&lt;/p&gt;&lt;p&gt;Will require a bit more math to figure out angle cuts for the joints but would create less waste. Cut off narrow strips from my available scraps, cut to length, angle cut corners, glue/staple corners into triangles.&lt;/p&gt;&lt;p&gt;Going to try this with &amp;quot;wireless&amp;quot; remote controlled led lights for easy placement and no cords. I have low ceilings so very easy to reach corners to change batteries, but sadly I do not have enough plugs around for those dark corners. Wireless best way to go.&lt;/p&gt;&lt;p&gt;I have some long narrow wood scraps but not big enough to cut entire triangles from.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;If you stick with an equilateral triangle, you would just have to miter cut the ends of the strips at 30 degrees and join them with your favorite method. Then you can bevel the edges with the table saw same as he did. I&#39;m thinking of doing a couple of these for my bedroom.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Awesome project, but instead of sanding the acrylic, you can just just use frosted acrylic&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;What wattage LED is good for a room ? I made a wire connection that comes out directly from the corner of the wall, so I will be having a concealed wire but need to know if a 15W is enough or should i add 3*15W with each on one of the planes intersecting at the corner ? Thanks ! &lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Also, is there a way to not get the bulb to be seen through ?&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;I&#39;m using 15W LED bulbs. If you want the bulb to less visible through the frosted window you&#39;ll need to make a larger triangle so the face is further away from the light. &lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;This is so great - I know the expensive one and when I saw this &#39;ible last week I thought it was just that one so I didn&#39;t come &#39;over&#39; to look at it until now. Really well done.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;This is really cool! Thanks for the post, Mike!&lt;/p&gt;&lt;p&gt;I think I might make one myself. Do you have any problems with the lamp overheating?&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Tungsten filament lamps run very hot.&lt;/p&gt;&lt;p&gt;Fluorescents run a lot cooler.&lt;/p&gt;&lt;p&gt;LED lamps are cooler still.&lt;/p&gt;&lt;p&gt;Most can be touched without burning ones fingers.&lt;/p&gt;&lt;p&gt;The exposed heatsink is usually the hottest part you can touch and it needs to be cooled to ensure a long life for the LEDs. They do not tolerate heat.&lt;/p&gt;&lt;p&gt;A bit of air circulation helps, as does a big surface area to transfer heat to the surrounding air.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Yes- I know that. That&#39;s what I meant. LED&#39;s don&#39;t heat up a lot, but there is almost no ventilation...&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;nice!&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Nice DIY corner lamp! No matter how many lights I turn on, the corners of the room are always dark. Nice solution and appealing design!&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Super cool. Voted, thank you for sharing.</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Nice! I agree the red cord works better... it&#39;s clearly intentional, whereas the white cord looks like you wished the light could have been hard wired. This reminds me of some light installations I saw ages ago (at the risk of dating myself, this would be the late 80s) which were designed to make corners vanish. Floor to ceiling lights facing the corner, which made the corner of a room look like a portal into another realm. I wish I had a clear space in my house I could make that it, but in the interim this could be a very nice, much more practical solution.&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">Wow that&#39;s beautiful! Favorited :)</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;This is pretty neat. Also, you have great taste in furniture. I&#39;ve always wanted an Eames lounge chair. &lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Cool! I totally want to make one...&lt;/p&gt;</div></div></div><div class="comment"><div class="comment-body-container"><div class="comment-body">&lt;p&gt;Wow , this is awesome !!Can i suggest using one of those Philips Hue bulbs ,which you can setup to change colors..&lt;/p&gt;</div></div></div></div><div id="comment-list"></div><div id="comments-controls"><button class="btn" id="see-more-comments"><i class="icon-arrow2-down"></i><span class="comments-controls-text">More Comments</span></button></div></div></div><div id="instructable-sidebar"><div id="admin-container"></div><div class="adBlockWrapper"><div class="adBlock"><div id="gpt-ad-med-rectangle" class="gpt-ad"><script type='text/javascript'>
+                if (document.cookie.indexOf('hideAds') === -1) {
+                    renderAdSlotAsync("gpt-ad-med-rectangle");
+                }
+            </script></div></div></div><div id="ible-about-box" class="hatbox"><h3>About This Instructable <a id="more-stats-btn" class="btn"><i class="bg-icon stats"></i></a></h3><div class="hatbox-content"><div id="ible-hits-and-publish-info" class="ible-about-section"><div class="clearfix"><div id="ible-hits" class="pull-left"><span class="featured-by"></span><p class="views subtle-txt"><i class="icon icon-views1 active"></i><span class="count view-count">209,726</span><span class="view-text">views</span></p><p class="favorites subtle-txt"><i class="icon icon-favorite active"></i><span class="count favorite-count">306</span><span class="favorite-text">favorites</span></p></div><div class="v-divider"></div><div id="ible-publish-info" class="pull-left"><span class="publish-date"></span><p id="ible-license"><strong>License:</strong><br><a href="#" onclick="window.open('http://creativecommons.org/licenses/by-nc-sa/2.5/', 'LICENSE', 'status=yes,scrollbars=yes,resizable=yes,width=800,height=400'); return false;"><img alt="" src="/intl_static/img/license/by-nc-sa_small.png"/></a></p></div></div></div><div id="ible-author" class="ible-about-section"><div class="clearfix"><div id="ible-author-image" class="pull-left"><a href="/member/mikeasaurus/" title="mikeasaurus" rel="author"><img src="https://cdn.instructables.com/FNT/Y453/HINO3JNJ/FNTY453HINO3JNJ.SQUARE.jpg" alt="mikeasaurus profile picture"></a></div><div id="ible-author-details"><a id="ible-author-screenname" href="/member/mikeasaurus/" title="mikeasaurus" rel="author">mikeasaurus</a><a id="ible-author-website" target="_blank" href="http://michaelsaurus.com" title="contact me - michaelsaurus.com">contact me - michaelsaurus.com</a><a class="btn btn-yellow follow-btn login-required" data-sourcea="project:follow:step0">Follow</a><span class="callout follower-count">8483</span></div></div><div id="ible-author-bio"><strong>Bio:</strong>
+                    I&#39;m Mike and I make crazy things at Instructables HQ in San Francisco.
+Follow me and try a few of my projects for yourself!
+                                        
+                </div></div><div id="ible-author-more-ibles" class="ible-about-section"><div class="clearfix"><strong>More by mikeasaurus:</strong><a href="/id/Easy-Waterproof-Clothing/" title="Easy Waterproof Clothing"><img src="https://cdn.instructables.com/FXK/4KTR/IZEG6BWR/FXK4KTRIZEG6BWR.SQUARE2.jpg" alt="Easy Waterproof Clothing">&nbsp;</a><a href="/id/Backyard-Rockets/" title="Backyard Rockets!"><img src="https://cdn.instructables.com/FB9/A5MG/IYUFYB5M/FB9A5MGIYUFYB5M.SQUARE2.jpg" alt="Backyard Rockets!">&nbsp;</a><a href="/id/Nap-Tub/" title="nap tub"><img src="https://cdn.instructables.com/F9Q/P2JY/IYOQPYBU/F9QP2JYIYOQPYBU.SQUARE2.jpg" alt="nap tub">&nbsp;</a></div></div><div id="add-ible-section" class="ible-about-section hide disable-preview"><div class="clearfix"><strong>Add instructable to:</strong><div class="actions"><a id="add-to-contest-btn" class="btn btn-small author-action hide"><i class="icon-contest"></i> Contest</a><a id="add-to-group-btn" class="btn btn-small"><i class="icon-groups"></i> Group</a></div></div></div></div></div><div class="hatbox related-instructabels clearfix"><h3>Related</h3><div id="related-instructables" class="hatbox-content"><ul class="unstyled"><li><div class="clearfix related-item"><a class="imglink" href="/id/Metal-Halide-to-Induction-Light-Conversion/"><img src="https://cdn.instructables.com/F6J/CC6Y/FWEGKHYG/F6JCC6YFWEGKHYG.SQUARE2.jpg" alt="Metal Halide to Induction Light Conversion" title="Metal Halide to Induction Light Conversion"/></a><p class="info"><a href="/id/Metal-Halide-to-Induction-Light-Conversion/" class="title"  title="Metal Halide to Induction Light Conversion">Metal Halide to Induction Light Conversion</a><br/>by <a href="/member/uciparking/" class="user">uciparking</a></p></div></li><li><div class="clearfix related-item"><a class="imglink" href="/id/Miniature-Desk-Shoji-Shadow-Boxes/"><img src="https://cdn.instructables.com/F05/RPBT/GAPV3BDW/F05RPBTGAPV3BDW.SQUARE2.jpg" alt="Miniature Desk Shoji Shadow Boxes" title="Miniature Desk Shoji Shadow Boxes"/></a><p class="info"><a href="/id/Miniature-Desk-Shoji-Shadow-Boxes/" class="title"  title="Miniature Desk Shoji Shadow Boxes">Miniature Desk Shoji Shadow Boxes</a><br/>by <a href="/member/Phoenix+Laser+Engraving/" class="user">Phoenix Laser Engraving</a></p></div></li><li><div class="clearfix related-item"><a class="imglink" href="/id/Doggy-LampDesk-Organizer/"><img src="https://cdn.instructables.com/FS2/2EJQ/GWKD44TH/FS22EJQGWKD44TH.SQUARE2.jpg" alt="Doggy Lamp/Desk Organizer" title="Doggy Lamp/Desk Organizer"/></a><p class="info"><a href="/id/Doggy-LampDesk-Organizer/" class="title"  title="Doggy Lamp/Desk Organizer">Doggy Lamp/Desk Organizer</a><br/>by <a href="/member/Toglefritz/" class="user">Toglefritz</a></p></div></li></ul></div></div><div id="ible-stickyad-wrapper" class="adBlockWrapper"><div id="ible-stickyad"><div id="gpt-ad-sidebar-brand" class="gpt-ad"><script type='text/javascript'>
+                if (document.cookie.indexOf('hideAds') === -1) {
+                    renderAdSlotAsync("gpt-ad-sidebar-brand");
+                }
+            </script></div></div></div></div></div></div><div id="jsp-footer"><div id="gbl-footer"><div class="top"><div class="container"><div id="footer-featured-channels"><div class="featured-channels-title">FEATURED CHANNELS</div><div class="title-divider"></div><ul><li class="featured-item adspot-link"><a href="/tag/type-id/category-workshop/channel-woodworking/" title="Woodworking"><div class="ad-image"><div class="promo" id="woodworking-channel-promo"></div></div><div>Woodworking</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-craft/channel-paper/" title="paper"><div class="ad-image"><div class="promo" id="paper-promo"></div></div><div>Paper</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/keyword-kitchen%20hacks/?sort=FAVORITES" title="Kitchen Hacks"><div class="ad-image"><div class="promo" id="kitchen-promo"></div></div><div>Kitchen Hacks</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-play/channel-puzzles/" title="Puzzles"><div class="ad-image"><div class="promo" id="puzzles-promo"></div></div><div>Puzzles</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-workshop/channel-laser-cutting/" title="Laser Cutting"><div class="ad-image"><div class="promo" id="lasercutting-promo"></div></div><div>Laser Cutting</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/keyword-astronomy/?sort=FAVORITES" title="Space"><div class="ad-image"><div class="promo" id="space-promo"></div></div><div>Space</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-home/channel-homesteading/" title="Homesteading"><div class="ad-image"><div class="promo" id="hydroponics-channel-promo"></div></div><div>Homesteading</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-technology/channel-3D-Printing/" title="3d Printing"><div class="ad-image"><div class="promo" id="threed-printing-promo"></div></div><div>3D Printing</div></a></li><li class="featured-item adspot-link"><a href="/tag/type-id/category-craft/channel-sewing/" title="Sewing"><div class="ad-image"><div class="promo" id="sewing-promo"></div></div><div>Sewing</div></a></li></ul></div></div></div><div class="bottom"><div class="container"><div class="row-fluid"><img alt="robot" id="footer-robot" src="/static/img/footer/footer-robot.png"/><div class="col" id="footer-newsletter"><h3>Newsletter</h3><p>Join 2 million + to receive instant DIY inspiration in  your inbox.</p><form class="form-horizontal" onsubmit="javascript:$('#newsletter-signup-btn').click(); return false;"><div class="input-append"><input class="span8" id="email-input-field" placeholder="enter email" type="text"/><button class="btn btn-dark-grey" id="newsletter-signup-btn" type="button">I'm in!</button></div></form></div><div class="col" id="footer-aboutus"><h3>About Us</h3><ul><li><a href="/about/" title="About Us">Who We Are</a></li><li><a href="/advertise/" title="Advertise">Advertise</a></li><li><a href="/about/contact.jsp" title="Contact">Contact</a></li><li><a href="/community/Positions-available-at-Instructables/" title="Jobs">Jobs</a></li><li><a href="/id/how-to-write-a-great-instructable/" title="Help">Help</a></li></ul></div><div class="col" id="footer-findus"><h3>Find Us</h3><ul><li><a class="facebook" href="http://www.facebook.com/instructables" title="Facebook">Facebook</a></li><li><a class="youtube" href="http://www.youtube.com/user/instructablestv" title="Youtube">Youtube</a></li><li><a class="twitter" href="http://www.twitter.com/instructables" title="Twitter">Twitter</a></li><li><a class="pinterest" href="http://www.pinterest.com/instructables" title="Pinterest">Pinterest</a></li><li><a class="googleplus" href="https://plus.google.com/+instructables" rel="publisher" title="Google+">Google+</a></li></ul></div><div class="col" id="footer-resources"><h3>Resources</h3><ul><li><a href="/teachers/" title="Teachers">For Teachers</a></li><li><a href="/air" title="Artists In Residence">Artists in Residence</a></li><li><a href="/account/give?sourcea=footer" title="Give A Premium Membership">Gift Premium Account</a></li><li><a href="/community/" title="Forums">Forums</a></li><li><a href="/tag/type-question/?sort=RECENT" title="Answers">Answers</a></li><li><a href="/sitemap/" title="Sitemap">Sitemap</a></li></ul></div></div></div><div class="container content-match"><div class="row-fluid"><hr/><div class="pull-right" id="footer-links"><ul><li><a href="http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=21959721" target="_blank" title="Terms of Service">Terms of Service</a><span class="divider">|</span></li><li><a href="http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=21292079" target="_blank" title="Privacy Statement">Privacy Statement</a><span class="divider">|</span></li><li><a href="http://usa.autodesk.com/legal-notices-trademarks/" target="_blank">Legal Notices &amp; Trademarks</a><span class="divider">|</span></li><li><a href="https://www.instructables.com" id="mobile-site-link" title="Mobile Site">Mobile Site</a></li><li><a href="http://usa.autodesk.com/adsk/servlet/pc/index?id=20781545&amp;siteID=123112" id="adsk-logo" target="blank" title="Autodesk"><img alt="autodesk" src="/static/img/footer/autodesk-logo.png"/></a></li></ul></div><div id="copyright-notice"><p>© 2016 Autodesk, Inc.</p></div></div></div></div></div></div><script type="text/javascript">
+    // Used on both java and django pages so we have to use raw javascript here
+    Ibles = window.Ibles || {};
+    Ibles.extend = function(a, b){for(var key in b)if(b.hasOwnProperty(key)) a[key] = b[key];return a;}
+    Ibles.readCookie = function(k,r){return (r = RegExp('(^|; )' + encodeURIComponent(k) + '=([^;]*)').exec(document.cookie)) ? decodeURIComponent(r[2]) : null;};
+    Ibles.pageContext = Ibles.pageContext || {};
+    
+    var userCookie = Ibles.readCookie('ibleuser'),
+        userJson = userCookie && JSON.parse(userCookie);
+    
+    Ibles.extend(Ibles.pageContext, {
+        mobile: false,
+        loggedIn: !!Ibles.readCookie("authy"),
+        loggedInCookie: "authy",
+        userId: userJson && userJson.id,
+        pro: userJson && userJson.pro,
+        category: "workshop",
+        channel: "lighting",
+        currentLocale: "en_US",
+        remoteHost: "http://www.instructables.com",
+        remoteRoot : "http://www.instructables.com/",
+        staticRoot: "/intl_static/",
+        facebookAppId: "140028286058792",
+        gtmContainerID: "GTM-PLDK3K",
+        recaptchaSiteKey: "6Le9TAwTAAAAADEB44pkYQS2fm7hroFthrNqnoAb",
+        oauthCallbackUrl: "http://www.instructables.com/oauth/callback/",
+        oauthGetAuthUrl: "http://www.instructables.com/oauth/getAuthUrl/",
+        redirectURI: "/id/Corner-Lamp/",
+        nativeApp: "",
+        disableEmailVerifyWidget: false,
+        paymentPlans: {
+            course: "CLASS_SUBSCRIPTION",
+            annual: "ANNUAL_SUBSCRIPTION",
+            quarterly: "QUARTERLY_SUBSCRIPTION",
+            twoYearSinglePayment: "TWO_YEAR_SINGLE_PAYMENT"
+        },
+        photosetInstructableMaxWidth: 614,
+        photosetLessonMaxWidth: 1400
+    });
+    
+    
+        Ibles.pageContext.ibleData = JSON.parse("{\u0022featureFlag\u0022:true,\u0022commentingEnabled\u0022:true,\u0022locale\u0022:\u0022en_US\u0022,\u0022fullAccessFlag\u0022:false,\u0022stepCount\u0022:15,\u0022homePageFeatureFlag\u0022:true,\u0022machineTranslatedFlag\u0022:false,\u0022mediumUrl\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.MEDIUM.jpg\u0022,\u0022keywords\u0022:[\u0022CORNER\u0022,\u0022LAMP\u0022,\u0022LIGHTING\u0022,\u0022ARCHITECTURE\u0022],\u0022referrers\u0022:[{\u0022android\u002Dapp://com.pinterest\u0022:46615},{\u0022http://pinterest.com/\u0022:28405},{\u0022http://www.pinterest.com/\u0022:14269},{\u0022https://www.pinterest.com/\u0022:3484},{\u0022http://www.iseeidoimake.com/\u0022:2778},{\u0022https://es.pinterest.com/\u0022:969},{\u0022android\u0022:662},{\u0022https://br.pinterest.com/\u0022:605},{\u0022https://fr.pinterest.com/\u0022:521},{\u0022https://ru.pinterest.com/\u0022:484},{\u0022https://de.pinterest.com/\u0022:374},{\u0022https://it.pinterest.com/\u0022:373},{\u0022https://www.google.com/\u0022:309},{\u0022https://www.instructables.com/\u0022:243},{\u0022https://pinterest.com/\u0022:239},{\u0022http://industrystandarddesign.com/\u0022:225},{\u0022iphone\u0022:217},{\u0022https://m.facebook.com\u0022:192},{\u0022https://www.facebook.com/\u0022:188},{\u0022https://tr.pinterest.com/\u0022:170},{\u0022https://m.facebook.com/\u0022:162},{\u0022https://gr.pinterest.com/\u0022:161},{\u0022https://in.pinterest.com/\u0022:156},{\u0022https://outlook.live.com/\u0022:141},{\u0022https://pl.pinterest.com/\u0022:136},{\u0022https://nl.pinterest.com/\u0022:126},{\u0022https://ro.pinterest.com/\u0022:111},{\u0022https://hu.pinterest.com/\u0022:108},{\u0022https://pt.pinterest.com/\u0022:100},{\u0022ipad\u0022:99},{\u0022http://www.google.com/\u0022:95},{\u0022https://uk.pinterest.com/\u0022:88},{\u0022https://id.pinterest.com/\u0022:69},{\u0022https://za.pinterest.com/\u0022:66},{\u0022https://www.pinterest.com\u0022:63},{\u0022https://cdn.ampproject.org/\u0022:63},{\u0022https://cz.pinterest.com/\u0022:59},{\u0022https://kr.pinterest.com/\u0022:59},{\u0022https://sk.pinterest.com/\u0022:56},{\u0022https://www.pinterest.se/\u0022:53},{\u0022https://dk.pinterest.com/\u0022:53},{\u0022https://au.pinterest.com/\u0022:41},{\u0022https://no.pinterest.com/\u0022:41},{\u0022https://www.google.ca/\u0022:38},{\u0022https://de.pinterest.com\u0022:32},{\u0022https://t.co/\u0022:32},{\u0022https://jp.pinterest.com/\u0022:32},{\u0022https://www.google.co.uk/\u0022:32},{\u0022https://m.facebook.com/\u0022:28},{\u0022https://l.facebook.com/\u0022:26}],\u0022square2Url\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.SQUARE2.jpg\u0022,\u0022id\u0022:\u0022EIRQXRCIEN4PW2H\u0022,\u0022sponsoredFlag\u0022:false,\u0022votableContests\u0022:[],\u0022category\u0022:\u0022workshop\u0022,\u0022homePageFeaturedBy\u0022:\u0022seamster\u0022,\u0022title\u0022:\u0022Corner Lamp\u0022,\u0022pgFlag\u0022:false,\u0022comments\u0022:19,\u0022displayChannel\u0022:\u0022Lighting\u0022,\u0022numStepsByWordCount\u0022:2,\u0022editVersion\u0022:390,\u0022popularFlag\u0022:true,\u0022typeChar\u0022:\u0022E\u0022,\u0022type\u0022:\u0022Step by Step\u0022,\u0022urlString\u0022:\u0022Corner\u002DLamp\u0022,\u0022channel\u0022:\u0022lighting\u0022,\u0022status\u0022:\u0022PUBLISHED\u0022,\u0022views\u0022:209726,\u0022homePageFeatureGiftSent\u0022:true,\u0022publishDate\u0022:\u00222016\u002D08\u002D22 10:49:43.0\u0022,\u0022modifiedDate\u0022:\u00222016\u002D08\u002D22 13:30:04.0\u0022,\u0022favorites\u0022:306,\u0022featuredBy\u0022:\u0022seamster\u0022,\u0022rectangle1Url\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.RECTANGLE1.jpg\u0022,\u0022license\u0022:{\u0022url\u0022:\u0022http://creativecommons.org/licenses/by\u002Dnc\u002Dsa/2.5/\u0022,\u0022shortName\u0022:\u0022by\u002Dnc\u002Dsa\u0022,\u0022fullName\u0022:\u0022Attribution\u002DNonCommercial\u002DShareAlike\u0022,\u0022short_name\u0022:\u0022by\u002Dnc\u002Dsa\u0022},\u0022coverImage\u0022:{\u0022rectangle1Url\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.RECTANGLE1.jpg\u0022,\u0022rect840Url\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.RECT840.jpg\u0022},\u0022author\u0022:{\u0022about\u0022:\u0022I\u0027m Mike and I make crazy things at Instructables HQ in San Francisco.\u005CnFollow me and try a few of my projects for yourself!\u0022,\u0022followersCount\u0022:8483,\u0022url\u0022:\u0022http://michaelsaurus.com\u0022,\u0022squareUrl\u0022:\u0022https://cdn.instructables.com/FNT/Y453/HINO3JNJ/FNTY453HINO3JNJ.SQUARE.jpg\u0022,\u0022tinyUrl\u0022:\u0022https://cdn.instructables.com/FNT/Y453/HINO3JNJ/FNTY453HINO3JNJ.TINY.jpg\u0022,\u0022websiteName\u0022:\u0022contact me \u002D michaelsaurus.com\u0022,\u0022recent\u0022:[{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FXK/4KTR/IZEG6BWR/FXK4KTRIZEG6BWR.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Easy\u002DWaterproof\u002DClothing\u0022,\u0022title\u0022:\u0022Easy Waterproof Clothing\u0022},{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/FB9/A5MG/IYUFYB5M/FB9A5MGIYUFYB5M.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Backyard\u002DRockets\u0022,\u0022title\u0022:\u0022Backyard Rockets!\u0022},{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/F9Q/P2JY/IYOQPYBU/F9QP2JYIYOQPYBU.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Nap\u002DTub\u0022,\u0022title\u0022:\u0022nap tub\u0022},{\u0022square2Url\u0022:\u0022https://cdn.instructables.com/F0S/8RI4/IWQVDT4M/F0S8RI4IWQVDT4M.SQUARE2.jpg\u0022,\u0022urlString\u0022:\u0022Restore\u002DOld\u002DPaper\u002DCutter\u0022,\u0022title\u0022:\u0022Restore old paper cutter\u0022}],\u0022id\u0022:\u0022M6AHJ03F2297BVH\u0022,\u0022screenName\u0022:\u0022mikeasaurus\u0022},\u0022displayCategory\u0022:\u0022Workshop\u0022,\u0022featuredDate\u0022:\u00222016\u002D08\u002D22 11:25:27.0\u0022,\u0022homePageFeaturedDate\u0022:\u00222016\u002D08\u002D22 11:25:27.0\u0022,\u0022smallUrl\u0022:\u0022https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.SMALL.jpg\u0022}");
+    
+</script><script type="text/javascript">
+        
+            window.BASE_SCRIPTS = [ "/intl_static/base-desktop-bs2-d69e8293.js",];
+        
+        
+            window.PAGE_SCRIPTS = [];
+        
+
+        head.ready(function(){
+            (function(options){
+                Ibles.session = new Ibles.models.SessionModel();
+                Ibles.appserverHeader = new Ibles.views.AppserverHeader();
+                new Ibles.views.GlobalHeader();
+                new Ibles.views.EmailVerificationTrigger(options);
+                new Ibles.views.RoleRequiredAction(options);
+                new Ibles.views.UtmzTrackingMiddleware();
+                Ibles.mixpanel = new Ibles.views.MixPanelMiddleware()
+            })(window.Ibles.pageContext);
+        });
+
+        
+        
+    
+head.ready(function(){
+    LogHit('EIRQXRCIEN4PW2H','E','M6AHJ03F2297BVH');
+
+    dataLayer.push({
+        'event': 'GAVirtualPageView',
+        'GAVirtualPageViewPage': '/event/workshop/lighting/Step by Step/Corner-Lamp/featured:homepage/'
+    });
+});
+
+    
+        sessionReady([
+                 "/intl_static/ible-c7a4b465.js",
+    			"//platform.tumblr.com/v1/share.js",
+    		    "//platform.twitter.com/widgets.js"
+    		],
+    		function(session) {
+                var model = new Ibles.models.InstructableModel(_.extend({
+                    disableComments: !JSON.parse("true"),
+                    allSteps: JSON.parse("false"),
+                    currentStepIndex: JSON.parse("0"),
+                    fetchUserData: true,
+                    fetchStats: true,
+                    cover_image: 'https://cdn.instructables.com/F35/NBCE/IRXTI0XC/F35NBCEIRXTI0XC.RECT2100.jpg'
+                }, Ibles.pageContext.ibleData));
+
+                var view = new Ibles.views.InstructableView({
+                    el: "#instructable-wrapper",
+                    model: model
+                });
+            }
+        );
+    
+    
+head.ready(function(){
+    (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.setAttribute('data-pin-hover', true);
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+
+        // adds "nopin='nopin'" attributes to images that we don't want pinned by pinterest bookmarklet
+        $(function() {$('.nopin img').attr('nopin', 'nopin');});
+    }(document));
+});
+
+
+        
+                        
+        head.load(BASE_SCRIPTS.concat(PAGE_SCRIPTS));
+    </script></body></html>

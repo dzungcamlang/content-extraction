@@ -1,0 +1,147 @@
+Windows Update won't download any updates
+Tia-LewiseJul 24, 2013, 1:24 PM
+For a while now I've noticed my updates aren't actually going anywhere. I have a fair few updates to install now due to this; I can find the updates but Windows Update just won't download them at all. In the picture link I've included I decided to just try and install a few updates rather than the full amount, and it's still insisted on saying 0% downloaded for half an hour.
+
+http://i1177.photobucket.com/albums/x352/Tia-Lewise/Error_zpsd04e15b8.jpg
+
+Help!
+17 answers LAST REPLY Jun 13, 2016 BEST ANSWER Jul 24, 2013
+BEST ANSWER
+memadmax  Jul 24, 2013, 1:33 PM
+Try this microsoft answer:
+http://answers.microsoft.com/en-us/windows/forum/windows_7-windows_update/windows-7-windows-update-stuck-at-0kb-0/e1f898af-572d-4847-92be-d65a5d194a2a
+Tia-LewiseJul 24, 2013, 1:57 PM
+memadmax said:
+Try this microsoft answer:
+http://answers.microsoft.com/en-us/windows/forum/windows_7-windows_update/windows-7-windows-update-stuck-at-0kb-0/e1f898af-572d-4847-92be-d65a5d194a2a
+
+
+Thank you. I've just tried the method of disabling everything through entering MSConfig in Run, but on restarting that hasn't worked either. My antivirus has never caused problems before- I only use MS Security Essentials- so I don't think it's that interfering 
+memadmax  Jul 24, 2013, 6:24 PM
+Also try deleteing all the Windows Update downloads in its download folder. This should force WU to download new copies:
+\Windows\SoftwareDistribution\Download
+Delete all the files and folders within the \Download folder(don't delete the \Download folder however)
+This may help.
+robertbrunelleAug 15, 2015, 3:39 AM
+Solution 1 from here worked for me:
+
+http://www.troublefixers.org/windows/fix-cannot-download-windows-updates-in-windows-10-and-8-when-behind-a-proxy-or-firewall/292/
+michael_261Apr 17, 2016, 9:41 PM
+robertbrunelle said:
+Solution 1 from here worked for me:
+
+http://www.troublefixers.org/windows/fix-cannot-download-windows-updates-in-windows-10-and-8-when-behind-a-proxy-or-firewall/292/
+michael_261Apr 17, 2016, 9:58 PM
+I have 8 computers on my system and 3 would not download and install updates. They would continue to display downloading, downloading, downloading, never once indicating the download was compete and install was starting, even after waiting and frustration set in.
+
+Observing the sweeping indicator in the window stating windows was downloading, I decided to just leave it alone and wait.
+True to my hunch, and after I went to bed that night, I awoke to the computers stating the downloads were done and install was complete. When I checked the windows update icon, it told me ALL updates had been installed !
+I was astonished !
+The time indicated for the download and installation consumed 12 1/2 hours !
+Evidently there were SO many updates to be installed it took that long to complete.
+Usually, windows update will notify you that there are six, ten, fourteen or so updates, and ask for permission to install. Click to install and away it goes and the install will complete in minutes.
+When there are too many, windows will ask to install... 'the updates'... with no count, or amount to be installed indicated, therefore, you have no idea as to the multitude of updates.
+So if it looks like windows isn't downloading and installing updates, it really is. 
+You just have to give it a lot of time to do so.
+RMHudspethApr 27, 2016, 12:30 PM
+I had a similar problem but just busted it. I wanted to do a clean install of my Win7-Ultimate(64) to upgrade a computer to Win10, while I still could. Although the install media is SP-1, there are still about 250 important and optional updates to catch up on (hello SP2?). As soon as the new install was done, I tried to update - left it running for over 24 hours - with no progress after "searching for updates." After doing some research, several people had good results with downloading KB3102810(update client improvements for speed), KB3138612(latest Update Client) and KB947821(SUR Tool) and installing in that order to improve update speed.
+
+However, when I tried them, the process stalled at "Standalone Installer is searching for updates on this machine." I noticed that the updates were creating a "sandbox" folder in the root, but it appeared that it could not find the cab, etc once it did. So, I rebooted to stop all of the update processes and then used the Package Manager in the following manner. I deleted the previous locked folders (with names like "C:\42c85776e1df4d1b8b5495" etc.) so I knew which update I was working with. I launched KB3102810 and then closed the window from the taskbar when it stalled. I opened a cmd window (as administrator) in the new protected folder (C:\42c85776e1df4d1b8b5495) and did a directory to find the *.xml file, which is the command file for the Package Manager (and in this case is "Windows6.1-KB3102810-x64.xml"). I then ran the Package Manager with the command:
+
+pkgmgr.exe /n:Windows6.1-KB3102810-x64.xml
+
+Shortly after, I got a message that the Package Manager needed to restart the computer - HOORAH!
+
+I allowed the system to restart and then repeated the same procedure for KB3138612 (folder was called C:\1503477940f2dae5bbe33a246dcc this time). Again, I got the message that Package Manager needed to reboot the computer,so I did.
+
+When I started the procedure for the SUR Tool, the process did not stall,but instead made it all the way through. Apparently installing KB3138612 had fixed whatever issue was preventing the Standalone Installer from finding the updates once expanded. Not only did the update make it through, but now even without a restart, the windows update page showed 194 important and 67 optional updates available. I let update start and left the computer overnight and it was waiting this morning for me to restart. It did a 5 phase update during shutdown and restart. I had 9 updates remaining that had either not been selected or had initially failed, but those installed fine on the second attempt and I am now writing this on the fully updated computer.
+
+
+michael_261 said:
+I have 8 computers on my system and 3 would not download and install updates. They would continue to display downloading, downloading, downloading, never once indicating the download was compete and install was starting, even after waiting and frustration set in.
+
+Observing the sweeping indicator in the window stating windows was downloading, I decided to just leave it alone and wait.
+True to my hunch, and after I went to bed that night, I awoke to the computers stating the downloads were done and install was complete. When I checked the windows update icon, it told me ALL updates had been installed !
+I was astonished !
+The time indicated for the download and installation consumed 12 1/2 hours !
+Evidently there were SO many updates to be installed it took that long to complete.
+Usually, windows update will notify you that there are six, ten, fourteen or so updates, and ask for permission to install. Click to install and away it goes and the install will complete in minutes.
+When there are too many, windows will ask to install... 'the updates'... with no count, or amount to be installed indicated, therefore, you have no idea as to the multitude of updates.
+So if it looks like windows isn't downloading and installing updates, it really is. 
+You just have to give it a lot of time to do so.
+bobcartmellMay 2, 2016, 3:21 PM
+Tia-Lewise said:
+For a while now I've noticed my updates aren't actually going anywhere. I have a fair few updates to install now due to this; I can find the updates but Windows Update just won't download them at all. In the picture link I've included I decided to just try and install a few updates rather than the full amount, and it's still insisted on saying 0% downloaded for half an hour.
+
+http://i1177.photobucket.com/albums/x352/Tia-Lewise/Error_zpsd04e15b8.jpg
+
+Help!
+
+
+I had this problem and related ones (could not download anything from the store etc) and it seem all related to the Windows firewall settings. Whether you used Windows firewall or the one supplied by your Anti-virus software made no difference. After a while I tried Tweaking.com. Download free version, install, forget about starting in Safe Mode just go directly to REPAIRS, unselect everything other than Firewall repair and Hey Presto - It works.
+
+BobC
+learneralMay 15, 2016, 9:18 AM
+Tia-Lewise said:
+For a while now I've noticed my updates aren't actually going anywhere. I have a fair few updates to install now due to this; I can find the updates but Windows Update just won't download them at all. In the picture link I've included I decided to just try and install a few updates rather than the full amount, and it's still insisted on saying 0% downloaded for half an hour.
+
+http://i1177.photobucket.com/albums/x352/Tia-Lewise/Error_zpsd04e15b8.jpg
+
+Help!
+learneralMay 15, 2016, 9:34 AM
+after clean installing windows 7 pcu speed ran at 50/100% with nothing running...my update search ran for over an hour with no result when on previous reinstalls.the updates started pretty much without a problem... Tried all usual actions to slow the pcu and get updates .. no dice .. It seems the update system and lack of updates was to blame... on advice on a blog set my update search away and just left it running (took 5 hours) ... the system eventually found 224 items to download. the down loads took over 6 hours to complete and even then more quickly followed. After the updates were in place the pcu speed went right down to between 0% and 14% at idle and memoy from 89% to 33%...result .... Patience is the bye word.... Perhaps we ve now to wait our turn in the update queue
+everydamnjimMay 21, 2016, 6:42 PM
+RMHudspeth said:
+I had a similar problem but just busted it. I wanted to do a clean install of my Win7-Ultimate(64) to upgrade a computer to Win10, while I still could. Although the install media is SP-1, there are still about 250 important and optional updates to catch up on (hello SP2?). As soon as the new install was done, I tried to update - left it running for over 24 hours - with no progress after "searching for updates." After doing some research, several people had good results with downloading KB3102810(update client improvements for speed), KB3138612(latest Update Client) and KB947821(SUR Tool) and installing in that order to improve update speed.
+
+However, when I tried them, the process stalled at "Standalone Installer is searching for updates on this machine." I noticed that the updates were creating a "sandbox" folder in the root, but it appeared that it could not find the cab, etc once it did. So, I rebooted to stop all of the update processes and then used the Package Manager in the following manner. I deleted the previous locked folders (with names like "C:\42c85776e1df4d1b8b5495" etc.) so I knew which update I was working with. I launched KB3102810 and then closed the window from the taskbar when it stalled. I opened a cmd window (as administrator) in the new protected folder (C:\42c85776e1df4d1b8b5495) and did a directory to find the *.xml file, which is the command file for the Package Manager (and in this case is "Windows6.1-KB3102810-x64.xml"). I then ran the Package Manager with the command:
+
+pkgmgr.exe /n:Windows6.1-KB3102810-x64.xml
+
+Shortly after, I got a message that the Package Manager needed to restart the computer - HOORAH!
+
+I allowed the system to restart and then repeated the same procedure for KB3138612 (folder was called C:\1503477940f2dae5bbe33a246dcc this time). Again, I got the message that Package Manager needed to reboot the computer,so I did.
+
+When I started the procedure for the SUR Tool, the process did not stall,but instead made it all the way through. Apparently installing KB3138612 had fixed whatever issue was preventing the Standalone Installer from finding the updates once expanded. Not only did the update make it through, but now even without a restart, the windows update page showed 194 important and 67 optional updates available. I let update start and left the computer overnight and it was waiting this morning for me to restart. It did a 5 phase update during shutdown and restart. I had 9 updates remaining that had either not been selected or had initially failed, but those installed fine on the second attempt and I am now writing this on the fully updated computer.
+
+I already had the most recent Windows Update Client installed (KB3112343, the December 2015 update, which supersedes KB3102810) but was still having the never-ending "searching for updates..." problem. I found another post here that suggested updating the Win32k.sys Kernel-Mode Drivers via KB3153199 as a "temporary" workaround, but of course (catch-22!) the standalone installer was taking forever, so I used RMHudspeth's pkgmgr "trick" above to install it and BINGO! After a reboot I ran the normal Windows Update process and in just a few minutes it came back with 16 or 17 updates (don't remember exactly how many but it was FAST). It did still use a bit of CPU but it wasn't the wuauserv.exe process...it was (I think) TrustedInstaller.exe and makecab.exe so at least it appeared something was happening. One caveat in using the pkgmgr method is that I'm pretty sure the KB didn't show up in the list of installed updates until I applied subsequent updates "the normal way" but I could be wrong about that. Whatever!
+
+One other suggestion: Configure the Windows Update service to run in its own svchost process - it won't fix WU but it will make it a lot easier to find & kill! Just run the following from an elevated command prompt: 
+
+sc config wuauserv type= own
+
+You may find that wuauserv eventually changes itself back to "shared" (the next time it's updated?) though...I swear I've done this more than once!
+hoover1979May 22, 2016, 5:27 AM
+I am also getting a major Migraine from Windows Update. I did a fresh install of Win 7 Pro x64 to a new HDD as my old one was dying. Windows update spends the better part of 2 hours searching for updates and another hour or so of 0% downloading and I have over 200 Updates pending. If I choose any more than 30 at a time upon reboot windows spits this at me:
+
+Failure to Configure Windows Updates
+Reverting Changes
+Please do not turn off your Computer
+
+So it looks like I have to do this 7 or 8 times to get all the updates and have them not fail. Looks like I will be busy for the next week or two.
+
+I asked Microsoft Support for assistance and all I got was:
+
+Try upgrading to Windows 10 and you will no longer have updating issues.
+
+I wonder if this is a huge conspiracy from Microsoft, to delibrerately sabotage Windows Update on Win 7 and Win 8, in order to bully it's consumers into the crappiest OS in history, the Windows 10 Virus, which is such an unmitigated disaster, they give it away for free!
+
+Thanks a lot MicroSoft for ruining my week! A pox on you! From Hell's heart I stab at thee!!!
+
+EDIT: Last Night a batch of 30 Updates corrupted my boot sector and it took me around 10 attempts and 4 hours to recover my system.
+rgd1101  May 22, 2016, 9:07 AM
+do the windows7 sp1 rollup 
+https://blogs.technet.microsoft.com/windowsitpro/2016/05/17/simplifying-updates-for-windows-7-and-8-1/
+DH950May 26, 2016, 3:08 AM
+Tia-Lewise said:
+For a while now I've noticed my updates aren't actually going anywhere. I have a fair few updates to install now due to this; I can find the updates but Windows Update just won't download them at all. In the picture link I've included I decided to just try and install a few updates rather than the full amount, and it's still insisted on saying 0% downloaded for half an hour.
+
+http://i1177.photobucket.com/albums/x352/Tia-Lewise/Error_zpsd04e15b8.jpg
+
+Help!
+DH950May 26, 2016, 3:13 AM
+I ran the Microsoft FixIt program for this problem. I did not seem to work immediately, but when I returned to my computer hours later, I had message that 57 updates had been downloaded & needed my OK to restart the computer to complete the install. When I ran Update again, it took a couple minutes before anything happened, but I got the next batch in short order. http://windows.microsoft.com/en-us/windows/troubleshoot-problems-installing-updates#1TC=windows-7
+DEP825Jun 13, 2016, 8:15 AM
+6/12/2016: I agree 100% with Michael_261...I saw another comment about VERY high CPU usage for some months (really slowing down my machine, websites, etc) AND failure of updates to install (or even show progress). I had 108 "Important" Win 7 updates to download/install....no progress was shown on the bar or in the numbers below...so, reading MIchael_261's wisdom, I left it "download" overnight....and viola! everything arrived by the morning and was ready to install and re-boot. So I believe at some point some MSFT update resulted in very hight CPU usage (so it was NOT my browser or other program/problem) and MSFT corrected it with some update. Further, when there are LOTS of updates, Win 7 does not show they are located/dwonloading/installing. So if one has many updates, it takes a LONG time. After the updates, my CPU usages is negligible and all updates are installed. YAHOO! Thanks to Michael_261!
+aford10  Jun 13, 2016, 11:30 AM
+necro thread

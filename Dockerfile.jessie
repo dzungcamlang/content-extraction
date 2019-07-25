@@ -1,0 +1,35 @@
+FROM python:3.6.2-jessie
+
+ENV INTERNAL_PORT=3000 \
+    EXTERNAL_PORT=3000
+
+ENV LIBRDKAFKA_VERSION 0.9.1
+RUN curl -Lk -o /root/librdkafka-${LIBRDKAFKA_VERSION}.tar.gz \
+    https://github.com/edenhill/librdkafka/archive/${LIBRDKAFKA_VERSION}.tar.gz && \
+    tar -xzf /root/librdkafka-${LIBRDKAFKA_VERSION}.tar.gz -C /root && \
+    cd /root/librdkafka-${LIBRDKAFKA_VERSION} && \
+    ./configure && make && make install && make clean && ./configure --clean && \
+    cd && \
+    rm -rf /root/librdkafka-${LIBRDKAFKA_VERSION} && \
+    rm -rf /root/librdkafka-${LIBRDKAFKA_VERSION}.tar.gz
+
+
+ENV CPLUS_INCLUDE_PATH /usr/local/include
+ENV LIBRARY_PATH /usr/local/lib
+ENV LD_LIBRARY_PATH /usr/local/lib
+
+RUN apt-get update -y \
+    && apt-get install -y curl\
+    && pip3 install schedule requests peewee bs4 flask confluent-kafka flask_cors fn \
+    && mkdir -p /app/tmp/request_file \
+    && mkdir -p /app/tmp/record \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY ./internal /app/internal/
+COPY main.py /app/
+
+WORKDIR /app
+
+EXPOSE $INTERNAL_PORT
+
+CMD ["/usr/local/bin/python3","/app/main.py"]

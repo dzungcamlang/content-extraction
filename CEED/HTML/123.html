@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta charset="utf-8">
+<title>Scrabble Helper for Mobile Apps</title>
+<meta name="description" content="Scrabble helper and Word Finder for Mobile Apps.">
+<meta name="keywords" content="scrabble helper, word finder, mobile apps, word cheats, wordfinder" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.yourdictionary.com/Definitions-Search.xml" title="YourDictionary.com" />
+<style>
+    @font-face {
+        font-family: 'Ek Mukta Light';
+        src: url('/fonts/EkMukta-Light.otf');
+        font-weight:normal;
+    }
+    @font-face {
+        font-family: 'Ek Mukta Extra Light';
+        src: url('/fonts/EkMukta-ExtraLight.otf');
+        font-weight:normal;
+    }
+    @font-face {
+        font-family: 'Open Sans Regular' !important;
+        src: url('/fonts/OpenSans-Regular.ttf');
+        font-weight:normal;
+    }
+</style>
+<link rel="stylesheet" href="http://cf.ydcdn.net/1.0.1.68/css/scrabble.css" />
+<link rel="stylesheet" href="http://cf.ydcdn.net/1.0.1.68/css/main_combined.css" />
+<script src="http://cf.ydcdn.net/1.0.1.68/js/preload.js"></script>
+<script src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" defer></script> 
+<script src="http://cf.ydcdn.net/1.0.1.68/js/vendor/custom.modernizr.js" defer></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<style type="text/css">
+.row, .contain-to-grid .top-bar {max-width:77em;}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-16913401-22', 'yourdictionary.com');
+  ga('set', 'CustomEntry', 'No');
+  window.optimizely = window.optimizely || [];
+  window.optimizely.push("activateUniversalAnalytics");
+  ga('send', 'pageview');
+  ga('create', 'UA-16913401-21', 'yourdictionary.com', {'name': 'newTracker'});
+  ga('newTracker.set', 'CustomEntry', 'No');
+  ga('newTracker.send', 'pageview');
+</script>
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+YD = {};
+var OX_dfp_ads = [
+        ['/1004147/YD_Wordfinder_728x90', ['300x250','728x90','970x66'], 'ad-super-wordfinder'], 
+        ['/1004147/YD_Wordfinder_300x250_text', ['300x250'], 'ad300-Wordfinder-text'],['/1004147/YD_Wordfinder_Sticky', ['300x600','160x600','300x250'], 'ad-wordfinder-sticky'],        ];
+function oxDone() {
+    var gads = document.createElement("script");
+    gads.async = true;
+    gads.type = "text/javascript";
+    var useSSL = "https:" == document.location.protocol;
+    gads.src = (useSSL ? "https:" : "http:") +
+        "//www.googletagservices.com/tag/js/gpt.js";
+    var node = document.getElementsByTagName("script")[0];
+    node.parentNode.insertBefore(gads, node);
+}
+setTimeout(function() {
+    if (!('OX' in window || 'oxhbjs' in window)) {
+        oxDone()
+    }
+}, 2500);
+
+(function () {
+    var openx = document.createElement("script"),
+        useSSL = "https:" == document.location.protocol,
+        node = document.getElementsByTagName("script")[0];
+        openx.async = true;
+        openx.type = "text/javascript";
+        openx.src = (useSSL ? "https:" : "http:") + "//lovetk-d.openx.net/w/1.0/jstag?nc=1004147-YourDictionary";
+        node.parentNode.insertBefore(openx, node);
+})();
+
+YD.ads = {
+  slots: [],
+  define: function (id, unit, size, sizes, ox_sizes, delay) {
+    googletag.cmd.push(function () {
+      var mapping = googletag.sizeMapping(), i = 0, length = sizes.length, j = 0, ox_sizes = [];
+      for (; i < length; i++) {
+        mapping.addSize(sizes[i][0], sizes[i][1]);
+      }
+      var new_ad = googletag.defineSlot('/1004147/' + unit, size, id).defineSizeMapping(mapping.build()).addService(googletag.pubads());
+      YD.ads.slots.push({id: id, ad: new_ad, interval_id: "none", displayed: "no"});
+      OX.dfp_bidder.setOxTargeting();
+      googletag.pubads().disableInitialLoad();
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+      googletag.display(id);
+    });
+  },
+  refresh: function (id) {
+    googletag.cmd.push(function () {
+      $.each(YD.ads.slots, function(key, value) {
+        if (key == "id" && value == id) googletag.pubads().refresh([value.ad]);
+      });
+    });
+  }
+};
+
+googletag.cmd.push(function () {
+  googletag.pubads().set("page_url", location.href);
+  googletag.pubads().collapseEmptyDivs();
+});
+shouldHandleScroll = true;
+$(window).scroll(function(){
+  if(shouldHandleScroll){
+    shouldHandleScroll = false;
+    setTimeout(function(){shouldHandleScroll=true;}, 200);
+    handleScroll();
+  }
+});
+MOVEMENT_THRESHOLD = 1;
+currentTop = 0;
+movingUpThreshold = 0;
+movingDownThreshold = MOVEMENT_THRESHOLD;
+has_scrolled = false;
+function handleScroll()
+{
+  var isMovingUp = false;
+  var isMovingDown = false;
+  var previousTop = currentTop;
+
+  currentTop = $(window).scrollTop();
+  if (!has_scrolled)
+  {
+      has_scrolled = (currentTop != 0);
+  }
+
+  if(currentTop > previousTop) {
+    movingUpThreshold = currentTop - MOVEMENT_THRESHOLD;
+    isMovingDown = currentTop > movingDownThreshold;
+  } else {
+    movingDownThreshold = currentTop + MOVEMENT_THRESHOLD;
+    isMovingUp = currentTop < movingUpThreshold;
+  }
+  
+  if(isMovingUp || isMovingDown) {
+    checkRefreshAds(isMovingDown);
+  }
+}
+
+window.onblur = function() 
+{ 
+  $.each(YD.ads.slots, function(key, ad_slot) 
+  {
+    if (ad_slot.interval_id != "none")
+    {
+      clearInterval(ad_slot.interval_id);
+      ad_slot.interval_id = "none";
+    }
+  });    
+}
+window.onfocus = function()
+{
+  checkRefreshAds(false);
+}
+
+function checkRefreshAds(isMovingDown)
+{
+  $.each(YD.ads.slots, function(key, ad_slot) 
+  {
+    if(checkAdOnScreen(ad_slot, isMovingDown)) 
+    {
+      if (ad_slot.interval_id == "none")
+      {
+        ad_slot.interval_id = ensureRefreshEnabled(ad_slot, isMovingDown, OX);
+      }
+    } 
+    else 
+    {
+      if (ad_slot.interval_id != "none")
+      {
+        clearInterval(ad_slot.interval_id);
+        ad_slot.interval_id = "none";
+      }
+    }
+  });
+}
+
+function checkAdOnScreen(ad_slot, isMovingDown)
+{
+  var offscreen_threshold = 500;
+  if (!has_scrolled)
+  {
+      offscreen_threshold = 0;
+  }
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+  var elemTop = $('#' + ad_slot.id).offset().top;
+  var elemBottom = elemTop + $('#' + ad_slot.id).height();
+  if(isMovingDown) 
+  {
+    docViewBottom += offscreen_threshold;
+  }
+  else 
+  {
+    docViewTop -= offscreen_threshold;
+  }
+  if ((elemTop >= docViewTop && elemTop <= docViewBottom) || (elemBottom >= docViewTop && elemTop <= docViewBottom))
+  {
+    return true;
+  }
+  return false;
+}
+
+REFRESH_INTERVAL = 25000;
+function ensureRefreshEnabled(ad_slot, isMovingDown, OX)
+{
+  if (ad_slot.interval_id == "none")
+  {
+    if (ad_slot.displayed == "no")
+    {
+      googletag.pubads().refresh([ad_slot.ad]);
+      ad_slot.displayed = "yes";
+    }
+    if (checkAdOnScreen(ad_slot, isMovingDown))
+    {
+      var refresh_slots = [ad_slot.ad];
+      return setInterval(function(){
+        if (OX)
+        {
+          cb = function() {
+           OX.dfp_bidder.setOxTargeting (refresh_slots);
+           googletag.pubads().refresh(refresh_slots);
+          }
+          OX.dfp_bidder.refresh(cb,refresh_slots);        
+        }
+        else
+        {
+           googletag.pubads().refresh(refresh_slots);
+        }
+      }, REFRESH_INTERVAL);
+    }
+    else
+    {
+      return "none";
+    }
+  }
+  else
+  {
+    return ad_slot.interval_id;  
+  }
+}
+</script>
+<script type="text/javascript">
+var pwidget_config = {
+    defaults:
+    {
+        afterShare: false,
+        sharePopups: true,
+    }
+};
+</script>
+<script src="http://cf.ydcdn.net/1.0.1.68/js/ga_social_tracking.js" async></script>
+<script type="text/javascript">
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://i')
+          + '.po.st/static/v4/post-widget.js#publisherKey=nh8uqo6dl9vft949b078';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+     })();
+</script>
+</head>
+<body>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N7MJB9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N7MJB9');</script>
+<div class="row">
+    <div class="twelve large-12 columns text-center" style="padding:0;">
+        <div id="ad-super-wordfinder" class="ad_top_homegrown"></div>
+        <script>YD.ads.define("ad-super-wordfinder","YD_Wordfinder_728x90",'YD',[[[0,0],[320,50]],[[728,1],[[728,90],[970,66]]]],['300x250','728x90','970x66'],false)</script>
+    </div>
+</div>
+<div class="floating-nav twelve large-12 columns" id="site-menu-div">
+    <div class="contain-to-grid">
+            <nav class="top-bar " style="" role="navigation">
+        <section class="top-bar-section">
+            <ul class="title-area left">
+                <li class="name"></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span id="YdSiteNav">Menu</span></a></li>
+            </ul>
+            <ul class="left">
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="http://www.yourdictionary.com/dictionary-definitions/" onClick="ga('send', 'event', {eventCategory: 'Dictionary from SiteNav', eventAction: 'Click'});">Dictionary</a>
+                    <ul class="dropdown">
+					    <li id="main_page_dictionary_id" class="main_page"><a href="http://www.yourdictionary.com/dictionary-definitions/" onClick="ga('send', 'event', {eventCategory: 'Dictionary from SiteNav', eventAction: 'Click'});">Dictionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://definitions.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Definitions from SiteNav', eventAction: 'Click'});">YD Original</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://websters.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Websters from SiteNav', eventAction: 'Click'});">Webster's</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://americanheritage.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'American Heritage from SiteNav', eventAction: 'Click'});">American Heritage</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wiktionary.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Wiktionary from SiteNav', eventAction: 'Click'});">Wiktionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://ologies.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Ologies from SiteNav', eventAction: 'Click'});">Ologies</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://computer.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Computer from SiteNav', eventAction: 'Click'});">Computer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://invest.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Invest from SiteNav', eventAction: 'Click'});">Invest</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://law.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Law from SiteNav', eventAction: 'Click'});">Law</a></li>
+                        <li class="divider"></li>
+						<li class="last_index">
+						</li>
+                    </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="http://thesaurus.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Thesaurus from SiteNav', eventAction: 'Click'});">Thesaurus</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Examples from SiteNav', eventAction: 'Click'});">Examples</a>
+                    <ul class="dropdown">
+                        <li><a href="http://sentence.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'See in a sentence from SiteNav', eventAction: 'Click'});">See in a sentence</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Example articles from SiteNav', eventAction: 'Click'});">Example articles</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="http://quotes.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Quotes from SiteNav', eventAction: 'Click'});">Quotes</a></li>
+                <li class="divider"></li>
+                <li><a href="http://wordlist.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Word Lists from SiteNav', eventAction: 'Click'});">Word Lists</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown active"><a href="http://reference.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Reference from SiteNav', eventAction: 'Click'});">Reference</a>
+                    <ul class="dropdown">
+                        <li><a href="http://education.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Education from SiteNav', eventAction: 'Click'});">Education</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://esl.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'ESL from SiteNav', eventAction: 'Click'});">ESL</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://grammar.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Grammar from SiteNav', eventAction: 'Click'});">Grammar</a></li>
+                        <li class="divider"></li>
+                        <li ><a href="http://abbreviations.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Abbreviations from SiteNav', eventAction: 'Click'});">Abbreviations</a></li>
+                        <li class="divider"></li>
+                        <li class="active"><a href="http://biography.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Biography from SiteNav', eventAction: 'Click'});">Biography</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://reference.yourdictionary.com/books-literature/" onClick="ga('send', 'event', {eventCategory: 'Books & Literature from SiteNav', eventAction: 'Click'});">Books & Literature</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Examples from SiteNav', eventAction: 'Click'});">Examples</a></li>
+                        <li class="divider"></li>
+                        <li class="has-dropdown"><a href="http://reference.yourdictionary.com/other-languages/" onClick="ga('send', 'event', {eventCategory: 'Foreign Languages from SiteNav', eventAction: 'Click'});">Foreign Languages</a>
+                            <ul class="dropdown">
+								<li>
+									<a href="http://reference.yourdictionary.com/reference/other-languages/spanish.html" onClick="ga('send', 'event', {eventCategory: 'Spanish from SiteNav', eventAction: 'Click'});">Spanish</a>
+								</li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+                        <li class="divider"></li>
+                        <li><a href="http://reference.yourdictionary.com/resources/" onClick="ga('send', 'event', {eventCategory: 'Resources from SiteNav', eventAction: 'Click'});">Resources</a></li>
+                        <li class="divider"></li>
+						<li class="last_index"></li>
+					</ul>
+                </li>
+                <li class="divider"></li>
+					<li class="has-dropdown active"><a href="http://wordfinder.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'WordFinder from SiteNav', eventAction: 'Click'});">Word&nbsp;Finder</a>
+                    <ul class="dropdown">
+						<li id='main_page_wordfinder_id' class="main_page"><a href="http://wordfinder.yourdictionary.com/ " onClick="ga('send', 'event', {eventCategory: 'WordFinder from SiteNav', eventAction: 'Click'});">Word&nbsp;Finder</a></li>
+						<li class="divider"></li>
+						<li><a href="http://wordfinder.yourdictionary.com/4pics/ " onClick="ga('send', 'event', {eventCategory: '4 Pics 1 Word Answers from SiteNav', eventAction: 'Click'});">4 Pics 1 Word Answers</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/scrabble-dictionary/ " onClick="ga('send', 'event', {eventCategory: 'Word Game Dictionary from SiteNav', eventAction: 'Click'});">Word Game Dictionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/unscramble/ " onClick="ga('send', 'event', {eventCategory: 'Unscramble Dictionary from SiteNav', eventAction: 'Click'});">Unscramble</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/words-with-friends-cheat/ " onClick="ga('send', 'event', {eventCategory: 'Words With Friends Cheat from SiteNav', eventAction: 'Click'});">Words With Friends Cheat</a></li>
+                        <li class="divider"></li>
+                        </ul>
+						</li>
+               <li class="divider"></li>
+			   					<li class='floaterli'><div id="top-login-floater" class="right login-section"></div></li>
+			   			</ul>
+        </section>
+		<section class="socialbreadcrumbs" id="breadcrumbs_social" style="left:0% !important;">
+			<ul>
+			  <li>
+                <div class="pw-server-widget" data-id="wid-skeh6bd4"></div>
+			  </li>
+			</ul>
+		</section>
+    </nav>
+	<script type="text/javascript">
+		if (window.navigator.userAgent.indexOf("iPad") != -1) {
+            if (document.getElementById('main_page_dictionary_id')) document.getElementById('main_page_dictionary_id').className = "main_page_ipad";
+			if (document.getElementById('main_page_reference_id')) document.getElementById('main_page_reference_id').className = "main_page_ipad";
+			if (document.getElementById('main_page_wordfinder_id')) document.getElementById('main_page_wordfinder_id').className = "main_page_ipad";
+			if (document.getElementById('fb_icon_id')) document.getElementById('fb_icon_id').className = "breadcrumbs_social_ipad";
+		}
+	</script>    </div>
+</div>
+<div class="row header-container floating-header wordFinderFloating" role="banner">
+  <div id="floaterContainer" style="margin-top:14px">
+      <div class="logo-header autoInlineBlock" id="YdLogoContainer" style="margin-top:0px"><a href="http://www.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Home page from logo',eventAction: 'Click'});"><img class="YdLogoImgTag" src="http://cf.ydcdn.net/1.0.1.68/images/yd-mobile_logo.png" width="100" /></a></div>
+      <div id="YdSearchContainer" style="display:inline;">
+            <div class="pw-server-widget" data-id="wid-skeh6bd4"></div>
+      </div>
+  </div>
+</div>
+<div class="without-floating-nav twelve large-12 columns">
+    <div class="large-12 columns logo-header left" id="wordfinder-logo">
+        <a href="http://www.yourdictionary.com"><img src="http://cf.ydcdn.net/1.0.1.35/images/img-logo-scr-yd-left.png" width="439" height="47" alt="YourDictionary.com"></a>
+        <a href="/" class="wordfinder_header">Word Finder</a>
+    </div>
+    <div class="contain-to-grid wordFinderTopBar">
+            <nav class="top-bar " style="" role="navigation">
+        <section class="top-bar-section">
+            <ul class="title-area left">
+                <li class="name"></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span id="YdSiteNav">Menu</span></a></li>
+            </ul>
+            <ul class="left">
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="http://www.yourdictionary.com/dictionary-definitions/" onClick="ga('send', 'event', {eventCategory: 'Dictionary from SiteNav', eventAction: 'Click'});">Dictionary</a>
+                    <ul class="dropdown">
+					    <li id="main_page_dictionary_id" class="main_page"><a href="http://www.yourdictionary.com/dictionary-definitions/" onClick="ga('send', 'event', {eventCategory: 'Dictionary from SiteNav', eventAction: 'Click'});">Dictionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://definitions.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Definitions from SiteNav', eventAction: 'Click'});">YD Original</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://websters.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Websters from SiteNav', eventAction: 'Click'});">Webster's</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://americanheritage.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'American Heritage from SiteNav', eventAction: 'Click'});">American Heritage</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wiktionary.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Wiktionary from SiteNav', eventAction: 'Click'});">Wiktionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://ologies.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Ologies from SiteNav', eventAction: 'Click'});">Ologies</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://computer.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Computer from SiteNav', eventAction: 'Click'});">Computer</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://invest.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Invest from SiteNav', eventAction: 'Click'});">Invest</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://law.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Law from SiteNav', eventAction: 'Click'});">Law</a></li>
+                        <li class="divider"></li>
+						<li class="last_index">
+						</li>
+                    </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="http://thesaurus.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Thesaurus from SiteNav', eventAction: 'Click'});">Thesaurus</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Examples from SiteNav', eventAction: 'Click'});">Examples</a>
+                    <ul class="dropdown">
+                        <li><a href="http://sentence.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'See in a sentence from SiteNav', eventAction: 'Click'});">See in a sentence</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Example articles from SiteNav', eventAction: 'Click'});">Example articles</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="http://quotes.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Quotes from SiteNav', eventAction: 'Click'});">Quotes</a></li>
+                <li class="divider"></li>
+                <li><a href="http://wordlist.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Word Lists from SiteNav', eventAction: 'Click'});">Word Lists</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown active"><a href="http://reference.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Reference from SiteNav', eventAction: 'Click'});">Reference</a>
+                    <ul class="dropdown">
+                        <li><a href="http://education.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Education from SiteNav', eventAction: 'Click'});">Education</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://esl.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'ESL from SiteNav', eventAction: 'Click'});">ESL</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://grammar.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Grammar from SiteNav', eventAction: 'Click'});">Grammar</a></li>
+                        <li class="divider"></li>
+                        <li ><a href="http://abbreviations.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Abbreviations from SiteNav', eventAction: 'Click'});">Abbreviations</a></li>
+                        <li class="divider"></li>
+                        <li class="active"><a href="http://biography.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Biography from SiteNav', eventAction: 'Click'});">Biography</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://reference.yourdictionary.com/books-literature/" onClick="ga('send', 'event', {eventCategory: 'Books & Literature from SiteNav', eventAction: 'Click'});">Books & Literature</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://examples.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'Examples from SiteNav', eventAction: 'Click'});">Examples</a></li>
+                        <li class="divider"></li>
+                        <li class="has-dropdown"><a href="http://reference.yourdictionary.com/other-languages/" onClick="ga('send', 'event', {eventCategory: 'Foreign Languages from SiteNav', eventAction: 'Click'});">Foreign Languages</a>
+                            <ul class="dropdown">
+								<li>
+									<a href="http://reference.yourdictionary.com/reference/other-languages/spanish.html" onClick="ga('send', 'event', {eventCategory: 'Spanish from SiteNav', eventAction: 'Click'});">Spanish</a>
+								</li>
+								<li class="divider"></li>
+							</ul>
+						</li>
+                        <li class="divider"></li>
+                        <li><a href="http://reference.yourdictionary.com/resources/" onClick="ga('send', 'event', {eventCategory: 'Resources from SiteNav', eventAction: 'Click'});">Resources</a></li>
+                        <li class="divider"></li>
+						<li class="last_index"></li>
+					</ul>
+                </li>
+                <li class="divider"></li>
+					<li class="has-dropdown active"><a href="http://wordfinder.yourdictionary.com/" onClick="ga('send', 'event', {eventCategory: 'WordFinder from SiteNav', eventAction: 'Click'});">Word&nbsp;Finder</a>
+                    <ul class="dropdown">
+						<li id='main_page_wordfinder_id' class="main_page"><a href="http://wordfinder.yourdictionary.com/ " onClick="ga('send', 'event', {eventCategory: 'WordFinder from SiteNav', eventAction: 'Click'});">Word&nbsp;Finder</a></li>
+						<li class="divider"></li>
+						<li><a href="http://wordfinder.yourdictionary.com/4pics/ " onClick="ga('send', 'event', {eventCategory: '4 Pics 1 Word Answers from SiteNav', eventAction: 'Click'});">4 Pics 1 Word Answers</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/scrabble-dictionary/ " onClick="ga('send', 'event', {eventCategory: 'Word Game Dictionary from SiteNav', eventAction: 'Click'});">Word Game Dictionary</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/unscramble/ " onClick="ga('send', 'event', {eventCategory: 'Unscramble Dictionary from SiteNav', eventAction: 'Click'});">Unscramble</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://wordfinder.yourdictionary.com/words-with-friends-cheat/ " onClick="ga('send', 'event', {eventCategory: 'Words With Friends Cheat from SiteNav', eventAction: 'Click'});">Words With Friends Cheat</a></li>
+                        <li class="divider"></li>
+                        </ul>
+						</li>
+               <li class="divider"></li>
+			   			</ul>
+        </section>
+		<section class="socialbreadcrumbs" id="breadcrumbs_social" style="left:0% !important;">
+			<ul>
+			  <li>
+                <div class="pw-server-widget" data-id="wid-skeh6bd4"></div>
+			  </li>
+			</ul>
+		</section>
+    </nav>
+	<script type="text/javascript">
+		if (window.navigator.userAgent.indexOf("iPad") != -1) {
+            if (document.getElementById('main_page_dictionary_id')) document.getElementById('main_page_dictionary_id').className = "main_page_ipad";
+			if (document.getElementById('main_page_reference_id')) document.getElementById('main_page_reference_id').className = "main_page_ipad";
+			if (document.getElementById('main_page_wordfinder_id')) document.getElementById('main_page_wordfinder_id').className = "main_page_ipad";
+			if (document.getElementById('fb_icon_id')) document.getElementById('fb_icon_id').className = "breadcrumbs_social_ipad";
+		}
+	</script>    </div>
+</div>
+<div class="row" id="breadcrumb_container">
+    <div class="large-6 columns">
+        <ul class="breadcrumbs">
+          <li><a href="http://www.yourdictionary.com/">Home</a></li>
+		            <li><a href="/">WORD FINDER</a></li>
+          <li class="current"><a href="/unscramble/">UNSCRAMBLE</a></li>
+        </ul>
+    </div>
+</div>
+    
+<div id="mobile_wordfinder_menu_spacer" class="row collapse">
+    <form name="mobile_searchbox" id="mobile_searchbox" class="searchcontainer" action="/form_processor/" method="post" onSubmit="if (document.getElementById('mobile_blue_scrabble_search_input').value.length > 1) {document.getElementById('mobile_searchbox').submit();} else { alert('Please enter at least 2 letters to perform a search!');}return false;">
+      <input type="hidden" name="form_action" value="unscramble">
+      <div id="blue_scrabble_container">
+          <div id='blue_scrabble_inner_container' class="shrink">
+            <h1 class="orange_header_mobile">Find Words</h1>
+            <input name="mobile_letters_input" id="mobile_blue_scrabble_search_input" type="text" class="tileHolder" maxlength="12" autocorrect="off" autocomplete="off" placeholder="enterhere">
+            <div id="scrabble_search_button_clicker" onclick="if (document.getElementById('mobile_blue_scrabble_search_input').value.length > 1) {document.getElementById('mobile_searchbox').submit();} else { alert('Please enter at least 2 letters to perform a search!');}return false;"></div>
+            <div id="scrabble_search_text">Enter ScrabbleÂ® tiles here. Use up to two "?" as wildcards.<br />Remember Tiles: <input name="remember_tiles" id="remember_tiles" type="checkbox"></div>
+          </div>                        
+      </div>
+    </form>
+</div>
+<div id='wordfinder_content'>
+	  
+<div class="row">
+  <div class="nine large-9 columns" role="main" id="main-scrabble" >
+    <form name="searchbox" id="searchbox" class="searchcontainer" action="/form_processor/" method="post" onSubmit="if (document.getElementById('small_blue_scrabble_search_input').value.length > 1) {document.getElementById('searchbox').submit();} else { alert('Please enter at least 2 letters to perform a search!');}return false;">
+      <input type="hidden" name="form_action" value="unscramble">
+      <div id="small_blue_scrabble_container">
+          <div id='small_blue_scrabble_inner_container' class="supershrink">
+            <h1 class="orange_header">Find Words</h1>
+            <input name="letters_input" id="small_blue_scrabble_search_input" type="text" class="tileHolder" maxlength="12" autocorrect="off" autocomplete="off" placeholder="enterhere">
+            <div id="small_scrabble_search_button_clicker" onclick="if (document.getElementById('small_blue_scrabble_search_input').value.length > 1) {document.getElementById('searchbox').submit();} else { alert('Please enter at least 2 letters to perform a search!');}return false;"></div>
+          </div>                        
+        <div id="search_form_text" class="text-center">Enter ScrabbleÂ® tiles here. Use up to two "?" as wildcards.<br />Remember Tiles: <input name="remember_tiles" id="remember_tiles" type="checkbox"></div>
+      </div>
+    </form>
+  <div class='wfTopHead'>
+    <a name="0"></a>
+<h1 id="fixed_h1">673 words found for letters EELOTW with 1 wildcard(s)</h1>
+<span class="goToTable"><label>Jump to&nbsp;&nbsp;<select>
+        <option value="section_0"> </option>
+	  					<option value="section_7">7</option>
+								<option value="section_6">6</option>
+								<option value="section_5">5</option>
+								<option value="section_4">4</option>
+								<option value="section_3">3</option>
+								<option value="section_2">2</option>
+			  </select>&nbsp; letter words</label></span>
+  </div>
+<section class="twelve column" id="section_7"><a name="7"></a><span class="table_title">7 Letter Words</span><table class='searchResults' id='results_7'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td>toweled</td><td>9</td><td>10</td></tr></tbody></table></section>        <div class='ad-after-table' id="ad300-Wordfinder-small-1"><div id="YD_Wordfinder_300x250"></div></div>
+        <script>YD.ads.define("ad300-Wordfinder-small-1","YD_Wordfinder_300x250",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        <section class="twelve column" id="section_6"><a name="6"></a><span class="table_title">6 Letter Words</span><table class='searchResults' id='results_6'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td><a href='http://www.yourdictionary.com/bolete'>bolete</a></td><td>5</td><td>6</td></tr><tr><td>etoile</td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/oleate'>oleate</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/omelet'>omelet</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/telome'>telome</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/twelve'>twelve</a></td><td>8</td><td>9</td></tr><tr><td>welted</td><td>8</td><td>9</td></tr><tr><td><a href='http://www.yourdictionary.com/welter'>welter</a></td><td>8</td><td>9</td></tr><tr><td><a href='http://www.yourdictionary.com/towhee'>towhee</a></td><td>8</td><td>8</td></tr><tr><td>townee</td><td>8</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/howlet'>howlet</a></td><td>8</td><td>9</td></tr><tr><td><a href='http://www.yourdictionary.com/lowest'>lowest</a></td><td>8</td><td>9</td></tr><tr><td>owlets</td><td>8</td><td>9</td></tr><tr><td>towels</td><td>8</td><td>9</td></tr><tr><td><a href='http://www.yourdictionary.com/trowel'>trowel</a></td><td>8</td><td>9</td></tr></tbody></table></section>        <div class='ad-after-table' id="ad300-Wordfinder-small-2"><div id="YD_Wordfinder_300x250_text"></div></div>
+        <script>YD.ads.define("ad300-Wordfinder-small-2","YD_Wordfinder_300x250_text",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        <section class="twelve column" id="section_5"><a name="5"></a><span class="table_title">5 Letter Words</span><table class='searchResults' id='results_5'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td><a href='http://www.yourdictionary.com/elope'>elope</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/leone'>leone</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/betel'>betel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/elate'>elate</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/elect'>elect</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/elite'>elite</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/elute'>elute</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/fleet'>fleet</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/gleet'>gleet</a></td><td>4</td><td>5</td></tr><tr><td>leets</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/lethe'>lethe</a></td><td>4</td><td>5</td></tr><tr><td>relet</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/sleet'>sleet</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/steel'>steel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/stele'>stele</a></td><td>4</td><td>5</td></tr><tr><td>teels</td><td>4</td><td>5</td></tr><tr><td>telae</td><td>4</td><td>5</td></tr><tr><td>teles</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/telex'>telex</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/jewel'>jewel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/newel'>newel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/wedel'>wedel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/wheel'>wheel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/emote'>emote</a></td><td>4</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/topee'>topee</a></td><td>4</td><td>4</td></tr><tr><td>etwee</td><td>7</td><td>7</td></tr><tr><td>rewet</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/sweet'>sweet</a></td><td>7</td><td>7</td></tr><tr><td>tewed</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/tweed'>tweed</a></td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/tween'>tween</a></td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/tweet'>tweet</a></td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/weest'>weest</a></td><td>7</td><td>7</td></tr><tr><td>weets</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>8</td><td>9</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>8</td><td>9</td></tr><tr><td>botel</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/extol'>extol</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/helot'>helot</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/hotel'>hotel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/ketol'>ketol</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/lento'>lento</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/lotte'>lotte</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/metol'>metol</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/motel'>motel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/stole'>stole</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/telco'>telco</a></td><td>4</td><td>5</td></tr><tr><td>teloi</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/telos'>telos</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/thole'>thole</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/toile'>toile</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/toled'>toled</a></td><td>4</td><td>5</td></tr><tr><td>toles</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/volte'>volte</a></td><td>4</td><td>5</td></tr><tr><td>zlote</td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/below'>below</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/bowel'>bowel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/dowel'>dowel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/elbow'>elbow</a></td><td>7</td><td>8</td></tr><tr><td>lowed</td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/lower'>lower</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/lowes'>lowes</a></td><td>7</td><td>8</td></tr><tr><td>lowse</td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/rowel'>rowel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/vowel'>vowel</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/whole'>whole</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/dwelt'>dwelt</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>7</td><td>8</td></tr><tr><td>welts</td><td>7</td><td>8</td></tr><tr><td>wetly</td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>7</td><td>7</td></tr><tr><td>towed</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/tower'>tower</a></td><td>7</td><td>7</td></tr><tr><td>towie</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wrote'>wrote</a></td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/owlet'>owlet</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/towel'>towel</a></td><td>7</td><td>8</td></tr></tbody></table></section>        <div class='ad-after-table' id="YD_Wordfinder_300x250_1"><div id="YD_Wordfinder_300x250_1"></div></div>
+        <script>YD.ads.define("YD_Wordfinder_300x250_1","YD_Wordfinder_300x250_1",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        <section class="twelve column" id="section_4"><a name="4"></a><span class="table_title">4 Letter Words</span><table class='searchResults' id='results_4'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td><a href='http://www.yourdictionary.com/leet'>leet</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/teel'>teel</a></td><td>4</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/tele'>tele</a></td><td>4</td><td>5</td></tr><tr><td>weel</td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/alee'>alee</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/dele'>dele</a></td><td>3</td><td>4</td></tr><tr><td>eels</td><td>3</td><td>4</td></tr><tr><td>eely</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/else'>else</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/feel'>feel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/flee'>flee</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/glee'>glee</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/heel'>heel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/keel'>keel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/leek'>leek</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/leer'>leer</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lees'>lees</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/leet'>leet</a></td><td>3</td><td>4</td></tr><tr><td>leke</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/peel'>peel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/pele'>pele</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/reel'>reel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/seel'>seel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/teel'>teel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tele'>tele</a></td><td>3</td><td>4</td></tr><tr><td>weel</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/ogee'>ogee</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/twee'>twee</a></td><td>7</td><td>7</td></tr><tr><td>weet</td><td>7</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/beet'>beet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/cete'>cete</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/deet'>deet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/feet'>feet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/fete'>fete</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/jete'>jete</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/keet'>keet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/leet'>leet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/meet'>meet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/mete'>mete</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/rete'>rete</a></td><td>3</td><td>3</td></tr><tr><td>teed</td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/teel'>teel</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/teem'>teem</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/teen'>teen</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tees'>tees</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tele'>tele</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/thee'>thee</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tree'>tree</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/twee'>twee</a></td><td>3</td><td>3</td></tr><tr><td>tyee</td><td>3</td><td>3</td></tr><tr><td>weet</td><td>3</td><td>3</td></tr><tr><td>awee</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/ewer'>ewer</a></td><td>6</td><td>6</td></tr><tr><td>ewes</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/twee'>twee</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/weed'>weed</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/week'>week</a></td><td>6</td><td>6</td></tr><tr><td>weel</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/ween'>ween</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/weep'>weep</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/weer'>weer</a></td><td>6</td><td>6</td></tr><tr><td>wees</td><td>6</td><td>6</td></tr><tr><td>weet</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/were'>were</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/whee'>whee</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/tole'>tole</a></td><td>4</td><td>5</td></tr><tr><td>lowe</td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/aloe'>aloe</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/bole'>bole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/cole'>cole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/dole'>dole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/enol'>enol</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/floe'>floe</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/helo'>helo</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/hole'>hole</a></td><td>3</td><td>4</td></tr><tr><td>jole</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/koel'>koel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/leno'>leno</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/levo'>levo</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lobe'>lobe</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lode'>lode</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/loge'>loge</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lone'>lone</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lope'>lope</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lore'>lore</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lose'>lose</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/love'>love</a></td><td>3</td><td>4</td></tr><tr><td>lowe</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/mole'>mole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/noel'>noel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/ogle'>ogle</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/olea'>olea</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/oleo'>oleo</a></td><td>3</td><td>4</td></tr><tr><td>oles</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/orle'>orle</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/pole'>pole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/role'>role</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/sloe'>sloe</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/sole'>sole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tole'>tole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/vole'>vole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/welt'>welt</a></td><td>7</td><td>8</td></tr><tr><td><a href='http://www.yourdictionary.com/belt'>belt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/blet'>blet</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/celt'>celt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/delt'>delt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/felt'>felt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/gelt'>gelt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/kelt'>kelt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/late'>late</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/leet'>leet</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/left'>left</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lent'>lent</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lept'>lept</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lest'>lest</a></td><td>3</td><td>4</td></tr><tr><td>lets</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lite'>lite</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lute'>lute</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/melt'>melt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/pelt'>pelt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tael'>tael</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tale'>tale</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/teal'>teal</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/teel'>teel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tela'>tela</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tele'>tele</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tell'>tell</a></td><td>3</td><td>4</td></tr><tr><td>tels</td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tile'>tile</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tole'>tole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tule'>tule</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/welt'>welt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/blew'>blew</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/clew'>clew</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/flew'>flew</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/lewd'>lewd</a></td><td>6</td><td>7</td></tr><tr><td>lowe</td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/lwei'>lwei</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/mewl'>mewl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/plew'>plew</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/slew'>slew</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wale'>wale</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/weal'>weal</a></td><td>6</td><td>7</td></tr><tr><td>weel</td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/weld'>weld</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/well'>well</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/welt'>welt</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wile'>wile</a></td><td>6</td><td>7</td></tr><tr><td>wyle</td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/cote'>cote</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/dote'>dote</a></td><td>3</td><td>3</td></tr><tr><td>keto</td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/mote'>mote</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/note'>note</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/poet'>poet</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/rote'>rote</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/toea'>toea</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/toed'>toed</a></td><td>3</td><td>3</td></tr><tr><td>toes</td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/toke'>toke</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tole'>tole</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tome'>tome</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tone'>tone</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tope'>tope</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tore'>tore</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tote'>tote</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/veto'>veto</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/vote'>vote</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/enow'>enow</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/howe'>howe</a></td><td>6</td><td>6</td></tr><tr><td>lowe</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/meow'>meow</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/owed'>owed</a></td><td>6</td><td>6</td></tr><tr><td>owes</td><td>6</td><td>6</td></tr><tr><td>owse</td><td>6</td><td>6</td></tr><tr><td>woes</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/woke'>woke</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wore'>wore</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wove'>wove</a></td><td>6</td><td>6</td></tr><tr><td>yowe</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/newt'>newt</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/stew'>stew</a></td><td>6</td><td>6</td></tr><tr><td>tews</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/thew'>thew</a></td><td>6</td><td>6</td></tr><tr><td>twae</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/twee'>twee</a></td><td>6</td><td>6</td></tr><tr><td>weet</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/weft'>weft</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/welt'>welt</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/went'>went</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wept'>wept</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wert'>wert</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/west'>west</a></td><td>6</td><td>6</td></tr><tr><td>wets</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/whet'>whet</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wite'>wite</a></td><td>6</td><td>6</td></tr><tr><td>wyte</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/alto'>alto</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/blot'>blot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/bolt'>bolt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/clot'>clot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/colt'>colt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/dolt'>dolt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/holt'>holt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/jolt'>jolt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/loft'>loft</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/loot'>loot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lost'>lost</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lota'>lota</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/loth'>loth</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/loti'>loti</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lots'>lots</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lout'>lout</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/molt'>molt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/plot'>plot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/rotl'>rotl</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/slot'>slot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/toil'>toil</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tola'>tola</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/told'>told</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tole'>tole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/toll'>toll</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tolu'>tolu</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tool'>tool</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/volt'>volt</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/alow'>alow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/awol'>awol</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/blow'>blow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/bowl'>bowl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/cowl'>cowl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/flow'>flow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/fowl'>fowl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/glow'>glow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/howl'>howl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/jowl'>jowl</a></td><td>6</td><td>7</td></tr><tr><td>lowe</td><td>6</td><td>7</td></tr><tr><td>lown</td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/lows'>lows</a></td><td>6</td><td>7</td></tr><tr><td>owls</td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/plow'>plow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/slow'>slow</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wold'>wold</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wolf'>wolf</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wool'>wool</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/yowl'>yowl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/welt'>welt</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/wilt'>wilt</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/nowt'>nowt</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/stow'>stow</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/swot'>swot</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/town'>town</a></td><td>6</td><td>6</td></tr><tr><td>tows</td><td>6</td><td>6</td></tr><tr><td>towy</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/trow'>trow</a></td><td>6</td><td>6</td></tr><tr><td>twos</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wont'>wont</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wort'>wort</a></td><td>6</td><td>6</td></tr><tr><td>wost</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wots'>wots</a></td><td>6</td><td>6</td></tr></tbody></table></section>        <div class='ad-after-table' id="YD_Wordfinder_300x250_2"><div id="YD_Wordfinder_300x250_2"></div></div>
+        <script>YD.ads.define("YD_Wordfinder_300x250_2","YD_Wordfinder_300x250_2",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        <section class="twelve column" id="section_3"><a name="3"></a><span class="table_title">3 Letter Words</span><table class='searchResults' id='results_3'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td><a href='http://www.yourdictionary.com/eel'>eel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/lee'>lee</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tee'>tee</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/ewe'>ewe</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wee'>wee</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/bee'>bee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/cee'>cee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/dee'>dee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eek'>eek</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eel'>eel</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eke'>eke</a></td><td>2</td><td>2</td></tr><tr><td>eme</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ere'>ere</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eve'>eve</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ewe'>ewe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eye'>eye</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/fee'>fee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/gee'>gee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/jee'>jee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/lee'>lee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/nee'>nee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/pee'>pee</a></td><td>2</td><td>2</td></tr><tr><td>ree</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/see'>see</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tee'>tee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/vee'>vee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/wee'>wee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/zee'>zee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ole'>ole</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/let'>let</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/tel'>tel</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/ale'>ale</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/bel'>bel</a></td><td>2</td><td>3</td></tr><tr><td>cel</td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/del'>del</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/eel'>eel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/eld'>eld</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/elf'>elf</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/elk'>elk</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/ell'>ell</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/elm'>elm</a></td><td>2</td><td>3</td></tr><tr><td>els</td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/gel'>gel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lea'>lea</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/led'>led</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lee'>lee</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/leg'>leg</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lei'>lei</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lek'>lek</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/les'>les</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/let'>let</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/leu'>leu</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lev'>lev</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lex'>lex</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/ley'>ley</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lez'>lez</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lie'>lie</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lye'>lye</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/mel'>mel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/ole'>ole</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/sel'>sel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tel'>tel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/toe'>toe</a></td><td>3</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/owe'>owe</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/woe'>woe</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/doe'>doe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ego'>ego</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eon'>eon</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/foe'>foe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/hoe'>hoe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/joe'>joe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/obe'>obe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ode'>ode</a></td><td>2</td><td>2</td></tr><tr><td>oes</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/oke'>oke</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ole'>ole</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/one'>one</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ope'>ope</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ore'>ore</a></td><td>2</td><td>2</td></tr><tr><td>ose</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/owe'>owe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/roe'>roe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/toe'>toe</a></td><td>2</td><td>2</td></tr><tr><td>voe</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/woe'>woe</a></td><td>2</td><td>2</td></tr><tr><td>tew</td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wet'>wet</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/ate'>ate</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/bet'>bet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eat'>eat</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eft'>eft</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eta'>eta</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/eth'>eth</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/fet'>fet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/get'>get</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/het'>het</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/jet'>jet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/let'>let</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/met'>met</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/net'>net</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/pet'>pet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ret'>ret</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/set'>set</a></td><td>2</td><td>2</td></tr><tr><td>tae</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tea'>tea</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ted'>ted</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tee'>tee</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/teg'>teg</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tel'>tel</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ten'>ten</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tet'>tet</a></td><td>2</td><td>2</td></tr><tr><td>tew</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/the'>the</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tie'>tie</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/toe'>toe</a></td><td>2</td><td>2</td></tr><tr><td>tye</td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ute'>ute</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/vet'>vet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/wet'>wet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/yet'>yet</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/awe'>awe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/dew'>dew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/ewe'>ewe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/few'>few</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/hew'>hew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/jew'>jew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/mew'>mew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/new'>new</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/owe'>owe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/pew'>pew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/sew'>sew</a></td><td>5</td><td>5</td></tr><tr><td>tew</td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wae'>wae</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/web'>web</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wed'>wed</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wee'>wee</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wen'>wen</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wet'>wet</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/woe'>woe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wye'>wye</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/yew'>yew</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/lot'>lot</a></td><td>3</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/low'>low</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/owl'>owl</a></td><td>6</td><td>7</td></tr><tr><td><a href='http://www.yourdictionary.com/col'>col</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/dol'>dol</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lob'>lob</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/log'>log</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/loo'>loo</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lop'>lop</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lot'>lot</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/low'>low</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lox'>lox</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/mol'>mol</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/oil'>oil</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/old'>old</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/ole'>ole</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/owl'>owl</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/pol'>pol</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/sol'>sol</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/alt'>alt</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lat'>lat</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/let'>let</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lit'>lit</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lot'>lot</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/tel'>tel</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/til'>til</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/awl'>awl</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/law'>law</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/low'>low</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/owl'>owl</a></td><td>5</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/tow'>tow</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/two'>two</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/wot'>wot</a></td><td>6</td><td>6</td></tr><tr><td><a href='http://www.yourdictionary.com/bot'>bot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/cot'>cot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/dot'>dot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/got'>got</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/hot'>hot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/jot'>jot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/lot'>lot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/mot'>mot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/not'>not</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/oat'>oat</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/oft'>oft</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/oot'>oot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/opt'>opt</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ort'>ort</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/out'>out</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/pot'>pot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/rot'>rot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/sot'>sot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tao'>tao</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tho'>tho</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tod'>tod</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/toe'>toe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tog'>tog</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tom'>tom</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/ton'>ton</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/too'>too</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/top'>top</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tor'>tor</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tot'>tot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/tow'>tow</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/toy'>toy</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/two'>two</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/wot'>wot</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/bow'>bow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/cow'>cow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/dow'>dow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/how'>how</a></td><td>5</td><td>5</td></tr><tr><td>jow</td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/low'>low</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/mow'>mow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/now'>now</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/owe'>owe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/owl'>owl</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/own'>own</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/pow'>pow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/row'>row</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/sow'>sow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/tow'>tow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/two'>two</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/vow'>vow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/who'>who</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/woe'>woe</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wog'>wog</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wok'>wok</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/won'>won</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/woo'>woo</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wop'>wop</a></td><td>5</td><td>5</td></tr><tr><td>wos</td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wot'>wot</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wow'>wow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/yow'>yow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/taw'>taw</a></td><td>5</td><td>5</td></tr><tr><td>tew</td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/tow'>tow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/twa'>twa</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/two'>two</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wat'>wat</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wet'>wet</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wit'>wit</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wot'>wot</a></td><td>5</td><td>5</td></tr></tbody></table></section>        <div class='ad-after-table' id="YD_Wordfinder_300x250_3"><div id="YD_Wordfinder_300x250_3"></div></div>
+        <script>YD.ads.define("YD_Wordfinder_300x250_3","YD_Wordfinder_300x250_3",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        <section class="twelve column" id="section_2"><a name="2"></a><span class="table_title">2 Letter Words</span><table class='searchResults' id='results_2'><thead><tr><th>Word</th><th>ScrabbleÂ® Points</th><th>Words With FriendsÂ® Points</th></tr></thead><tbody><tr><td><a href='http://www.yourdictionary.com/ae'>ae</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/al'>al</a></td><td>1</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/at'>at</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/aw'>aw</a></td><td>4</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/be'>be</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/bo'>bo</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/de'>de</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/do'>do</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ed'>ed</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ef'>ef</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/eh'>eh</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/el'>el</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/el'>el</a></td><td>1</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/el'>el</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/em'>em</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/en'>en</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/er'>er</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/es'>es</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/et'>et</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/et'>et</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/et'>et</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ex'>ex</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/fe'>fe</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/go'>go</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/he'>he</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ho'>ho</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/it'>it</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/jo'>jo</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/la'>la</a></td><td>1</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/li'>li</a></td><td>1</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/lo'>lo</a></td><td>2</td><td>3</td></tr><tr><td><a href='http://www.yourdictionary.com/lo'>lo</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/lo'>lo</a></td><td>1</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/me'>me</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/mo'>mo</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ne'>ne</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/no'>no</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/od'>od</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/oe'>oe</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/oe'>oe</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/oe'>oe</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/of'>of</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/oh'>oh</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/oi'>oi</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/om'>om</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/on'>on</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/op'>op</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/or'>or</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/os'>os</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ow'>ow</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/ow'>ow</a></td><td>4</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/ow'>ow</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ox'>ox</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/oy'>oy</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/pe'>pe</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/re'>re</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/so'>so</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ta'>ta</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ti'>ti</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/to'>to</a></td><td>2</td><td>2</td></tr><tr><td><a href='http://www.yourdictionary.com/to'>to</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/to'>to</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ut'>ut</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/we'>we</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/we'>we</a></td><td>4</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/we'>we</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/wo'>wo</a></td><td>5</td><td>5</td></tr><tr><td><a href='http://www.yourdictionary.com/wo'>wo</a></td><td>4</td><td>4</td></tr><tr><td><a href='http://www.yourdictionary.com/wo'>wo</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/ye'>ye</a></td><td>1</td><td>1</td></tr><tr><td><a href='http://www.yourdictionary.com/yo'>yo</a></td><td>1</td><td>1</td></tr></tbody></table></section>        <div class='ad-after-table' id="YD_Wordfinder_300x250_4"><div id="YD_Wordfinder_300x250_4"></div></div>
+        <script>YD.ads.define("YD_Wordfinder_300x250_4","YD_Wordfinder_300x250_4",'YD',[[[0,0],[[300,250]]],[[728,1],[]]],['300x250'],false)</script>
+        </section>
+  </div>
+<div class="socialscrabblebottom">
+    <ul class="socialbreadcrumbsscrabbleForWholeYD" style="list-style-type:none;">
+        <li style="width: 50px; display:inline-block;"><div class="fb-like" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div></li>
+        <li style="display:inline-block;"><div class="g-plusone" data-size="tall" data-annotation="bubble"></div></li>
+        <li style="display:inline-block;"><a href="https://twitter.com/share" class="twitter-share-button" data-via="YourDictionary" data-count="vertical">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>  
+    </ul>  
+</div><aside class="three large-3 columns words_finder_wordlists" role="complementary">
+    <p class="ad300"><div id="ad300"><div id="ad300-Wordfinder"></div></div><script>YD.ads.define("ad300-Wordfinder","YD_Wordfinder_300",'YD',[[[0,0],[]],[[728,1],[[300,250],[300,600],[160,600],[300,1050]]]],false)</script></p>
+        <div class="panel">   
+        <h3>4 Pics 1 Word Answers</h3>
+        <p>Get the help you need for the addictive game 4 Pics 1 Word</p>
+        <a class="button expand" id="download-button-scrabble" href="http://wordfinder.yourdictionary.com/4pics/">Try Word Finder for 4 Pics</a>
+    </div>
+	    <p class="ad300-text"><div id="ad300-text"><div id="ad300-Wordfinder-text"></div></div><script>YD.ads.define("ad300-Wordfinder-text","YD_Wordfinder_300x250_text",'YD',[[[0,0],[]],[[728,1],[[300,250]]]],false)</script></p>
+        <div class="panel">
+        <h3>List of Words</h3>
+        <ul class="word_lists_aside">
+            <li><a href="/ending-with/">Words Ending in...</a></li>
+            <li><a href="/words-that-start/">Words that Start with...</a></li>
+            <li><a href="/words-with-the-letter/">Words with the Letter...</a></li>
+            <li><a href="/letter-words/">Words by Length</a></li>
+            <li><a href="/consonants/">Consonant Words</a></li>
+            <li><a href="/vowels/">Vowel Words</a></li>
+        </ul>
+    </div>  <div class="definitionSocialRight" style="width:300px;text-align:center">
+<h3 class="follow_yourdictionary">Follow YourDictionary</h3>
+<a href="http://www.facebook.com/YourDictionary" target="_blank" style="font-size:1.6em;line-height:1.36em;vertical-align:top;padding:.1em .35em;"><i class="fa icon-facebook-sign"></i></a>
+<a href="//plus.google.com/112221546412856538251?prsrc=3" rel="publisher" target="_blank" style="text-decoration:none;font-size:1.6em;line-height:1.36em;vertical-align:top;"><i class="fa icon-google-plus-sign"></i></a>
+<a href="http://www.pinterest.com/YourDictionary" target="_blank" style="font-size:2.4em;line-height:1.36em;vertical-align:top;padding-left:8px;color:#cb2027"><i class="fa icon-pinterest-sign"></i></a>
+<a href="http://www.twitter.com/YourDictionary" target="_blank" style="font-size:2.4em;line-height:1.36em;vertical-align:top;padding-left:8px;"><i class="fa icon-twitter-sign"></i></a>
+<div id="follow_anchor"></div>
+</div>
+<div id="sticky-ad-top"></div>
+<div id="sticky-ad-container" style="padding-top:10px"><div id="ad-wordfinder-sticky"></div></div>
+<script>YD.ads.define("ad-wordfinder-sticky","YD_Wordfinder_Sticky",'YD',[[[0,0],[]],[[728,1],[[300,600],[160,600],[300,250]]]],false)</script>
+</aside>
+</div>
+<div class="row">
+    <div class="large-12 columns">
+        <small>SCRABBLEÂ® and WORDS WITH FRIENDSÂ® are the property of their respective trademark owners. These trademark owners are not affiliated with, and do not endorse and/or sponsor, LoveToKnowÂ®, its products or its websites, including yourdictionary.com. Use of these trademarks on yourdictionary.com is for informational purposes only. </small>    
+    </div>
+</div>
+</div><!-- content -->
+<!-- Footer -->
+<div id="ad11"></div>
+<!-- Footer -->
+<div class='layout'>
+<script>
+write('<footer class="row pagination-centered" role="contentinfo">'+
+'  <div class="twelve large-12 columns">'+
+'    <hr />'+
+'    <ul class="inline-list" role="navigation">'+
+'        <li><a href="http://www.yourdictionary.com/about.html" onClick="ga(\'send\', \'event\', {eventCategory: \'About page from footer\',eventAction: \'Click\'});">About YourDictionary</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/about/adopp.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Advertisers page from footer\',eventAction: \'Click\'});">Advertisers</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/about/contact.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Contact Us page from footer\',eventAction: \'Click\'});">Contact Us</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/about/privacy.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Privacy Policy page from footer\',eventAction: \'Click\'});">Privacy Policy</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/about/terms-of-use.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Terms of Use page from footer\',eventAction: \'Click\'});">Terms of Use</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/dicthelp.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Help page from footer\',eventAction: \'Click\'});">Help</a></li>'+
+'        <li><a href="https://www.surveymonkey.com/s/52K2Z79" target="_blank" onClick="ga(\'send\', \'event\', {eventCategory: \'Suggestion Box page from footer\',eventAction: \'Click\'});">Suggestion Box</a></li>'+
+'        <li><a href="http://www.yourdictionary.com/dictionary_tools.html" onClick="ga(\'send\', \'event\', {eventCategory: \'Tools page from footer\',eventAction: \'Click\'});">Tools</a></li>    '+
+'    </ul>'+
+'<div id="bottom-login" class="right login-section twelve large-12 columns"></div>'+
+'    <p class="text-center footer_content"><small>&copy; 1996-2017 LoveToKnow, Corp. All Rights Reserved. Audio pronunciation provided by LoveToKnow, Corp.</small></p>'+
+'  </div>'+
+'</footer>');
+</script>
+</div></div>
+<script src="http://cf.ydcdn.net/1.0.1.68/js/jquery.dataTables.js"></script>
+<script src="http://cf.ydcdn.net/1.0.1.68/js/foundation.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(document).foundation();
+    });
+    jQuery("#nav_placeholder").replaceWith(jQuery(".top-bar"));
+    </script>
+<script type="text/javascript">
+$(document).ready(function() {
+		$('#results_7').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_7').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_7').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_7').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_7').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_7').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_7').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_7').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_7'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );$(document).ready(function() {
+		$('#results_6').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_6').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_6').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_6').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_6').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_6').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_6').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_6').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_6'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );$(document).ready(function() {
+		$('#results_5').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_5').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_5').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_5').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_5').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_5').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_5').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_5').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_5'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );$(document).ready(function() {
+		$('#results_4').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_4').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_4').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_4').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_4').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_4').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_4').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_4').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_4'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );$(document).ready(function() {
+		$('#results_3').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_3').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_3').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_3').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_3').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_3').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_3').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_3').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_3'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );$(document).ready(function() {
+		$('#results_2').dataTable({
+				'aaSorting': [[ 2, 'desc' ]],
+				'bSearchable': false,
+				'iDisplayLength': 100,
+				'bJQueryUI': true,
+				'sPaginationType': 'full_numbers', 
+				'bSortCellsTop' : true,
+				'oLanguage': {'sInfo': 'Showing _START_ to _END_ of _TOTAL_'},
+				'fnDrawCallback': function(oSettings) {
+					setTimeout(function() {
+						$('#results_2').prev('.fg-toolbar').find('.dataTables_info').remove();
+						$('#results_2').next('.fg-toolbar').find('.backToTop').remove();
+						$('#results_2').next('.fg-toolbar').find('.goToTable').remove();
+						var dataToMove = $('#results_2').next('.fg-toolbar').find('.dataTables_info').clone();
+						dataToMove.insertBefore($('#results_2').prev('.fg-toolbar').find('.dataTables_length'));
+						$('<div class=\'backToTop\'><a href=\'#\'>Back to top</a></div>').insertBefore($('#results_2').next('.fg-toolbar').find('.dataTables_paginate'));
+						$('#main-scrabble .goToTable:eq(0)').clone().insertAfter($('#results_2').next('.fg-toolbar').find('.dataTables_paginate'));
+					}, 1000);
+				  $('#results_2'+'_loader').hide();
+				  if (oSettings._iDisplayLength > oSettings.fnRecordsDisplay()) {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').hide();
+						$(oSettings.nTableWrapper).find('.dataTables_length').hide();
+					} else {
+						$(oSettings.nTableWrapper).find('.dataTables_paginate').show();
+						$(oSettings.nTableWrapper).find('.dataTables_length').show();
+					}
+				}
+			});
+			
+			$(document).on('change','.goToTable select', function() {
+                var jump_link = $('#'+$(this).val());
+                var jl_offset = jump_link.offset();
+                window.scrollTo(0, jl_offset.top - 100);
+                return false;
+			});
+	} );</script>
+<script type="text/javascript">
+var currentHost=window.location.host;
+floatHeader();
+jQuery(function($){
+    var criteo_scrollingAd = $('#sticky-ad-container'); 
+    var criteo_scrollingAdTop = $('#sticky-ad-top');
+    scrollCriteoAd();
+    
+	floatHeader();
+	$(window).scroll(function(){
+		floatHeader();
+        scrollCriteoAd();
+    
+	});
+    $(window).resize(function() {
+		floatHeader();
+    });
+    function scrollCriteoAd() 
+    {
+        var browserWidth = window.innerWidth || document.documentElement.clientWidth;
+        var criteo_adTop = criteo_scrollingAdTop.offset().top;
+        if(browserWidth >= 765 )
+        {
+            if (($(window).scrollTop() >= (criteo_adTop - 80)))
+            {
+                criteo_scrollingAd.css({"position": "fixed", "top": "120px"}); 
+            }
+            else
+            {
+                criteo_scrollingAd.css({"position": "static", "top": "auto"});
+            }
+        }
+    }
+    
+});	
+$(".searchWFButton, #form_submit_button, #scrabble_search_button_clicker").click(function(){
+	$("#searchbox_submit").trigger("click");
+});
+
+$(document).on("click",'.shareSocial',function(){
+    var shareTitle = $(this).attr("title");
+    var shareUrl = $(this).attr("data-href");
+    window.open(encodeURI(shareUrl), 
+    shareTitle, "height=300,width=550,resizable=1" );
+});	
+
+window.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("searchbox_mobile");
+	if(form != null) {
+		document.getElementById("mobile_form_submit_button").addEventListener("click", function () {
+		  			form.submit();
+		  		});
+	}
+});
+function floatHeader() {
+   var myWidth = window.innerWidth || document.documentElement.clientWidth;
+
+   if(myWidth >= 750) 
+   {
+       if($(window).scrollTop() > ($(".floating-nav").height()+$("#ad-super-wordfinder").height()+10))
+	   {
+			$(".floating-header").css({"position": "fixed", "top": "0px"});
+	   } 
+	   else
+	   {
+            $(".floating-header").css({"position": "static", "top": "auto"});
+	   }
+   }
+   else
+   {
+      $("#searchbox").css({"display": "none"});
+      $("#yd_search_bar_nofloat").css({"height": "49px"});
+   }
+   $("#yd_search_bar").autocomplete = "off";
+   $("#yd_search_bar_mobile").autocomplete = "off";
+   $("#yd_search_bar").autocorrect = "off";
+   $("#yd_search_bar_mobile").autocorrect = "off";
+   $("#yd_search_bar").autocapitalize = "off";
+   $("#yd_search_bar_mobile").autocapitalize = "off";
+
+}
+
+function changeSearchWidth()
+{
+	$(".social").hide();
+	$("#YdSearchContainer").css("visibility","hidden");
+    var browserWidth = window.innerWidth || document.documentElement.clientWidth;
+    var diffInPixels = 50;
+
+    if(browserWidth <= 898 )
+    {
+        diffInPixels = 30;
+    }
+    else if(browserWidth >= 1050) 
+    {
+        diffInPixels = 70;
+    }
+	if($("#YdSearchContainer").css("visibility") == "hidden") {
+		$("#YdSearchContainer").css("width",($("#floaterContainer").width()-($("#floater").width()+$("#YdLogoContainer").width()+30))+"px");
+		if(browserWidth > 750) 
+		{
+			var widthSearch = $("#YdSearchContainer").width()-($(".WordFinderNavLeft").width()+$(".WordFinderNavRight").width()+5);
+
+			$("#floaterContainer .searchField").css("width",(widthSearch-$('.searchButton:visible').width())+"px");
+			var rememberTilesHeight = (($(".searchField").outerHeight() / 2) - ($(".rem_scrabble-dictionary").outerHeight() / 2));
+			$('.rem_scrabble-dictionary').css('margin-top',rememberTilesHeight+'px');
+
+			if($('.rem_scrabble-dictionary').length == 0) {
+					$(".searchField").css("margin-left","auto");
+					$(".WordFinderNavLeft").css("margin-left","auto");
+					$(".WordFinderNavRight").css("margin-left","auto");
+					
+					var negLeftRightMarg = (($(".searchField").outerWidth()-$(".wfSearchMainCont").width()))/2;
+					$(".searchField").css("margin-left","-"+(negLeftRightMarg-10)+"px");
+					$(".WordFinderNavLeft").css("margin-left",(negLeftRightMarg-10)+"px");
+					$(".WordFinderNavRight").css("margin-left","-"+(negLeftRightMarg-10)+"px");
+					
+			}
+		}
+		else
+		{
+			var widthSearch = ($("#floaterContainer").width()-($("#YdLogoContainer").width()+diffInPixels));
+			$("#floaterContainer #searchbox").css("width",widthSearch+"px");
+			$("#floaterContainer .searchField").css("width",(widthSearch*0.4)+"px");
+			$("#floaterContainer #searchextras").css("width",(widthSearch*0.4)+"px");
+		}
+		$("#yd_search_bar").autocomplete = "off";
+		$("#yd_search_bar_mobile").autocomplete = "off";
+		$("#yd_search_bar").autocorrect = "off";
+		$("#yd_search_bar_mobile").autocorrect = "off";
+		$("#yd_search_bar").autocapitalize = "off";
+		$("#yd_search_bar_mobile").autocapitalize = "off";
+		$("#YdSearchContainer").css("visibility","visible");
+		$(".social").show();
+	}
+	
+}
+
+$(document).ready(function() {
+	$("#searchbox").submit(function(){
+		bReturn = false;
+		var searchString = "";
+		if($("#yd_search_bar_mobile").length > 0) {
+			searchString=$("#yd_search_bar_mobile").val().trim();
+		} else {
+			if($("#letters_input_field").val().trim() != '') {
+				searchString += $("#letters_input_field").val().trim();
+			}
+		}
+		
+		if($("#puzzle_length").length > 0) {
+			if(searchString.length < $("#puzzle_length").val()) {
+				alert('Please enter at least as many letters as the puzzle length!');
+			} else {
+				bReturn = true;
+			}
+		} else {
+			if(searchString.length < 2) {
+				alert('Please enter at least 2 letters to perform a search!');
+			} else {
+				bReturn = true;
+			}
+		}
+		
+		return bReturn;
+	});
+	$('.floating-nav nav li a').each(function(){
+		var locationUrl = $(this).attr("href")
+		if(locationUrl.indexOf(currentHost) > -1) {
+			if(window.location.host.indexOf("examples") == -1) {
+				$(this).addClass("currenttab");
+				$(this).parents("li.has-dropdown").find("a:first").addClass("currenttab");
+			} else {
+				if($(this).parents("li.has-dropdown").find("a:first").text().toLowerCase().trim() == "examples") {
+					$(this).addClass("currenttab");
+					$(this).parents("li.has-dropdown").find("a:first").addClass("currenttab");
+				}
+			}
+		}
+	});
+	
+    var myWidth = window.innerWidth || document.documentElement.clientWidth;
+    if (myWidth < 450) {
+        $('input, textarea').bind('focus', function(e) {
+            $("#header_ad").hide();
+        });
+        $('input, textarea').bind('blur', function(e) {
+            $("#header_ad").show();
+        });
+        $('<div class="close">Ã</div>').appendTo('.ad_top_homegrown').click(function(){$(this).parent().fadeOut()});
+        $(".ad-super-container").css({"height":"0px"});
+    }
+	
+    $(".has-dropdown").click(function(){
+		if(myWidth < 700)
+		{
+			setTimeout(function(){
+				if($(".top-bar li.moved").length > 0)
+				{
+					$("#breadcrumbs_social").css({"position":"absolute","z-index":"99"});
+					$("#breadcrumbs_social").css("top",$("li.last_index").position().top);
+					$("#breadcrumbs_social").css("left","");
+				}
+				else
+				{
+					$("#breadcrumbs_social").css({"position":"static","z-index":"99"});
+					$("#breadcrumbs_social").css("top",$("li.last_index").position().top);
+					$("#breadcrumbs_social").css("left","");
+				}
+			}, 500);
+		}
+	});
+
+    //changeSearchWidth();
+    
+	if($("#letters_input_4pics").length > 0)
+	{
+		calc4PicsLeft();
+	}
+	$(window).resize(function() {
+		if($("#letters_input_4pics").length > 0)
+		{
+			calc4PicsLeft();
+            //changeSearchWidth();
+		}
+	});
+	$(window).on("orientationchange",function(){
+		if($("#letters_input_4pics").length > 0)
+		{
+			calc4PicsLeft();
+            //changeSearchWidth();
+		}
+	});
+	function calc4PicsLeft()
+	{
+		var windowHalf = ($("#4pics_search_container").width()/2)-13;
+		var textAreaHalf = ($("#letters_input_4pics").width()/2);
+		var leftPos = (windowHalf-textAreaHalf);
+		$("#letters_input_4pics").css("left",leftPos+"px");
+		$("#letters_input_4pics").show();
+	}
+	
+	var is_touch_device = (!!('ontouchstart' in window) || !!('onmsgesturechange' in window));
+
+	if(is_touch_device)
+	{
+		$('input,textarea').focus(function(){
+			$('body').addClass('kb');
+		}).blur(function(){
+			$('body').removeClass('kb');
+		});
+	}
+
+    jQuery.getScript('http://connect.facebook.net/en_US/all.js#xfbml=1', function() {
+        FB.init({status: true, cookie: true, xfbml: true});
+    });
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	$('input').placeholder();
+    $('input').on('drop', function(event) { event.preventDefault(); });
+});
+window.setTimeout(function() {
+    offsetAnchor();
+}, 1); 
+
+if (window.location.href.indexOf("remember_tiles") > -1) {
+    $("#small_blue_scrabble_search_input").val("eelotw?");
+    $("#blue_scrabble_search_input").val("eelotw?");
+    $("#mobile_blue_scrabble_search_input").val("eelotw?");
+    $('input:checkbox').prop('checked', true);
+}
+
+googletag.cmd.push(function () {checkRefreshAds(true);});
+</script>
+<!-- CACHED Tue, 21 Feb 2017 06:16:03pm PST --></body>
+</html>

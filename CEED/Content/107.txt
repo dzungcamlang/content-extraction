@@ -1,0 +1,97 @@
+Weather in New York - AccuWeather Forecast for NY 10007.
+New York.
+Day Details.
+Thu Feb 23.
+64°.
+Patchy morning fog; otherwise, warm with partial sunshine.
+Sunrise 6:39am.
+RealFeel® 64°.
+Winds 5 mph WSW.
+Gusts 10 mph.
+Thunderstorms 1%.
+Cloud Cover 45%.
+Max UV Index 3 (Moderate)
+precip 3%.
+Rain 0 in.
+Snow 0 in.
+Ice 0 in.
+Hours of Precip 0.
+Hours of Rain 0.
+6:39am Sunrise.
+64° RealFeel®.
+5 mph WSW Winds.
+10 mph Gusts.
+1% Thunderstorms.
+45% Cloud Cover.
+3 (Moderate) Max UV Index.
+3% precip.
+0 in Rain.
+0 in Snow.
+0 in Ice.
+0 Hours of Precip.
+0 Hours of Rain.
+Night Details.
+Thu Feb 23.
+52°.
+Mostly cloudy and mild.
+Sunset 5:40pm.
+RealFeel® 56°.
+Winds 4 mph SSW.
+Gusts 6 mph.
+Thunderstorms 11%.
+Cloud Cover 90%.
+precip 25%.
+Rain 0 in.
+Snow 0 in.
+Ice 0 in.
+Hours of Precip 0.
+Hours of Rain 0.
+5:40pm Sunset.
+56° RealFeel®.
+4 mph SSW Winds.
+6 mphGusts.
+11% Thunderstorms.
+90% Cloud Cover.
+25% precip.
+0 in Rain.
+0 in Snow.
+0 in Ice.
+0 Hours of Precip.
+0 Hours of Rain.
+Morning.
+Afternoon.
+Evening.
+Overnight.
+Fri Feb 24 ▸.
+World ▸.
+North America ▸.
+United States ▸.
+New York ▸.
+New York.
+New York.
+◂ New York.
+◂ United States.
+◂ North America.
+◂ World.
+Menu.
+Enter postal code or city...
+New York.
+Miami.
+Los Angeles.
+Browse for your location.
+English (US)   °F.
+Lifestyle Weather.
+Hunting.
+Fishing.
+Driving.
+Migraine.
+1New York Home.
+2Hourly.
+Current Weather.
+3Extended Forecast.
+4Weekend.
+5Month Outlook.
+6New York Radar.
+7News.
+Blogs.
+9My Settings.

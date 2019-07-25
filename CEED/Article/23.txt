@@ -1,0 +1,110 @@
+Edit Article.
+wikiHow to Multiply Radicals.
+Three Methods:
+Multiply Radicals Without Coefficients.
+Multiply Radicals with Coefficients.
+Multiply Radicals with Different Indices.
+Community Q&A.
+The radical symbol (√) represents the square root of a number. You can encounter the radical symbol in algebra or even in carpentry or another trade that involves geometry or calculating relative sizes or distances. You can multiply any two radicals that have the same indices (degrees of a root) together. If the radicals do not have the same indices, you can manipulate the equation until they do. If you want to know how to multiply radicals with or without coefficients, just follow these steps.
+Steps.
+Method.
+1.
+Multiply Radicals Without Coefficients.
+1Make sure that the radicals have the same index. To multiply radicals using the basic method, they have to have the same index. The "index" is the very small number written just to the left of the uppermost line in the radical symbol. If there is no index number, the radical is understood to be a square root (index 2) and can be multiplied with other square roots. You can multiply radicals with different indexes, but that is a more advanced method and will be explained later. Here are two examples of multiplication using radicals with the same indexes: Ex. 1: √(18) x √(2) = ? Ex. 2: √(10) x √(5) = ? Ex. 3: 3√(3) x 3√(9) = ?
+2Multiply the numbers under the radical signs. Next, simply multiply the numbers under the radical or square root signs and keep them there. Here's how you do it: Ex. 1: √(18) x √(2) = √(36) Ex. 2: √(10) x √(5) = √(50) Ex. 3: 3√(3) x 3√(9) = 3√(27)
+3Simplify the radical expressions. If you've multiplied radicals, there's a good chance that they can be simplified to perfect squares or perfect cubes, or that they can be simplified by finding a perfect square as a factor of the final product. Here's how you do it: Ex. 1: √(36) = 6. 36 is a perfect square because it is the product of 6 x 6. The square root of 36 is simply 6. Ex. 2: √(50) = √(25 x 2) = √([5 x 5] x 2) = 5√(2). Though 50 is not a perfect square, 25 is a factor of 50 (because it divides evenly into the number) and is a perfect square. You can break 25 down into its factors, 5 x 5, and move one 5 out of the square root sign to simplify the expression. You can think of it like this: If you throw the 5 back under the radical, it is multiplied by itself and becomes 25 again. Ex. 3:3√(27) = 3. 27 is a perfect cube because it's the product of 3 x 3 x 3. The cube root of 27 is therefore 3.
+Method.
+2.
+Multiply Radicals with Coefficients.
+1Multiply the coefficients. The coefficients are the numbers outside of a radical. If there is no given coefficient, then the coefficient can be understood to be 1. Multiply the coefficients together. Here's how you do it: Ex. 1: 3√(2) x √(10) = 3√( ? ) 3 x 1 = 3 Ex. 2: 4√(3) x 3√(6) = 12√( ? ) 4 x 3 = 12.
+2Multiply the numbers inside the radicals. After you've multiplied the coefficients, you can multiply the numbers inside the radicals. Here's how you do it: Ex. 1: 3√(2) x √(10) = 3√(2 x 10) = 3√(20) Ex. 2: 4√(3) x 3√(6) = 12√(3 x 6) = 12√(18)
+3Simplify the product. Next, simplify the numbers under the radicals by looking for perfect squares or multiples of the numbers under the radicals that are perfect squares. Once you've simplified those terms, just multiply them by their corresponding coefficients. Here's how you do it: 3√(20) = 3√(4 x 5) = 3√([2 x 2] x 5) = (3 x 2)√(5) = 6√(5) 12√(18) = 12√(9 x 2) = 12√(3 x 3 x 2) = (12 x 3)√(2) = 36√(2)
+Method.
+3.
+Multiply Radicals with Different Indices.
+1Find the LCM (lowest common multiple) of the indices. To find the LCM of the indexes, find the smallest number that is evenly divisible by both indices. Find the LCM of the indices for the following equation:3√(5) x 2√(2) = ? The indices are 3 and 2. 6 is the LCM of these two numbers because it is the smallest number that is evenly divisible by both 3 and 2. 6/3 = 2 and 6/2 = 3. To multiply the radicals, both of the indices will have to be 6.
+2Write each expression with the new LCM as the index. Here's what the expressions would look like in the equation with their new indexes: 6√(5) x 6√(2) = ?
+3Find the number that you would need to multiply each original index by to find the LCM. For the expression 3√(5), you'd need to multiply the index of 3 by 2 to get 6. For the expression 2√(2), you'd need to multiply the index of 2 by 3 to get 6.
+4Make this number the exponent of the number inside the radical. For the first equation, make the number 2 the exponent over the number 5. For the second equation, make the number 3 the exponent over the number 2. Here's what it would look like: 2 --> 6√(5) = 6√(5)2 3 --> 6√(2) = 6√(2)3.
+5Multiply the numbers inside the radicals by their exponents. Here's how you do it: 6√(5)2 = 6√(5 x 5) = 6√25 6√(2)3 = 6√(2 x 2 x 2) = 6√8.
+6Place these numbers under one radical. Place them under a radical and connect them with a multiplication sign. Here's what the result would look like: 6√(8 x 25)
+7Multiply them. 6√(8 x 25) = 6√(200). This is the final answer. In some cases, you may be able to simplify these expressions -- for example, you could simplify this expression if you found a number that can be multiplied by itself six times that is a factor of 200. But in this case, the expression cannot be simplified any further.
+Community Q&A.
+Search.
+Add New Question.
+Can I multiply a number inside the radical with a number outside the radical?
+wikiHow Contributor.
+Only if you are reversing the simplification process. For example, 3 with a radical of 8. 3 squared is 9, so you multiply 9 under the radical with the eight for the original. It would be 72 under the radical.
+Flag as duplicate.
+Thanks!
+Yes.
+No.
+Not Helpful 1.
+Helpful 4.
+Can you multiply radicals with the same bases but indexes?
+Orangejews.
+Yes, though it's best to convert to exponential form first. To multiple squareroot2 by cuberoot2, write it as 2^(1/2)*2^(1/3) . Then the rules of exponents make the next step easy as adding fractions: = 2^((1/2)+(1/3)) = 2^(5/6).
+Flag as duplicate.
+Thanks!
+Yes.
+No.
+Not Helpful 1.
+Helpful 3.
+What does index of 4 mean?
+Donagan.
+An index of 4 means the fourth root.
+Flag as duplicate.
+Thanks!
+Yes.
+No.
+Not Helpful 0.
+Helpful 1.
+How do you multiply a coefficient and a radical by a radical?
+wikiHow Contributor.
+Multipy the radicals together, then place the coeffcient in front of the result. For example, to multiply 2√2 and √3, first multiply √2 and √3 to get √6, then put the coeffcient of 2 in front to get 2√6.
+Flag as duplicate.
+Thanks!
+Yes.
+No.
+Not Helpful 2.
+Helpful 2.
+Can you multiply the coefficient and the radicand?
+Donagan.
+No, you multiply the coefficient by the root of the radicand.
+Flag as duplicate.
+Thanks!
+Yes.
+No.
+Not Helpful 0.
+Helpful 0.
+Ask a Question.
+200 characters left.
+Submit.
+Already answered.
+Not a question.
+Bad question.
+Other.
+If this question (or a similar one) is answered twice in this section, please click here to let us know.
+Video.
+Tips.
+If a "coefficient" is separated from the radical sign by a plus or minus sign, it's not a coefficient at all--it's a separate term and must be handled separately from the radical. If a radical and another term are both enclosed in the same set of parentheses--for example, (2 + (square root)5), you must handle both 2 and (square root)5 separately when performing operations inside the parentheses, but when performing operations outside the parentheses you must handle (2 + (square root)5) as a single whole.
+Radical signs are another way of expressing fractional exponents. In other words, the square root of any number is the same as that number raised to the 1/2 power, the cube root of any number is the same as that number raised to the 1/3 power, and so on.
+A "coefficient" is the number, if any, placed directly in front of a radical sign. So for example, in the expression 2(square root)5, 5 is beneath the radical sign and the number 2, outside the radical, is the coefficient. When a radical and a coefficient are placed together, it's understood to mean the same thing as multiplying the radical by the coefficient, or to continue the example, 2 * (square root)5.
+Edit.
+Related wikiHows.
+How to Simplify Radical Expressions.
+How to Do Long Division.
+How to Multiply Square Roots.
+How to Do Long Multiplication.
+How to Teach the Multiplication Tables to Your Child.
+How to Cross Multiply.
+How to Divide Square Roots.
+How to Multiply Mixed Numbers.
+How to Multiply.
+How to Factor a Number.
+Sources and Citations.
+http://www.purplemath.com/modules/radicals.htm.
+http://www.regentsprep.org/Regents/math/ALGEBRA/AO1/Lmultdiv.htm.
+http://www.ditutor.com/real_numbers/multiplication_radicals.html.
+http://www.themathpage.com/alg/multiply-radicals.htm.
+Show more... (1)

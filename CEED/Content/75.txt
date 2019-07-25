@@ -1,0 +1,11 @@
+Solved PowerPoint found a problem with content in pptx
+
+Tags:
+Microsoft Office powerpoint 2007 - upgra...
+powerpoint
+benedict_schmidt2 September 13, 2015 at 09:21:40
+Specs: Windows 7, Pentium 4 2GHz / 4 gigs.
+I'm actually using office automation with PowerPoint to manipulate PowerPoint presentations. A PPTX was uploaded from the internet and the process failed. I opened the PPTX directly with PowerPoint and got the error "PowerPoint found a problem with content" and asked if I wanted to repair. I said yes, saved it as another PPTX, and everything was ok. This happens only with this one file.
+I've unchecked all the protected view settings in the trust center, set my computer to authentication and impersonation to connect and identify, enabled macros and activeX controls, added the upload path to trusted settings, right-clicked the PPTX, properties, but there is no "unblock" to unblock. Nothing has fixed the issue.
+
+What else can I check or is this just a bad PPTX since it's the only one we've found like this?

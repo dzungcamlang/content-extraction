@@ -1,0 +1,910 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<base href="http://forums.hardwarezone.com.sg/" /><!--[if IE]></base><![endif]-->
+<!-- title moved -->
+<title>www.hardwarezone.com.sg</title>
+<meta name="robots" content="noindex,follow" />
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=9" /> -->
+<meta name="viewport" content="width=1060" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="SHORTCUT ICON" href="http://www.hardwarezone.com.sg/img/core/icon.ico" />
+<meta name="generator" content="vBulletin 3.8.7" />
+
+
+	
+	<meta name="keywords" content="hardware, hardwarezone, forums, IT, computers, pc, diy, media, pc show, it show, pc show promotions, comex, sitex, smartphones, tablets, cameras, notebooks" />
+	<meta name="description" content="www.hardwarezone.com IT Discussion Forums" />
+	
+
+
+<!-- S CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'HWZ 2016'; Style ID: 59
+*/
+@import url("http://forums.hardwarezone.com.sg/clientscript/vbulletin_css/style-bba67f4f-00059.css");
+</style>
+<link rel="stylesheet" type="text/css" href="http://forums.hardwarezone.com.sg/clientscript/vbulletin_important.css?v=387" />
+
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="http://forums.hardwarezone.com.sg/clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=387"></script>
+<script type="text/javascript" src="http://forums.hardwarezone.com.sg/clientscript/yui/connection/connection-min.js?v=387"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "s=01719fa34c10a951764430d5fec16042&";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "http://www.hardwarezone.com.sg/img/forums/hwz/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+
+<script type="text/javascript" src="http://forums.hardwarezone.com.sg/clientscript/vbulletin_global.js?v=387"></script>
+
+
+<link rel="alternate" type="application/rss+xml" title="www.hardwarezone.com.sg RSS Feed" href="/external.php?type=RSS2" />
+  
+
+
+
+<!-- S Imported from main -->
+	<link href="http://www.hardwarezone.com.sg/img/core/favicon.ico" type="image/x-icon" rel="icon" />
+	<link href="http://www.hardwarezone.com.sg/img/core/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700,800" />
+	<link rel="stylesheet" type="text/css" href="http://www.hardwarezone.com.sg/css/revamp-2016.css?f" />
+	<link rel="stylesheet" type="text/css" href="http://www.hardwarezone.com.sg/css/hwzforums-2016.css?e" />
+	<link rel="stylesheet" type="text/css" href="http://www.hardwarezone.com.sg/css/nonmember-subscription.css?b" />
+
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://www.hardwarezone.com.sg/css/ie7.css" /><![endif]-->
+
+	<script type="text/javascript">
+	//<![CDATA[
+		// Global parameters under HWZ namespace
+		window.HWZ = {"slidebar":{"enabled":true,"collapsed":false,"override":false},"accordion":{"enabled":false,"index":-1,"highlight":null},"layout":{"enabled":true,"width":"fixed"},"fonts":{"enabled":false,"size":"medium"}};
+		HWZ.foruminfo = {"forum":{"id":null,"title":null,"hierachytitle":null},"thread":{"id":null,"title":null},"user":{"id":0,"name":"Unregistered"}};
+		HWZ.customURL = HWZ.foruminfo.forum.title && 'forum/' + HWZ.foruminfo.forum.hierachytitle + '/'  + (HWZ.foruminfo.thread.titleraw || '');
+	//]]>
+	</script>
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/mootools/1.5.0/mootools.min.compat.mod.js"></script>
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/shared.1.4.5.js"></script>
+
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/global.js"></script>
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/notification.js"></script>
+	
+	<!-- Shadowbox -->
+	<link rel="stylesheet" type="text/css" href="http://www.hardwarezone.com.sg/css/shadowbox_standalone.css" />
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/shadowbox_standalone.js"></script>
+
+	<script language="javascript">
+		Shadowbox.init({
+			skipSetup: true
+		}, function(){
+			return;
+			var oLogin = $('login-link');
+			var oForumLogin = $('nav-login-link');
+			if (!!oLogin) oLogin.addClass('login-ready');
+			if (!!oForumLogin) oForumLogin.addClass('login-ready');
+		});
+	</script>
+
+<!-- E Imported from main -->
+<!-- S JS to manage announcements -->
+<script type="text/javascript">
+<!--
+var BCED = new Date();
+
+var ACED = new Date();
+ACED.setTime(ACED.getTime() + (86400 * 365 * 100));
+
+function announceDismiss (aEleId) {
+        //document.getElementById(aEleId).style.display='none';
+        set_cookie(aEleId, '1', ACED);
+        document.getElementById(aEleId).innerHTML = "<font size=\"1\">This announcement will be removed from your forum view.<br>To retrieve the announcement, click 'View all Announcement' from your forum view.</font>";
+}
+
+function showAnnounce (aEleId) {
+	if (fetch_cookie(aEleId)) {
+		document.getElementById(aEleId).style.display='none';
+		return;
+	}
+	//announcement impression
+	(function(sAnnouncement) {
+		if (typeof(ga) != 'undefined') {
+			var o = $(sAnnouncement);
+			if (!o) return;
+			var sTitle = o.getElement('.hwz-announcement-title').get('text');
+			if (!sTitle) return;
+			ga('send', 'event', 'ForumAnnouncement', 'Impression', sTitle, { nonInteraction: true });
+		}
+	})(aEleId);
+}
+// -->
+</script>
+
+<!-- E JS to manage announcements -->
+	<!-- (c) --> <!-- HWZ-Ad-header ROS:0 --> 
+ <script>
+
+  var _hwz_ga = window._hwz_ga || {};
+  if (window.HWZ && HWZ.customURL) _hwz_ga.page = HWZ.customURL;
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-166763-2', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview', _hwz_ga);
+
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+/*
+	var _gaq = _gaq || [];
+	var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+	_gaq.push(['_setAccount', 'UA-166763-2']);
+	_gaq.push(['_setDomainName', '.hardwarezone.com.sg']);
+	_gaq.push(['_trackPageview', window.HWZ && HWZ.customURL || undefined]);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+*/
+//]]>
+</script>
+
+<!-- 9GJzUFlXkjDj-kIiIZjQ1I7ct8Q  --> 
+ <!-- /HWZ-Ad-header --> 
+<!-- HWZ-Ad-header ROS:0 --> 
+ <!-- Random Num for DFP -->
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+ord=Math.random()*10000000000000000;
+//]]>
+</script> 
+ <!-- /HWZ-Ad-header --> 
+<!-- HWZ-Ad-header ROS:0 --> 
+ <script type="text/javascript" src="http://adtag.asiaone.com/tag/dmp/hwz_tags.js" async></script> 
+ <!-- /HWZ-Ad-header --> 
+<!-- HWZ-Ad-header ROS:0 --> 
+ <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '747486075381841');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=747486075381841&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code --> 
+ <!-- /HWZ-Ad-header --> 
+
+<!-- End HeaderInclude -->
+
+<style type="text/css">
+.hwz_crowdynews_container .cnAdzerkDiv.cnIframeAdvertisements {
+	float: right;
+	margin-left: 0;
+	clear: none;
+}
+</style>
+
+<script type="text/javascript" src="http://www.hardwarezone.com.sg/misc/gpt.js?q=f&t=forum_homepage"></script>
+
+<style type="text/css">
+	.hwz-ad-postbit
+	{
+		/*background: #fff url(http://www.hardwarezone.com.sg/img/forums/hwz/ads/advertisement.gif) no-repeat scroll 100% 0;
+		padding: 16px 0 0;*/
+	}
+
+	.hwz-ad-postbit h6.ad-google
+	{
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0 0 5px 180px;
+		padding: 0;
+	}
+
+	.hwz-ad-postbit ul.ad-google
+	{
+		margin: 0 5px 0 180px;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.hwz-ad-postbit ul.ad-google li
+	{
+		display: block;
+		margin: 0 0 1em;
+		padding: 0;
+		cursor: pointer;
+		width: 245px;
+		float: left;
+	}
+
+	.hwz-ad-postbit ul.ad-google li p
+	{
+		margin: 0 1em 0;
+		font-size: 11px;
+	}
+	
+	.hwz-ad-postbit ul.ad-google strong
+	{
+		display: block;
+		padding-bottom: 0.25em;
+		color: #336;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.hwz-ad-postbit ul.ad-google cite
+	{
+		display: block;
+		color: #aaa;
+		font-size: 9px;
+		font-style: normal;
+	}
+
+	.hwz-ad-postbit .ad-cpc
+	{
+		display: block;
+		overflow: hidden;
+		margin: 0.5em 0 1.5em 165px;
+		width: 580px;
+		font-size: 11px;
+		line-height: 13px;
+	}
+
+	.hwz-ad-postbit .ad-cpc img { margin: 0; padding: 0 0.5em; }
+	
+	.hwz-ad-postbit .ad-cpc a { margin: 0; padding: 0 1em; }
+	
+	.hwz-ad-postbit .ad-cpc a.homefeatured 
+	{
+		margin: 0;
+		padding: 0;
+		color: #333333;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	
+	.hwz-ad-postbit .ad-cpc br { line-height: 20px; }
+
+	.hwz-ad-postbit .hwz-ad-postinsert-container {
+		width:570px;
+		margin:10px auto;
+		padding: 16px 0 0;
+		background: #fff url(http://www.hardwarezone.com.sg/img/forums/hwz/ads/advertisement.gif) no-repeat 0 0;
+	}
+</style>			<link rel="stylesheet" type="text/css" href="http://forums.hardwarezone.com.sg/clientscript/lytebox.css" media="screen"/>
+			<script type="text/javascript" src="http://forums.hardwarezone.com.sg/clientscript/lytebox.js"></script>
+			<script type="text/javascript">
+			function mkresize(which, max) {
+				max = max || 100;
+				var devicewidth = document.body.clientWidth - 20;
+				if (max > devicewidth ) max = devicewidth ;
+				var elem = document.getElementsByName(which);
+				for (var i=0;i<elem.length;i++)
+				{
+					if (elem[i] == undefined || elem[i] == null) return false;
+					elem[i].removeAttribute('width');
+					elem[i].removeAttribute('height');
+					if (elem[i].width >= elem[i].height) {
+						if (elem[i].width > max) {
+							elem[i].width = max;
+							createWarning(elem[i],max);
+						}
+					} else {
+						var ratio = elem[i].height / elem[i].width;
+						if (elem[i].height > max * 2) {
+							var nWidth = Math.round(max * 2 / ratio);
+							if (nWidth > max) elem[i].width = nWidth = max;
+							else elem[i].height = max * 2;
+							createWarning(elem[i], nWidth);
+						} else if (elem[i].width > max) {
+							elem[i].width = max;
+							createWarning(elem[i],max);
+						}
+					}
+				}
+				
+			}
+			function createWarning (elem,current_width){
+				if (current_width < 20) return;
+				if (!!elem.previousSibling && /mkr_thead/.test(String(elem.previousSibling.className))) return;
+
+				div = document.createElement('DIV');
+				img = document.createElement('IMG');
+				text = document.createTextNode('This image has been resized.Click to view original image');
+	
+				img.src = 'images/statusicon/wol_error.gif';
+				img.alt = '';
+				with(img.style) {
+					width = '16px';
+					height = '16px';
+					border = '0';
+					verticalAlign = 'top';
+					margin = '0 2px';
+				}
+
+				div.title = 'This image has been resized.Click to view original image';
+				div.className = 'thead mkr_thead';
+				with(div.style) {
+					width = current_width + 'px';
+					height = '16px';
+					lineHeight = '16px';
+					fontSize = '0.9em';
+					padding = '2px 0';
+					margin = '0';
+					overflow = 'hidden';
+					whiteSpace= 'nowrap';
+				}
+	
+				div.appendChild(img);
+				div.appendChild(text);
+
+				elem.parentNode.insertBefore(div, elem);
+				if (div.clientWidth < Math.floor(div.scrollWidth / 2)) {
+					div.removeChild(text);
+				}
+			}
+</script>
+	
+
+<link rel="stylesheet" type="text/css" href="vbseo/resources/css/vbseo_buttons.css?v=a4" />
+<script type="text/javascript" src="vbseo/resources/scripts/vbseo_ui.js?v=a4"></script>
+
+<script type="text/javascript">
+if (typeof(YAHOO) != 'undefined') {
+ YAHOO.util.Event.onDOMReady(function (){
+ 	vbseoui = new vBSEO_UI();
+ 	vbseoui.page_init(Array('postbody','blogbit','content','postcontainer','vbseo_like_postbit'), Array("php",1));
+ });
+}
+</script>
+</head>
+<body>
+<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/header.js?c"></script>
+
+	<script type="text/javascript" src="http://www.hardwarezone.com.sg/misc/forumheader.js?c"></script>
+
+
+<script type="text/javascript" src="http://www.hardwarezone.com.sg/js/campaigns/forumskin.js"></script> 
+
+	<!-- -floating-toolbar- -->
+
+	
+
+	<div id="canvas" class="fixed">
+		<div id="masthead">
+
+			
+
+			
+				<script type="text/javascript">hwz_forum_logo_skinning('http://www.hardwarezone.com.sg', 'sub');</script>
+			
+
+			<div id="ads-leaderboard">
+				<div class="inner">
+					<!-- (c) --> <!-- HWZ-Ad-leaderboard 0:0:0 0 --> 
+ <!-- Beginning Async AdSlot 1 for Ad unit SPHM/hwz.sg/leaderboard  ### size: [[728,90]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[1]]) -->
+<div id='div-gpt-ad-739816076345816082-1'>
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-1'); });
+        </script>
+</div>
+<!-- End AdSlot 1 -->
+ 
+ <!-- /HWZ-Ad-leaderboard --> 
+
+				</div>
+			</div>
+		</div>
+
+		<div id="container">
+			<!-- Skinning top -->
+
+			
+			   <!-- SkinN8 -->
+			
+			
+			<div id="inner-container">
+				<div id="page" class="font-medium">
+					<!-- header -->
+					<div id="header">
+						<!-- -navigation-bar- -->
+					</div>
+
+
+
+
+<table id="forum-ads-table"><tr>
+	<td>
+
+
+
+
+					<div id="content">
+						<div id="forum" class="inner">
+							
+
+	<ul id="breadcrumbs">
+		<li><a href="http://www.hardwarezone.com.sg">Home</a> &raquo; </li>
+		<li>
+			<a href="/">Forums</a>
+			
+		</li>
+		
+		
+		
+		<li><a rel="nofollow" class="rss" href="/external.php?type=RSS2"><img width="16" height="16" alt="www.hardwarezone.com.sg RSS Feed" title="www.hardwarezone.com.sg RSS Feed" src="http://www.hardwarezone.com.sg/img/core/icons/feed.png"/></a></li>
+		
+		
+	</ul>
+
+	<h1 id="content-header">HWZ Forums</h1>
+	
+	<!-- nav buttons bar -->
+	<table id="content-subheader" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center" style="border-top-width:0px">
+	<tr align="center">
+		
+		
+			<td class="vbmenu_control"><a href="/logon.php" rel="nofollow" id="nav-login-link">Login</a></td>
+			<td class="vbmenu_control"><a href="/register.php" rel="nofollow">Register</a></td>
+		
+		
+		<td class="vbmenu_control"><a href="/faq.php" accesskey="5">FAQ</a></td>
+
+		
+			
+			<td class="vbmenu_control"><a href="/forumdisplay.php?do=markread&amp;markreadhash=guest" rel="nofollow">Mark Forums Read</a></td>
+			
+		
+		
+		
+	</tr>
+	</table>
+	<!-- / nav buttons bar -->
+
+	
+
+									
+
+	
+
+	
+		<!-- HWZ-QOO10-WIDGET-THREAD -->
+		<h2 class="header-gray">
+	System Message
+
+</h2>
+	
+
+
+
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="70%" align="center">
+<tr>
+	<td class="tcat">System Message</td>
+</tr>
+<tr>
+	<td class="panelsurround" align="center">
+	<div class="panel">
+		<div align="left">
+
+		
+			<!-- main error message -->
+
+
+			<div style="margin: 10px">No Thread specified. If you followed a valid link, please notify the <a href="/sendmessage.php">administrator</a></div>
+
+
+			<!-- / main error message -->
+		
+
+		</div>
+	</div>
+	<!--
+	<div style="margin-top:6px">
+		<input type="submit" class="button" value="Go Back" accesskey="s" onclick="history.back(1); return false" />
+	</div>
+	-->
+	</td>
+</tr>
+</table>
+
+<br />
+
+
+<!-- forum jump -->
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+	<td></td>
+</tr>
+</table>
+<!-- / forum jump -->
+
+
+<br />
+
+
+
+</div><!-- /forum -->
+					</div><!-- /content -->
+					
+
+	</td>
+	<td id="right-ads">
+		<div align="right" style="margin-top:16px"><img src="http://www.hardwarezone.com.sg/img/core/misc/advertisement_t.gif">
+			<!-- (c) --> <!-- HWZ-Ad-button 0:0:0 0 --> 
+ <!-- GPT BUTTONS -->
+<!-- Beginning Async AdSlot 2 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[2]]) -->
+<div id='div-gpt-ad-739816076345816082-2' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-2'); });
+        </script>
+</div>
+<!-- End AdSlot 2 -->
+
+<!-- Beginning Async AdSlot 3 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[3]]) -->
+<div id='div-gpt-ad-739816076345816082-3' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-3'); });
+        </script>
+</div>
+<!-- End AdSlot 3 -->
+
+<!-- Beginning Async AdSlot 4 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[4]]) -->
+<div id='div-gpt-ad-739816076345816082-4' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-4'); });
+        </script>
+</div>
+<!-- End AdSlot 4 -->
+
+<!-- Beginning Async AdSlot 10 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[10]]) -->
+<div id='div-gpt-ad-739816076345816082-10' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-10'); });
+        </script>
+</div>
+<!-- End AdSlot 10 -->
+
+<!-- Beginning Async AdSlot 11 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[11]]) -->
+<div id='div-gpt-ad-739816076345816082-11' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-11'); });
+        </script>
+</div>
+<!-- End AdSlot 11 -->
+
+<!-- Beginning Async AdSlot 12 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[12]]) -->
+<div id='div-gpt-ad-739816076345816082-12' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-12'); });
+        </script>
+</div>
+<!-- End AdSlot 12 -->
+
+<!-- Beginning Async AdSlot 13 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[13]]) -->
+<div id='div-gpt-ad-739816076345816082-13' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-13'); });
+        </script>
+</div>
+<!-- End AdSlot 13 -->
+
+<!-- Beginning Async AdSlot 14 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[14]]) -->
+<div id='div-gpt-ad-739816076345816082-14' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-14'); });
+        </script>
+</div>
+<!-- End AdSlot 14 -->
+
+<!-- Beginning Async AdSlot 15 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[15]]) -->
+<div id='div-gpt-ad-739816076345816082-15' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-15'); });
+        </script>
+</div>
+<!-- End AdSlot 15 -->
+
+<!-- Beginning Async AdSlot 16 for Ad unit SPHM/hwz.sg/button  ### size: [[150,60]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[16]]) -->
+<div id='div-gpt-ad-739816076345816082-16' style="margin-bottom:10px">
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-16'); });
+        </script>
+</div>
+<!-- End AdSlot 16 -->
+
+ 
+ <!-- /HWZ-Ad-button --> 
+<!-- HWZ-Ad-button 0:0:0 0 --> 
+ <!-- GPT SKYSCRAPERS -->
+
+<!-- Beginning Async AdSlot 5 for Ad unit SPHM/hwz.sg/skyscraper  ### size: [[160,600]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[5]]) -->
+<div id='div-gpt-ad-739816076345816082-5'>
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-5'); });
+        </script>
+</div>
+<!-- End AdSlot 5 -->
+
+
+<!-- Beginning Async AdSlot 17 for Ad unit SPHM/hwz.sg/skyscraper  ### size: [[160,600]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[17]]) -->
+<script>
+var acceptableHeight = 610 * 4;
+if (!!$('forum') && $('forum').getSize().y > acceptableHeight) { //610 = 1 tower height
+  var nMargin = acceptableHeight / 2;
+  document.write("<div style='margin-top:" + nMargin + "px' id='div-gpt-ad-739816076345816082-17'><img src='http://www.hardwarezone.com.sg/img/core/misc/advertisement_t.gif'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-17'); });<\/script></div>");
+
+} 
+</script> 
+<!-- End AdSlot 17 -->
+
+
+<!-- Beginning Async AdSlot 18 for Ad unit SPHM/hwz.sg/ skyscraper  ### size: [[160,600]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[18]]) -->
+<script>
+var acceptableHeight = 610 * 8;
+if (!!$('forum') && $('forum').getSize().y > acceptableHeight) { //610 = 1 tower height
+  var nMargin = 1220;
+  document.write("<div style='margin-top:" + nMargin + "px' id='div-gpt-ad-739816076345816082-18'><img src='http://www.hardwarezone.com.sg/img/core/misc/advertisement_t.gif'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-18'); });<\/script></div>");
+
+} 
+</script> 
+<!-- End AdSlot 18 -->
+ 
+ <!-- /HWZ-Ad-button --> 
+
+		</div>
+		<div style="margin-top:20px;"><script type="text/javascript" src="http://www.hardwarezone.com.sg/pages/minisocialbites.js"></script></div>
+	</td>
+</tr></table>
+
+
+
+
+
+<div id="ads-bottom-leaderboard"><div id="ads-bottom-leaderboard-inner" class="inner">
+	<!-- HWZ-Ad-bottom-leaderboard 0:0:0 0 --> 
+ <!-- Beginning Async AdSlot 7 for Ad unit SPHM/hwz.sg/leaderboard  ### size: [[728,90]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[7]]) -->
+<div id='div-gpt-ad-739816076345816082-7'>
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-7'); });
+        </script>
+</div>
+<!-- End AdSlot 7 --> 
+ <!-- /HWZ-Ad-bottom-leaderboard --> 
+
+</div></div>
+
+<!-- fa -->
+
+
+	<!-- CROWDY --><!-- (c) --> <!-- HWZ-Ad-crowdynews 0:0:0 0 --> 
+ <!-- SG CrowdyNews Forums -->
+<!-- <div class="hwz_crowdynews_container" style="width: 720px; overflow: hidden; margin: 30px auto; padding: 10px; border:1px solid #ccc; border-width: 1px 0;">
+	<div style="width: 400px; height: 450px; float: left; margin: 0 10px 0 0;" data-crowdynews-widget="HardwareZone/forum-inline-widget-new">
+		<script src="//widget.crowdynews.com/js/widget.js" async="true"></script>
+	</div>
+</div> -->
+<div class="hwz_crowdynews_container" style="width: 720px; overflow: hidden; margin: 30px auto; padding: 10px 0;">
+	<div data-crowdynews-widget="HardwareZone_forum-widget-tech-content-horizontal"><script src="//widget.crowdynews.com/HardwareZone_forum-widget-tech-content-horizontal.js" async="true"></script></div>
+</div> 
+ <!-- /HWZ-Ad-crowdynews --> 
+
+
+
+
+	<!-- (c) --> 
+				<div id="sponsored-links">
+					<h4>Sponsored Links</h4>
+					<div id="links">
+						<ul>
+						
+						<li>
+							<h5><a href="http://pubads.g.doubleclick.net/gampad/clk?id=474394254&amp;iu=/5908/SPHM/hwz.sg" target="_blank">Tech Awards 2017: We have the victors!</a></h5>
+							<div>Find out which tech products and services won the honour.</div>
+						</li>
+					
+						<li>
+							<h5><a href="http://pubads.g.doubleclick.net/gampad/clk?id=479301534&amp;iu=/5908/SPHM/hwz.sg" target="_blank">Free data with OPPO R9s and StarHub</a></h5>
+							<div>Enjoy free extra 3GB data for 6 months when you sign up to any 4G plan</div>
+						</li>
+					
+						<li>
+							<h5><a href="http://pubads.g.doubleclick.net/gampad/clk?id=469879974&amp;iu=/5908/SPHM/hwz.sg" target="_blank">Introducing HP Z2 Mini workstation</a></h5>
+							<div>The worlds first mini workstation designed for CAD users</div>
+						</li>
+					
+						</ul>
+					</div>
+				</div>
+		
+
+	<script>
+	(function(){
+		if (typeof(ga) == 'undefined') return;
+		var aTitle = $('sponsored-links').getElements('h5').get('text');
+		if (!aTitle .length) return;
+		for(var i=0;i<aTitle .length;i++) {
+			ga('send', 'event', 'STL', 'Impression', aTitle [i], { nonInteraction: true });
+		}
+	})();
+	</script>
+	<div style="height:10px;"></div>
+
+
+
+				</div><!-- e:page -->
+			</div><!-- e:inner-container -->
+                           <!-- Skinning bottom -->
+
+		</div><!-- e:container -->
+	</div><!-- e:canvas -->
+
+<!-- hwz-floating-tab -->
+
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+<script type="text/javascript" src="http://www.hardwarezone.com.sg/misc/forumfooter2016.js?0218b"></script>
+
+
+
+<div id="vbfooter">
+	<!-- <div class="copyright">
+		Copyright &copy; <script type="text/javascript">document.write((new Date()).getFullYear());</script><noscript> 2015</noscript> SPH Magazines Pte Ltd. All rights reserved.
+	</div> -->
+	<div class="vb copyright">
+		<!-- Do not remove this copyright notice -->
+		Powered by vBulletin&reg; Version 3.8.7<br />Copyright &copy;2000 - 2017, vBulletin Solutions, Inc.
+		<!-- Do not remove this copyright notice -->
+	</div>
+</div>
+
+<!-- (c) --> <!-- HWZ-Ad-footer 0:0:0 0 --> 
+ <!-- Begin comScore Tag -->
+<script type="text/javascript">
+//<![CDATA[
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6288331" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+//]]>
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6288331&amp;cv=2.0&amp;cj=1" alt="" />
+</noscript>
+<!-- End comScore Tag --> 
+ <!-- /HWZ-Ad-footer --> 
+<!-- HWZ-Ad-footer 0:0:0 0 --> 
+ <!-- Footer OOP and 1x2 -->
+<!-- Beginning Async AdSlot oop for Ad unit SPHM/hwz.sg/richmedia  ### size:  -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[0]]) -->
+<div id='div-gpt-ad-739816076345816082-oop'>
+        <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-oop'); });
+        </script>
+</div>
+<!-- End AdSlot oop -->
+
+<!-- Beginning Async AdSlot 6 for Ad unit SPHM/hwz.sg/skinner  ### size: [[1,2]] -->
+<!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[6]]) -->
+<div id='div-gpt-ad-739816076345816082-6'>
+        <script type='text/javascript'>
+            if (document.getElementById('canvas') && document.getElementById('canvas').className == 'fixed')
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-739816076345816082-6'); });
+        </script>
+</div>
+<!-- End AdSlot 6 --> 
+ <!-- /HWZ-Ad-footer --> 
+<!-- HWZ-Ad-footer 0:0:0 0 --> 
+ <!-- Begin Outbrain Pixel -->
+<script type="text/javascript">
+(function(){
+var oPixel = document.createElement('img');
+oPixel.setAttribute('src', 'http://amplifypixel.outbrain.com/pixel?mid=0089ed3f5053ef51f0f40a23dd50d05559');
+document.body.appendChild(oPixel);
+})();
+</script>
+<!-- End Outbrain Pixel --> 
+ <!-- /HWZ-Ad-footer --> 
+
+
+
+	<script src="http://www.hardwarezone.com.sg/ads/ad_site_notice.js"></script>
+
+
+
+
+
+
+<!-- Forum Sponsor Logo Events -->
+<script type="text/javascript">
+(function(){
+	if (typeof(ga) == 'undefined') return;
+	var a = $$('img.forum_sponsor_logo').get('alt');
+	if (a.length == 0) return;
+	for(var i=0;i<a.length;i++) {
+		
+		if (!a[i]) continue;
+		//ga('send', 'event', 'ForumSponsorLogo', 'Impression', a[i], { nonInteraction: true });
+	}
+}).delay(5000);
+</script>
+<!-- /Forum Sponsor Logo Events -->
+
+
+
+<script type="text/javascript" src="http://www.hardwarezone.com.sg/hwzbigtapp/tap.js?0220"></script>
+<script type="text/javascript">
+HwzBigtapp.init('.hardwarezone.com.sg', 'hwzbt_7b450bc2082de9d1650c211e1641a19e', '031e1a175a3d56aee55895c2f1bb9034', '0ed709b5bec77b6bff96ea5b5e334a8e5');
+</script>
+
+
+
+
+<!--  Quantcast Tag -->
+<script type="text/javascript" id="hwz_quantcast">
+var qcdata = qcdata || {};
+(function(){
+	var elem = document.createElement('script');
+	elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-bqHs8BXTLMg88";
+	elem.async = true;
+	elem.type = "text/javascript";
+	var scpt = document.getElementsByTagName('script')[0];
+	scpt.parentNode.insertBefore(elem,scpt);
+}());
+qcdata = {qacct: 'p-bqHs8BXTLMg88', uid: ''};
+</script>
+<noscript><img src="//pixel.quantserve.com/pixel/p-bqHs8BXTLMg88.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+<!-- End Quantcast Tag -->
+</body>
+</html>

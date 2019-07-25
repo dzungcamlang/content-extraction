@@ -1,0 +1,28 @@
+Reformatting is similar to doing a factory reset on Android. A factory reset - or a master reset - erases all of the current information on a device in order to restore the software to the original settings (those that were on the phone prior to customizing it). This is typically done when there are consistent bugs with the phone that continue even after seeking help or troubleshooting the different issues. To reformat Android phones that still work, navigate to Settings -> Backup & Reset -> Factory Data Reset. To reformat Android phones that no longer work, boot your phone into Recovery Mode, then choose "recovery" and "wipe data/factory reset" from the options.
+Method
+1
+Resetting a Working Android
+1
+Backup your media and data. Reformatting the Android device will erase all of the data stored on it. Make sure that you have backups of any important files, pictures, documents, videos, or anything else you want to keep.
+Your app purchases are tied to your Google account, and will be available for re-download when you sign in to your formatted device.
+See this guide for details on backing up your device's settings.
+See this guide for details on transferring files from your device to your computer.
+2
+Open your device's Settings menu. You can access this from the Settings app, or by pressing your phone's Menu button and then selecting Settings.
+3
+Tap "Backup & reset". This will open the menu that allows you to reset your phone.
+4
+Tap "Factory data reset". You will be asked to confirm that you want top reset the phone. once you confirm, the phone will start the reset process. When the process is complete, your phone will be like it was new out of the box.
+Method
+2
+Resetting a Non-Working Android
+1
+Boot your phone into Recovery Mode. If your Android device will not boot normally, you can perform a factory reset from the Recovery boot menu. Press and hold the correct buttons while your phone is powered off. The buttons vary from device to device.[1]
+Nexus devices - Volume Up, Volume Down, and Power
+Samsung devices - Volume Up, Home, and Power
+Moto X - Volume Down, Home, and Power
+Other devices generally use Volume Down and Power, while other phones with hard UIs can use Power and Home, since Power and Volume Down in devices with true home buttons will make it boot to factory test mode.
+2
+Select "recovery". Use the volume buttons to scroll through the menu options. Select "recovery" from the list, and then press the Power button to select it.
+3
+Select "wipe data/factory reset". Confirm that you want to reset the phone by selecting "Yes - delete all user data". Your phone will now begin the reset process.

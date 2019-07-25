@@ -1,0 +1,169 @@
+04-27-2010, 11:50 PM	  #1
+02'Z71ONDUBZ'
+TECH Resident
+Thread Starter
+iTrader: (8)
+ 
+02'Z71ONDUBZ''s Avatar
+ 
+Join Date: Feb 2009
+Location: Tahlequah/Norman, OK
+Posts: 797
+Thanks: 0
+Thanked 0 Times in 0 Posts
+Default Turbo for towing???
+I just bought a Trick hot parts setup with FMIC and 3.5" DP to go on my 5.3 this summer. I have been doing quite a bit of reading and have somewhat decided on a MP T70 for the turbo. My question is, with the .96 a/r housing, how often will I be building boost when towing a load? I pull around 4000lbs for 4-5 highway hours fairly often, and occasionally heavier loads. I realize when I pull a hill or pass that the turbo will spool, but will it be building boost when I'm just cruising around 75mph @ 2300rpm's? What do I need to be aware of when towing for several hours at a time with a turbo? Should I get a different sized turbo to prevent it from spooling in this situation? I have never had any type of boost before so I'm new to this game. Just want to make the best possible decision in choosing which turbo will suit my needs the best. Thanks in advance.
+Tyler
+
+02'Z71ONDUBZ' is offline  	Reply With Quote
+Old 04-28-2010, 12:57 AM	  #2
+Atomic
+I have a gauge for that
+iTrader: (41)
+ 
+Atomic's Avatar
+ 
+Join Date: Jan 2006
+Location: Huntsville, AL
+Posts: 14,384
+Thanks: 3
+Thanked 5 Times in 3 Posts
+Default
+Need to monitor EGTs since its going to get really effin hot if you are towing under boost for that long. Might need to pull timing and richen it up.
+Atomic is offline  	Reply With Quote
+Old 04-28-2010, 01:32 AM	  #3
+02'Z71ONDUBZ'
+TECH Resident
+Thread Starter
+iTrader: (8)
+ 
+02'Z71ONDUBZ''s Avatar
+ 
+Join Date: Feb 2009
+Location: Tahlequah/Norman, OK
+Posts: 797
+Thanks: 0
+Thanked 0 Times in 0 Posts
+Default
+I don't want to be towing under boost. I want to know what I need to do to keep my truck out of boost under these conditions, or if it's even possible. If it means getting a T-76 to make it spool later then so be it. Regardless, I don't want my engine under those condition's for hours upon hours at a time. I towed for 12+ hours at 70+mph last weekend for example lol.
+02'Z71ONDUBZ' is offline  	Reply With Quote
+Old 04-28-2010, 01:33 AM	  #4
+Spoolin
+GFYS and STFU
+iTrader: (8)
+ 
+Spoolin's Avatar
+ 
+Join Date: Jan 2007
+Location: Here and sometimes there too.
+Posts: 13,868
+Thanks: 0
+Thanked 0 Times in 0 Posts
+ Default
+You need to get a tune specific for towing. You'll run some really got EGT's like Atomic said if your not tuned correctly for it.
+Spoolin is offline  	Reply With Quote
+Old 04-28-2010, 01:35 AM	  #5
+Spoolin
+GFYS and STFU
+iTrader: (8)
+ 
+Spoolin's Avatar
+ 
+Join Date: Jan 2007
+Location: Here and sometimes there too.
+Posts: 13,868
+Thanks: 0
+Thanked 0 Times in 0 Posts
+ Default
+You won't be under boost the whole time. I've towed a 9,000 lbs boat 5 hours and a 4,000 lbs trailer for quite a year and a half with my STS and while cruising you won't be in boost. 
+
+http://www.youtube.com/watch?v=iHCX4IwqtUw
+Spoolin is offline  	Reply With Quote
+Old 04-28-2010, 03:54 AM	  #6
+02'Z71ONDUBZ'
+TECH Resident
+Thread Starter
+iTrader: (8)
+ 
+02'Z71ONDUBZ''s Avatar
+ 
+Join Date: Feb 2009
+Location: Tahlequah/Norman, OK
+Posts: 797
+Thanks: 0
+Thanked 0 Times in 0 Posts
+Default
+Quote:
+Originally Posted by Spoolin  View Post
+You won't be under boost the whole time. I've towed a 9,000 lbs boat 5 hours and a 4,000 lbs trailer for quite a year and a half with my STS and while cruising you won't be in boost. 
+
+http://www.youtube.com/watch?v=iHCX4IwqtUw
+How exactly do you tune differently for towing? Will i have to get an electronic boost controller?
+02'Z71ONDUBZ' is offline  	Reply With Quote
+Old 04-28-2010, 12:47 PM	  #7
+kbracing96
+Truck Sponsor
+iTrader: (26)
+ 
+kbracing96's Avatar
+ 
+Join Date: Jul 2004
+Location: Oakland, OR
+Posts: 9,278
+Thanks: 0
+Thanked 0 Times in 0 Posts
+ Default
+Boost while towing is COMPLETELY up to you and how hard you press on the gas. If it's making boost, it's because your pushing the pedal down enough to make it. If you don't want boost let up on the gas. Towing takes power, boost makes power, your foot controls BOTH! . How hard you want it to pull= how much throttle you give it.  I've towed plenty with my truck with every turbo from a MP T70 .68 a/r to a BW S480 1.10 a/r.
+kbracing96 is offline  	Reply With Quote
+Old 04-28-2010, 04:37 PM	  #8
+02'Z71ONDUBZ'
+TECH Resident
+Thread Starter
+iTrader: (8)
+ 
+02'Z71ONDUBZ''s Avatar
+ 
+Join Date: Feb 2009
+Location: Tahlequah/Norman, OK
+Posts: 797
+Thanks: 0
+Thanked 0 Times in 0 Posts
+Default
+Quote:
+Originally Posted by kbracing96  View Post
+Boost while towing is COMPLETELY up to you and how hard you press on the gas. If it's making boost, it's because your pushing the pedal down enough to make it. If you don't want boost let up on the gas. Towing takes power, boost makes power, your foot controls BOTH! . How hard you want it to pull= how much throttle you give it.  I've towed plenty with my truck with every turbo from a MP T70 .68 a/r to a BW S480 1.10 a/r.
+Ok, so tell me this; wouldn't it be wise to have a converter that will lock up in OD at cruising speeds? Wouldn't that help you to stay out of the throttle so much and in turn boost as well? What RPM range would you estimate the boost to start building, and also reaching full boost from a MP T-70 .96a/r on a stock and eventually cammed 5.3? The short towing trips aren't what have me worried; it's pulling 250 miles at a time. I am starting to consider keeping my diablosport and sending it back to get it updated, then using Nelson to write me a dd/street tune and also a towing tune that pulls timing that way I can just swap tune's when I'm going on a trip.
+02'Z71ONDUBZ' is offline  	Reply With Quote
+Old 04-28-2010, 05:00 PM	  #9
+kbracing96
+Truck Sponsor
+iTrader: (26)
+ 
+kbracing96's Avatar
+ 
+Join Date: Jul 2004
+Location: Oakland, OR
+Posts: 9,278
+Thanks: 0
+Thanked 0 Times in 0 Posts
+ Default
+You want your converter locked at highway speed, just like normal, or you will make a TON of heat in the tranny. Once again, boost is not created by RPM, turbo size, engine size or any of that alone. It is created by load, and load is created by the weight your trying to move, and the amount of throttle you give it. Towing is not a problem with a turbo for any distance. I've towed 5000lbs from AZ to WY (1200 miles) many times with my turboed truck. 
+
+You control the boost, it's not just there cuz you are towing or at a certain rpm. Once you drive a turboed truck, you will know what I mean. You get boost by giving it more gas, you don't want to be in boost, let off the go peddle a little,  The boost gauge goes up and down with your right foot, nothing else. Just because boost/power is available, doesn't meant you have to use it.  0psi of vac/boost on the gauge is about the same power for that RPM as if you didn't have a turbo and were running the truck wide open throttle. A turbo just let you go beyond that power IF you want to.
+kbracing96 is offline  	Reply With Quote
+Old 04-28-2010, 06:15 PM	  #10
+TrickTurbo
+Truck Sponsor
+iTrader: (12)
+ 
+Join Date: Sep 2006
+Location: Wichita Falls Tx.
+Posts: 3,955
+Thanks: 1
+Thanked 0 Times in 0 Posts
+Default
+You should never pull a heavy load in overdrive. You will want a .96 or larger a/r. One thing your torque curve will be completely different so you will be able to pull more easily. Egt is a must if your pulling. If you notice your egt going up and air fuel is fine just pull back on the throttle. 
+With a good tune and good foot controll you should have not problems.
+
+TrickTurbo is offline  	Reply With Quote
+

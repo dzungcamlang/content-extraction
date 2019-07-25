@@ -1,0 +1,550 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://www.w3.org/2005/11/profile">
+        <meta name="ROBOTS" content="INDEX,FOLLOW" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>[Solved] Convert number of month to name of month</title>
+<meta name="description" content="My $0.02: For a number from 1 to 12, Id use  =TEXT(DATE(2000,A1,1),mmm) ..." />
+
+<link rel="canonical" href="https://www.computing.net/answers/office/convert-number-of-month-to-name-of-month/8636.html" />
+<meta property="og:url" content="https://www.computing.net/answers/office/convert-number-of-month-to-name-of-month/8636.html"/>
+<meta property="og:site_name" content="Computing.Net"/>
+<meta property="og:image" content="https://www.computing.net/img/computing_icon.png"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="[Solved] Convert number of month to name of month"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="/computing-2.0.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="/computing-2.0.js" charset="utf-8"></script>
+<script type="text/javascript" src="//ads.servebom.com/tmnhead.js"></script>
+<script type="text/javascript">//<![CDATA[
+var show_cn_sidebar_ad = 1;
+if(typeof window.matchMedia !== 'undefined') {
+  if (window.matchMedia('(max-width: 900px)').matches) { show_cn_sidebar_ad = 0; }
+}
+tmntag.account('/10518929/tmn.tgus/software/office');
+tmntag.target({"site":"tmn.compnet", "supercat":"Office", "tag":["excel","spreadsheet","problems"]});
+tmntag.adunit({div:'div-gpt-ad-oop-zone-1'});
+tmntag.adunit({'sizes':[[728, 90], [950, 200], [980, 150], [990, 90], [990, 200], [468, 60]], 'div':'div-gpt-ad-leader-zone-1'});
+if(show_cn_sidebar_ad) {
+tmntag.adunit({'sizes':[[300, 250], [300, 600], [336, 280], [250, 250]], 'div':'div-gpt-ad-box-zone-1'});
+}
+tmntag.start();
+//]]></script>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<script type="text/javascript">//<![CDATA[
+dataLayer = [];
+//]]></script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NRQ9VW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NRQ9VW');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">//<![CDATA[
+window.google_analytics_uacct = "UA-3642902-11";
+var _comscore = _comscore || []; 
+_comscore.push({ c1: "2", c2: "6257622", c3: "", c4: "" }); 
+(function() { 
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; 
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; 
+el.parentNode.insertBefore(s, el); })();
+//]]></script>
+<div id="header_outside">
+<div id="header_compnet">
+<div class="h1" id="main_logo_top">
+<a href="/"><span class="compneticons compnet-logo-computing"></span><span class="compnet-logo-text"></span></a>
+</div>
+<div id="search_bar">
+<div id="search">
+<form name="searchMain" action="/cgi-bin/AT-search.cgi" method="get" style="margin: 0; padding: 0;">
+<input type="hidden" name="mode" value="concept" /><input type="hidden" name="sp" value="sp" />
+<input type="text" name="search" class="search_box" value="" /> <select name="forum" id="search_section" class="search_section">
+<option value="Office" selected>Office</option>
+<option value="ALL">ALL</option>
+<option value="Howtos">How-tos</option>
+<option value="Windows10">Win 10</option>
+<option value="Windows8">Win 8</option>
+<option value="Windows7">Win 7</option>
+<option value="WindowsXP">Win XP</option>
+<option value="WindowsVista">Win Vista</option>
+<option value="Windows9x">Win 95/98</option>
+<option value="WindowsNT">Win NT</option>
+<option value="WindowsMe">Win Me</option>
+<option value="Windows2000">Win 2000</option>
+<option value="Windows2012">Win 2012</option>
+<option value="Windows2008">Win 2008</option>
+<option value="Windows2003">Win 2003</option>
+<option value="Windows31">Win 3.1</option>
+<option value="DigitalHome">E-Home</option>
+<option value="Office">Office</option>
+<option value="Gaming">PC Games</option>
+<option value="ConsoleGaming">Con Games</option>
+<option value="Drivers">Drivers</option>
+<option value="Linux">Linux</option>
+<option value="WebDevelopment">Websites</option>
+<option value="DigitalPhoto">E-Photo</option>
+<option value="Hardware">Hardware</option>
+<option value="Security">Security</option>
+<option value="Programming">Coding</option>
+<option value="PDAs">PDAs</option>
+<option value="Networking">Networks</option>
+<option value="iPhone">iPhone</option>
+<option value="Android">Android</option>
+<option value="Database">Database</option>
+<option value="CPUs">CPUs</option>
+<option value="Solaris">Solaris</option>
+<option value="Netware">Novell</option>
+<option value="OpenVMS">OpenVMS</option>
+<option value="DOS">DOS</option>
+<option value="Unix">Unix</option>
+<option value="Mac">Mac</option>
+<option value="TheLounge">Lounge</option>
+</select>
+ <input type="image" value="submit" alt="Search" src="/img/space.gif" class="search_submit" />
+</form>
+</div>
+</div>
+<div id="login_in">
+<a href="/cgi-bin/mycomputing.pl" style="color: #fff; text-decoration: none;" rel="nofollow">Login&raquo;</a> &nbsp;<a href="/cgi-bin/mycomputingreg.pl" style="color: #fff; text-decoration: none;" rel="nofollow">Register&raquo;</a><div class="sm_responsive_hide"><div style="float: right; margin-top: 6px;"><a href="/cgi-bin/mycomputingfb.pl?init=mycomputing.pl" style="color: #fff; text-decoration: none;" rel="nofollow"><img style="margin: -1px 4px 0px 0px;" class="icons fb_icon" src="/img/space.gif" border="0" alt="" /> Connect&raquo;</a></div><div style="clear: both;"></div></div>
+<div class="sm_responsive_nav" style="text-align: right;"><span class="resp_search"><a id="bom_responsive_search" onclick="bom_responsive_search_click();"></a></span> <span class="resp_menu"><a id="bom_responsive_menu" onclick="bom_responsive_menu_click();"></a></span></div>
+</div>
+</div>
+<div class="nav_outer">
+<div id="navbar">
+<ul id="nav">
+	<li class="li_top_level" style="width: 171px;"><a href="/forums/type/1" class="a_top_level" style="width: 170px;" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">Hardware &amp; Devices <span style="color: #1485D0;" class="sm_responsive_hide">&#9660;</span></a>
+		<ul class="sm_responsive_hide" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">
+<li><a class="a_drop_level" href="/forum/hardware/1.html"><img class="icons hardware_icon" src="/img/space.gif" border="0" alt="" /> General Hardware</a></li>
+<li><a class="a_drop_level" href="/forum/cpus/1.html"><img class="icons cpus_icon" src="/img/space.gif" border="0" alt="" /> CPUs/Overclocking</a></li>
+<li><a class="a_drop_level" href="/forum/networking/1.html"><img class="icons networking_icon" src="/img/space.gif" border="0" alt="" /> Networking</a></li>
+  <li><a class="a_drop_level" href="/forums/type/1"><img class="icons dbase_icon" src="/img/space.gif" border="0" alt="" /> See More...</a></li>
+		</ul>
+	</li>
+
+	<li class="li_top_level" style="width: 101px;"><a href="/forums/type/2" class="a_top_level" style="width: 100px;" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">Software <span style="color: #1485D0;" class="sm_responsive_hide">&#9660;</span></a>
+		<ul class="sm_responsive_hide" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">
+<li><a class="a_drop_level" href="/forum/security/1.html"><img class="icons security_icon" src="/img/space.gif" border="0" alt="" /> Security and Virus</a></li>
+<li><a class="a_drop_level" href="/forum/office/1.html"><img class="icons office_icon" src="/img/space.gif" border="0" alt="" /> Office Software</a></li>
+<li><a class="a_drop_level" href="/forum/gaming/1.html"><img class="icons gaming_icon" src="/img/space.gif" border="0" alt="" /> PC Gaming</a></li>
+  <li><a class="a_drop_level" href="/forums/type/2"><img class="icons dbase_icon" src="/img/space.gif" border="0" alt="" /> See More...</a></li>
+		</ul>
+	</li>
+	
+	<li class="li_top_level" style="width: 161px;"><a href="/forums/type/3" class="a_top_level" style="width: 160px;" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">Operating Systems <span style="color: #1485D0;" class="sm_responsive_hide">&#9660;</span></a>
+		<ul class="sm_responsive_hide" onmouseover="hidebannerdrop('hidden');" onmouseout="hidebannerdrop('visible');">
+<li><a class="a_drop_level" href="/forum/windows10/1.html"><img class="icons windows10_icon" src="/img/space.gif" border="0" alt="" /> Windows 10</a></li>
+<li><a class="a_drop_level" href="/forum/windows8/1.html"><img class="icons windows8_icon" src="/img/space.gif" border="0" alt="" /> Windows 8</a></li>
+<li><a class="a_drop_level" href="/forum/windows7/1.html"><img class="icons windows7_icon" src="/img/space.gif" border="0" alt="" /> Windows 7</a></li>
+<li><a class="a_drop_level" href="/forum/windowsxp/1.html"><img class="icons windowsxp_icon" src="/img/space.gif" border="0" alt="" /> Windows XP</a></li>
+  <li><a class="a_drop_level" href="/forums/type/3"><img class="icons dbase_icon" src="/img/space.gif" border="0" alt="" /> See More...</a></li>
+		</ul>
+	</li>
+		<li class="bg_responsive_hide li_top_level" style="width: 101px;"><a href="/forum/thelounge/1.html" class="a_top_level" style="width: 100px;">Off-Topic</a>
+	</li>
+	<li class="bg_responsive_hide li_top_level" style="width: 61px;"><a href="/tags/" class="a_top_level" style="width: 60px;">Tags</a>
+</li>
+	
+		<li class="bg_responsive_hide li_top_level" style="width: 91px;"><a href="/howtos/list/1.html" class="a_top_level" style="width: 90px;">How-tos</a>
+	</li>
+		<li class="bg_responsive_hide li_top_level" style="width: 91px;" ><a href="/forum/drivers/1.html" class="a_top_level" style="width: 90px;">Drivers</a>
+	</li>	
+		<li class="li_top_level" style="width: 126px;" ><a href="/askquestion/" rel="nofollow" class="a_top_level" style="width: 125px;">Ask a Question</a>
+	</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="top_banner">
+<center>
+<script type="text/javascript">//<![CDATA[
+tmntag.adTag('div-gpt-ad-leader-zone-1');
+//]]></script>
+</center>
+</div>
+<div id="breadcrumbs_new"><ul><li class="breadcrumbItem_new"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url" class="breadcrumb_new_home"><span itemprop="title" style="display: none;">Computing.Net</span></a></span></li><li class="breadcrumbItem_new"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/forums" itemprop="url"><span itemprop="title">Forums</span></a></span></li><li class="breadcrumbItem_new"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/forum/office/1.html" itemprop="url"><span itemprop="title">Office Software</span></a></span></li><li class="breadcrumbItem_new"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/forum/office/35/1.html" itemprop="url"><span itemprop="title">Microsoft Office</span></a></span></li></ul></div>
+<div id="computing_main" class="clearfix">
+<div id="left">
+<!-- start content -->
+<h1 class="thread_header" style="margin-bottom: 2px; margin-top: 0px;"><span class="solved_inside">Solved</span> Convert number of month to name of month</h1><div style="clear: both;"></div>
+  <div class="clearfix" style="clear: both; margin-bottom: 10px; width: 100%;">
+  <img class="in_sprites more_arrow" src="/img/space.gif" style="float: left; margin: 5px 3px 0px 0px; display: inline;" alt="" /><div class="thread_related">Tags:</div><div class="thread_product">Hewlett-packard 2003 </div><div class="thread_tag"><a style="color: #000; text-decoration: none;" href="/tags/excel/89/">excel</a></div><div class="thread_tag"><a style="color: #000; text-decoration: none;" href="/tags/spreadsheet/1228/">spreadsheet</a></div><div class="thread_tag"><a style="color: #000; text-decoration: none;" href="/tags/problems/249/">problems</a></div>
+</div>
+<div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; line-height: 1.3em; float: left;  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 80%;" itemscope itemtype="http://schema.org/Person">
+<a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/187483" onmouseover="tooltip.show('Member Since: May 2, 2009<br/>E-Rank: #201,331<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name"> jvr3</span></a> May 2, 2009 at 16:09:27<br />
+<i>Specs: windows</i><br />
+</div><div class="clearfix"></div></div><div class="postdownarrow"></div>
+<div class="vibrantContent"><blockquote><table width="100%"><tr><td>How do I convert the number of the month (1, 2, 3) to the month (Jan, Feb, Mar) in excel?<br></td></tr></table></blockquote>
+</div><br /><img class="in_sprites more" src="/img/space.gif" style="float: left; padding-right: 3px;" border="0" alt="" /><div style="float: left; width: 90%;"><b>See More: <a style="color: #004488" href="/cgi-bin/AT-search.cgi?mode=concept&sp=sp&search=Convert%20number%20of%20month%20to%20name%20of%20month&forum=ALL&filter_post=3078265" onclick="return xt_click(this,'C','2','Office::See_Similar_ns','N');" rel="nofollow">Convert number of month to name of month</a></b></div><div style="clear: both;"></div>
+<br /></div><div class="bottomforum_reply">
+<div style="float: right;">
+<a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MA==', false)">Report &bull;</a></div><div class="addthis_toolbox addthis_default_style " addthis:url="https://www.computing.net/answers/office/convert-number-of-month-to-name-of-month/8636.html" style="float: left; width: 175px; margin: 2px 0px 0px 4px;">
+   <a class="addthis_button_facebook" addthis:url="https://www.computing.net/answers/office/convert-number-of-month-to-name-of-month/8636.html"></a>
+   <a class="addthis_button_twitter" addthis:url="https://www.computing.net/answers/office/convert-number-of-month-to-name-of-month/8636.html"></a>
+   <a class="addthis_button_linkedin"></a>
+<a class="addthis_button_email"></a>
+<a style="cursor: pointer;" title="Share URL" onclick="GetContent( 'link3078265',  '/cgi-bin/link_post.pl/3078265', false ); document.getElementById('link3078265').style.display = 'block';"><img class="in_sprites link_ico_s" style="float: left; margin: 0px 2px;" src="/img/space.gif" border="0" alt="" /></a><div id="link3078265" class="link_post_outer"></div><a class="addthis_button_compact"></a>
+</div>
+ <script type="text/javascript">//<![CDATA[
+    var addthis_share = {
+      templates: { 
+        twitter: "{{title}} : {{url}} via @Computing.Net"
+      },
+      shorteners : {
+        bitly : {
+          login:  'frontdevteam',
+          apiKey: 'R_7175640582903c3449e541933c9047aa'
+        }
+      }
+    };
+    var addthis_config = {
+      services_exclude :    'facebook,twitter',
+       data_ga_property: 'UA-72111741-17',
+      data_track_clickback: false
+    };
+  (function() {
+    var ath = document.createElement('script'); ath.type = 'text/javascript'; ath.async = true;
+    ath.src = '//s7.addthis.com/js/250/addthis_widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ath, s);
+  })();
+//]]></script>
+<div style="clear: both;"></div>
+</div>
+<br /><div style="width: 95%; margin-left: auto; margin-right: auto; padding: 0px 5px 0px 5px; max-height: 600px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5787592483766760";
+/* ADX-N-TGU-CPN-A-115-A1-ww-MS */
+google_ad_slot = "9886591532";
+google_ad_width = 601;
+google_ad_height = 82;
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<br />
+<div class="thread_numeration" style="font-weight: bold; color: #0B920B;">&#10004; Best Answer</div>
+<div class="bottomforum" style="background-color: #FDFAD9; border-top: 3px solid #0B920B;"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Bronze Member.');" onmouseout="tooltip.hide();" class="in_sprites bronze" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/63145" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #390<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name">jon_k</span></a> May 6, 2009 at 05:17:27<br /></div>
+<div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>My $0.02: For a number from 1 to 12, I'd use <p><PRE>=TEXT(DATE(2000,A1,1),"mmm")</PRE><br></td></tr></table></blockquote>
+</div><br />
+</div><div class="bottomforum_reply"><a href="#best_answer" style="color: #004488; font-size: .8em; text-decoration: none;">See in Thread &darr;</a></div><br /><a name="1"></a><div class="thread_numeration"><b>#1</b></div>
+<div onmouseover="document.getElementById('help3078271').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078271').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 2, 2009 at 16:38:48<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>What do you mean "convert"? <p>Are you trying to retain the entire date but change the way it is displayed or are you trying to extract the month and put it in a cell by itself?<br></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078271','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MQ==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078271" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="2"></a><div class="thread_numeration"><b>#2</b></div>
+<div onmouseover="document.getElementById('help3078446').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078446').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/187483" onmouseover="tooltip.show('Member Since: May 2, 2009<br/>E-Rank: #201,331<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name"> jvr3</span></a> May 3, 2009 at 06:08:00<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>While changing the way the date is displayed is my ultimate goal, extracting the month number, i.e. 5 = May...11=Nov from another column that I hide within the spreadsheet will also solve my problem.  I am learning more about Vlookup and this excel function looks like a promising approach.<br></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078446','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8Mg==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078446" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="3"></a><div class="thread_numeration"><b>#3</b></div>
+<div onmouseover="document.getElementById('help3078475').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078475').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 07:41:28<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>To redesign the way your date’s display you have all the choices offered <br>in the Date section of cell formatting or you can “roll your own” using a Custom Format.<p>But for now try this:<p>With your Date in A1 try this in cell B1:<p>=TEXT(A1,”MMMMM”) <br>for the first letter of the month<p>=TEXT(A1,”MMMM”) <br>for the month spelled out completely<p>=TEXT(A1,”MMM”) <br>for the 3 letter abbreviation of month <p>If you have a cell with just a number from 1 thru 12 you are going to <br>have to use some type of  =IF function, or VBA code to match up the <br>number with the correct Month.<p><p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078475','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8Mw==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078475" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><div class="thread_numeration"><b>Related Solutions</b></div><div class="bottomforum" style="padding: 5px;"><ul style="width: 100%;" id="RT-list"><li><b>&rsaquo;</b> <a href="/answers/office/print-a-working-ws-for-a-number-of-names-all-at-once/20622.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] Print a working WS for a number of names all at once</a></li>
+<li><b>&rsaquo;</b> <a href="/answers/office/how-can-i-convert-noncolumnar-text-to-colums-csv-or-tab/20402.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] how can i convert non-columnar text to colums (CSV or tab)</a></li>
+<li><b>&rsaquo;</b> <a href="/answers/office/adding-a-blank-page-if-section-has-a-odd-number-of-pages/19608.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] Adding a blank page if section has a odd number of pages</a></li>
+<li><b>&rsaquo;</b> <a href="/answers/office/convert-julian-calendar-date-to-persian-calendar-date-in-exc/20177.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] convert julian calendar date to persian calendar date in exc</a></li>
+<li class="group_related"><b>&rsaquo;</b> <a href="/answers/office/convert-macro-enabled-workbook-to-normal-excel-workbook/20274.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] Convert macro enabled workbook to normal excel workbook</a></li>
+<li class="group_related"><b>&rsaquo;</b> <a href="/answers/office/convert-a-date-to-month-to-use-in-countifs-criteria/20442.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] Convert a date to month to use in COUNTIFS criteria</a></li>
+<li class="group_related"><b>&rsaquo;</b> <a href="/answers/office/vba-code-to-insert-new-row-and-copy-from-row-above/19704.html" onclick="return xt_click(this,'C','2','Office::RT_box','N')">[Solved] VBA code to insert new row and copy from row above</a></li>
+</ul>
+</div>
+<div class="bottomforum_reply"><a style="color: #004488; font-size: .8em; text-decoration: none; cursor: pointer;" onclick="BOMshowMore(); this.className = 'group_related';">See More &darr;</a></div>
+<div style="width: 100%; margin-bottom: 10px;"></div>
+<br /><a name="4"></a><div class="thread_numeration"><b>#4</b></div>
+<div onmouseover="document.getElementById('help3078482').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078482').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 3, 2009 at 07:58:19<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>re: <i>If you have a cell with just a number from 1 thru 12...</i><p>... you can use CHOOSE()<p>=CHOOSE(A1,"Jan","Feb","Mar","Apr","May", etc.)<p>You can also use CHOOSE with MONTH() if you have dates:<p>=CHOOSE(MONTH(D1),"Jan","Feb","Mar","Apr","May", etc.)<p></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078482','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8NA==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078482" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="5"></a><div class="thread_numeration"><b>#5</b></div>
+<div onmouseover="document.getElementById('help3078528').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078528').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 10:06:07<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>Forgot about =CHOOSE <br>But it does make for a rather long formula, especially if you spell out the complete month name.<br>Not that I’m against long formulas, but I do prefer “short & sweet”.<p> <p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078528','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8NQ==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078528" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="6"></a><div class="thread_numeration"><b>#6</b></div>
+<div onmouseover="document.getElementById('help3078577').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078577').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/187483" onmouseover="tooltip.show('Member Since: May 2, 2009<br/>E-Rank: #201,331<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name"> jvr3</span></a> May 3, 2009 at 12:44:23<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><div class="vibrantContent"><blockquote><table width="100%"><tr><td>Guys, Thanks a lot!  The =Choose is the solution that I just tried and it works like a champ.  One thing is for sure, there is more capability within excel than I will ever begin to tap into.<br></td></tr></table></blockquote>
+</div><br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078577','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8Ng==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078577" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="7"></a><div class="thread_numeration"><b>#7</b></div>
+<div onmouseover="document.getElementById('help3078628').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078628').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 3, 2009 at 15:24:39<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>If the CHOOSE option is too long for you, please show me how your IF suggestion would be “short & sweet”.<p></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078628','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8Nw==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078628" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="8"></a><div class="thread_numeration"><b>#8</b></div>
+<div onmouseover="document.getElementById('help3078636').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078636').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 15:43:54<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>The IF option was too long for my taste, that's why I opted for the TEXT solution, which you must admit, is a bit shorter than the CHOOSE solution.<p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078636','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8OA==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078636" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="9"></a><div class="thread_numeration"><b>#9</b></div>
+<div onmouseover="document.getElementById('help3078642').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078642').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 3, 2009 at 15:59:18<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>Then why did you say <i>"If you have a cell with just a number from 1 thru 12 you are going to have to use some type of =IF function..."</i><br></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078642','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8OQ==', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078642" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="10"></a><div class="thread_numeration"><b>#10</b></div>
+<div onmouseover="document.getElementById('help3078673').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078673').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 17:22:05<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>In the first post, it was unclear if the contents of the cells in question had a date or simply a number.<p>If the Cells had only a number then the only option, that came to mind, was an  =IF function, but that would have required two statements combined. <br>A daunting task for someone not accustomed to writing them.<p>I totally forgot about the =CHOOSE function.<p>When he replied with:<p>“While changing the way the date is displayed is my ultimate goal, extracting the month number, i.e. 5 = May...11=Nov from another column that I hide within the spreadsheet will also solve my problem.”<p>That then opened the field to include dates.<p>My first thought was to use the =MONTH function and a Custom Format of MMMM to get the month spelled out, but that does not work.<p>I then considered a =TEXT(MONTH(A1),”MMMM”) solution but opted for the shorter and simpler =TEXT(A1,”MMMM”) <br>that I suggested.<p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078673','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTA=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078673" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="11"></a><div class="thread_numeration"><b>#11</b></div>
+<div onmouseover="document.getElementById('help3078693').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078693').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 3, 2009 at 18:14:00<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>re: <i>My first thought was to use the =MONTH function and a Custom Format of MMMM to get the month spelled out, but that does not work.</i><p>Works for me in 2003 Pro - all three formats mmm, mmmm & mmmmm<p>BTW...I was really offering CHOOSE just for the list of numbers, 1 - 12. The CHOOSE(MONTH(A1) was simply to show that many Excel functions can be combined.<p><p><p></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078693','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTE=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078693" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="12"></a><div class="thread_numeration"><b>#12</b></div>
+<div onmouseover="document.getElementById('help3078724').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078724').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 19:01:02<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>How did you get =MONTH to work?<p>In Column A, starting at A1 thru A13 I input he numbers 1 thru 13<p>In column B, I formatted cells B1 thru B13 as Custom Format, MMMM<p>I then entered the formula =MONTH(A1) in cell B1, <br>I then copied the formula down from B1 to B13 and all I got was January in every cell in column B.<p>The =MONTH function always required a Date to work.<br>Even then the custom format did not convert the number.<p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font><br></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078724','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTI=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078724" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="13"></a><div class="thread_numeration"><b>#13</b></div>
+<div onmouseover="document.getElementById('help3078727').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078727').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 3, 2009 at 19:18:11<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>Sorry, last post it should read:<p>In Column A, starting at A1 thru A12 I input the Dates 1/1/07  thru 12/1/07.<p>In column B, I formatted cells B1 thru B12 as Custom Format, MMMM<p><p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078727','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTM=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078727" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="14"></a><div class="thread_numeration"><b>#14</b></div>
+<div onmouseover="document.getElementById('help3078766').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078766').style.visibility='hidden'; }"><div class="bottomforum"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Section Moderator.');" onmouseout="tooltip.hide();" class="in_sprites star" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/86050" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #21<br/>Last Active: Today<br/>Time Zone: (GMT -8:00) Pacific Time (US & Canada)');" onmouseout="tooltip.hide();"><span itemprop="name">DerbyDad03</span></a> May 3, 2009 at 21:20:32<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>You're right.<p>I must have tried a date in January, got January after the custom format, and assumed it worked for the other months.<p>I think what is happening is that as soon as you custom format the cell to be mmm Excel considers the cell to be a <i>date_serial</i>. Therefore, it sees 1 as 1/1/1900, 2 as 1/2/1900, etc. (Format those cells as dates and that's what you'll get.)<p>Since MONTH will always return 1 - 12, we'll always get January if we format with the m's.<br></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078766','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTQ=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078766" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="15"></a><div class="thread_numeration"><b>#15</b></div>
+<div onmouseover="document.getElementById('help3078906').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3078906').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Gold Member.');" onmouseout="tooltip.hide();" class="in_sprites gold" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/78282" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #43<br/>Last Active: Today<br/>Time Zone: (GMT -5:00) Eastern Time (US & Canada), Bogota, Lima');" onmouseout="tooltip.hide();"><span itemprop="name">mmcconaghy</span></a> May 4, 2009 at 06:27:01<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>Makes sense.<p><font size="2"color="gray">MIKE<p><a href="http://www.skeptic.com/" target="_blank" rel="nofollow">http://www.skeptic.com/</a></font></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3078906','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTU=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3078906" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="best_answer"></a><a name="16"></a><div class="thread_numeration"><b>#16</b></div>
+<div onmouseover="document.getElementById('help3079853').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3079853').style.visibility='hidden'; }"><div class="bottomforum" style="background-color: #FDFAD9; border-top: 3px solid #0B920B;"><div class="postleadarea"><div style="font-size: x-small; float: left; width: 65%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<img onmouseover="tooltip.show('Bronze Member.');" onmouseout="tooltip.hide();" class="in_sprites bronze" src="/img/space.gif" align="left" style="padding-right: 3px" alt="" /><a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/63145" onmouseover="tooltip.show('Member Since: February 9, 2008<br/>E-Rank: #390<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name">jon_k</span></a> May 6, 2009 at 05:17:27<br />
+</div><div class="scorepost"><b><span style="color: #0B920B;">&#10004; Best Answer</span></b></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>My $0.02: For a number from 1 to 12, I'd use <p><PRE>=TEXT(DATE(2000,A1,1),"mmm")</PRE><br></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3079853','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTY=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3079853" class="helpful_post_outer"></div>
+</div>
+</div>
+<br /><a name="17"></a><div class="thread_numeration"><b>#17</b></div>
+<div onmouseover="document.getElementById('help3080222').style.visibility='visible';" onmouseout="if(typeof helpful_post_visibile == 'undefined' || !helpful_post_visibile) { document.getElementById('help3080222').style.visibility='hidden'; }"><div class="bottomforum""><div class="postleadarea"><div style="font-size: x-small; float: left; width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" itemscope itemtype="http://schema.org/Person">
+<a style="color: #004488; font-size: small; font-weight: bold;" rel="nofollow" itemprop="url" href="/userinfo/187483" onmouseover="tooltip.show('Member Since: May 2, 2009<br/>E-Rank: #201,331<br/>Last Active: Over a Month Ago');" onmouseout="tooltip.hide();"><span itemprop="name"> jvr3</span></a> May 6, 2009 at 19:31:27<br />
+</div><div class="scorepost"></div><div class="clearfix"></div></div><div class="postdownarrow"></div><blockquote><table width="100%"><tr><td>Well okay, the =TEXT(DATE(2000,A1,1),"mmm") works perfectly and is much shorter than the =choose approach.<p>I greatly appreciate all the discussions here.<br></td></tr></table></blockquote>
+<br /></div><div class="bottomforum_reply"><script type="text/javascript">//<![CDATA[
+get_helpful_data('3080222','');
+//]]></script><a rel="nofollow" style="cursor: pointer; color: #FF0000; font-size: .8em; text-decoration: none;" onclick="BOMgo('L2NnaS1iaW4vcmVwb3J0LnBsL29mZmljZS93d3dib2FyZC9mb3J1bS84NjM2Lmh0bWx8MTc=', false)">Report &bull;</a><div style="clear: both;"></div><div id="ans3080222" class="helpful_post_outer"></div>
+</div>
+</div>
+<br />
+<div style="width: 95%; margin-left: auto; margin-right: auto; padding: 0px 5px 0px 5px; max-height: 600px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5787592483766760";
+/* ADX-N-TGU-CPN-A-115-B1-ww-MS */
+google_ad_slot = "2363299412";
+google_ad_width = 601;
+google_ad_height = 82;
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div style="padding: 20px 5px; clear: both; text-align: right;" class="orange_button">
+<a href="/office/wwwboard/wwwpost.html" rel="nofollow" style="color: #fff; font-weight: bold; font-size: 14px;">Start a discussion</a>
+</div>
+<a name="postfp"></a>
+<script type="text/javascript">//<![CDATA[
+build_reply_form(8636, 'office', 'Convert number of month to name of month', 3078265);
+//]]></script>
+<br />
+</div>
+<div id="right" style="width: 338px; border:0;"><div id="scroll_side" style="width: 336px; border-left: 1px solid #E2E2E2; border-right: 1px solid #E2E2E2; border-bottom: 1px solid #E2E2E2;">
+<div class="surround_box_side" style="background: #E7F0F9;"><div class="ask_side_container"><div class="title_a"><img class="in_sprites blue_question_mark" src="/img/space.gif" align="left" style="margin: 5px 10px 0px 0px; float: left;" width="47" height="52" alt="" /><div style="float: left; font-weight: bold; margin-top: 10px; color: #000;">Ask Your Question</div><div style="clear: both;"></div></div><div id="ask_q_side_containing_form"><form style="margin: 0px; padding: 5px;" method="post" action="/cgi-bin/post_store.pl" onclick="if(!document.getElementById('ask_q_side_os_form')) { GetContent( 'ask_q_side_form_ajax',  '/cgi-bin/ask_q_side_ajax.pl', false );} if(!document.getElementById('ask_q_side_subject_help')) { var tip_ask_q_div = document.createElement('div'); tip_ask_q_div.id = 'ask_q_side_subject_help'; tip_ask_q_div.innerHTML = '<div style=\'font-size: 10px; margin: 2px 0px 8px 5px;\'><b>Tip</b>: Use <b>Question Form</b> such as &quot;<b>Why?</b>&quot; or &quot;<b>How?</b>&quot;</div>'; document.getElementById('ask_q_side_form').insertBefore(tip_ask_q_div, document.getElementById('ask_q_side_body_form')); } document.getElementById('ask_q_side_body_form').style.height='150px';" id="ask_q_side_form"><input type="hidden" name="ask_q_side_form" value="1" /><input type="text" id="ask_q_side_subject_form" name="subject" value="Briefly ask your question..." maxlength="60" style="border: 1px solid #C0CBD1; font-size: 14px; height: 20px; width: 310px; font-style: italic; color: #8F8F8F;" onfocus="this.style.color='#000000'; this.style.fontStyle='normal'; if(this.value==this.defaultValue) { this.value=''; }" /><textarea rows="5" cols="30" style="margin-top: 5px; width: 310px; height: 125px; border: 1px solid #C0CBD1; font-size: 12px; font-style: italic; color: #8F8F8F; font-family: Verdana;" name="body" onfocus="this.style.color='#000000'; this.style.fontStyle='normal'; if(this.value==this.defaultValue) { this.value=''; }" id="ask_q_side_body_form">Enter more details...</textarea><div id="ask_q_side_form_ajax"></div><div style="float: left; margin-top: 15px; font-weight: bold; font-size: .8em;">Thousands of users waiting to help!</div><span class="orange_button" style="float: right; margin: 12px 3px 5px 0px;"><a style="cursor: pointer; font-size: 14px; font-weight: bold; padding: 5px 8px; color: #fff;" onclick="validate_sidebar_form_fields();">Ask now</a></span><div style="clear: both;"></div></form></div></div></div>
+<center><div id="rightbanner" class="banner_fade">
+<script type="text/javascript">//<![CDATA[
+if(show_cn_sidebar_ad) {
+tmntag.adTag('div-gpt-ad-box-zone-1');
+}
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+tmntag.adTag('div-gpt-ad-oop-zone-1');
+//]]></script>
+</div></center>
+<br />
+<div class="surround_box_side"><div class="surround_strong">Weekly Poll</div>
+<div style="font-family: Arial, Helvetica, Verdana, sans-serif;"><br />
+Do you think Facebook's upcoming TV app will be successful?<div id="vote_panel" style="padding: 10px 0px;">
+<form action="/cgi-bin/poll_vote.pl/438" name="poll_form" id="poll_form"><input type="radio" name="group1" value="1318" /> Yes<br />
+<input type="radio" name="group1" value="1319" /> No<br />
+<input type="radio" name="group1" value="1320" /> I don't know<br />
+	<script type="text/javascript">//<![CDATA[
+
+function get_radio_value()
+{
+for (var i=0; i < document.poll_form.group1.length; i++)
+   {
+   if (document.poll_form.group1[i].checked)
+      {
+      return document.poll_form.group1[i].value;
+      }
+   }
+}
+
+//]]></script>
+<div style="padding-top: 10px;">
+<center><div class="blue_button" style="margin-bottom: 2px;"><input type="button" value="&bull;&nbsp; Submit" onclick="GetContent( 'vote_panel',  '/cgi-bin/poll_vote.pl/438/' + get_radio_value(), false ) ; return false" style="color: #fff; font-size: 12px; padding: 2px 5px; cursor: pointer; font-family: Arial;" /></div><font size="1"><a style="cursor: pointer;" onclick="GetContent( 'vote_panel',  '/cgi-bin/poll_vote.pl/438', false ) ; return false">View Results</a></font></center></div>
+</form>
+</div><center><font size="1">Poll Finishes In <b>2</b> Days.<br /><a href="/answers/thelounge/discuss-facebooks-tv-app/2354.html">Discuss in The Lounge</a><br /><a href="/polls" rel="nofollow">Poll History</a></font></center>
+	  </div>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+</div>
+	<div id="footer" class="clearfix">
+	<div id="footer_inner">
+<div class="responsive_hidden" style="float: left; width: 60px;">
+<a href="http://www.facebook.com/computingnet" target="_blank"><img style="float: left; margin: 10px 0px 0px 0px;" class="in_sprites facebook_tease" src="/img/space.gif" border="0" alt="" /></a><div style="clear: both;"></div>
+</div>
+<div class="responsive_hidden" style="float: left; width: 45%; text-align: left; padding: 10px 0px 0px 10px;"><a href="http://purch.com/about/" style="color: #FFFFFF;" rel="nofollow" target="_blank">About Us</a> | <a href="http://purch.com/advertise/" style="color: #FFFFFF;" rel="nofollow" target="_blank">Advertising Info</a> | <a href="http://purch.com/privacy-policy/" style="color: #FFFFFF;" rel="nofollow" target="_blank">Privacy Policy</a> | <a target="_blank" rel="nofollow" style="color: #FFFFFF;" href="http://purch.com/terms-of-use-and-sale/">Terms Of Use and Sale</a> | <a target="_blank" rel="nofollow" style="color: #FFFFFF;" href="http://purch.com/copyright-policy/">Copyright Policy</a> | <a href="http://purch.com/about/#contact" style="color: #FFFFFF;" rel="nofollow" target="_blank">Contact Us</a><div style="line-height: 11px; font-size: 10px;"><br />&copy; A Purch Company. All Rights Reserved</div><img class="in_sprites ad_choices" src="/img/space.gif" alt="Ad Choices" style="float: left; margin-top: 10px;"/><a style="float: left; margin: 10px 0px 0px 2px; color: #FFFFFF;" href="http://purch.com/privacy-policy/" rel="nofollow" target="_blank">Ad Choices</a><div style="clear: both;"></div></div><br class="responsive_hidden"/>
+<div style="clear: both; text-align: center; padding-top: 10px; line-height: 1.2em;">
+		The information on Computing.Net is the opinions of its users. Such
+opinions may not be accurate and they are to be used at your own risk.
+Computing.Net cannot verify the validity of the statements made on this
+site. Computing.Net and Purch hereby disclaim all responsibility
+and liability for the content of Computing.Net and its accuracy. 
+</div>
+		</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+xtnv = document;        //parent.document or top.document or document         
+xtsd = "http://logc22";
+xtsite = "309009";
+xtn2 = "2";        //level 2 site 
+xtpage = "Non_Member::Office::Convert_number_of_month_to_name_of_month";        //page name (with the use of :: to create chapters)
+xtdi = "";        
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+
+  ga('create', 'UA-72111741-17', 'www.computing.net');
+  ga('create', 'UA-3642902-8', 'www.computing.net', {'name': 't3'});
+  ga('t3.send', 'pageview');
+  ga('create', 'UA-3642902-11', 'www.computing.net', {'name': 't2'});
+  ga('t2.set', 'dimension1', 'office');
+  ga('t2.set', 'dimension2', '17');
+  ga('t2.set', 'dimension3', '05-2009');
+  ga('t2.send', 'pageview');
+
+//]]></script>
+<script language="JavaScript" type="text/javascript">
+var om_info = {
+  account: 'tmn-prod-computing.net, ttrglobalproduction'
+};
+</script>
+
+<script language="JavaScript" type="text/javascript"><!--
+
+var g_o = {};
+
+  g_o.pageName = "compnet:non_member:office:forum_thread";
+  g_o.channel = "Community";
+  g_o.prop15 = "D=v15";
+  g_o.eVar15 = "Non Member";
+  g_o.prop33 = "";
+  g_o.prop26 = "D=v36";
+  g_o.prop27 = "D=v37";
+  g_o.prop33 = "Computing.Net";
+  g_o.eVar36 = "TechMediaNetwork";
+  g_o.eVar37 = "Computing.Net";
+  g_o.prop35 = "";
+  g_o.prop2 = "D=v2";
+  g_o.eVar2 = "Office";
+  g_o.prop4 = "D=v4";
+  g_o.eVar4 = "Forum Thread";
+  g_o.prop5 = "D=v5";
+  g_o.eVar5 = "Office Forum Thread";
+g_o.prop30 = "17";
+g_o.prop37 = "Solved";
+g_o.prop42 = "2009-05-02";
+g_o.prop43 = "2009-05-06";
+g_o.eVar17 = "Q&A";
+g_o.prop17 = "D=v17";
+g_o.prop34 = "excel|spreadsheet|problems";
+g_o.pageURL = window.location.href;
+
+dataLayer.push({ 'OmnitureVars': g_o });
+
+//--></script>
+<script type="text/javascript">//<![CDATA[
+var origOffsetY_scroll_side = document.getElementById('scroll_side').offsetTop;
+if(typeof window.pageYOffset != 'undefined') {
+  if((origOffsetY_scroll_side+document.getElementById('scroll_side').offsetHeight) < document.getElementById('footer').offsetTop) {
+    if(typeof onScroll_sidebar != 'undefined') {
+      document.addEventListener('scroll', onScroll_sidebar);
+    }
+  }
+}
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+  if(typeof load_compnet_trackers != 'undefined') {
+     load_compnet_trackers();
+  }
+//]]></script>
+<div id="ask_q_popout" class="ask_side_container"></div>
+<div id="ask_q_float" onclick="bom_responsive_ask_q();" class="bg_responsive_show"><img class="in_sprites ask_q_floater" src="/img/space.gif" alt="Ask Question" /></div>
+</body></html>
